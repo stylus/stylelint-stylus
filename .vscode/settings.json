@@ -1,0 +1,23 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true,
+    },
+    "[stylus]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": false,
+        }
+    },
+    "[vue]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": false,
+            "source.fixAll.eslint": false,
+        }
+    },
+    "stylelint.customSyntax": "stylelint-plugin-stylus/custom-syntax",
+    "stylelint.validate": [
+        "css",
+        "vue",
+        "stylus"
+    ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "line": 3,
+    "column": 8,
+    "rule": "stylus/declaration-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/declaration-colon)"
+  },
+  {
+    "line": 4,
+    "column": 8,
+    "rule": "stylus/declaration-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/declaration-colon)"
+  },
+  {
+    "line": 7,
+    "column": 8,
+    "rule": "stylus/declaration-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/declaration-colon)"
+  },
+  {
+    "line": 10,
+    "column": 8,
+    "rule": "stylus/declaration-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/declaration-colon)"
+  }
+]
