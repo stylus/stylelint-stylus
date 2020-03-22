@@ -1,0 +1,58 @@
+{
+  "name": "stylelint-plugin-stylus",
+  "version": "0.0.0",
+  "description": "stylelint plugin for Stylus",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "custom-syntax",
+    "standard",
+    "recommended"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test:base": "mocha \"tests/lib/**/*.js\" --reporter dot",
+    "test": "nyc npm run test:base -- --timeout 60000",
+    "debug": "mocha --inspect-brk \"tests/lib/**/*.js\" --reporter dot --timeout 60000",
+    "cover:report": "nyc report --reporter=html",
+    "update-fixtures": "cross-env UPDATE_FIXTURES=true npm run test:base",
+    "update": "node ./scripts/update.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ota-meshi/stylelint-plugin-stylus.git"
+  },
+  "keywords": [
+    "stylelint-plugin",
+    "stylelint",
+    "stylus"
+  ],
+  "author": "Yosuke Ota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ota-meshi/stylelint-plugin-stylus/issues"
+  },
+  "homepage": "https://github.com/ota-meshi/stylelint-plugin-stylus#readme",
+  "peerDependencies": {
+    "stylelint": "^13.2.1",
+    "postcss-styl": "*"
+  },
+  "devDependencies": {
+    "@mysticatea/eslint-plugin": "^13.0.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.8.0",
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.0",
+    "postcss-styl": "^0.5.1",
+    "stylelint": "^13.2.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-plugin-stylus": "file:."
+  },
+  "dependencies": {
+    "postcss-syntax": "^0.36.2",
+    "style-search": "^0.1.0"
+  },
+  "engines": {
+    "node": "^8.10.0 || ^10.13.0 || ^11.10.1 || >=12.13.0"
+  }
+}

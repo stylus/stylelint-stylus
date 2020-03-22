@@ -1,0 +1,23 @@
+[
+  {
+    "line": 4,
+    "column": 12,
+    "rule": "stylus/semicolon",
+    "severity": "error",
+    "text": "Expected colon (stylus/semicolon)"
+  },
+  {
+    "line": 9,
+    "column": 12,
+    "rule": "stylus/semicolon",
+    "severity": "error",
+    "text": "Expected colon (stylus/semicolon)"
+  },
+  {
+    "line": 13,
+    "column": 12,
+    "rule": "stylus/semicolon",
+    "severity": "error",
+    "text": "Expected colon (stylus/semicolon)"
+  }
+]
