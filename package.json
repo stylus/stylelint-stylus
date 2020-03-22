@@ -16,6 +16,7 @@
     "debug": "mocha --inspect-brk \"tests/lib/**/*.js\" --reporter dot --timeout 60000",
     "cover:report": "nyc report --reporter=html",
     "update-fixtures": "cross-env UPDATE_FIXTURES=true npm run test:base",
+    "version": "npm run lint -- --fix && git add .",
     "update": "node ./scripts/update.js"
   },
   "repository": {
