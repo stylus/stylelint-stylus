@@ -77,7 +77,7 @@ module.exports = {
 This plugin provides some rulesets. It can be used by specifying it in the [`extends` of the stylelint configuration](https://stylelint.io/user-guide/configure#extends).
 
 <!-- - `"stylelint-plugin-stylus/recommended"` ... WIP. -->
-- `"stylelint-plugin-stylus/standard"` ... Above, plus rules to improve code readability.
+- `"stylelint-plugin-stylus/standard"` ... <!-- Above, plus --> rules to improve code readability.
 
 ## Rules
 
