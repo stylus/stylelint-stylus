@@ -2,18 +2,18 @@
 pageClass: rule-details
 sidebarDepth: 0
 title: stylus/semicolon
-description: requires or disallows semicolon.
+description: require or disallow semicolon.
 ---
 # stylus/semicolon
 
-> requires or disallows semicolon.
+> require or disallow semicolon.
 
 - :gear: This rule is included in `"stylelint-plugin-stylus/standard"`. (options: `["never"]`)
 - :wrench: The [fix option](https://stylelint.io/user-guide/usage/options#fix) can automatically fix some of the problems reported by this rule.
 
 ## :book: Rule Details
 
-This rule requires or disallows semicolons.
+This rule require or disallow semicolons.
 
 ## :wrench: Options
 

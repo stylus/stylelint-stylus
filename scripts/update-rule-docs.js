@@ -21,7 +21,11 @@ class DocFile {
     constructor(rule) {
         this.rule = rule
         this.filePath = path.join(ROOT, `${rule.fileName}.md`)
-        this.content = fs.readFileSync(this.filePath, "utf8")
+        try {
+            this.content = fs.readFileSync(this.filePath, "utf8")
+        } catch (_e) {
+            this.content = ""
+        }
     }
 
     static read(rule) {

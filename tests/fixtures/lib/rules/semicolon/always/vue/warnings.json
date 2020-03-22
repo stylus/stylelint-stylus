@@ -4,20 +4,20 @@
     "column": 12,
     "rule": "stylus/semicolon",
     "severity": "error",
-    "text": "Expected colon (stylus/semicolon)"
+    "text": "Expected semicolon (stylus/semicolon)"
   },
   {
     "line": 10,
     "column": 12,
     "rule": "stylus/semicolon",
     "severity": "error",
-    "text": "Expected colon (stylus/semicolon)"
+    "text": "Expected semicolon (stylus/semicolon)"
   },
   {
     "line": 14,
     "column": 12,
     "rule": "stylus/semicolon",
     "severity": "error",
-    "text": "Expected colon (stylus/semicolon)"
+    "text": "Expected semicolon (stylus/semicolon)"
   }
 ]

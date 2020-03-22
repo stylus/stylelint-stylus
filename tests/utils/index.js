@@ -30,7 +30,7 @@ const utils = {
      * @param {*} rootDir
      * @returns {FixtureData[]} results
      */
-    listupFixtures(rootDir) {
+    listupFixtures(rootDir, fixtureName = "") {
         /**
          * @type {FixtureData[]}
          */
@@ -43,11 +43,17 @@ const utils = {
                     dir: rootDir,
                     input: filepath,
                     output: path.join(rootDir, `output${ext}`),
-                    name,
+                    name: fixtureName,
                 })
+                return result
             }
             if (fs.statSync(filepath).isDirectory()) {
-                result.push(...utils.listupFixtures(filepath))
+                result.push(
+                    ...utils.listupFixtures(
+                        filepath,
+                        fixtureName ? `${fixtureName}/${name}` : name
+                    )
+                )
             }
         }
         return result

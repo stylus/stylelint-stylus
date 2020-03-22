@@ -1,10 +1,24 @@
-# stylelint-plugin-stylus
+<h1 align="center">stylelint-plugin-stylus</h1>
 
-[stylelint] plugin for [Stylus].
+<p align="center"><a href="https://stylelint.io/" alt="stylelint">stylelint</a> plugin for <a href="https://stylus-lang.com/" alt="Stylus">Stylus</a>.
 
-:::
-**_This plugin is still in an experimental state_**
-:::
+<p align="center"><b><i>This plugin is still in an experimental state</i></b></p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/stylelint-plugin-stylus">
+    <img src="https://img.shields.io/npm/l/stylelint-plugin-stylus.svg" alt="NPM license">
+  </a>
+  <a href="https://www.npmjs.com/package/stylelint-plugin-stylus">
+    <img src="https://img.shields.io/npm/v/stylelint-plugin-stylus.svg" alt="NPM version">
+  </a>
+  <a href="https://www.npmjs.com/package/stylelint-plugin-stylus">
+    <img src="https://img.shields.io/npm/dw/stylelint-plugin-stylus.svg" alt="NPM downloads">
+  </a>
+  <a href="https://github.com/ota-meshi/stylelint-plugin-stylus/actions?query=workflow%3ACI">
+    <img src="https://github.com/ota-meshi/stylelint-plugin-stylus/workflows/CI/badge.svg?branch=master" alt="Build Status">
+  </a>
+</p>
+<br>
 
 ## :cd: Installation
 
@@ -78,8 +92,9 @@ These rules relate to style guidelines.
 
 |    | Rule ID | Description |
 |:---|:--------|:------------|
-| :wrench: | [stylus/declaration-colon](./docs/rules/declaration-colon.md) | requires or disallows declaration colons. |
-| :wrench: | [stylus/semicolon](./docs/rules/semicolon.md) | requires or disallows semicolon. |
+| :wrench: | [stylus/declaration-colon](./docs/rules/declaration-colon.md) | require or disallow declaration colons. |
+| :wrench: | [stylus/pythonic](./docs/rules/pythonic.md) | enforces pythonic or brace style. |
+| :wrench: | [stylus/semicolon](./docs/rules/semicolon.md) | require or disallow semicolon. |
 
 <!--RULES_TABLE_END-->
 
@@ -93,3 +108,7 @@ See the [LICENSE] file for license rights and limitations (MIT).
 [VSCode extension]: https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
 [postcss-styl]: https://github.com/ota-meshi/postcss-styl
 [npm]: https://www.npmjs.com/
+[npm license]: https://img.shields.io/npm/l/stylelint-plugin-stylus.svg
+[npm version]: https://img.shields.io/npm/v/stylelint-plugin-stylus.svg
+[npm downloads]: https://img.shields.io/npm/dw/stylelint-plugin-stylus.svg
+[Build Status]: https://github.com/ota-meshi/stylelint-plugin-stylus/workflows/CI/badge.svg?branch=master

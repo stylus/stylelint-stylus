@@ -5,6 +5,7 @@ module.exports = {
     extends: [require.resolve("../recommended")],
     rules: {
         "stylus/declaration-colon": ["never"],
+        "stylus/pythonic": ["always"],
         "stylus/semicolon": ["never"],
     },
 }
