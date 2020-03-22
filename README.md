@@ -31,8 +31,7 @@ npm install --save-dev stylelint stylelint-plugin-stylus
 
 ### Custom Syntax
 
-Set [custom syntax](https://stylelint.io/user-guide/usage/options#customsyntax) to parses [Stylus]. By this, [Stylus] parses by [postcss-styl].
-
+Set [custom syntax](https://stylelint.io/user-guide/usage/options#customsyntax) for parsing [Stylus]. With the following setting, `.styl` and `<style lang="stylus">` are parsed by [postcss-styl].
 
 - via CLI
 
