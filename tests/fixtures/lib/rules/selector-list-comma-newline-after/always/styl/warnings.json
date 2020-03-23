@@ -1,0 +1,44 @@
+[
+  {
+    "line": 7,
+    "column": 6,
+    "rule": "stylus/selector-list-comma-newline-after",
+    "severity": "error",
+    "text": "Expected newline (stylus/selector-list-comma-newline-after)"
+  },
+  {
+    "line": 20,
+    "column": 7,
+    "rule": "stylus/selector-list-comma-newline-after",
+    "severity": "error",
+    "text": "Expected newline (stylus/selector-list-comma-newline-after)"
+  },
+  {
+    "line": 23,
+    "column": 7,
+    "rule": "stylus/selector-list-comma-newline-after",
+    "severity": "error",
+    "text": "Expected newline (stylus/selector-list-comma-newline-after)"
+  },
+  {
+    "line": 32,
+    "column": 21,
+    "rule": "stylus/selector-list-comma-newline-after",
+    "severity": "error",
+    "text": "Expected newline (stylus/selector-list-comma-newline-after)"
+  },
+  {
+    "line": 45,
+    "column": 9,
+    "rule": "stylus/selector-list-comma-newline-after",
+    "severity": "error",
+    "text": "Expected newline (stylus/selector-list-comma-newline-after)"
+  },
+  {
+    "line": 48,
+    "column": 9,
+    "rule": "stylus/selector-list-comma-newline-after",
+    "severity": "error",
+    "text": "Expected newline (stylus/selector-list-comma-newline-after)"
+  }
+]

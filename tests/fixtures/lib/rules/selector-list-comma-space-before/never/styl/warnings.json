@@ -1,0 +1,86 @@
+[
+  {
+    "line": 12,
+    "column": 5,
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected space (stylus/selector-list-comma-space-before)"
+  },
+  {
+    "line": 18,
+    "column": 5,
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected space (stylus/selector-list-comma-space-before)"
+  },
+  {
+    "line": 23,
+    "column": 5,
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected space (stylus/selector-list-comma-space-before)"
+  },
+  {
+    "line": 29,
+    "column": 5,
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected space (stylus/selector-list-comma-space-before)"
+  },
+  {
+    "line": 44,
+    "column": 19,
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected space (stylus/selector-list-comma-space-before)"
+  },
+  {
+    "line": 63,
+    "column": 7,
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected space (stylus/selector-list-comma-space-before)"
+  },
+  {
+    "line": 69,
+    "column": 7,
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected space (stylus/selector-list-comma-space-before)"
+  },
+  {
+    "line": 74,
+    "column": 7,
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected space (stylus/selector-list-comma-space-before)"
+  },
+  {
+    "line": 75,
+    "column": 1,
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected space (stylus/selector-list-comma-space-before)"
+  },
+  {
+    "line": 80,
+    "column": 7,
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected space (stylus/selector-list-comma-space-before)"
+  },
+  {
+    "line": 81,
+    "column": 1,
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected space (stylus/selector-list-comma-space-before)"
+  },
+  {
+    "line": 95,
+    "column": 21,
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected space (stylus/selector-list-comma-space-before)"
+  }
+]

@@ -2,7 +2,7 @@
 
 > require or disallow declaration colons.
 
-- :gear: This rule is included in `"stylelint-plugin-stylus/standard"`. (options: `["never"]`)
+- :gear: This rule is included in `"stylelint-plugin-stylus/standard"`. (options: `"never"`)
 - :wrench: The [fix option](https://stylelint.io/user-guide/usage/options#fix) can automatically fix some of the problems reported by this rule.
 
 ## :book: Rule Details

@@ -1,0 +1,9 @@
+[
+  {
+    "line": 13,
+    "column": 7,
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Expected one space (stylus/selector-list-comma-space-before)"
+  }
+]
