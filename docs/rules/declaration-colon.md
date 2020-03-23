@@ -1,9 +1,3 @@
----
-pageClass: rule-details
-sidebarDepth: 0
-title: stylus/declaration-colon
-description: require or disallow declaration colons.
----
 # stylus/declaration-colon
 
 > require or disallow declaration colons.

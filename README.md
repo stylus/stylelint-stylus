@@ -93,6 +93,7 @@ These rules relate to style guidelines.
 |:---|:--------|:------------|
 | :wrench: | [stylus/declaration-colon](./docs/rules/declaration-colon.md) | require or disallow declaration colons. |
 | :wrench: | [stylus/pythonic](./docs/rules/pythonic.md) | enforces pythonic or brace style. |
+| :wrench: | [stylus/selector-list-comma](./docs/rules/selector-list-comma.md) | require or disallow selector list comma. |
 | :wrench: | [stylus/semicolon](./docs/rules/semicolon.md) | require or disallow semicolon. |
 
 <!--RULES_TABLE_END-->

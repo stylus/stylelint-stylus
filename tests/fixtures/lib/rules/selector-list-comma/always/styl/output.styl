@@ -1,0 +1,46 @@
+.foo
+,.bar
+  color red
+
+.foo,
+.bar
+  color red
+
+.foo,
+.bar {
+  color red
+}
+
+.foo, .bar
+  color red
+
+.foo, .bar {
+  color red
+}
+
+:is(header, main, footer) p:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#app
+  .foo
+  ,.bar
+    color red
+
+  .foo,
+  .bar {
+    color red
+  }
+
+  .foo, .bar
+    color red
+
+  .foo, .bar {
+    color red
+  }
+
+  :is(header, main, footer) p:hover {
+    color: red;
+    cursor: pointer;
+  }

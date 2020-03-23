@@ -37,17 +37,18 @@ class DocFile {
     }
 
     updateFileIntro() {
-        const { ruleName, meta } = this.rule
+        // const { ruleName, meta } = this.rule
 
-        const fileIntro = {
-            pageClass: "rule-details",
-            sidebarDepth: 0,
-            title: ruleName,
-            description: meta.docs.description,
-        }
-        const computed = `---\n${Object.entries(fileIntro)
-            .map(item => `${item[0]}: ${item[1]}`)
-            .join("\n")}\n---\n`
+        // const fileIntro = {
+        //     pageClass: "rule-details",
+        //     sidebarDepth: 0,
+        //     title: ruleName,
+        //     description: meta.docs.description,
+        // }
+        // const computed = `---\n${Object.entries(fileIntro)
+        //     .map(item => `${item[0]}: ${item[1]}`)
+        //     .join("\n")}\n---\n`
+        const computed = ""
 
         const fileIntroPattern = /^---\n(.*\n)+---\n*/gu
 

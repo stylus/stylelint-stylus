@@ -1,9 +1,3 @@
----
-pageClass: rule-details
-sidebarDepth: 0
-title: stylus/semicolon
-description: require or disallow semicolon.
----
 # stylus/semicolon
 
 > require or disallow semicolon.

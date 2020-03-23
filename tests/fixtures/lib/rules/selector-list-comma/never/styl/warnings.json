@@ -1,0 +1,51 @@
+[
+  {
+    "line": 5,
+    "column": 5,
+    "rule": "stylus/selector-list-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/selector-list-comma)"
+  },
+  {
+    "line": 9,
+    "column": 5,
+    "rule": "stylus/selector-list-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/selector-list-comma)"
+  },
+  {
+    "line": 14,
+    "column": 5,
+    "rule": "stylus/selector-list-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/selector-list-comma)"
+  },
+  {
+    "line": 17,
+    "column": 5,
+    "rule": "stylus/selector-list-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/selector-list-comma)"
+  },
+  {
+    "line": 31,
+    "column": 7,
+    "rule": "stylus/selector-list-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/selector-list-comma)"
+  },
+  {
+    "line": 36,
+    "column": 7,
+    "rule": "stylus/selector-list-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/selector-list-comma)"
+  },
+  {
+    "line": 39,
+    "column": 7,
+    "rule": "stylus/selector-list-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/selector-list-comma)"
+  }
+]
