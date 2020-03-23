@@ -6,6 +6,7 @@ module.exports = {
     rules: {
         "stylus/declaration-colon": ["never"],
         "stylus/pythonic": ["always"],
+        "stylus/selector-list-comma": ["never"],
         "stylus/semicolon": ["never"],
     },
 }

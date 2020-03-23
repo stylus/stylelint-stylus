@@ -1,0 +1,16 @@
+[
+  {
+    "line": 1,
+    "column": 5,
+    "rule": "stylus/selector-list-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/selector-list-comma)"
+  },
+  {
+    "line": 27,
+    "column": 7,
+    "rule": "stylus/selector-list-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/selector-list-comma)"
+  }
+]

@@ -1,9 +1,3 @@
----
-pageClass: rule-details
-sidebarDepth: 0
-title: stylus/pythonic
-description: enforces pythonic or brace style.
----
 # stylus/pythonic
 
 > enforces pythonic or brace style.
@@ -31,11 +25,11 @@ This rule enforces pythonic or brace style.
 ```styl
 // ✓ GOOD
 .foo
-  color red;
+  color: red;
 
 // ✗ BAD
 .foo {
-  color red;
+  color: red;
 }
 ```
 
@@ -44,12 +38,12 @@ This rule enforces pythonic or brace style.
 ```styl
 // ✓ GOOD
 .foo {
-  color red;
+  color: red;
 }
 
 // ✗ BAD
 .foo
-  color red;
+  color: red;
 ```
 
 ## :mag: Implementation
