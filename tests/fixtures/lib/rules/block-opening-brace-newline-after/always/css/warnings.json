@@ -1,0 +1,51 @@
+[
+  {
+    "line": 9,
+    "column": 3,
+    "rule": "stylus/block-opening-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"{\" (stylus/block-opening-brace-newline-after)"
+  },
+  {
+    "line": 10,
+    "column": 3,
+    "rule": "stylus/block-opening-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"{\" (stylus/block-opening-brace-newline-after)"
+  },
+  {
+    "line": 27,
+    "column": 3,
+    "rule": "stylus/block-opening-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"{\" (stylus/block-opening-brace-newline-after)"
+  },
+  {
+    "line": 30,
+    "column": 4,
+    "rule": "stylus/block-opening-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"{\" (stylus/block-opening-brace-newline-after)"
+  },
+  {
+    "line": 35,
+    "column": 4,
+    "rule": "stylus/block-opening-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"{\" (stylus/block-opening-brace-newline-after)"
+  },
+  {
+    "line": 38,
+    "column": 4,
+    "rule": "stylus/block-opening-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"{\" (stylus/block-opening-brace-newline-after)"
+  },
+  {
+    "line": 39,
+    "column": 4,
+    "rule": "stylus/block-opening-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"{\" (stylus/block-opening-brace-newline-after)"
+  }
+]

@@ -2,78 +2,78 @@
   {
     "line": 22,
     "column": 6,
-    "rule": "selector-list-comma-space-before",
-    "severity": "ignore",
-    "text": "Unexpected whitespace before \",\" (selector-list-comma-space-before)"
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
   },
   {
     "line": 27,
     "column": 6,
-    "rule": "selector-list-comma-space-before",
-    "severity": "ignore",
-    "text": "Unexpected whitespace before \",\" (selector-list-comma-space-before)"
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
   },
   {
     "line": 31,
     "column": 6,
-    "rule": "selector-list-comma-space-before",
-    "severity": "ignore",
-    "text": "Unexpected whitespace before \",\" (selector-list-comma-space-before)"
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
   },
   {
     "line": 32,
     "column": 6,
-    "rule": "selector-list-comma-space-before",
-    "severity": "ignore",
-    "text": "Unexpected whitespace before \",\" (selector-list-comma-space-before)"
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
   },
   {
     "line": 36,
     "column": 6,
-    "rule": "selector-list-comma-space-before",
-    "severity": "ignore",
-    "text": "Unexpected whitespace before \",\" (selector-list-comma-space-before)"
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
   },
   {
     "line": 36,
     "column": 12,
-    "rule": "selector-list-comma-space-before",
-    "severity": "ignore",
-    "text": "Unexpected whitespace before \",\" (selector-list-comma-space-before)"
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
   },
   {
     "line": 44,
     "column": 1,
-    "rule": "selector-list-comma-space-before",
-    "severity": "ignore",
-    "text": "Unexpected whitespace before \",\" (selector-list-comma-space-before)"
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
   },
   {
     "line": 49,
     "column": 1,
-    "rule": "selector-list-comma-space-before",
-    "severity": "ignore",
-    "text": "Unexpected whitespace before \",\" (selector-list-comma-space-before)"
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
   },
   {
     "line": 50,
     "column": 1,
-    "rule": "selector-list-comma-space-before",
-    "severity": "ignore",
-    "text": "Unexpected whitespace before \",\" (selector-list-comma-space-before)"
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
   },
   {
     "line": 55,
     "column": 1,
-    "rule": "selector-list-comma-space-before",
-    "severity": "ignore",
-    "text": "Unexpected whitespace before \",\" (selector-list-comma-space-before)"
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
   },
   {
     "line": 55,
     "column": 7,
-    "rule": "selector-list-comma-space-before",
-    "severity": "ignore",
-    "text": "Unexpected whitespace before \",\" (selector-list-comma-space-before)"
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
   }
 ]

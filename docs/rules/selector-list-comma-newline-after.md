@@ -1,6 +1,6 @@
 # stylus/selector-list-comma-newline-after
 
-> require a newline whitespace after the commas of selector lists
+> require a newline whitespace after the commas of selector lists.
 
 - :gear: This rule is included in `"stylelint-plugin-stylus/standard"`. (options: `"always"`)
 - :wrench: The [fix option](https://stylelint.io/user-guide/usage/options#fix) can automatically fix some of the problems reported by this rule.

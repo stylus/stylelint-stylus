@@ -1,0 +1,44 @@
+[
+  {
+    "line": 5,
+    "column": 4,
+    "rule": "stylus/block-opening-brace-space-after",
+    "severity": "error",
+    "text": "Expected single space after \"{\" of a single-line block (stylus/block-opening-brace-space-after)"
+  },
+  {
+    "line": 18,
+    "column": 4,
+    "rule": "stylus/block-opening-brace-space-after",
+    "severity": "error",
+    "text": "Expected single space after \"{\" of a single-line block (stylus/block-opening-brace-space-after)"
+  },
+  {
+    "line": 20,
+    "column": 2,
+    "rule": "stylus/block-opening-brace-space-after",
+    "severity": "error",
+    "text": "Expected single space after \"{\" of a single-line block (stylus/block-opening-brace-space-after)"
+  },
+  {
+    "line": 23,
+    "column": 4,
+    "rule": "stylus/block-opening-brace-space-after",
+    "severity": "error",
+    "text": "Expected single space after \"{\" of a single-line block (stylus/block-opening-brace-space-after)"
+  },
+  {
+    "line": 32,
+    "column": 4,
+    "rule": "stylus/block-opening-brace-space-after",
+    "severity": "error",
+    "text": "Expected single space after \"{\" of a single-line block (stylus/block-opening-brace-space-after)"
+  },
+  {
+    "line": 40,
+    "column": 4,
+    "rule": "stylus/block-opening-brace-space-after",
+    "severity": "error",
+    "text": "Expected single space after \"{\" of a single-line block (stylus/block-opening-brace-space-after)"
+  }
+]

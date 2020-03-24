@@ -1,0 +1,122 @@
+a {
+  color: pink;
+  /* ← */
+}
+/* "always-multi-line" */
+/* incorrect */
+a {
+  color: pink;
+}
+/* correct */
+a {
+  color: pink;
+}
+a { color: pink; }
+/* "never" */
+/* incorrect */
+a {
+  color: pink;
+}
+/* correct */
+a {
+  color: pink;
+}
+a { color: pink; }
+/* "never" and except: ["after-closing-brace"] */
+/* incorrect */
+@media print {
+
+  a {
+    color: aquamarine;
+  }
+
+}
+@supports (animation-name: test) {
+
+  a {
+    color: aquamarine;
+  }
+
+}
+@keyframes test {
+
+  100% {
+    color: aquamarine;
+  }
+
+}
+/* correct */
+@media print {
+
+  a {
+    color: aquamarine;
+  }
+
+}
+@font-face {
+  font-family: "MyFont";
+  src: url("myfont.woff2") format("woff2");
+}
+@supports (animation-name: test) {
+
+  a {
+    color: aquamarine;
+  }
+
+}
+@keyframes test {
+
+  100% {
+    color: aquamarine;
+  }
+
+}
+/* "always-multi-line" and except: ["after-closing-brace"] */
+/* incorrect */
+@media print {
+
+  a {
+    color: aquamarine;
+  }
+
+}
+@supports (animation-name: test) {
+
+  a {
+    color: aquamarine;
+  }
+
+}
+@keyframes test {
+
+  100% {
+    color: aquamarine;
+  }
+
+}
+/* correct */
+@media print {
+
+  a {
+    color: aquamarine;
+  }
+
+}
+@font-face {
+  font-family: "MyFont";
+  src: url("myfont.woff2") format("woff2");
+}
+@supports (animation-name: test) {
+
+  a {
+    color: aquamarine;
+  }
+
+}
+@keyframes test {
+
+  100% {
+    color: aquamarine;
+  }
+
+}

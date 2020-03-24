@@ -1,0 +1,16 @@
+[
+  {
+    "line": 10,
+    "column": 4,
+    "rule": "stylus/block-opening-brace-space-after",
+    "severity": "error",
+    "text": "Expected single space after \"{\" of a multi-line block (stylus/block-opening-brace-space-after)"
+  },
+  {
+    "line": 14,
+    "column": 4,
+    "rule": "stylus/block-opening-brace-space-after",
+    "severity": "error",
+    "text": "Expected single space after \"{\" of a multi-line block (stylus/block-opening-brace-space-after)"
+  }
+]

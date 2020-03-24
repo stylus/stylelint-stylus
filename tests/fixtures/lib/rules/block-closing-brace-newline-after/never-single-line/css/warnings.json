@@ -1,0 +1,9 @@
+[
+  {
+    "line": 3,
+    "column": 19,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-newline-after)"
+  }
+]

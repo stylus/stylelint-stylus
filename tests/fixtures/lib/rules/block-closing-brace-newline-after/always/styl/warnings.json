@@ -1,0 +1,30 @@
+[
+  {
+    "line": 8,
+    "column": 19,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
+  },
+  {
+    "line": 10,
+    "column": 19,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
+  },
+  {
+    "line": 15,
+    "column": 27,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
+  },
+  {
+    "line": 17,
+    "column": 2,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
+  }
+]

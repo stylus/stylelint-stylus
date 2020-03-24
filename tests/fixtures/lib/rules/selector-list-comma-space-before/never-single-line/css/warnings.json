@@ -2,8 +2,8 @@
   {
     "line": 27,
     "column": 6,
-    "rule": "selector-list-comma-space-before",
-    "severity": "ignore",
-    "text": "Unexpected whitespace before \",\" in a single-line list (selector-list-comma-space-before)"
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" in a single-line list (stylus/selector-list-comma-space-before)"
   }
 ]

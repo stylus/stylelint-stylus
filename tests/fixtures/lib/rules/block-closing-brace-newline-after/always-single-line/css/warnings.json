@@ -1,0 +1,51 @@
+[
+  {
+    "line": 16,
+    "column": 19,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" of a single-line block (stylus/block-closing-brace-newline-after)"
+  },
+  {
+    "line": 26,
+    "column": 19,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" of a single-line block (stylus/block-closing-brace-newline-after)"
+  },
+  {
+    "line": 36,
+    "column": 19,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" of a single-line block (stylus/block-closing-brace-newline-after)"
+  },
+  {
+    "line": 38,
+    "column": 19,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" of a single-line block (stylus/block-closing-brace-newline-after)"
+  },
+  {
+    "line": 48,
+    "column": 19,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" of a single-line block (stylus/block-closing-brace-newline-after)"
+  },
+  {
+    "line": 59,
+    "column": 19,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" of a single-line block (stylus/block-closing-brace-newline-after)"
+  },
+  {
+    "line": 75,
+    "column": 28,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" of a single-line block (stylus/block-closing-brace-newline-after)"
+  }
+]

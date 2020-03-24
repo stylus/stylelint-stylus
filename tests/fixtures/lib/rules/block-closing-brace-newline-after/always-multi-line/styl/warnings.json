@@ -1,0 +1,9 @@
+[
+  {
+    "line": 17,
+    "column": 2,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" of a multi-line block (stylus/block-closing-brace-newline-after)"
+  }
+]

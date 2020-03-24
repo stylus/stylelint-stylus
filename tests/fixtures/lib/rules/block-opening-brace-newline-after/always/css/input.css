@@ -1,0 +1,40 @@
+a {
+  color: pink; }
+a { /* end-of-line comment */
+  color: pink;
+}
+
+/* "always" */
+/* incorrect */
+a{ color: pink; }
+a{ color: pink;
+}
+a{ /* end-of-line comment
+  with a newline */
+  color: pink;
+}
+/* correct */
+a {
+color: pink; }
+a
+{
+color: pink; }
+a { /* end-of-line comment */
+  color: pink;
+}
+/* "always-multi-line" */
+/* incorrect */
+a{color: pink;
+}
+/* correct */
+a { color: pink; }
+a {
+color: pink; }
+/* "never-multi-line" */
+/* incorrect */
+a { color: pink;
+}
+/* correct */
+a { color: pink; }
+a {color: pink;
+}
