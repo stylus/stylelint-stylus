@@ -5,10 +5,12 @@ const assert = require("assert")
 const stylelint = require("stylelint")
 const {
     listupFixtures,
+    assertNonFile,
     read,
     assertJsonFile,
     assertTextFile,
 } = require("./index")
+const rules = require("../..")
 
 module.exports = run
 
@@ -17,6 +19,7 @@ module.exports = run
  * @param {string} dir
  */
 function run(ruleName, dir) {
+    const rule = rules.find(r => r.ruleName === ruleName)
     // const config = require(path.resolve(dir, "stylelint.config.js"))
 
     describe(ruleName, () => {
@@ -33,6 +36,10 @@ function run(ruleName, dir) {
                             )
                         }))
 
+                if (!rule.rule.meta.fixable) {
+                    assertNonFile(fixture.output)
+                    return
+                }
                 it("autofix", () =>
                     lintFixture(fixture, { fix: true })
                         .then(r => ({
@@ -42,7 +49,7 @@ function run(ruleName, dir) {
                         .then(({ output, result }) => {
                             assertTextFile(
                                 output,
-                                path.resolve(fixture.output),
+                                fixture.output,
                                 "Output is incorrect."
                             )
                             return lintFixture(fixture, { code: output })

@@ -1,0 +1,60 @@
+@media (max-width: 600px) {}
+
+/* "always" */
+/* incorrect */
+@charset"UTF-8";
+@media(min-width: 700px) {}
+@media  (min-width: 700px) {}
+/* correct */
+@charset "UTF-8";
+@import url("x.css");
+@media (min-width: 700px) {}
+/* "always-single-line" */
+/* incorrect */
+@charset"UTF-8";
+@media(min-width: 700px) {}
+@media  (min-width: 700px) {}
+@media(min-width: 700px) and (orientation: portrait) {}
+/* correct */
+@charset "UTF-8";
+@import url("x.css");
+@media (min-width: 700px) {}
+
+// -- stylus
+@media (max-width: 600px)
+  a
+    color: red;
+
+/* "always" */
+/* incorrect */
+@charset"UTF-8";
+@media(min-width: 700px)
+  a
+    color: red;
+@media  (min-width: 700px)
+  a
+    color: red;
+/* correct */
+@charset "UTF-8";
+@import url("x.css");
+@media (min-width: 700px)
+  a
+    color: red;
+/* "always-single-line" */
+/* incorrect */
+@charset"UTF-8";
+/* correct */
+@charset "UTF-8";
+@import url("x.css");
+@media(min-width: 700px)
+  a
+    color: red;
+@media  (min-width: 700px)
+  a
+    color: red;
+@media(min-width: 700px) and (orientation: portrait)
+  a
+    color: red;
+
+add(a, b)
+  a + b

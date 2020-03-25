@@ -5,6 +5,7 @@ module.exports = {
     extends: [require.resolve("../recommended")],
     rules: {
         "stylus/declaration-colon": "never",
+        "stylus/inline-commnet-double-slash-space-after": "always",
         "stylus/pythonic": "always",
         "stylus/selector-list-comma": "never",
         "stylus/semicolon": "never",
@@ -21,5 +22,7 @@ module.exports = {
         // - selector-list-comma
         "stylus/selector-list-comma-newline-after": "always",
         "stylus/selector-list-comma-space-before": "never",
+        // - atrule
+        "stylus/at-rule-name-space-after": "always-single-line",
     },
 }

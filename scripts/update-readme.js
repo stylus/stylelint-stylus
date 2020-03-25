@@ -6,6 +6,12 @@ const rules = require("./lib/rules")
 
 const categories = [
     {
+        categoryId: "recommended",
+        title: "Possible Errors Rules",
+        configDescription:
+            "These rules relate to possible syntax or logic errors in Stylus.",
+    },
+    {
         categoryId: "standard",
         title: "Standard Rules",
         configDescription: "These rules relate to style guidelines.",

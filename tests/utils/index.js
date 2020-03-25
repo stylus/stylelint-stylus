@@ -35,6 +35,10 @@ const utils = {
          * @type {FixtureData[]}
          */
         const result = []
+        // eslint-disable-next-line no-process-env
+        if (process.env.UPDATE_FIXTURES && !utils.isExistFile(rootDir)) {
+            fs.mkdirSync(rootDir)
+        }
         for (const name of fs.readdirSync(rootDir)) {
             const filepath = path.join(rootDir, name)
             if (name.startsWith("input.")) {
@@ -69,10 +73,12 @@ const utils = {
             throw error
         }
     },
-    deleteFixture(file) {
+    deleteFixture(file, error) {
         // eslint-disable-next-line no-process-env
         if (process.env.UPDATE_FIXTURES && utils.isExistFile(file)) {
             fs.unlinkSync(file)
+        } else if (error) {
+            throw error
         }
     },
     assertJsonFile(actual, file, message) {
@@ -89,6 +95,13 @@ const utils = {
             assert.strictEqual(actual, expected, message)
         } catch (error) {
             utils.writeFixture(file, actual, error)
+        }
+    },
+    assertNonFile(file, message) {
+        try {
+            assert.ok(!utils.isExistFile(file), message)
+        } catch (error) {
+            utils.deleteFixture(file, error)
         }
     },
 }

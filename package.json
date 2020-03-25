@@ -28,7 +28,11 @@
   "keywords": [
     "stylelint-plugin",
     "stylelint",
-    "stylus"
+    "stylus",
+    "lint",
+    "linter",
+    "pretty",
+    "beautify"
   ],
   "author": "Yosuke Ota",
   "license": "MIT",

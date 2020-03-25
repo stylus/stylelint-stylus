@@ -1,3 +1,5 @@
+@import "reset.css"
+
 .foo,
 .bar {
   color: red;
@@ -11,5 +13,71 @@
 
 var = 123
 
+@media print
+  #header
+  #footer
+    display none
+
+@font-face
+  font-family Geo
+  font-style normal
+  src url(fonts/geo_sans_light/GensansLight.ttf)
+
+$keyframe-name = pulse
+
+@keyframes {$keyframe-name}
+  for i in 0..10
+    {10% * i}
+      opacity (i/10)
+
+@viewport
+  color #00f
+
+@supports (display: flex)
+  div
+    display flex
+
+@page :blank
+  @top-center
+    content none
+
+.message {
+  padding 10px
+  border 1px solid #eee
+}
+
+.warning {
+  @extend .message
+  color #E2E21E
+}
+
+@css {
+  .foo,
+  .bar {
+    color: red;
+    background: red;
+    opacity: 0.5;
+  }
+}
+
+border-radius(n)
+  -webkit-border-radius n
+  -moz-border-radius n
+  border-radius n
+
+form input[type=button]
+  border-radius(5px)
+
+support-for-ie ?= true
+
+add(a, b)
+  a + b
+
 //comment
+// comment
+//
+
 /*comment*/
+
+/* comment */
+/**/

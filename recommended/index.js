@@ -3,6 +3,9 @@
 module.exports = {
     plugins: [require.resolve("../")],
     rules: {
+        // List of possible errors rules within `stylelint-plugin-stylus`
+        "stylus/inline-comment-no-empty": true,
+
         // List of core rules that cannot be used with the Stylus.
         // - The Stylus can also be separated by newlines without using comma separators.
         "selector-list-comma-newline-after": null,
@@ -24,10 +27,13 @@ module.exports = {
         // - The Stylus can omit the semicolons. And you can use "stylus/semicolon" rules instead.
         "declaration-block-trailing-semicolon": null,
 
-        // useless for the stylus
-        // "property-no-unknown": null,
-        // "at-rule-no-unknown": null,
-        // breaks stylus
-        // "at-rule-name-space-after": null,
+        // - This rule breaks the Stylus syntax.
+        "at-rule-name-newline-after": null,
+        // - The `postcss-style` atrule AST contains function calls.
+        "at-rule-name-space-after": null,
+
+        // - Useless for the Stylus
+        "property-no-unknown": null,
+        "at-rule-no-unknown": null,
     },
 }

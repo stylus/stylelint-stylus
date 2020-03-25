@@ -1,0 +1,16 @@
+[
+  {
+    "line": 9,
+    "column": 3,
+    "rule": "stylus/inline-commnet-double-slash-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \"//\" (stylus/inline-commnet-double-slash-space-after)"
+  },
+  {
+    "line": 13,
+    "column": 3,
+    "rule": "stylus/inline-commnet-double-slash-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \"//\" (stylus/inline-commnet-double-slash-space-after)"
+  }
+]

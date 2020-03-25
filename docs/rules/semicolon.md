@@ -40,6 +40,12 @@ a
   color red;
 ```
 
+## :couple: Related rules
+
+- [declaration-block-trailing-semicolon]
+
+[declaration-block-trailing-semicolon]: https://stylelint.io/user-guide/rules/declaration-block-trailing-semicolon
+
 ## :mag: Implementation
 
 - [Rule source](https://github.com/ota-meshi/stylelint-plugin-stylus/blob/master/lib/rules/semicolon.js)

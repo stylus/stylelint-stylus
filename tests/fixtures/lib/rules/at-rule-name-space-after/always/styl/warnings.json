@@ -1,0 +1,100 @@
+[
+  {
+    "line": 5,
+    "column": 8,
+    "rule": "stylus/at-rule-name-space-after",
+    "severity": "error",
+    "text": "Expected single space after at-rule name \"@charset\" (stylus/at-rule-name-space-after)"
+  },
+  {
+    "line": 6,
+    "column": 6,
+    "rule": "stylus/at-rule-name-space-after",
+    "severity": "error",
+    "text": "Expected single space after at-rule name \"@media\" (stylus/at-rule-name-space-after)"
+  },
+  {
+    "line": 7,
+    "column": 6,
+    "rule": "stylus/at-rule-name-space-after",
+    "severity": "error",
+    "text": "Expected single space after at-rule name \"@media\" (stylus/at-rule-name-space-after)"
+  },
+  {
+    "line": 14,
+    "column": 8,
+    "rule": "stylus/at-rule-name-space-after",
+    "severity": "error",
+    "text": "Expected single space after at-rule name \"@charset\" (stylus/at-rule-name-space-after)"
+  },
+  {
+    "line": 15,
+    "column": 6,
+    "rule": "stylus/at-rule-name-space-after",
+    "severity": "error",
+    "text": "Expected single space after at-rule name \"@media\" (stylus/at-rule-name-space-after)"
+  },
+  {
+    "line": 16,
+    "column": 6,
+    "rule": "stylus/at-rule-name-space-after",
+    "severity": "error",
+    "text": "Expected single space after at-rule name \"@media\" (stylus/at-rule-name-space-after)"
+  },
+  {
+    "line": 17,
+    "column": 6,
+    "rule": "stylus/at-rule-name-space-after",
+    "severity": "error",
+    "text": "Expected single space after at-rule name \"@media\" (stylus/at-rule-name-space-after)"
+  },
+  {
+    "line": 30,
+    "column": 8,
+    "rule": "stylus/at-rule-name-space-after",
+    "severity": "error",
+    "text": "Expected single space after at-rule name \"@charset\" (stylus/at-rule-name-space-after)"
+  },
+  {
+    "line": 31,
+    "column": 6,
+    "rule": "stylus/at-rule-name-space-after",
+    "severity": "error",
+    "text": "Expected single space after at-rule name \"@media\" (stylus/at-rule-name-space-after)"
+  },
+  {
+    "line": 34,
+    "column": 6,
+    "rule": "stylus/at-rule-name-space-after",
+    "severity": "error",
+    "text": "Expected single space after at-rule name \"@media\" (stylus/at-rule-name-space-after)"
+  },
+  {
+    "line": 45,
+    "column": 8,
+    "rule": "stylus/at-rule-name-space-after",
+    "severity": "error",
+    "text": "Expected single space after at-rule name \"@charset\" (stylus/at-rule-name-space-after)"
+  },
+  {
+    "line": 49,
+    "column": 6,
+    "rule": "stylus/at-rule-name-space-after",
+    "severity": "error",
+    "text": "Expected single space after at-rule name \"@media\" (stylus/at-rule-name-space-after)"
+  },
+  {
+    "line": 52,
+    "column": 6,
+    "rule": "stylus/at-rule-name-space-after",
+    "severity": "error",
+    "text": "Expected single space after at-rule name \"@media\" (stylus/at-rule-name-space-after)"
+  },
+  {
+    "line": 55,
+    "column": 6,
+    "rule": "stylus/at-rule-name-space-after",
+    "severity": "error",
+    "text": "Expected single space after at-rule name \"@media\" (stylus/at-rule-name-space-after)"
+  }
+]
