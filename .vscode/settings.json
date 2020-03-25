@@ -20,7 +20,4 @@
         "vue",
         "stylus"
     ],
-    "stylelint.configOverrides": {
-        "extends": [],
-    },
 }
