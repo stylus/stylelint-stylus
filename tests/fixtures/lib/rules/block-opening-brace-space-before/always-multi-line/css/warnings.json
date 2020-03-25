@@ -1,0 +1,30 @@
+[
+  {
+    "line": 19,
+    "column": 1,
+    "rule": "stylus/block-opening-brace-space-before",
+    "severity": "error",
+    "text": "Expected single space before \"{\" of a multi-line block (stylus/block-opening-brace-space-before)"
+  },
+  {
+    "line": 26,
+    "column": 1,
+    "rule": "stylus/block-opening-brace-space-before",
+    "severity": "error",
+    "text": "Expected single space before \"{\" of a multi-line block (stylus/block-opening-brace-space-before)"
+  },
+  {
+    "line": 37,
+    "column": 1,
+    "rule": "stylus/block-opening-brace-space-before",
+    "severity": "error",
+    "text": "Expected single space before \"{\" of a multi-line block (stylus/block-opening-brace-space-before)"
+  },
+  {
+    "line": 49,
+    "column": 1,
+    "rule": "stylus/block-opening-brace-space-before",
+    "severity": "error",
+    "text": "Expected single space before \"{\" of a multi-line block (stylus/block-opening-brace-space-before)"
+  }
+]

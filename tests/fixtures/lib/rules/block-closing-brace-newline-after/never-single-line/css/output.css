@@ -1,0 +1,9 @@
+
+/* "never-single-line" *//* incorrect */
+a { color: pink; }b { color: red;
+}
+
+/* correct */
+a { color: pink; }b { color: red;
+}
+

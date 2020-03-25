@@ -2,22 +2,22 @@
   {
     "line": 6,
     "column": 5,
-    "rule": "selector-list-comma-newline-after",
-    "severity": "ignore",
-    "text": "Expected newline after \",\" (selector-list-comma-newline-after)"
+    "rule": "stylus/selector-list-comma-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \",\" (stylus/selector-list-comma-newline-after)"
   },
   {
     "line": 11,
     "column": 5,
-    "rule": "selector-list-comma-newline-after",
-    "severity": "ignore",
-    "text": "Expected newline after \",\" (selector-list-comma-newline-after)"
+    "rule": "stylus/selector-list-comma-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \",\" (stylus/selector-list-comma-newline-after)"
   },
   {
     "line": 15,
     "column": 5,
-    "rule": "selector-list-comma-newline-after",
-    "severity": "ignore",
-    "text": "Expected newline after \",\" (selector-list-comma-newline-after)"
+    "rule": "stylus/selector-list-comma-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \",\" (stylus/selector-list-comma-newline-after)"
   }
 ]

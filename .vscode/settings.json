@@ -1,7 +1,7 @@
 {
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,
-        "source.fixAll.stylelint": true,
+        "source.fixAll.stylelint": false,
     },
     "[stylus]": {
         "editor.codeActionsOnSave": {
@@ -19,5 +19,8 @@
         "css",
         "vue",
         "stylus"
-    ]
+    ],
+    "stylelint.configOverrides": {
+        "extends": [],
+    },
 }

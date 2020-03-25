@@ -1,0 +1,31 @@
+a { color: pink;
+}
+
+/* "always" */
+/* incorrect */
+a { color: pink;}
+/* correct */
+a { color: pink;
+}
+a {
+color: pink;
+}
+/* "always-multi-line" */
+/* incorrect */
+a {
+color: pink;
+}
+/* correct */
+a { color: pink; }
+a { color: pink;
+}
+/* "never-multi-line" */
+/* incorrect */
+a {
+color: pink;
+ }
+/* correct */
+a { color: pink; }
+a {
+color: pink;
+}

@@ -76,8 +76,8 @@ module.exports = {
 
 This plugin provides some rulesets. It can be used by specifying it in the [`extends` of the stylelint configuration](https://stylelint.io/user-guide/configure#extends).
 
-<!-- - `"stylelint-plugin-stylus/recommended"` ... WIP. -->
-- `"stylelint-plugin-stylus/standard"` ... <!-- Above, plus --> rules to improve code readability.
+- `"stylelint-plugin-stylus/recommended"` ... Turn off rules that cannot be used with the Stylus. (WIP)
+- `"stylelint-plugin-stylus/standard"` ... Above, plus rules to improve code readability.
 
 ## Rules
 
@@ -91,9 +91,16 @@ These rules relate to style guidelines.
 
 |    | Rule ID | Description |
 |:---|:--------|:------------|
+| :wrench: | [stylus/block-closing-brace-empty-line-before](./docs/rules/block-closing-brace-empty-line-before.md) | require or disallow an empty line before the closing brace of blocks. |
+| :wrench: | [stylus/block-closing-brace-newline-after](./docs/rules/block-closing-brace-newline-after.md) | require a newline or disallow whitespace after the closing brace of blocks. |
+| :wrench: | [stylus/block-closing-brace-newline-before](./docs/rules/block-closing-brace-newline-before.md) | require a newline or disallow whitespace before the closing brace of blocks. |
+| :wrench: | [stylus/block-closing-brace-space-before](./docs/rules/block-closing-brace-space-before.md) | require a single space or disallow whitespace before the closing brace of blocks. |
+| :wrench: | [stylus/block-opening-brace-newline-after](./docs/rules/block-opening-brace-newline-after.md) | require a newline after the opening brace of blocks. |
+| :wrench: | [stylus/block-opening-brace-space-after](./docs/rules/block-opening-brace-space-after.md) | require a single space or disallow whitespace after the opening brace of blocks. |
+| :wrench: | [stylus/block-opening-brace-space-before](./docs/rules/block-opening-brace-space-before.md) | require a single space or disallow whitespace before the opening brace of blocks. |
 | :wrench: | [stylus/declaration-colon](./docs/rules/declaration-colon.md) | require or disallow declaration colons. |
 | :wrench: | [stylus/pythonic](./docs/rules/pythonic.md) | enforces pythonic or brace style. |
-| :wrench: | [stylus/selector-list-comma-newline-after](./docs/rules/selector-list-comma-newline-after.md) | require a newline whitespace after the commas of selector lists |
+| :wrench: | [stylus/selector-list-comma-newline-after](./docs/rules/selector-list-comma-newline-after.md) | require a newline whitespace after the commas of selector lists. |
 | :wrench: | [stylus/selector-list-comma-space-before](./docs/rules/selector-list-comma-space-before.md) | require a single space or disallow whitespace before the commas of selector lists. |
 | :wrench: | [stylus/selector-list-comma](./docs/rules/selector-list-comma.md) | require or disallow selector list comma. |
 | :wrench: | [stylus/semicolon](./docs/rules/semicolon.md) | require or disallow semicolon. |

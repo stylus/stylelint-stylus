@@ -1,0 +1,30 @@
+[
+  {
+    "line": 3,
+    "column": 2,
+    "rule": "stylus/block-opening-brace-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \"{\" of a single-line block (stylus/block-opening-brace-space-before)"
+  },
+  {
+    "line": 13,
+    "column": 4,
+    "rule": "stylus/block-opening-brace-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \"{\" of a single-line block (stylus/block-opening-brace-space-before)"
+  },
+  {
+    "line": 14,
+    "column": 9,
+    "rule": "stylus/block-opening-brace-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \"{\" of a single-line block (stylus/block-opening-brace-space-before)"
+  },
+  {
+    "line": 14,
+    "column": 5,
+    "rule": "stylus/block-opening-brace-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \"{\" of a single-line block (stylus/block-opening-brace-space-before)"
+  }
+]

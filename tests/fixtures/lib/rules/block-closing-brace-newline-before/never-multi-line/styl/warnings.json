@@ -1,0 +1,16 @@
+[
+  {
+    "line": 4,
+    "column": 17,
+    "rule": "stylus/block-closing-brace-newline-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \"}\" of a multi-line block (stylus/block-closing-brace-newline-before)"
+  },
+  {
+    "line": 7,
+    "column": 13,
+    "rule": "stylus/block-closing-brace-newline-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \"}\" of a multi-line block (stylus/block-closing-brace-newline-before)"
+  }
+]

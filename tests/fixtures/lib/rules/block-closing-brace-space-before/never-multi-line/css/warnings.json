@@ -1,0 +1,30 @@
+[
+  {
+    "line": 11,
+    "column": 13,
+    "rule": "stylus/block-closing-brace-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \"}\" of a multi-line block (stylus/block-closing-brace-space-before)"
+  },
+  {
+    "line": 37,
+    "column": 13,
+    "rule": "stylus/block-closing-brace-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \"}\" of a multi-line block (stylus/block-closing-brace-space-before)"
+  },
+  {
+    "line": 46,
+    "column": 13,
+    "rule": "stylus/block-closing-brace-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \"}\" of a multi-line block (stylus/block-closing-brace-space-before)"
+  },
+  {
+    "line": 51,
+    "column": 13,
+    "rule": "stylus/block-closing-brace-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \"}\" of a multi-line block (stylus/block-closing-brace-space-before)"
+  }
+]

@@ -3,16 +3,28 @@
 module.exports = {
     plugins: [require.resolve("../")],
     rules: {
-        // wrapper core rules
+        // List of core rules that cannot be used with the Stylus.
+        // - The Stylus can also be separated by newlines without using comma separators.
         "selector-list-comma-newline-after": null,
         "selector-list-comma-newline-before": null,
         "selector-list-comma-space-after": null,
         "selector-list-comma-space-before": null,
+
+        // - The Stylus can omit the braces.
+        "block-closing-brace-empty-line-before": null,
+        "block-closing-brace-newline-after": null,
+        "block-closing-brace-newline-before": null,
+        "block-closing-brace-space-after": null,
+        "block-closing-brace-space-before": null,
+        "block-opening-brace-newline-after": null,
+        "block-opening-brace-newline-before": null,
+        "block-opening-brace-space-after": null,
+        "block-opening-brace-space-before": null,
+
+        // - The Stylus can omit the semicolons. And you can use "stylus/semicolon" rules instead.
+        "declaration-block-trailing-semicolon": null,
+
         // useless for the stylus
-        // "block-opening-brace-space-before": null,
-        // "block-closing-brace-newline-before": null,
-        // "declaration-block-trailing-semicolon": null,
-        // "block-closing-brace-space-before": null,
         // "property-no-unknown": null,
         // "at-rule-no-unknown": null,
         // breaks stylus
