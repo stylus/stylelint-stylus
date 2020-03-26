@@ -10,7 +10,30 @@ This rule reports other than at-rules defined in the CSS specification and at-ru
 
 ## :wrench: Options
 
-See [stylelint - at-rule-no-unknown - Options](https://stylelint.io/user-guide/rules/at-rule-name-space-after#options).
+See [stylelint - at-rule-no-unknown - Options](https://stylelint.io/user-guide/rules/at-rule-no-unknown#options).
+
+### `true`
+
+```styl
+// ✓ GOODs
+@media (max-width: 960px) {}
+@media (max-width: 960px)
+  .foo
+    color red
+@import "reset.css"
+@css {
+  .foo {}
+}
+.foo
+  @extend .bar
+
+// ✗ BAD
+@unknown {}
+@unknown "foo";
+@unknown
+  .foo
+    color red
+```
 
 ## :couple: Related rules
 
