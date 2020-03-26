@@ -5,7 +5,7 @@ const path = require("path")
 const eslint = require("eslint")
 const rules = require("./lib/rules")
 
-const ROOT = path.resolve(__dirname, "../tests/lib/rules")
+const ROOT = path.resolve(__dirname, "../tests/runs/lib/rules")
 
 for (const rule of rules) {
     // Update files.
@@ -18,13 +18,13 @@ for (const rule of rules) {
 "use strict"
 
 const path = require("path")
-const ruleTester = require("../../utils/tester")
+const { ruleTester } = require("../../../utils/tester")
 
 ruleTester(
     "stylus/${rule.fileName}",
     path.resolve(
         __dirname,
-        "../../fixtures/lib/rules/${rule.fileName}"
+        "../../../fixtures/lib/rules/${rule.fileName}"
     )
 )
 `

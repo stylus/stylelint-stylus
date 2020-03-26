@@ -1,0 +1,18 @@
+@unknown (max-width: 960px) {}
+
+/* incorrect */
+@unknown {}
+
+/* correct */
+@charset "UTF-8";
+@CHARSET "UTF-8";
+@media (max-width: 960px) {}
+@font-feature-values Font One {
+  @styleset {}
+}
+
+/* ["/^my-/", "custom"] */
+/* correct */
+@my-at-rule "x.css";
+@my-other-at-rule {}
+@custom {}

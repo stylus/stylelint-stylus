@@ -5,6 +5,7 @@ module.exports = {
     rules: {
         // List of possible errors rules within `stylelint-plugin-stylus`
         "stylus/inline-comment-no-empty": true,
+        "stylus/at-rule-no-unknown": true,
 
         // List of core rules that cannot be used with the Stylus.
         // - The Stylus can also be separated by newlines without using comma separators.

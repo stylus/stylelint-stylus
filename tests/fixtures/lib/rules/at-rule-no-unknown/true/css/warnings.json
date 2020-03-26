@@ -1,0 +1,37 @@
+[
+  {
+    "line": 1,
+    "column": 1,
+    "rule": "stylus/at-rule-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown at-rule \"@unknown\" (stylus/at-rule-no-unknown)"
+  },
+  {
+    "line": 4,
+    "column": 1,
+    "rule": "stylus/at-rule-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown at-rule \"@unknown\" (stylus/at-rule-no-unknown)"
+  },
+  {
+    "line": 16,
+    "column": 1,
+    "rule": "stylus/at-rule-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown at-rule \"@my-at-rule\" (stylus/at-rule-no-unknown)"
+  },
+  {
+    "line": 17,
+    "column": 1,
+    "rule": "stylus/at-rule-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown at-rule \"@my-other-at-rule\" (stylus/at-rule-no-unknown)"
+  },
+  {
+    "line": 18,
+    "column": 1,
+    "rule": "stylus/at-rule-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown at-rule \"@custom\" (stylus/at-rule-no-unknown)"
+  }
+]

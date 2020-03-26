@@ -1,0 +1,92 @@
+body
+  color white
+
+font-size = 14px
+
+body
+  font font-size Arial, sans-serif
+
+border-radius(n)
+  -webkit-border-radius n
+  -moz-border-radius n
+  border-radius n
+
+form input[type=button]
+  border-radius(5px)
+
+// I'm a comment!
+body
+  padding 5px // some awesome padding
+
+/*
+ * Adds the given numbers together.
+ */
+
+add(a, b)
+  a + b
+
+/*!
+ * Adds the given numbers together.
+ */
+
+add(a, b)
+  a + b
+
+overload-padding = true
+
+if overload-padding
+  padding(y, x)
+    margin y x
+
+body
+  padding 5px 10px
+
+disable-padding-override = true
+
+unless disable-padding-override is defined and disable-padding-override
+  padding(x, y)
+    margin y x
+
+pad(types = margin padding, n = 5px)
+  padding unit(n, px) if padding in types
+  margin unit(n, px) if margin in types
+
+body
+  pad()
+
+body
+  pad(margin)
+
+body
+  apply-mixins = true
+  pad(padding, 10) if apply-mixins
+
+foo = {
+  bar: baz,
+  baz: raz
+  }
+
+body
+  for num in 1 2 3
+    foo num
+
+sum(nums)
+  sum = 0
+  sum += n for n in nums
+
+join(delim, args)
+  buf = ''
+  buf += i ? delim + arg : arg for arg, i in args
+
+@import "reset.css"
+
+.warning {
+  @extend .message;
+  color: #E2E21E;
+}
+
+@css {
+  .foo {
+    color: red;
+  }
+}

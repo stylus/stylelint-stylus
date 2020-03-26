@@ -11,9 +11,9 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "test:base": "mocha \"tests/lib/**/*.js\" --reporter dot",
+    "test:base": "mocha \"tests/runs/**/*.js\" --reporter dot",
     "test": "nyc npm run test:base -- --timeout 60000",
-    "debug": "mocha --inspect-brk \"tests/lib/**/*.js\" --reporter dot --timeout 60000",
+    "debug": "mocha --inspect-brk \"tests/runs/**/*.js\" --reporter dot --timeout 60000",
     "cover:report": "nyc report --reporter=html",
     "test:cover": "npm run test && npm run cover:report",
     "update-fixtures": "cross-env UPDATE_FIXTURES=true npm run test:base",

@@ -91,6 +91,7 @@ These rules relate to possible syntax or logic errors in Stylus.
 
 |    | Rule ID | Description |
 |:---|:--------|:------------|
+|  | [stylus/at-rule-no-unknown](./docs/rules/at-rule-no-unknown.md) | disallow unknown at-rules. |
 |  | [stylus/inline-comment-no-empty](./docs/rules/inline-comment-no-empty.md) | disallow empty inline comments. |
 
 ### Standard Rules

@@ -1,0 +1,60 @@
+sort(list, fn = null)
+  // default sort function
+  if fn == null
+    fn = @(a, b) {
+      a > b
+    }
+
+  // bubble sort
+  for $i in 1..length(list) - 1
+    for $j in 0..$i - 1
+      if fn(list[$j], list[$i])
+        $temp = list[$i]
+        list[$i] = list[$j]
+        list[$j] = $temp
+  return list
+
+sort(5 3 6 1 2 4, @(a, b){
+  a < b
+})
+
+@import "reset.css"
+
+.foo
+  @import 'bar.styl'
+
+@media screen and (min-width: 640px)
+  @import 'bar.styl'
+
+@require 'head'
+@require 'body'
+@require 'foot'
+
+@media print
+  #header
+  #footer
+    display none
+
+@font-face
+  font-family Geo
+  font-style normal
+  src url(fonts/geo_sans_light/GensansLight.ttf)
+
+.ingeo
+  font-family Geo
+
+$keyframe-name = pulse
+@keyframes {$keyframe-name}
+  for i in 0..10
+    {10% * i}
+      opacity (i/10)
+
+.warning {
+  @extend .message;
+  color: #E2E21E;
+}
+
+foo = @block {
+  width: 20px
+  height: 20px
+}

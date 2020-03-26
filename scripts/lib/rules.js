@@ -12,7 +12,12 @@ module.exports = fs
     .map(name => {
         const rule = require(path.join(ROOT, name))
         if (rule.ruleName !== `stylus/${name}`) {
-            throw new Error(`illegal ruleName @${path.join(ROOT, name)}`)
+            throw new Error(
+                `illegal ruleName @${path.join(
+                    ROOT,
+                    name
+                )}: Expected: "stylus/${name}"`
+            )
         }
         return {
             ruleName: rule.ruleName,

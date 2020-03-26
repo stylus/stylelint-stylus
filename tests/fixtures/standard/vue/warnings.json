@@ -1,0 +1,9 @@
+[
+  {
+    "line": 7,
+    "column": 1,
+    "rule": "no-duplicate-selectors",
+    "severity": "error",
+    "text": "Unexpected duplicate selector \"body\", first used at line 2 (no-duplicate-selectors)"
+  }
+]
