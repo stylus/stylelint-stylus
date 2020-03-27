@@ -1,0 +1,58 @@
+a:HOVER {}
+a:HOVER {}
+a:HOVER {}
+
+.foo
+  &__bar
+    width: 10px
+
+    ^[0]:HOVER &
+      width: 20px
+
+    ^[0]:HOVER &
+      width: 20px
+
+.block
+  &__element
+    ~/:HOVER &
+      color: red
+    ~/:HOVER &
+      color: red
+
+.foo
+  .bar
+    width: 10px
+
+    &,
+    ../ .baz:HOVER
+      height: 10px
+    ../ .baz:HOVER
+      height: 10px
+
+textarea
+input
+  color #A7A7A7
+  &:HOVER,
+  /.is-hovered:HOVER
+    color #000
+  /.is-hovered:HOVER
+    color #000
+
+{selector('.a', '.b', '.c, .d')}:HOVER
+  color: red
+{selector('.a', '.b', '.c, .d')}:HOVER
+  color: red
+
+.foo:HOVER // comment
+.bar:HOVER
+  color red
+
+
+.foo:HOVER, // comment
+.bar:HOVER
+  color red
+
+
+.foo:HOVER
+,.bar:HOVER
+  color red

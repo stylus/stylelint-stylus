@@ -152,6 +152,7 @@ These rules relate to style guidelines.
 | :wrench: | [stylus/selector-list-comma-newline-after](./docs/rules/selector-list-comma-newline-after.md) | require a newline whitespace after the commas of selector lists. |
 | :wrench: | [stylus/selector-list-comma-space-before](./docs/rules/selector-list-comma-space-before.md) | require a single space or disallow whitespace before the commas of selector lists. |
 | :wrench: | [stylus/selector-list-comma](./docs/rules/selector-list-comma.md) | require or disallow selector list comma. |
+| :wrench: | [stylus/selector-pseudo-class-case](./docs/rules/selector-pseudo-class-case.md) | enforce lowercase or uppercase for pseudo-class selectors. |
 | :wrench: | [stylus/semicolon](./docs/rules/semicolon.md) | require or disallow semicolon. |
 | :wrench: | [stylus/single-line-comment-double-slash-space-after](./docs/rules/single-line-comment-double-slash-space-after.md) | require or disallow whitespace after the double-slash of single-line comments. |
 | :wrench: | [stylus/single-line-comment](./docs/rules/single-line-comment.md) | enforces comment style where single-line comments are allowed. |

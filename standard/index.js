@@ -31,5 +31,6 @@ module.exports = {
 
         // - wrong autofix
         "stylus/color-hex-case": "lower",
+        "stylus/selector-pseudo-class-case": "lower",
     },
 }

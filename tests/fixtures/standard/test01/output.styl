@@ -1,0 +1,142 @@
+@import "reset.css"
+
+.foo
+.bar 
+  color red
+  background red
+
+.baz
+.qux
+  color red
+  background red
+
+textarea
+input
+  color #a7a7a7
+
+  &:hover
+    color #000
+
+.foo
+  &__bar
+    width 10px
+
+    ^[0]:hover &
+      width 20px
+
+.foo
+  & .bar
+    width 10px
+
+    ^[0]:hover ^[1..-1]
+      width 20px
+
+.block
+  &__element
+    ~/:hover &
+      color red
+
+.foo
+  .bar
+    width 10px
+
+    &
+    ../ .baz
+      height 10px
+
+textarea
+input
+  color #a7a7a7
+
+  &:hover
+  /.is-hovered
+    color #000
+
+{selector('.a', '.b', '.c, .d')}
+  color red
+
+var = 123
+
+@media print
+  #header
+  #footer
+    display none
+
+@font-face
+  font-family Geo
+  font-style normal
+  src url(fonts/geo_sans_light/GensansLight.ttf)
+
+$keyframe-name = pulse
+
+@keyframes {$keyframe-name}
+  for i in 0..10
+    {10% * i}
+      opacity (i/10)
+
+@viewport
+  color #00f
+
+@supports (display: flex)
+  div
+    display flex
+
+@page :blank
+  @top-center
+    content none
+
+.message 
+  padding 10px
+  border 1px solid #eee
+
+.warning 
+  @extend .message
+
+  color #e2e21e
+
+@css {
+  .foo,
+  .bar {
+    color: red;
+    background: red;
+    opacity: 0.5;
+  }
+}
+
+border-radius(n)
+  -webkit-border-radius n
+  -moz-border-radius n
+  border-radius n
+
+form input[type=button]
+  border-radius(5px)
+
+support-for-ie ?= true
+
+add(a, b)
+  a + b
+
+add(a,b)
+  a + b
+
+@foo
+  a
+    color red
+
+body
+  apply-mixins = true
+  pad(padding, 10) if apply-mixins
+
+sum(nums)
+  sum = 0
+  sum += n for n in nums
+
+// comment
+// comment
+//
+
+// comment
+
+// comment
+
+/*  */

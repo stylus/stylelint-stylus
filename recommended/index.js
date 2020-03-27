@@ -39,6 +39,7 @@ module.exports = {
 
         // - Wrong autofix on the Stylus.
         "color-hex-case": null,
+        "selector-pseudo-class-case": null,
 
         // - Useless for the Stylus
         "property-no-unknown": null,
