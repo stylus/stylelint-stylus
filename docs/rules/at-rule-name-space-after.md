@@ -24,6 +24,7 @@ The `stylus/at-rule-name-space-after` rule understands [postcss-styl] AST.
 - [at-rule-name-space-after]
 
 [at-rule-name-space-after]: https://stylelint.io/user-guide/rules/at-rule-name-space-after
+[postcss-styl]: https://github.com/ota-meshi/postcss-styl
 
 ## :mag: Implementation
 
