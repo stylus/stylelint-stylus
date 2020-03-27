@@ -82,7 +82,7 @@ module.exports = {
   ],
   rules: {
     // override/add rules settings here, such as:
-    // "stylus/declaration-colon": ["never"]
+    // "stylus/declaration-colon": "never"
   }
 }
 ```
@@ -97,10 +97,11 @@ module.exports = {
   ],
   rules: {
     // add rules settings here, such as:
-    "stylus/declaration-colon": ["never"],
+    "stylus/declaration-colon": "never",
     "stylus/pythonic": "always",
     "stylus/selector-list-comma": "never",
     "stylus/semicolon": "never",
+    "stylus/single-line-comment": "always",
   }
 }
 ```
@@ -128,7 +129,6 @@ These rules relate to possible syntax or logic errors in Stylus.
 |:---|:--------|:------------|
 |  | [stylus/at-rule-no-unknown](./docs/rules/at-rule-no-unknown.md) | disallow unknown at-rules. |
 |  | [stylus/single-line-comment-no-empty](./docs/rules/single-line-comment-no-empty.md) | disallow empty single-line comments. |
-| :wrench: | [stylus/single-line-comment](./docs/rules/single-line-comment.md) | enforces comment style where single-line comments are allowed. |
 
 ### Standard Rules
 
@@ -151,6 +151,7 @@ These rules relate to style guidelines.
 | :wrench: | [stylus/selector-list-comma](./docs/rules/selector-list-comma.md) | require or disallow selector list comma. |
 | :wrench: | [stylus/semicolon](./docs/rules/semicolon.md) | require or disallow semicolon. |
 | :wrench: | [stylus/single-line-comment-double-slash-space-after](./docs/rules/single-line-comment-double-slash-space-after.md) | require or disallow whitespace after the double-slash of single-line comments. |
+| :wrench: | [stylus/single-line-comment](./docs/rules/single-line-comment.md) | enforces comment style where single-line comments are allowed. |
 
 <!--RULES_TABLE_END-->
 
