@@ -11,7 +11,7 @@
     "column": 1,
     "rule": "stylus/pythonic",
     "severity": "error",
-    "text": "Expected pythonic (i.e. indentation-based) (stylus/pythonic)"
+    "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
   },
   {
     "line": 84,
@@ -26,6 +26,13 @@
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Unexpected semicolon (stylus/semicolon)"
+  },
+  {
+    "line": 21,
+    "column": 1,
+    "rule": "stylus/single-line-comment",
+    "severity": "error",
+    "text": "Expected single-line comment (stylus/single-line-comment)"
   },
   {
     "line": 52,

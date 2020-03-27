@@ -44,7 +44,12 @@ a
 
 - [declaration-block-trailing-semicolon]
 
+## :books: Further reading
+
+- [Stylus - Features]
+
 [declaration-block-trailing-semicolon]: https://stylelint.io/user-guide/rules/declaration-block-trailing-semicolon
+[Stylus - Features]: https://stylus-lang.com/#features
 
 ## :mag: Implementation
 

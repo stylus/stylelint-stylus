@@ -92,6 +92,10 @@ function runFixtures(
                                 "error",
                                 "Unexpected severity"
                             )
+                            assert.ok(
+                                !/^Unknown rule/u.test(warning.text),
+                                `Unexpected 'Unknown rule' error: Actual "${warning.text}"`
+                            )
                         }
                     }))
 

@@ -1,0 +1,36 @@
+
+/* "always"*/
+
+/* ✓ GOOD*/
+/* single line comment*/
+.foo { /* single line comment*/
+}
+.foo {
+/* not eol comment */ }
+/*
+ * multi
+ * line
+ * comment
+ */
+/*! buffered */
+
+/* ✗ BAD */
+/* multi line comment, but a single line. */
+/*
+  multi-line comment, but the content is a single line.
+*/
+.foo { /* multi line comment, but a single line. */
+}
+
+
+/* "never" */
+
+/* ✓ GOOD */
+/* multi line comment */
+.foo { /* multi line comment */
+}
+
+/* ✗ BAD*/
+/* single line comment*/
+.foo { /* single line comment*/
+}

@@ -54,7 +54,7 @@
     "stylelint-plugin-stylus": "file:."
   },
   "dependencies": {
-    "postcss-styl": "^0.5.8",
+    "postcss-styl": "^0.5.9",
     "postcss-syntax": "^0.36.2",
     "style-search": "^0.1.0"
   },

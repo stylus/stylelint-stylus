@@ -17,7 +17,7 @@ This rule enforces pythonic or brace style.
 }
 ```
 
-- `"always"` ... Requires pythonic style.
+- `"always"` ... Requires pythonic style (i.e. indentation-based).
 - `"never"` ... Requires brace style.
 
 ### `"always"`
@@ -45,6 +45,14 @@ This rule enforces pythonic or brace style.
 .foo
   color: red;
 ```
+
+## :books: Further reading
+
+- [Stylus - SELECTORS - Indentation]
+- [Stylus - Features]
+
+[Stylus - Features]: https://stylus-lang.com/#features
+[Stylus - SELECTORS - Indentation]: https://stylus-lang.com/docs/selectors.html#indentation
 
 ## :mag: Implementation
 

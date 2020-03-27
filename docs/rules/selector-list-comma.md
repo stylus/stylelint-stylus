@@ -48,6 +48,14 @@ This rule require or disallow selector list comma.
   color red
 ```
 
+## :books: Further reading
+
+- [Stylus - SELECTORS - Rule Sets]
+- [Stylus - Features]
+
+[Stylus - Features]: https://stylus-lang.com/#features
+[Stylus - SELECTORS - Rule Sets]: https://stylus-lang.com/docs/selectors.html#rule-sets
+
 ## :mag: Implementation
 
 - [Rule source](https://github.com/ota-meshi/stylelint-plugin-stylus/blob/master/lib/rules/selector-list-comma.js)

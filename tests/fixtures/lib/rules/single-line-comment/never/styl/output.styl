@@ -1,0 +1,19 @@
+.foo {
+/* block last */    }
+.foo {
+/* has next */ color: red;
+}
+
+/* ! buffered */
+//! buffered
+/// triple slash
+
+.foo { /* BAD*/
+  color: red;
+}
+.foo { /* BAD*/
+}
+.foo
+  /* BAD*/
+  color: red;
+

@@ -20,14 +20,29 @@
 </p>
 <br>
 
+## :name_badge: Introduction
+
+[stylelint] plugin for [Stylus].
+
+This plugin allows us to check the [Stylus] with [stylelint].
+
+- Finds the many wrong use of selector, declaration, at-rule and more using the rules of [stylelint].
+- Finds the violations in coding style for [Stylus].
+
+[stylelint editor integrations](https://stylelint.io/user-guide/integrations/editor) are useful to check your code in real-time.
+
 ## :cd: Installation
 
 Via [npm]:
+
 ```bash
 npm install --save-dev stylelint stylelint-plugin-stylus
 ```
 
 ## :book: Usage
+
+`stylelint-plugin-stylus` is a plugin for [stylelint], so it is for use with [stylelint].  
+If you are not using [stylelint], start by using [stylelint].
 
 ### Custom Syntax
 
@@ -72,14 +87,34 @@ module.exports = {
 }
 ```
 
-## RuleSets
+If you want to set all the rules yourself, set as follows.
+
+```js
+module.exports = {
+  plugins: [
+    // add this plugin here:
+    "stylelint-plugin-stylus"
+  ],
+  rules: {
+    // add rules settings here, such as:
+    "stylus/declaration-colon": ["never"],
+    "stylus/pythonic": "always",
+    "stylus/selector-list-comma": "never",
+    "stylus/semicolon": "never",
+  }
+}
+```
+
+## :arrow_heading_up: RuleSets
 
 This plugin provides some rulesets. It can be used by specifying it in the [`extends` of the stylelint configuration](https://stylelint.io/user-guide/configure#extends).
 
 - `"stylelint-plugin-stylus/recommended"` ... Turns Off rules that cannot be used with the Stylus within `stylelint` (WIP). And turns On rules that possible errors rules within `stylelint-plugin-stylus`.
 - `"stylelint-plugin-stylus/standard"` ... Above, plus rules to improve code readability.
 
-## Rules
+## :white_check_mark: Rules
+
+You can use [the rules built into stylelint](https://stylelint.io/user-guide/rules/list) and the rules provided by this plugin.
 
 The `--fix` option on the [command line](https://stylelint.io/user-guide/usage/options#fix) automatically fixes problems reported by rules which have a wrench :wrench: below.
 
@@ -92,7 +127,8 @@ These rules relate to possible syntax or logic errors in Stylus.
 |    | Rule ID | Description |
 |:---|:--------|:------------|
 |  | [stylus/at-rule-no-unknown](./docs/rules/at-rule-no-unknown.md) | disallow unknown at-rules. |
-|  | [stylus/inline-comment-no-empty](./docs/rules/inline-comment-no-empty.md) | disallow empty inline comments. |
+|  | [stylus/single-line-comment-no-empty](./docs/rules/single-line-comment-no-empty.md) | disallow empty single-line comments. |
+| :wrench: | [stylus/single-line-comment](./docs/rules/single-line-comment.md) | enforces comment style where single-line comments are allowed. |
 
 ### Standard Rules
 
@@ -109,12 +145,12 @@ These rules relate to style guidelines.
 | :wrench: | [stylus/block-opening-brace-space-after](./docs/rules/block-opening-brace-space-after.md) | require a single space or disallow whitespace after the opening brace of blocks. |
 | :wrench: | [stylus/block-opening-brace-space-before](./docs/rules/block-opening-brace-space-before.md) | require a single space or disallow whitespace before the opening brace of blocks. |
 | :wrench: | [stylus/declaration-colon](./docs/rules/declaration-colon.md) | require or disallow declaration colons. |
-| :wrench: | [stylus/inline-commnet-double-slash-space-after](./docs/rules/inline-commnet-double-slash-space-after.md) | require or disallow whitespace after the double-slash of inline commnets. |
 | :wrench: | [stylus/pythonic](./docs/rules/pythonic.md) | enforces pythonic or brace style. |
 | :wrench: | [stylus/selector-list-comma-newline-after](./docs/rules/selector-list-comma-newline-after.md) | require a newline whitespace after the commas of selector lists. |
 | :wrench: | [stylus/selector-list-comma-space-before](./docs/rules/selector-list-comma-space-before.md) | require a single space or disallow whitespace before the commas of selector lists. |
 | :wrench: | [stylus/selector-list-comma](./docs/rules/selector-list-comma.md) | require or disallow selector list comma. |
 | :wrench: | [stylus/semicolon](./docs/rules/semicolon.md) | require or disallow semicolon. |
+| :wrench: | [stylus/single-line-comment-double-slash-space-after](./docs/rules/single-line-comment-double-slash-space-after.md) | require or disallow whitespace after the double-slash of single-line comments. |
 
 <!--RULES_TABLE_END-->
 

@@ -1,0 +1,51 @@
+[
+  {
+    "line": 2,
+    "column": 1,
+    "rule": "stylus/single-line-comment",
+    "severity": "error",
+    "text": "Unexpected single-line comment (stylus/single-line-comment)"
+  },
+  {
+    "line": 4,
+    "column": 1,
+    "rule": "stylus/single-line-comment",
+    "severity": "error",
+    "text": "Unexpected single-line comment (stylus/single-line-comment)"
+  },
+  {
+    "line": 5,
+    "column": 1,
+    "rule": "stylus/single-line-comment",
+    "severity": "error",
+    "text": "Unexpected single-line comment (stylus/single-line-comment)"
+  },
+  {
+    "line": 6,
+    "column": 8,
+    "rule": "stylus/single-line-comment",
+    "severity": "error",
+    "text": "Unexpected single-line comment (stylus/single-line-comment)"
+  },
+  {
+    "line": 33,
+    "column": 1,
+    "rule": "stylus/single-line-comment",
+    "severity": "error",
+    "text": "Unexpected single-line comment (stylus/single-line-comment)"
+  },
+  {
+    "line": 34,
+    "column": 1,
+    "rule": "stylus/single-line-comment",
+    "severity": "error",
+    "text": "Unexpected single-line comment (stylus/single-line-comment)"
+  },
+  {
+    "line": 35,
+    "column": 8,
+    "rule": "stylus/single-line-comment",
+    "severity": "error",
+    "text": "Unexpected single-line comment (stylus/single-line-comment)"
+  }
+]

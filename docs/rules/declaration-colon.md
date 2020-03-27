@@ -40,6 +40,12 @@ a
   color: red
 ```
 
+## :books: Further reading
+
+- [Stylus - Features]
+
+[Stylus - Features]: https://stylus-lang.com/#features
+
 ## :mag: Implementation
 
 - [Rule source](https://github.com/ota-meshi/stylelint-plugin-stylus/blob/master/lib/rules/declaration-colon.js)

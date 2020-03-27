@@ -11,6 +11,49 @@
   color red
   background red
 
+textarea
+input
+  color #A7A7A7
+  &:hover
+    color #000
+
+.foo
+  &__bar
+    width: 10px
+
+    ^[0]:hover &
+      width: 20px
+
+.foo
+  & .bar
+    width: 10px
+
+    ^[0]:hover ^[1..-1]
+      width: 20px
+
+.block
+  &__element
+    ~/:hover &
+      color: red
+
+.foo
+  .bar
+    width: 10px
+
+    &,
+    ../ .baz
+      height: 10px
+
+textarea
+input
+  color #A7A7A7
+  &:hover,
+  /.is-hovered
+    color #000
+
+{selector('.a', '.b', '.c, .d')}
+  color: red
+
 var = 123
 
 @media print
@@ -73,9 +116,20 @@ support-for-ie ?= true
 add(a, b)
   a + b
 
+add(a,b)
+  a + b
+
 @foo
   a
     color red
+
+body
+  apply-mixins = true
+  pad(padding, 10) if apply-mixins
+
+sum(nums)
+  sum = 0
+  sum += n for n in nums
 
 //comment
 // comment

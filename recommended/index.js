@@ -4,7 +4,7 @@ module.exports = {
     plugins: [require.resolve("../")],
     rules: {
         // List of possible errors rules within `stylelint-plugin-stylus`
-        "stylus/inline-comment-no-empty": true,
+        "stylus/single-line-comment-no-empty": true,
         "stylus/at-rule-no-unknown": true,
 
         // List of core rules that cannot be used with the Stylus.

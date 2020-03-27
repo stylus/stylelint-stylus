@@ -4,6 +4,6 @@
     "column": 1,
     "rule": "stylus/pythonic",
     "severity": "error",
-    "text": "Expected braces (stylus/pythonic)"
+    "text": "Expected braces in block (stylus/pythonic)"
   }
 ]

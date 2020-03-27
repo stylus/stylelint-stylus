@@ -5,10 +5,11 @@ module.exports = {
     extends: [require.resolve("../recommended")],
     rules: {
         "stylus/declaration-colon": "never",
-        "stylus/inline-commnet-double-slash-space-after": "always",
+        "stylus/single-line-comment-double-slash-space-after": "always",
         "stylus/pythonic": "always",
         "stylus/selector-list-comma": "never",
         "stylus/semicolon": "never",
+        "stylus/single-line-comment": "always",
 
         // wrapper core rules
         // - brace

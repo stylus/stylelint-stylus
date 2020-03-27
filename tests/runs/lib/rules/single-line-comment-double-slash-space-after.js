@@ -7,9 +7,9 @@ const path = require("path")
 const { ruleTester } = require("../../../utils/tester")
 
 ruleTester(
-    "stylus/inline-commnet-double-slash-space-after",
+    "stylus/single-line-comment-double-slash-space-after",
     path.resolve(
         __dirname,
-        "../../../fixtures/lib/rules/inline-commnet-double-slash-space-after"
+        "../../../fixtures/lib/rules/single-line-comment-double-slash-space-after"
     )
 )

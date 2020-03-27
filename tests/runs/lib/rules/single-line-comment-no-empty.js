@@ -7,9 +7,9 @@ const path = require("path")
 const { ruleTester } = require("../../../utils/tester")
 
 ruleTester(
-    "stylus/inline-comment-no-empty",
+    "stylus/single-line-comment-no-empty",
     path.resolve(
         __dirname,
-        "../../../fixtures/lib/rules/inline-comment-no-empty"
+        "../../../fixtures/lib/rules/single-line-comment-no-empty"
     )
 )

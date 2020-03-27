@@ -3,6 +3,6 @@
 module.exports = {
     plugins: ["stylelint-plugin-stylus"],
     rules: {
-        "stylus/inline-comment-no-empty": true,
+        "stylus/single-line-comment-no-empty": true,
     },
 }
