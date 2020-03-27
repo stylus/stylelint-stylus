@@ -9,6 +9,12 @@
 
 This rule require a newline after the opening brace of blocks.
 
+## :question: Why Not Use `stylelint` Rule
+
+The [block-opening-brace-newline-after] rule incorrectly report errors in Stylus.  
+This problem is that the core rules do not understand that can omit braces in Stylus.  
+The `stylus/block-opening-brace-newline-after` rule understands that can omit braces in Stylus.
+
 ## :wrench: Options
 
 See [stylelint - block-opening-brace-newline-after - Options](https://stylelint.io/user-guide/rules/block-opening-brace-newline-after#options).

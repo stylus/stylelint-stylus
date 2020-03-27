@@ -9,6 +9,12 @@
 
 This rule reports trailing zeros in numbers.
 
+## :question: Why Not Use `stylelint` Rule
+
+The [number-no-trailing-zeros] rule incorrectly report errors in Stylus.  
+This problem is that the core rules do not understand that range operator of the Stylus.  
+The `stylus/number-no-trailing-zeros` rule understands that range operator of the Stylus.
+
 ## :wrench: Options
 
 See [stylelint - number-no-trailing-zeros - Options](https://stylelint.io/user-guide/rules/number-no-trailing-zeros#options).

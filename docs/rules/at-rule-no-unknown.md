@@ -8,6 +8,12 @@
 
 This rule reports other than at-rules defined in the CSS specification and at-rules available in the Stylus standard.
 
+## :question: Why Not Use `stylelint` Rule
+
+The [at-rule-no-unknown] rule incorrectly report errors in Stylus.  
+This problem is that the core rules do not understand at-rules of the Stylus.  
+The `stylus/at-rule-no-unknown` rule understands at-rules of the Stylus.
+
 ## :wrench: Options
 
 See [stylelint - at-rule-no-unknown - Options](https://stylelint.io/user-guide/rules/at-rule-no-unknown#options).

@@ -9,7 +9,7 @@
 
 This rule enforce lowercase or uppercase for hex colors.
 
-## :question: Why
+## :question: Why Not Use `stylelint` Rule
 
 The [selector-pseudo-class-case] rule correctly report errors in Stylus, but breaks the syntax in autofix.  
 This problem is that the core rules do not understand selector of the Stylus.  

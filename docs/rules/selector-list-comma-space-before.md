@@ -9,6 +9,12 @@
 
 This rule require a single space or disallow whitespace before the commas of selector lists.
 
+## :question: Why Not Use `stylelint` Rule
+
+The [selector-list-comma-space-before] rule incorrectly report errors in Stylus.  
+This problem is that the core rules do not understand that can omit commas in Stylus.  
+The `stylus/selector-list-comma-space-before` rule understands that can omit commas in Stylus.
+
 ## :wrench: Options
 
 ```json

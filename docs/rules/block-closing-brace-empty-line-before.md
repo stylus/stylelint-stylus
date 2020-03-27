@@ -9,6 +9,12 @@
 
 This rule require or disallow an empty line before the closing brace of blocks.
 
+## :question: Why Not Use `stylelint` Rule
+
+The [block-closing-brace-empty-line-before] rule incorrectly report errors in Stylus.  
+This problem is that the core rules do not understand that can omit braces in Stylus.  
+The `stylus/block-closing-brace-empty-line-before` rule understands that can omit braces in Stylus.
+
 ## :wrench: Options
 
 See [stylelint - block-closing-brace-empty-line-before - Options](https://stylelint.io/user-guide/rules/block-closing-brace-empty-line-before#options).

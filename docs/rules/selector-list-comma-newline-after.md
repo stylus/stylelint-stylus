@@ -9,6 +9,12 @@
 
 This rule require a newline whitespace after the commas of selector lists.
 
+## :question: Why Not Use `stylelint` Rule
+
+The [selector-list-comma-newline-after] rule incorrectly report errors in Stylus.  
+This problem is that the core rules do not understand that can omit commas in Stylus.  
+The `stylus/selector-list-comma-newline-after` rule understands that can omit commas in Stylus.
+
 ## :wrench: Options
 
 ```json

@@ -9,6 +9,12 @@
 
 This rule require a single space or disallow whitespace before the closing brace of blocks.
 
+## :question: Why Not Use `stylelint` Rule
+
+The [block-closing-brace-space-before] rule incorrectly report errors in Stylus.  
+This problem is that the core rules do not understand that can omit braces in Stylus.  
+The `stylus/block-closing-brace-space-before` rule understands that can omit braces in Stylus.
+
 ## :wrench: Options
 
 See [stylelint - block-closing-brace-space-before - Options](https://stylelint.io/user-guide/rules/block-closing-brace-space-before#options).
