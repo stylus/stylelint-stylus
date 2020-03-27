@@ -1,0 +1,23 @@
+[
+  {
+    "line": 17,
+    "column": 5,
+    "rule": "stylus/number-leading-zero",
+    "severity": "error",
+    "text": "Unexpected leading zero (stylus/number-leading-zero)"
+  },
+  {
+    "line": 4,
+    "column": 18,
+    "rule": "stylus/number-leading-zero",
+    "severity": "error",
+    "text": "Unexpected leading zero (stylus/number-leading-zero)"
+  },
+  {
+    "line": 5,
+    "column": 31,
+    "rule": "stylus/number-leading-zero",
+    "severity": "error",
+    "text": "Unexpected leading zero (stylus/number-leading-zero)"
+  }
+]

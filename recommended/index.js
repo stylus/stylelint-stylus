@@ -33,6 +33,10 @@ module.exports = {
         // - The `postcss-style` atrule AST contains function calls.
         "at-rule-name-space-after": null,
 
+        // - False positives the Range Operator of the Stylus.
+        "number-leading-zero": null,
+        "number-no-trailing-zeros": null,
+
         // - Useless for the Stylus
         "property-no-unknown": null,
         "at-rule-no-unknown": null,

@@ -1,12 +1,5 @@
 [
   {
-    "line": 85,
-    "column": 8,
-    "rule": "stylus/declaration-colon",
-    "severity": "error",
-    "text": "Unexpected colon (stylus/declaration-colon)"
-  },
-  {
     "line": 83,
     "column": 1,
     "rule": "stylus/pythonic",
@@ -33,6 +26,13 @@
     "rule": "stylus/single-line-comment",
     "severity": "error",
     "text": "Expected single-line comment (stylus/single-line-comment)"
+  },
+  {
+    "line": 85,
+    "column": 8,
+    "rule": "stylus/declaration-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/declaration-colon)"
   },
   {
     "line": 52,

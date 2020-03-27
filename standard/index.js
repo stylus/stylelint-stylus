@@ -25,5 +25,8 @@ module.exports = {
         "stylus/selector-list-comma-space-before": "never",
         // - atrule
         "stylus/at-rule-name-space-after": "always-single-line",
+        // - number
+        "stylus/number-leading-zero": "always",
+        "stylus/number-no-trailing-zeros": true,
     },
 }

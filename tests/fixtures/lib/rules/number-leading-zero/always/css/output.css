@@ -1,0 +1,16 @@
+a { line-height: 0.5; }
+
+/* "always" */
+/* incorrect */
+a { line-height: 0.5; }
+a { transform: translate(2px, 0.4px); }
+/* correct */
+a { line-height: 0.5; }
+a { transform: translate(2px, 0.4px); }
+/* "never" */
+/* incorrect */
+a { line-height: 0.5; }
+a { transform: translate(2px, 0.4px); }
+/* correct */
+a { line-height: 0.5; }
+a { transform: translate(2px, 0.4px); }

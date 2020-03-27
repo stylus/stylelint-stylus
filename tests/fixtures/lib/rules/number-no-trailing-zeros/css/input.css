@@ -1,0 +1,8 @@
+a { top: 0.5000px; bottom: 1.0px; }
+
+/* incorrect */
+a { top: 1.0px }
+a { top: 1.01000px }
+/* correct */
+a { top: 1px }
+a { top: 1.01px }

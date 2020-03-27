@@ -145,6 +145,8 @@ These rules relate to style guidelines.
 | :wrench: | [stylus/block-opening-brace-space-after](./docs/rules/block-opening-brace-space-after.md) | require a single space or disallow whitespace after the opening brace of blocks. |
 | :wrench: | [stylus/block-opening-brace-space-before](./docs/rules/block-opening-brace-space-before.md) | require a single space or disallow whitespace before the opening brace of blocks. |
 | :wrench: | [stylus/declaration-colon](./docs/rules/declaration-colon.md) | require or disallow declaration colons. |
+| :wrench: | [stylus/number-leading-zero](./docs/rules/number-leading-zero.md) | require or disallow a leading zero for fractional numbers less than 1. |
+| :wrench: | [stylus/number-no-trailing-zeros](./docs/rules/number-no-trailing-zeros.md) | disallow trailing zeros in numbers. |
 | :wrench: | [stylus/pythonic](./docs/rules/pythonic.md) | enforces pythonic or brace style. |
 | :wrench: | [stylus/selector-list-comma-newline-after](./docs/rules/selector-list-comma-newline-after.md) | require a newline whitespace after the commas of selector lists. |
 | :wrench: | [stylus/selector-list-comma-space-before](./docs/rules/selector-list-comma-space-before.md) | require a single space or disallow whitespace before the commas of selector lists. |

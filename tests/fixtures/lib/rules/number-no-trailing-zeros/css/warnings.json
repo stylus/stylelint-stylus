@@ -1,0 +1,30 @@
+[
+  {
+    "line": 1,
+    "column": 13,
+    "rule": "stylus/number-no-trailing-zeros",
+    "severity": "error",
+    "text": "Unexpected trailing zero(s) (stylus/number-no-trailing-zeros)"
+  },
+  {
+    "line": 1,
+    "column": 30,
+    "rule": "stylus/number-no-trailing-zeros",
+    "severity": "error",
+    "text": "Unexpected trailing zero(s) (stylus/number-no-trailing-zeros)"
+  },
+  {
+    "line": 4,
+    "column": 12,
+    "rule": "stylus/number-no-trailing-zeros",
+    "severity": "error",
+    "text": "Unexpected trailing zero(s) (stylus/number-no-trailing-zeros)"
+  },
+  {
+    "line": 5,
+    "column": 14,
+    "rule": "stylus/number-no-trailing-zeros",
+    "severity": "error",
+    "text": "Unexpected trailing zero(s) (stylus/number-no-trailing-zeros)"
+  }
+]

@@ -43,10 +43,12 @@ function ruleTester(ruleName, dir) {
 
 /**
  * @param {string} dir
+ * @param {object} options
  */
-function fixturesTester(dir) {
+function fixturesTester(dir, options) {
     describe(dir, () => {
         runFixtures(dir, {
+            ...options,
             assertWarning() {
                 /* noop */
             },
@@ -84,6 +86,10 @@ function runFixtures(
                             path.resolve(fixture.dir, "warnings.json"),
                             "Error details do not match."
                         )
+
+                        if (typeof options[fixture.name] === "function") {
+                            options[fixture.name]({ warnings: result.warnings })
+                        }
 
                         for (const warning of result.warnings) {
                             options.assertWarning(warning)
