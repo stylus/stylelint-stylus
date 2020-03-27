@@ -19,6 +19,7 @@ const allRules = [
 ]
 
 fixturesTester(path.resolve(__dirname, "../../fixtures/standard"), {
+    autofixRepeat: 10,
     "styl-warn"({ warnings }) {
         const targets = [...allRules]
         const remainings = targets.filter(ruleName =>
@@ -27,7 +28,7 @@ fixturesTester(path.resolve(__dirname, "../../fixtures/standard"), {
 
         assert.ok(
             remainings.length === 0,
-            `"styl-warn.styl" must contain all errors. Remaining: [${remainings.join()}]`
+            `"styl-warn/input.styl" must contain all errors. Remaining: [${remainings.join()}]`
         )
     },
 })

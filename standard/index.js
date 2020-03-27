@@ -28,5 +28,8 @@ module.exports = {
         // - number
         "stylus/number-leading-zero": "always",
         "stylus/number-no-trailing-zeros": true,
+
+        // - wrong autofix
+        "stylus/color-hex-case": "lower",
     },
 }

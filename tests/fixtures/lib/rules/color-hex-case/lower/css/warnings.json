@@ -1,0 +1,9 @@
+[
+  {
+    "line": 1,
+    "column": 12,
+    "rule": "stylus/color-hex-case",
+    "severity": "error",
+    "text": "Expected \"#FFF\" to be \"#fff\" (stylus/color-hex-case)"
+  }
+]

@@ -74,15 +74,9 @@ function runFixtures(
         },
         fixable: true,
         checkAutofixWarnings: true,
+        autofixRepeat: 0,
     }
 ) {
-    Object.assign(options, {
-        assertWarning(_warning) {
-            /* noop */
-        },
-        fixable: true,
-        checkAutofixWarnings: false,
-    })
     for (const fixture of listupFixtures(dir)) {
         describe(`${fixture.name}`, () => {
             it("lint", () =>
@@ -117,13 +111,11 @@ function runFixtures(
                 assertNonFile(fixture.output)
                 return
             }
-            it("autofix", () =>
-                lintFixture(fixture, { fix: true })
-                    .then(r => ({
-                        output: r.output,
-                        result: r.results[0],
-                    }))
-                    .then(({ output, result }) => {
+            it("autofix", () => {
+                const originalCode = read(fixture.input)
+
+                return autofix(originalCode, options.autofixRepeat).then(
+                    ({ output, result }) => {
                         assertTextFile(
                             output,
                             fixture.output,
@@ -141,16 +133,39 @@ function runFixtures(
                                     "Autofixed warnings is incorrect."
                                 )
                             })
-                    }))
+                    }
+                )
+
+                function autofix(code, repeat = 0) {
+                    return lintCode(code, fixture.input, { fix: true })
+                        .then(r => ({
+                            output: r.output,
+                            result: r.results[0],
+                        }))
+                        .then(({ output, result }) => {
+                            if (output !== code && repeat > 0) {
+                                return autofix(output, repeat - 1)
+                            }
+                            return {
+                                output,
+                                result,
+                            }
+                        })
+                }
+            })
         })
     }
 }
 
 function lintFixture(fixture, options = {}) {
     const code = read(fixture.input)
+    return lintCode(code, fixture.input, options)
+}
+
+function lintCode(code, codeFilename, options = {}) {
     return stylelint.lint({
         code,
-        codeFilename: fixture.input,
+        codeFilename,
         customSyntax: require.resolve("../../custom-syntax"),
         ...options,
     })

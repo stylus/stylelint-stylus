@@ -1,0 +1,37 @@
+[
+  {
+    "line": 3,
+    "column": 12,
+    "rule": "stylus/color-hex-case",
+    "severity": "error",
+    "text": "Expected \"#fff\" to be \"#FFF\" (stylus/color-hex-case)"
+  },
+  {
+    "line": 7,
+    "column": 15,
+    "rule": "stylus/color-hex-case",
+    "severity": "error",
+    "text": "Expected \"#eee\" to be \"#EEE\" (stylus/color-hex-case)"
+  },
+  {
+    "line": 7,
+    "column": 26,
+    "rule": "stylus/color-hex-case",
+    "severity": "error",
+    "text": "Expected \"#eeeeee\" to be \"#EEEEEE\" (stylus/color-hex-case)"
+  },
+  {
+    "line": 12,
+    "column": 9,
+    "rule": "stylus/color-hex-case",
+    "severity": "error",
+    "text": "Expected \"#fff\" to be \"#FFF\" (stylus/color-hex-case)"
+  },
+  {
+    "line": 15,
+    "column": 9,
+    "rule": "stylus/color-hex-case",
+    "severity": "error",
+    "text": "Expected \"#fff\" to be \"#FFF\" (stylus/color-hex-case)"
+  }
+]

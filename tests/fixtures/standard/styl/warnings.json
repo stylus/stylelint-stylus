@@ -149,9 +149,9 @@
   {
     "line": 85,
     "column": 10,
-    "rule": "color-hex-case",
+    "rule": "stylus/color-hex-case",
     "severity": "error",
-    "text": "Expected \"#E2E21E\" to be \"#e2e21e\" (color-hex-case)"
+    "text": "Expected \"#E2E21E\" to be \"#e2e21e\" (stylus/color-hex-case)"
   },
   {
     "line": 85,

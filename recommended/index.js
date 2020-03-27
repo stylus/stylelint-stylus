@@ -37,6 +37,9 @@ module.exports = {
         "number-leading-zero": null,
         "number-no-trailing-zeros": null,
 
+        // - Wrong autofix on the Stylus.
+        "color-hex-case": null,
+
         // - Useless for the Stylus
         "property-no-unknown": null,
         "at-rule-no-unknown": null,

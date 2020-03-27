@@ -250,5 +250,47 @@
     "rule": "stylus/number-no-trailing-zeros",
     "severity": "error",
     "text": "Unexpected trailing zero(s) (stylus/number-no-trailing-zeros)"
+  },
+  {
+    "line": 28,
+    "column": 1,
+    "rule": "stylus/pythonic",
+    "severity": "error",
+    "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
+  },
+  {
+    "line": 29,
+    "column": 19,
+    "rule": "stylus/semicolon",
+    "severity": "error",
+    "text": "Unexpected semicolon (stylus/semicolon)"
+  },
+  {
+    "line": 30,
+    "column": 3,
+    "rule": "declaration-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before declaration (declaration-empty-line-before)"
+  },
+  {
+    "line": 30,
+    "column": 8,
+    "rule": "stylus/declaration-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/declaration-colon)"
+  },
+  {
+    "line": 30,
+    "column": 10,
+    "rule": "stylus/color-hex-case",
+    "severity": "error",
+    "text": "Expected \"#E2E21E\" to be \"#e2e21e\" (stylus/color-hex-case)"
+  },
+  {
+    "line": 30,
+    "column": 17,
+    "rule": "stylus/semicolon",
+    "severity": "error",
+    "text": "Unexpected semicolon (stylus/semicolon)"
   }
 ]
