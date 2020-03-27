@@ -1,12 +1,5 @@
 [
   {
-    "line": 16,
-    "column": 5,
-    "rule": "stylus/number-leading-zero",
-    "severity": "error",
-    "text": "Expected a leading zero (stylus/number-leading-zero)"
-  },
-  {
     "line": 2,
     "column": 18,
     "rule": "stylus/number-leading-zero",
@@ -16,6 +9,13 @@
   {
     "line": 3,
     "column": 31,
+    "rule": "stylus/number-leading-zero",
+    "severity": "error",
+    "text": "Expected a leading zero (stylus/number-leading-zero)"
+  },
+  {
+    "line": 16,
+    "column": 5,
     "rule": "stylus/number-leading-zero",
     "severity": "error",
     "text": "Expected a leading zero (stylus/number-leading-zero)"

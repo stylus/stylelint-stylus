@@ -15,6 +15,13 @@
   },
   {
     "line": 14,
+    "column": 7,
+    "rule": "stylus/block-opening-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"{\" (stylus/block-opening-brace-newline-after)"
+  },
+  {
+    "line": 14,
     "column": 11,
     "rule": "stylus/block-opening-brace-newline-after",
     "severity": "error",
@@ -29,13 +36,6 @@
   },
   {
     "line": 17,
-    "column": 11,
-    "rule": "stylus/block-opening-brace-newline-after",
-    "severity": "error",
-    "text": "Expected newline after \"{\" (stylus/block-opening-brace-newline-after)"
-  },
-  {
-    "line": 14,
     "column": 7,
     "rule": "stylus/block-opening-brace-newline-after",
     "severity": "error",
@@ -43,7 +43,7 @@
   },
   {
     "line": 17,
-    "column": 7,
+    "column": 11,
     "rule": "stylus/block-opening-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"{\" (stylus/block-opening-brace-newline-after)"

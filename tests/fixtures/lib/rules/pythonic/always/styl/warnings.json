@@ -1,12 +1,5 @@
 [
   {
-    "line": 19,
-    "column": 1,
-    "rule": "stylus/pythonic",
-    "severity": "error",
-    "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
-  },
-  {
     "line": 4,
     "column": 1,
     "rule": "stylus/pythonic",
@@ -15,6 +8,13 @@
   },
   {
     "line": 10,
+    "column": 1,
+    "rule": "stylus/pythonic",
+    "severity": "error",
+    "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
+  },
+  {
+    "line": 19,
     "column": 1,
     "rule": "stylus/pythonic",
     "severity": "error",

@@ -12,6 +12,14 @@ const {
 } = require("./index")
 const rules = require("../..")
 
+const compareWarnings = comparingChain(
+    warn => (warn.line != null ? warn.line : -1),
+    warn => (warn.column != null ? warn.column : -1),
+    warn => warn.rule || "",
+    warn => warn.severity || "",
+    warn => warn.text || ""
+)
+
 module.exports = { ruleTester, fixturesTester }
 
 /**
@@ -82,7 +90,7 @@ function runFixtures(
                     .then(r => r.results[0])
                     .then(result => {
                         assertJsonFile(
-                            result.warnings,
+                            [...result.warnings].sort(compareWarnings),
                             path.resolve(fixture.dir, "warnings.json"),
                             "Error details do not match."
                         )
@@ -146,4 +154,27 @@ function lintFixture(fixture, options = {}) {
         customSyntax: require.resolve("../../custom-syntax"),
         ...options,
     })
+}
+
+function comparingChain(...extractors) {
+    const compares = extractors.map(extractor => (a, b) => {
+        const ae = extractor(a)
+        const be = extractor(b)
+        if (ae < be) {
+            return -1
+        }
+        if (ae > be) {
+            return 1
+        }
+        return 0
+    })
+    return (a, b) => {
+        for (const compare of compares) {
+            const ret = compare(a, b)
+            if (ret !== 0) {
+                return ret
+            }
+        }
+        return 0
+    }
 }

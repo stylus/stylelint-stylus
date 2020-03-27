@@ -28,8 +28,22 @@
     "text": "Expected empty line before closing brace (stylus/block-closing-brace-empty-line-before)"
   },
   {
+    "line": 34,
+    "column": 1,
+    "rule": "stylus/block-closing-brace-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before closing brace (stylus/block-closing-brace-empty-line-before)"
+  },
+  {
     "line": 39,
     "column": 3,
+    "rule": "stylus/block-closing-brace-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before closing brace (stylus/block-closing-brace-empty-line-before)"
+  },
+  {
+    "line": 40,
+    "column": 1,
     "rule": "stylus/block-closing-brace-empty-line-before",
     "severity": "error",
     "text": "Expected empty line before closing brace (stylus/block-closing-brace-empty-line-before)"
@@ -42,8 +56,22 @@
     "text": "Expected empty line before closing brace (stylus/block-closing-brace-empty-line-before)"
   },
   {
+    "line": 46,
+    "column": 1,
+    "rule": "stylus/block-closing-brace-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before closing brace (stylus/block-closing-brace-empty-line-before)"
+  },
+  {
     "line": 52,
     "column": 3,
+    "rule": "stylus/block-closing-brace-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before closing brace (stylus/block-closing-brace-empty-line-before)"
+  },
+  {
+    "line": 58,
+    "column": 1,
     "rule": "stylus/block-closing-brace-empty-line-before",
     "severity": "error",
     "text": "Expected empty line before closing brace (stylus/block-closing-brace-empty-line-before)"
@@ -58,34 +86,6 @@
   {
     "line": 70,
     "column": 3,
-    "rule": "stylus/block-closing-brace-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before closing brace (stylus/block-closing-brace-empty-line-before)"
-  },
-  {
-    "line": 34,
-    "column": 1,
-    "rule": "stylus/block-closing-brace-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before closing brace (stylus/block-closing-brace-empty-line-before)"
-  },
-  {
-    "line": 40,
-    "column": 1,
-    "rule": "stylus/block-closing-brace-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before closing brace (stylus/block-closing-brace-empty-line-before)"
-  },
-  {
-    "line": 46,
-    "column": 1,
-    "rule": "stylus/block-closing-brace-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before closing brace (stylus/block-closing-brace-empty-line-before)"
-  },
-  {
-    "line": 58,
-    "column": 1,
     "rule": "stylus/block-closing-brace-empty-line-before",
     "severity": "error",
     "text": "Expected empty line before closing brace (stylus/block-closing-brace-empty-line-before)"

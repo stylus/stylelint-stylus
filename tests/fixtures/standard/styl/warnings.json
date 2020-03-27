@@ -1,82 +1,5 @@
 [
   {
-    "line": 83,
-    "column": 1,
-    "rule": "stylus/pythonic",
-    "severity": "error",
-    "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
-  },
-  {
-    "line": 84,
-    "column": 19,
-    "rule": "stylus/semicolon",
-    "severity": "error",
-    "text": "Unexpected semicolon (stylus/semicolon)"
-  },
-  {
-    "line": 85,
-    "column": 17,
-    "rule": "stylus/semicolon",
-    "severity": "error",
-    "text": "Unexpected semicolon (stylus/semicolon)"
-  },
-  {
-    "line": 21,
-    "column": 1,
-    "rule": "stylus/single-line-comment",
-    "severity": "error",
-    "text": "Expected single-line comment (stylus/single-line-comment)"
-  },
-  {
-    "line": 85,
-    "column": 8,
-    "rule": "stylus/declaration-colon",
-    "severity": "error",
-    "text": "Unexpected colon (stylus/declaration-colon)"
-  },
-  {
-    "line": 52,
-    "column": 22,
-    "rule": "at-rule-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before at-rule (at-rule-empty-line-before)"
-  },
-  {
-    "line": 62,
-    "column": 20,
-    "rule": "at-rule-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before at-rule (at-rule-empty-line-before)"
-  },
-  {
-    "line": 75,
-    "column": 12,
-    "rule": "at-rule-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before at-rule (at-rule-empty-line-before)"
-  },
-  {
-    "line": 79,
-    "column": 32,
-    "rule": "at-rule-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before at-rule (at-rule-empty-line-before)"
-  },
-  {
-    "line": 85,
-    "column": 10,
-    "rule": "color-hex-case",
-    "severity": "error",
-    "text": "Expected \"#E2E21E\" to be \"#e2e21e\" (color-hex-case)"
-  },
-  {
-    "line": 85,
-    "column": 3,
-    "rule": "declaration-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before declaration (declaration-empty-line-before)"
-  },
-  {
     "line": 6,
     "column": 1,
     "rule": "no-duplicate-selectors",
@@ -91,11 +14,39 @@
     "text": "Unexpected duplicate selector \"body\", first used at line 1 (no-duplicate-selectors)"
   },
   {
+    "line": 21,
+    "column": 1,
+    "rule": "stylus/single-line-comment",
+    "severity": "error",
+    "text": "Expected single-line comment (stylus/single-line-comment)"
+  },
+  {
     "line": 41,
     "column": 1,
     "rule": "no-duplicate-selectors",
     "severity": "error",
     "text": "Unexpected duplicate selector \"body\", first used at line 1 (no-duplicate-selectors)"
+  },
+  {
+    "line": 51,
+    "column": 3,
+    "rule": "indentation",
+    "severity": "error",
+    "text": "Expected indentation of 4 spaces (indentation)"
+  },
+  {
+    "line": 52,
+    "column": 3,
+    "rule": "indentation",
+    "severity": "error",
+    "text": "Expected indentation of 4 spaces (indentation)"
+  },
+  {
+    "line": 52,
+    "column": 22,
+    "rule": "at-rule-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before at-rule (at-rule-empty-line-before)"
   },
   {
     "line": 54,
@@ -119,21 +70,7 @@
     "text": "Unexpected duplicate selector \"body\", first used at line 1 (no-duplicate-selectors)"
   },
   {
-    "line": 69,
-    "column": 1,
-    "rule": "no-duplicate-selectors",
-    "severity": "error",
-    "text": "Unexpected duplicate selector \"body\", first used at line 1 (no-duplicate-selectors)"
-  },
-  {
-    "line": 51,
-    "column": 3,
-    "rule": "indentation",
-    "severity": "error",
-    "text": "Expected indentation of 4 spaces (indentation)"
-  },
-  {
-    "line": 52,
+    "line": 62,
     "column": 3,
     "rule": "indentation",
     "severity": "error",
@@ -141,10 +78,17 @@
   },
   {
     "line": 62,
-    "column": 3,
-    "rule": "indentation",
+    "column": 20,
+    "rule": "at-rule-empty-line-before",
     "severity": "error",
-    "text": "Expected indentation of 4 spaces (indentation)"
+    "text": "Expected empty line before at-rule (at-rule-empty-line-before)"
+  },
+  {
+    "line": 69,
+    "column": 1,
+    "rule": "no-duplicate-selectors",
+    "severity": "error",
+    "text": "Unexpected duplicate selector \"body\", first used at line 1 (no-duplicate-selectors)"
   },
   {
     "line": 75,
@@ -154,10 +98,66 @@
     "text": "Expected indentation of 4 spaces (indentation)"
   },
   {
+    "line": 75,
+    "column": 12,
+    "rule": "at-rule-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before at-rule (at-rule-empty-line-before)"
+  },
+  {
     "line": 79,
     "column": 3,
     "rule": "indentation",
     "severity": "error",
     "text": "Expected indentation of 4 spaces (indentation)"
+  },
+  {
+    "line": 79,
+    "column": 32,
+    "rule": "at-rule-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before at-rule (at-rule-empty-line-before)"
+  },
+  {
+    "line": 83,
+    "column": 1,
+    "rule": "stylus/pythonic",
+    "severity": "error",
+    "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
+  },
+  {
+    "line": 84,
+    "column": 19,
+    "rule": "stylus/semicolon",
+    "severity": "error",
+    "text": "Unexpected semicolon (stylus/semicolon)"
+  },
+  {
+    "line": 85,
+    "column": 3,
+    "rule": "declaration-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before declaration (declaration-empty-line-before)"
+  },
+  {
+    "line": 85,
+    "column": 8,
+    "rule": "stylus/declaration-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/declaration-colon)"
+  },
+  {
+    "line": 85,
+    "column": 10,
+    "rule": "color-hex-case",
+    "severity": "error",
+    "text": "Expected \"#E2E21E\" to be \"#e2e21e\" (color-hex-case)"
+  },
+  {
+    "line": 85,
+    "column": 17,
+    "rule": "stylus/semicolon",
+    "severity": "error",
+    "text": "Unexpected semicolon (stylus/semicolon)"
   }
 ]

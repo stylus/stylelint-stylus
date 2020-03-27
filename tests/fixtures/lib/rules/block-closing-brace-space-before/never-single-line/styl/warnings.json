@@ -21,15 +21,15 @@
     "text": "Unexpected whitespace before \"}\" of a single-line block (stylus/block-closing-brace-space-before)"
   },
   {
-    "line": 14,
-    "column": 24,
+    "line": 13,
+    "column": 26,
     "rule": "stylus/block-closing-brace-space-before",
     "severity": "error",
     "text": "Unexpected whitespace before \"}\" of a single-line block (stylus/block-closing-brace-space-before)"
   },
   {
-    "line": 13,
-    "column": 26,
+    "line": 14,
+    "column": 24,
     "rule": "stylus/block-closing-brace-space-before",
     "severity": "error",
     "text": "Unexpected whitespace before \"}\" of a single-line block (stylus/block-closing-brace-space-before)"

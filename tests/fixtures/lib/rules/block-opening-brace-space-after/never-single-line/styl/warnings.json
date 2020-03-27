@@ -22,6 +22,13 @@
   },
   {
     "line": 18,
+    "column": 7,
+    "rule": "stylus/block-opening-brace-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \"{\" of a single-line block (stylus/block-opening-brace-space-after)"
+  },
+  {
+    "line": 18,
     "column": 11,
     "rule": "stylus/block-opening-brace-space-after",
     "severity": "error",
@@ -29,13 +36,6 @@
   },
   {
     "line": 19,
-    "column": 12,
-    "rule": "stylus/block-opening-brace-space-after",
-    "severity": "error",
-    "text": "Unexpected whitespace after \"{\" of a single-line block (stylus/block-opening-brace-space-after)"
-  },
-  {
-    "line": 18,
     "column": 7,
     "rule": "stylus/block-opening-brace-space-after",
     "severity": "error",
@@ -43,7 +43,7 @@
   },
   {
     "line": 19,
-    "column": 7,
+    "column": 12,
     "rule": "stylus/block-opening-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"{\" of a single-line block (stylus/block-opening-brace-space-after)"

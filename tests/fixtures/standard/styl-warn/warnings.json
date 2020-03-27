@@ -1,26 +1,5 @@
 [
   {
-    "line": 21,
-    "column": 14,
-    "rule": "stylus/block-closing-brace-space-before",
-    "severity": "error",
-    "text": "Expected single space before \"}\" of a single-line block (stylus/block-closing-brace-space-before)"
-  },
-  {
-    "line": 9,
-    "column": 1,
-    "rule": "stylus/at-rule-no-unknown",
-    "severity": "error",
-    "text": "Unexpected unknown at-rule \"@for\" (stylus/at-rule-no-unknown)"
-  },
-  {
-    "line": 6,
-    "column": 3,
-    "rule": "stylus/single-line-comment-double-slash-space-after",
-    "severity": "error",
-    "text": "Unexpected whitespace after \"//\" (stylus/single-line-comment-double-slash-space-after)"
-  },
-  {
     "line": 1,
     "column": 1,
     "rule": "stylus/pythonic",
@@ -28,39 +7,11 @@
     "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
   },
   {
-    "line": 16,
-    "column": 1,
-    "rule": "stylus/pythonic",
+    "line": 2,
+    "column": 8,
+    "rule": "stylus/declaration-colon",
     "severity": "error",
-    "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
-  },
-  {
-    "line": 19,
-    "column": 2,
-    "rule": "stylus/pythonic",
-    "severity": "error",
-    "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
-  },
-  {
-    "line": 21,
-    "column": 1,
-    "rule": "stylus/pythonic",
-    "severity": "error",
-    "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
-  },
-  {
-    "line": 22,
-    "column": 1,
-    "rule": "stylus/pythonic",
-    "severity": "error",
-    "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
-  },
-  {
-    "line": 13,
-    "column": 6,
-    "rule": "stylus/selector-list-comma",
-    "severity": "error",
-    "text": "Unexpected comma (stylus/selector-list-comma)"
+    "text": "Unexpected colon (stylus/declaration-colon)"
   },
   {
     "line": 2,
@@ -70,11 +21,25 @@
     "text": "Unexpected semicolon (stylus/semicolon)"
   },
   {
-    "line": 22,
-    "column": 15,
-    "rule": "stylus/semicolon",
+    "line": 5,
+    "column": 1,
+    "rule": "stylus/single-line-comment-no-empty",
     "severity": "error",
-    "text": "Unexpected semicolon (stylus/semicolon)"
+    "text": "Unexpected empty single-line comment (stylus/single-line-comment-no-empty)"
+  },
+  {
+    "line": 6,
+    "column": 3,
+    "rule": "stylus/single-line-comment-double-slash-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \"//\" (stylus/single-line-comment-double-slash-space-after)"
+  },
+  {
+    "line": 7,
+    "column": 1,
+    "rule": "comment-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before comment (comment-empty-line-before)"
   },
   {
     "line": 7,
@@ -82,6 +47,48 @@
     "rule": "stylus/single-line-comment",
     "severity": "error",
     "text": "Expected single-line comment (stylus/single-line-comment)"
+  },
+  {
+    "line": 9,
+    "column": 1,
+    "rule": "stylus/at-rule-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown at-rule \"@for\" (stylus/at-rule-no-unknown)"
+  },
+  {
+    "line": 13,
+    "column": 5,
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
+  },
+  {
+    "line": 13,
+    "column": 6,
+    "rule": "stylus/selector-list-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/selector-list-comma)"
+  },
+  {
+    "line": 13,
+    "column": 7,
+    "rule": "stylus/selector-list-comma-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \",\" (stylus/selector-list-comma-newline-after)"
+  },
+  {
+    "line": 16,
+    "column": 1,
+    "rule": "stylus/pythonic",
+    "severity": "error",
+    "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
+  },
+  {
+    "line": 16,
+    "column": 4,
+    "rule": "stylus/block-opening-brace-space-before",
+    "severity": "error",
+    "text": "Expected single space before \"{\" (stylus/block-opening-brace-space-before)"
   },
   {
     "line": 19,
@@ -93,58 +100,23 @@
   {
     "line": 19,
     "column": 2,
+    "rule": "rule-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before rule (rule-empty-line-before)"
+  },
+  {
+    "line": 19,
+    "column": 2,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
   },
   {
-    "line": 20,
-    "column": 11,
-    "rule": "stylus/block-closing-brace-newline-before",
+    "line": 19,
+    "column": 2,
+    "rule": "stylus/pythonic",
     "severity": "error",
-    "text": "Expected newline before \"}\" of a multi-line block (stylus/block-closing-brace-newline-before)"
-  },
-  {
-    "line": 2,
-    "column": 8,
-    "rule": "stylus/declaration-colon",
-    "severity": "error",
-    "text": "Unexpected colon (stylus/declaration-colon)"
-  },
-  {
-    "line": 21,
-    "column": 11,
-    "rule": "stylus/declaration-colon",
-    "severity": "error",
-    "text": "Unexpected colon (stylus/declaration-colon)"
-  },
-  {
-    "line": 22,
-    "column": 11,
-    "rule": "stylus/declaration-colon",
-    "severity": "error",
-    "text": "Unexpected colon (stylus/declaration-colon)"
-  },
-  {
-    "line": 22,
-    "column": 6,
-    "rule": "stylus/block-opening-brace-newline-after",
-    "severity": "error",
-    "text": "Expected newline after \"{\" of a multi-line block (stylus/block-opening-brace-newline-after)"
-  },
-  {
-    "line": 21,
-    "column": 6,
-    "rule": "stylus/block-opening-brace-space-after",
-    "severity": "error",
-    "text": "Expected single space after \"{\" of a single-line block (stylus/block-opening-brace-space-after)"
-  },
-  {
-    "line": 16,
-    "column": 4,
-    "rule": "stylus/block-opening-brace-space-before",
-    "severity": "error",
-    "text": "Expected single space before \"{\" (stylus/block-opening-brace-space-before)"
+    "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
   },
   {
     "line": 19,
@@ -154,11 +126,67 @@
     "text": "Expected single space before \"{\" (stylus/block-opening-brace-space-before)"
   },
   {
+    "line": 20,
+    "column": 11,
+    "rule": "stylus/block-closing-brace-newline-before",
+    "severity": "error",
+    "text": "Expected newline before \"}\" of a multi-line block (stylus/block-closing-brace-newline-before)"
+  },
+  {
+    "line": 21,
+    "column": 1,
+    "rule": "stylus/pythonic",
+    "severity": "error",
+    "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
+  },
+  {
     "line": 21,
     "column": 4,
     "rule": "stylus/block-opening-brace-space-before",
     "severity": "error",
     "text": "Expected single space before \"{\" (stylus/block-opening-brace-space-before)"
+  },
+  {
+    "line": 21,
+    "column": 6,
+    "rule": "stylus/block-opening-brace-space-after",
+    "severity": "error",
+    "text": "Expected single space after \"{\" of a single-line block (stylus/block-opening-brace-space-after)"
+  },
+  {
+    "line": 21,
+    "column": 11,
+    "rule": "stylus/declaration-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/declaration-colon)"
+  },
+  {
+    "line": 21,
+    "column": 12,
+    "rule": "declaration-colon-space-after",
+    "severity": "error",
+    "text": "Expected single space after \":\" with a single-line declaration (declaration-colon-space-after)"
+  },
+  {
+    "line": 21,
+    "column": 14,
+    "rule": "stylus/block-closing-brace-space-before",
+    "severity": "error",
+    "text": "Expected single space before \"}\" of a single-line block (stylus/block-closing-brace-space-before)"
+  },
+  {
+    "line": 22,
+    "column": 1,
+    "rule": "rule-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before rule (rule-empty-line-before)"
+  },
+  {
+    "line": 22,
+    "column": 1,
+    "rule": "stylus/pythonic",
+    "severity": "error",
+    "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
   },
   {
     "line": 22,
@@ -168,18 +196,39 @@
     "text": "Expected single space before \"{\" (stylus/block-opening-brace-space-before)"
   },
   {
-    "line": 13,
-    "column": 7,
-    "rule": "stylus/selector-list-comma-newline-after",
+    "line": 22,
+    "column": 6,
+    "rule": "stylus/block-opening-brace-newline-after",
     "severity": "error",
-    "text": "Expected newline after \",\" (stylus/selector-list-comma-newline-after)"
+    "text": "Expected newline after \"{\" of a multi-line block (stylus/block-opening-brace-newline-after)"
   },
   {
-    "line": 13,
-    "column": 5,
-    "rule": "stylus/selector-list-comma-space-before",
+    "line": 22,
+    "column": 11,
+    "rule": "stylus/declaration-colon",
     "severity": "error",
-    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
+    "text": "Unexpected colon (stylus/declaration-colon)"
+  },
+  {
+    "line": 22,
+    "column": 12,
+    "rule": "declaration-colon-space-after",
+    "severity": "error",
+    "text": "Expected single space after \":\" with a single-line declaration (declaration-colon-space-after)"
+  },
+  {
+    "line": 22,
+    "column": 15,
+    "rule": "stylus/semicolon",
+    "severity": "error",
+    "text": "Unexpected semicolon (stylus/semicolon)"
+  },
+  {
+    "line": 24,
+    "column": 1,
+    "rule": "at-rule-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before at-rule (at-rule-empty-line-before)"
   },
   {
     "line": 24,
@@ -201,54 +250,5 @@
     "rule": "stylus/number-no-trailing-zeros",
     "severity": "error",
     "text": "Unexpected trailing zero(s) (stylus/number-no-trailing-zeros)"
-  },
-  {
-    "line": 5,
-    "column": 1,
-    "rule": "stylus/single-line-comment-no-empty",
-    "severity": "error",
-    "text": "Unexpected empty single-line comment (stylus/single-line-comment-no-empty)"
-  },
-  {
-    "line": 24,
-    "column": 1,
-    "rule": "at-rule-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before at-rule (at-rule-empty-line-before)"
-  },
-  {
-    "line": 7,
-    "column": 1,
-    "rule": "comment-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before comment (comment-empty-line-before)"
-  },
-  {
-    "line": 21,
-    "column": 12,
-    "rule": "declaration-colon-space-after",
-    "severity": "error",
-    "text": "Expected single space after \":\" with a single-line declaration (declaration-colon-space-after)"
-  },
-  {
-    "line": 22,
-    "column": 12,
-    "rule": "declaration-colon-space-after",
-    "severity": "error",
-    "text": "Expected single space after \":\" with a single-line declaration (declaration-colon-space-after)"
-  },
-  {
-    "line": 19,
-    "column": 2,
-    "rule": "rule-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before rule (rule-empty-line-before)"
-  },
-  {
-    "line": 22,
-    "column": 1,
-    "rule": "rule-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before rule (rule-empty-line-before)"
   }
 ]
