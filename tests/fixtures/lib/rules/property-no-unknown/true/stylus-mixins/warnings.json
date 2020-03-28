@@ -1,0 +1,23 @@
+[
+  {
+    "line": 89,
+    "column": 7,
+    "rule": "stylus/property-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown property \"root\" (stylus/property-no-unknown)"
+  },
+  {
+    "line": 91,
+    "column": 5,
+    "rule": "stylus/property-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown property \"got\" (stylus/property-no-unknown)"
+  },
+  {
+    "line": 99,
+    "column": 3,
+    "rule": "stylus/property-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown property \"foo\" (stylus/property-no-unknown)"
+  }
+]

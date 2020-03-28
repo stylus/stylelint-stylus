@@ -8,6 +8,7 @@ module.exports = {
         // wrapper core rules
         "stylus/at-rule-no-unknown": true,
         "stylus/selector-type-no-unknown": true,
+        "stylus/property-no-unknown": true,
 
         // List of core rules that cannot be used with the Stylus.
         // - The Stylus can also be separated by newlines without using comma separators.
@@ -42,6 +43,8 @@ module.exports = {
         // - False positives the Range Operator of the Stylus.
         "number-leading-zero": null,
         "number-no-trailing-zeros": null,
+        // - False positives in variables and interpolations of the Stylus.
+        "property-no-unknown": null,
 
         // - Don't understand the Stylus selectors.
         "selector-type-no-unknown": null,
@@ -49,8 +52,5 @@ module.exports = {
         // - Wrong autofix on the Stylus.
         "color-hex-case": null,
         "selector-pseudo-class-case": null,
-
-        // - Useless for the Stylus
-        "property-no-unknown": null,
     },
 }

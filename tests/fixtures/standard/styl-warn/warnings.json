@@ -460,5 +460,26 @@
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Unexpected semicolon (stylus/semicolon)"
+  },
+  {
+    "line": 61,
+    "column": 1,
+    "rule": "no-duplicate-selectors",
+    "severity": "error",
+    "text": "Unexpected duplicate selector \".foo\", first used at line 16 (no-duplicate-selectors)"
+  },
+  {
+    "line": 62,
+    "column": 3,
+    "rule": "stylus/property-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown property \"unknown\" (stylus/property-no-unknown)"
+  },
+  {
+    "line": 62,
+    "column": 13,
+    "rule": "no-missing-end-of-source-newline",
+    "severity": "error",
+    "text": "Unexpected missing end-of-source newline (no-missing-end-of-source-newline)"
   }
 ]

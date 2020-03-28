@@ -1,0 +1,44 @@
+[
+  {
+    "line": 1,
+    "column": 5,
+    "rule": "stylus/property-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown property \"heigth\" (stylus/property-no-unknown)"
+  },
+  {
+    "line": 5,
+    "column": 3,
+    "rule": "stylus/property-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown property \"colr\" (stylus/property-no-unknown)"
+  },
+  {
+    "line": 8,
+    "column": 3,
+    "rule": "stylus/property-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown property \"my-property\" (stylus/property-no-unknown)"
+  },
+  {
+    "line": 30,
+    "column": 3,
+    "rule": "stylus/property-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown property \"heigth\" (stylus/property-no-unknown)"
+  },
+  {
+    "line": 34,
+    "column": 3,
+    "rule": "stylus/property-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown property \"colr\" (stylus/property-no-unknown)"
+  },
+  {
+    "line": 35,
+    "column": 3,
+    "rule": "stylus/property-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown property \"my-property\" (stylus/property-no-unknown)"
+  }
+]

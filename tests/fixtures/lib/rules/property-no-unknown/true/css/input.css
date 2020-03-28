@@ -1,0 +1,25 @@
+a { heigth: 100%; }
+
+/* incorrect */
+a {
+  colr: blue;
+}
+a {
+  my-property: 1;
+}
+/* correct */
+a {
+  color: green;
+}
+a {
+  fill: black;
+}
+a {
+  -moz-align-self: center;
+}
+a {
+  -webkit-align-self: center;
+}
+a {
+  align-self: center;
+}
