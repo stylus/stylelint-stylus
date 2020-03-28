@@ -32,10 +32,12 @@ module.exports = {
 
         // - This rule breaks the Stylus syntax.
         "at-rule-name-newline-after": null,
-        // - The `postcss-style` atrule AST contains function calls.
+        // - The `postcss-styl` atrule AST contains function calls.
         "at-rule-name-space-after": null,
-        // - The `postcss-style` atrule AST contains if, for and function calls.
+        // - The `postcss-styl` atrule AST contains if, for and function calls.
         "at-rule-empty-line-before": null,
+        // - Don't understand the Stylus at-rules. And the `postcss-styl` atrule AST contains if, for and function calls.
+        "at-rule-no-unknown": null,
 
         // - False positives the Range Operator of the Stylus.
         "number-leading-zero": null,
@@ -50,6 +52,5 @@ module.exports = {
 
         // - Useless for the Stylus
         "property-no-unknown": null,
-        "at-rule-no-unknown": null,
     },
 }

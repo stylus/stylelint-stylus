@@ -28,20 +28,6 @@
     "text": "Unexpected duplicate selector \"body\", first used at line 1 (no-duplicate-selectors)"
   },
   {
-    "line": 51,
-    "column": 3,
-    "rule": "indentation",
-    "severity": "error",
-    "text": "Expected indentation of 4 spaces (indentation)"
-  },
-  {
-    "line": 52,
-    "column": 3,
-    "rule": "indentation",
-    "severity": "error",
-    "text": "Expected indentation of 4 spaces (indentation)"
-  },
-  {
     "line": 54,
     "column": 1,
     "rule": "no-duplicate-selectors",
@@ -63,32 +49,11 @@
     "text": "Unexpected duplicate selector \"body\", first used at line 1 (no-duplicate-selectors)"
   },
   {
-    "line": 62,
-    "column": 3,
-    "rule": "indentation",
-    "severity": "error",
-    "text": "Expected indentation of 4 spaces (indentation)"
-  },
-  {
     "line": 69,
     "column": 1,
     "rule": "no-duplicate-selectors",
     "severity": "error",
     "text": "Unexpected duplicate selector \"body\", first used at line 1 (no-duplicate-selectors)"
-  },
-  {
-    "line": 75,
-    "column": 3,
-    "rule": "indentation",
-    "severity": "error",
-    "text": "Expected indentation of 4 spaces (indentation)"
-  },
-  {
-    "line": 79,
-    "column": 3,
-    "rule": "indentation",
-    "severity": "error",
-    "text": "Expected indentation of 4 spaces (indentation)"
   },
   {
     "line": 83,

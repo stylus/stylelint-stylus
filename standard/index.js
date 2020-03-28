@@ -12,6 +12,10 @@ module.exports = {
         "stylus/single-line-comment": "always",
 
         // wrapper core rules
+        "stylus/indentation": 2,
+        // The "indentation" rule is not turned off with "recommended", but is turned off with "standard".
+        // Because the problem with "indentation" rule is only `postfix` problem, and the effect of the problem is small.
+        indentation: null,
         // - brace
         "stylus/block-closing-brace-empty-line-before": "never",
         "stylus/block-closing-brace-newline-after": "always",

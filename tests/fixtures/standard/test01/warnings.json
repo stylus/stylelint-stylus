@@ -217,20 +217,6 @@
     "text": "Unexpected unknown at-rule \"@foo\" (stylus/at-rule-no-unknown)"
   },
   {
-    "line": 128,
-    "column": 3,
-    "rule": "indentation",
-    "severity": "error",
-    "text": "Expected indentation of 4 spaces (indentation)"
-  },
-  {
-    "line": 132,
-    "column": 3,
-    "rule": "indentation",
-    "severity": "error",
-    "text": "Expected indentation of 4 spaces (indentation)"
-  },
-  {
     "line": 134,
     "column": 3,
     "rule": "stylus/single-line-comment-double-slash-space-after",

@@ -1,0 +1,758 @@
+[
+  {
+    "line": 3,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 4,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 5,
+    "column": 5,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 tabs (stylus/indentation)"
+  },
+  {
+    "line": 6,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 10,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 11,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 11,
+    "column": 12,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 11,
+    "column": 28,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 11,
+    "column": 51,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 15,
+    "column": 5,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 tabs (stylus/indentation)"
+  },
+  {
+    "line": 18,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 19,
+    "column": 5,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 tabs (stylus/indentation)"
+  },
+  {
+    "line": 20,
+    "column": 5,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 tabs (stylus/indentation)"
+  },
+  {
+    "line": 21,
+    "column": 5,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 tabs (stylus/indentation)"
+  },
+  {
+    "line": 22,
+    "column": 5,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 tabs (stylus/indentation)"
+  },
+  {
+    "line": 23,
+    "column": 7,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 3 tabs (stylus/indentation)"
+  },
+  {
+    "line": 24,
+    "column": 5,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 tabs (stylus/indentation)"
+  },
+  {
+    "line": 25,
+    "column": 7,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 3 tabs (stylus/indentation)"
+  },
+  {
+    "line": 28,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 29,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 30,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 33,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 37,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 38,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 39,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 42,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 46,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 47,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 48,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 49,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 50,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 53,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 54,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 55,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 56,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 57,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 60,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 61,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 62,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 63,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 66,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 69,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 72,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 73,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 74,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 77,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 80,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 81,
+    "column": 5,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 tabs (stylus/indentation)"
+  },
+  {
+    "line": 82,
+    "column": 7,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 3 tabs (stylus/indentation)"
+  },
+  {
+    "line": 87,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 88,
+    "column": 5,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 tabs (stylus/indentation)"
+  },
+  {
+    "line": 89,
+    "column": 7,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 3 tabs (stylus/indentation)"
+  },
+  {
+    "line": 90,
+    "column": 5,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 tabs (stylus/indentation)"
+  },
+  {
+    "line": 91,
+    "column": 7,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 3 tabs (stylus/indentation)"
+  },
+  {
+    "line": 93,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 96,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 97,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 98,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 99,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 100,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 101,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 102,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 103,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 104,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 105,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 106,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 107,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 108,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 109,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 110,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 113,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 114,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 115,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 116,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 117,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 118,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 119,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 122,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 123,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 124,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 127,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 128,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 129,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 130,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 131,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 134,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 135,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 138,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 141,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 144,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 145,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 146,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 147,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 148,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 149,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 152,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 153,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 154,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 155,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 156,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 159,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 160,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 161,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 162,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 163,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 164,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 165,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 168,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  }
+]

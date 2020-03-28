@@ -148,6 +148,7 @@ These rules relate to style guidelines.
 | :wrench: | [stylus/block-opening-brace-space-before](./docs/rules/block-opening-brace-space-before.md) | require a single space or disallow whitespace before the opening brace of blocks. |
 | :wrench: | [stylus/color-hex-case](./docs/rules/color-hex-case.md) | enforce lowercase or uppercase for hex colors. |
 | :wrench: | [stylus/declaration-colon](./docs/rules/declaration-colon.md) | require or disallow declaration colons. |
+| :wrench: | [stylus/indentation](./docs/rules/indentation.md) | enforces indentation. |
 | :wrench: | [stylus/number-leading-zero](./docs/rules/number-leading-zero.md) | require or disallow a leading zero for fractional numbers less than 1. |
 | :wrench: | [stylus/number-no-trailing-zeros](./docs/rules/number-no-trailing-zeros.md) | disallow trailing zeros in numbers. |
 | :wrench: | [stylus/pythonic](./docs/rules/pythonic.md) | enforces pythonic or brace style. |

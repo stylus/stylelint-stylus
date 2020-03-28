@@ -35,7 +35,7 @@ function ruleTester(ruleName, dir) {
             assertWarning(warning) {
                 assert.ok(
                     warning.text.endsWith(`(${ruleName})`),
-                    `Unexpected message: Expected ends with "(${ruleName})"`
+                    `Unexpected message: Expected ends with "(${ruleName})", but "${warning.text}"`
                 )
                 assert.strictEqual(
                     warning.rule,

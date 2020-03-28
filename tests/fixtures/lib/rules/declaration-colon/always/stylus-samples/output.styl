@@ -1,0 +1,168 @@
+
+body {
+  font: 14px/1.5 Helvetica, arial, sans-serif;
+  #logo {
+    border-radius: 5px;
+  }
+}
+
+body
+  font: 14px/1.5 Helvetica, arial, sans-serif
+  button
+  button.button
+  input[type='button']
+  input[type='submit']
+    border-radius: 5px
+
+ul
+  li a
+    display: block
+    color: blue
+    padding: 5px
+    html.ie &
+      padding: 6px
+    &:hover
+      color: red
+
+border-radius(val)
+  -webkit-border-radius: val
+  -moz-border-radius: val
+  border-radius: val
+  
+button {
+  border-radius(5px);
+}
+
+border-radius()
+  -webkit-border-radius: arguments
+  -moz-border-radius: arguments
+  border-radius: arguments
+
+button {
+  border-radius: 5px 10px;
+}
+
+#prompt
+  position: absolute
+  top: 150px
+  left: 50%
+  width: w = 200px
+  margin-left: -(w / 2)
+
+#prompt
+  position: absolute
+  top: 150px
+  left: 50%
+  width: 200px
+  margin-left: -(@width / 2)
+
+-pos(type, args)
+  i = 0
+  position: unquote(type)
+  {args[i]}: args[i + 1] is a 'unit' ? args[i += 1] : 0
+  {args[i += 1]}: args[i + 1] is a 'unit' ? args[i += 1] : 0
+
+absolute()
+  -pos('absolute', arguments)
+
+fixed()
+  -pos('fixed', arguments)
+
+#prompt
+  absolute: top 150px left 5px
+  width: 200px
+  margin-left: -(@width / 2)
+
+#logo
+  fixed: top left
+
+table
+  for row in 1 2 3 4 5
+    tr:nth-child({row})
+      height: 10px * row
+
+vendors = webkit moz o ms official
+
+border-radius()
+  for vendor in vendors
+    if vendor == official
+      border-radius: arguments
+    else
+      -{vendor}-border-radius: arguments
+#content
+  border-radius: 5px
+
+body
+  foo: 5px + 10
+  foo: 2 ** 8
+  foo: 5px * 2
+  foo: !!''
+  foo: foo and bar and baz
+  foo: foo or bar or baz
+  foo: 1..5
+  foo: 1...5
+  foo: 'foo' is a 'string'
+  foo: (1 2 3) == (1 2 3)
+  foo: (1 2 3) == (1 2)
+  foo: ((one 1) (two 2)) == ((one 1) (two 2)) 
+  foo: ((one 1) (two 2)) == ((one 1) (two)) 
+  foo: ((one 1) (two 2))[0]
+  foo: 3 in (1 2 3 4)
+
+body
+  foo: foo + bar
+  foo: 'foo ' + bar
+  foo: 'foo ' + 'bar'
+  foo: 'foo ' + 5px
+  foo: 2s - 500ms
+  foo: 5000ms == 5s
+  foo: 50deg
+
+body
+  foo: '%s / %s' % (5px 10px)
+  foo: 'MS:WeirdStuff(opacity=%s)' % 1
+  foo: unquote('MS:WeirdStuff(opacity=1)')
+
+body
+  foo: white - 50%
+  foo: black + 50%
+  foo: #eee - #f00
+  foo: #eee - rgba(black,.5)
+  foo: #cc0000 + 30deg
+
+sum(nums...)
+  n = 0
+  n += num for num in nums
+
+body
+  foo: sum(1, 2, 3)
+
+fade-out(color, amount = 50%)
+  color - rgba(0,0,0,amount)
+
+body
+  foo: fade-out(#eee)
+  foo: fade-out(#eee, 20%)
+  foo: fade-out(#eee, amount: 50%)
+  foo: fade-out(color: #eee, amount: 50%)
+  foo: fade-out(amount: 50%, #eee)
+  foo: fade-out(amount: 50%, color: #eee)
+
+body
+  foo: red(#fc0)
+  foo: green(#fc0)
+  foo: blue(#fc0)
+  foo: alpha(#fff)
+  foo: alpha(rgba(#fff, .5))
+
+body
+  foo: light(#eee)
+  foo: dark(#eee)
+  foo: dark(#333)
+  foo: darken(#eee, 50%)
+  foo: lighten(black, 50%)
+  foo: #eee - 50%
+  foo: black + 50%
+
+come-back later
+  to-see: more unquote(':)')

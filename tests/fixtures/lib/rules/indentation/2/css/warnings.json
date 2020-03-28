@@ -1,0 +1,23 @@
+[
+  {
+    "line": 3,
+    "column": 4,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 4 spaces (stylus/indentation)"
+  },
+  {
+    "line": 4,
+    "column": 5,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 6 spaces (stylus/indentation)"
+  },
+  {
+    "line": 5,
+    "column": 2,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 spaces (stylus/indentation)"
+  }
+]
