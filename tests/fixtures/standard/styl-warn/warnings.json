@@ -226,9 +226,9 @@
   {
     "line": 24,
     "column": 1,
-    "rule": "at-rule-empty-line-before",
+    "rule": "stylus/at-rule-empty-line-before",
     "severity": "error",
-    "text": "Expected empty line before at-rule (at-rule-empty-line-before)"
+    "text": "Expected empty line before at-rule (stylus/at-rule-empty-line-before)"
   },
   {
     "line": 24,

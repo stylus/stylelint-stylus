@@ -1,0 +1,23 @@
+a {}
+
+@media {}
+
+/* "always" */
+/* incorrect */
+a {} @media {}
+a {}
+@media {}
+/* correct */
+a {}
+
+@media {}
+
+/* "never" */
+/* incorrect */
+a {}
+
+@media {}
+/* correct */
+a {} @media {}
+a {}
+@media {}

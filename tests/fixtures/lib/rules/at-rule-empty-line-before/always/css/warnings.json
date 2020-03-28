@@ -1,0 +1,30 @@
+[
+  {
+    "line": 7,
+    "column": 6,
+    "rule": "stylus/at-rule-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before at-rule (stylus/at-rule-empty-line-before)"
+  },
+  {
+    "line": 9,
+    "column": 1,
+    "rule": "stylus/at-rule-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before at-rule (stylus/at-rule-empty-line-before)"
+  },
+  {
+    "line": 21,
+    "column": 6,
+    "rule": "stylus/at-rule-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before at-rule (stylus/at-rule-empty-line-before)"
+  },
+  {
+    "line": 23,
+    "column": 1,
+    "rule": "stylus/at-rule-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before at-rule (stylus/at-rule-empty-line-before)"
+  }
+]

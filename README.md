@@ -137,6 +137,7 @@ These rules relate to style guidelines.
 
 |    | Rule ID | Description |
 |:---|:--------|:------------|
+| :wrench: | [stylus/at-rule-empty-line-before](./docs/rules/at-rule-empty-line-before.md) | require or disallow an empty line before at-rules. |
 | :wrench: | [stylus/at-rule-name-space-after](./docs/rules/at-rule-name-space-after.md) | require a single space after at-rule names. |
 | :wrench: | [stylus/block-closing-brace-empty-line-before](./docs/rules/block-closing-brace-empty-line-before.md) | require or disallow an empty line before the closing brace of blocks. |
 | :wrench: | [stylus/block-closing-brace-newline-after](./docs/rules/block-closing-brace-newline-after.md) | require a newline or disallow whitespace after the closing brace of blocks. |

@@ -34,6 +34,8 @@ module.exports = {
         "at-rule-name-newline-after": null,
         // - The `postcss-style` atrule AST contains function calls.
         "at-rule-name-space-after": null,
+        // - The `postcss-style` atrule AST contains if, for and function calls.
+        "at-rule-empty-line-before": null,
 
         // - False positives the Range Operator of the Stylus.
         "number-leading-zero": null,

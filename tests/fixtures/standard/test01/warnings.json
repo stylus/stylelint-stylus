@@ -224,25 +224,11 @@
     "text": "Expected indentation of 4 spaces (indentation)"
   },
   {
-    "line": 128,
-    "column": 20,
-    "rule": "at-rule-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before at-rule (at-rule-empty-line-before)"
-  },
-  {
     "line": 132,
     "column": 3,
     "rule": "indentation",
     "severity": "error",
     "text": "Expected indentation of 4 spaces (indentation)"
-  },
-  {
-    "line": 132,
-    "column": 12,
-    "rule": "at-rule-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before at-rule (at-rule-empty-line-before)"
   },
   {
     "line": 134,

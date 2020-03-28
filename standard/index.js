@@ -24,6 +24,13 @@ module.exports = {
         "stylus/selector-list-comma-newline-after": "always",
         "stylus/selector-list-comma-space-before": "never",
         // - atrule
+        "stylus/at-rule-empty-line-before": [
+            "always",
+            {
+                except: ["blockless-after-same-name-blockless", "first-nested"],
+                ignore: ["after-comment"],
+            },
+        ],
         "stylus/at-rule-name-space-after": "always-single-line",
         // - number
         "stylus/number-leading-zero": "always",
