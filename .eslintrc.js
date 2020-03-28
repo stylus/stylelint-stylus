@@ -11,6 +11,7 @@ module.exports = {
         'require-jsdoc': 'off',
         "no-warning-comments": "warn",
         "@mysticatea/no-use-ignored-vars": ["error", "^_[a-zA-Z]+$"],
+        "spaced-comment": ["error", "always", { "markers": ["/"] }]
     },
     globals:{
         root: "off"

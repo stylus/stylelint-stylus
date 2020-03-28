@@ -1,0 +1,35 @@
+unknown {}
+
+/* incorrect */
+unknown {}
+tag {}
+
+/* correct */
+input {}
+ul li {}
+li > a {}
+
+/* "custom-elements" */
+/* incorrect */
+unknown {}
+x-Foo {}
+
+/* correct */
+x-foo {}
+/* "default-namespace" */
+/* incorrect */
+namespace|unknown {}
+
+/* correct */
+unknown {}
+
+/* ignoreNamespaces: ["/^my-/", "custom-namespace"] */ 
+/* correct */
+custom-namespace|unknown {}
+my-namespace|unknown {}
+my-other-namespace|unknown {}
+/* ignoreTypes: ["/^my-/", "custom-type"] */
+/* correct */
+custom-type {}
+my-type {}
+my-other-type {}

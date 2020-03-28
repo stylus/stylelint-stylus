@@ -1,0 +1,156 @@
+[
+  {
+    "line": 1,
+    "column": 1,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 5,
+    "column": 1,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 7,
+    "column": 1,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"tag\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 20,
+    "column": 1,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 22,
+    "column": 1,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"x-Foo\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 30,
+    "column": 11,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 34,
+    "column": 1,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 39,
+    "column": 18,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 41,
+    "column": 14,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 43,
+    "column": 20,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 55,
+    "column": 1,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"foo\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 59,
+    "column": 10,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 64,
+    "column": 14,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 72,
+    "column": 9,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 79,
+    "column": 22,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 82,
+    "column": 34,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 85,
+    "column": 1,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"foo\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 86,
+    "column": 1,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"bar\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 90,
+    "column": 1,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"foo\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 91,
+    "column": 1,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"bar\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 95,
+    "column": 1,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"foo\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 96,
+    "column": 2,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"bar\" (stylus/selector-type-no-unknown)"
+  }
+]

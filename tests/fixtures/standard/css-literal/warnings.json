@@ -2,16 +2,16 @@
   {
     "line": 2,
     "column": 16,
-    "rule": "selector-type-no-unknown",
+    "rule": "stylus/selector-list-comma-newline-after",
     "severity": "error",
-    "text": "Unexpected unknown type selector \"foo\" (selector-type-no-unknown)"
+    "text": "Expected newline after \",\" (stylus/selector-list-comma-newline-after)"
   },
   {
     "line": 2,
     "column": 16,
-    "rule": "stylus/selector-list-comma-newline-after",
+    "rule": "stylus/selector-type-no-unknown",
     "severity": "error",
-    "text": "Expected newline after \",\" (stylus/selector-list-comma-newline-after)"
+    "text": "Unexpected unknown type selector \"foo\" (stylus/selector-type-no-unknown)"
   },
   {
     "line": 3,

@@ -128,6 +128,7 @@ These rules relate to possible syntax or logic errors in Stylus.
 |    | Rule ID | Description |
 |:---|:--------|:------------|
 |  | [stylus/at-rule-no-unknown](./docs/rules/at-rule-no-unknown.md) | disallow unknown at-rules. |
+|  | [stylus/selector-type-no-unknown](./docs/rules/selector-type-no-unknown.md) | disallow unknown type selectors. |
 |  | [stylus/single-line-comment-no-empty](./docs/rules/single-line-comment-no-empty.md) | disallow empty single-line comments. |
 
 ### Standard Rules

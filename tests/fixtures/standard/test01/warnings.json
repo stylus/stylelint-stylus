@@ -63,13 +63,6 @@
     "text": "Unexpected colon (stylus/declaration-colon)"
   },
   {
-    "line": 24,
-    "column": 5,
-    "rule": "selector-type-no-unknown",
-    "severity": "error",
-    "text": "Unexpected unknown type selector \"^\" (selector-type-no-unknown)"
-  },
-  {
     "line": 25,
     "column": 12,
     "rule": "stylus/declaration-colon",
@@ -89,20 +82,6 @@
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
-  },
-  {
-    "line": 31,
-    "column": 5,
-    "rule": "selector-type-no-unknown",
-    "severity": "error",
-    "text": "Unexpected unknown type selector \"^\" (selector-type-no-unknown)"
-  },
-  {
-    "line": 31,
-    "column": 16,
-    "rule": "selector-type-no-unknown",
-    "severity": "error",
-    "text": "Unexpected unknown type selector \"^\" (selector-type-no-unknown)"
   },
   {
     "line": 32,

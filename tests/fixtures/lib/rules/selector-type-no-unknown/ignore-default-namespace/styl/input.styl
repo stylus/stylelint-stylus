@@ -1,0 +1,97 @@
+unknown
+  color red
+
+/* incorrect */
+unknown
+  color red
+tag
+  color red
+
+/* correct */
+input
+  color red
+ul li
+  color red
+li > a
+  color red
+
+/* "custom-elements" */
+/* incorrect */
+unknown
+  color red
+x-Foo
+  color red
+
+/* correct */
+x-foo
+  color red
+/* "default-namespace" */
+/* incorrect */
+namespace|unknown
+  color red
+
+/* correct */
+unknown
+  color red
+
+/* ignoreNamespaces: ["/^my-/", "custom-namespace"] */ 
+/* correct */
+custom-namespace|unknown
+  color red
+my-namespace|unknown
+  color red
+my-other-namespace|unknown
+  color red
+/* ignoreTypes: ["/^my-/", "custom-type"] */
+/* correct */
+custom-type
+  color red
+my-type
+  color red
+my-other-type
+  color red
+
+// selectors
+foo
+  &__bar
+    width: 10px
+
+    ^[0] unknown &
+      width: 20px
+
+.block
+  &__element
+    ~/:hover unknown &
+      color: red
+
+.foo
+  .bar
+    width: 10px
+
+    &,
+    ../ unknown.baz:hover
+      height: 10px
+
+textarea
+input
+  color #A7A7A7
+  &:hover,
+  /.is-hovered:hover unknown
+    color #000
+
+{selector('.a', '.b', '.c, .d')} unknown
+  color: red
+
+foo // comment
+bar
+  color red
+
+
+foo, // comment
+bar
+  color red
+
+
+foo
+,bar
+  color red

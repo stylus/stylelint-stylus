@@ -299,5 +299,19 @@
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":Hover\" to be \":hover\" (stylus/selector-pseudo-class-case)"
+  },
+  {
+    "line": 36,
+    "column": 1,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 39,
+    "column": 8,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
   }
 ]

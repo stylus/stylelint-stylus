@@ -5,7 +5,9 @@ module.exports = {
     rules: {
         // List of possible errors rules within `stylelint-plugin-stylus`
         "stylus/single-line-comment-no-empty": true,
+        // wrapper core rules
         "stylus/at-rule-no-unknown": true,
+        "stylus/selector-type-no-unknown": true,
 
         // List of core rules that cannot be used with the Stylus.
         // - The Stylus can also be separated by newlines without using comma separators.
@@ -36,6 +38,9 @@ module.exports = {
         // - False positives the Range Operator of the Stylus.
         "number-leading-zero": null,
         "number-no-trailing-zeros": null,
+
+        // - Don't understand the Stylus selectors.
+        "selector-type-no-unknown": null,
 
         // - Wrong autofix on the Stylus.
         "color-hex-case": null,

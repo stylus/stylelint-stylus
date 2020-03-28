@@ -1,0 +1,30 @@
+[
+  {
+    "line": 30,
+    "column": 11,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 39,
+    "column": 18,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 41,
+    "column": 14,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  },
+  {
+    "line": 43,
+    "column": 20,
+    "rule": "stylus/selector-type-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
+  }
+]
