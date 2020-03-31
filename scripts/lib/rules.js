@@ -10,13 +10,14 @@ module.exports = fs
     .filter(file => file !== "index.js")
     .map(file => path.basename(file, ".js"))
     .map(name => {
-        const rule = require(path.join(ROOT, name))
+        const rulePath = `${path.join(ROOT, name)}.js`
+        const rule = require(rulePath)
+        if (typeof rule.rule !== "function") {
+            throw new Error(`Expected: rule function @ ${rulePath}`)
+        }
         if (rule.ruleName !== `stylus/${name}`) {
             throw new Error(
-                `illegal ruleName @${path.join(
-                    ROOT,
-                    name
-                )}: Expected: "stylus/${name}"`
+                `illegal ruleName @ ${rulePath}: Expected: "stylus/${name}"`
             )
         }
         return {

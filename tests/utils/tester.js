@@ -10,7 +10,7 @@ const {
     assertJsonFile,
     assertTextFile,
 } = require("./index")
-const rules = require("../..")
+const rules = require("../../lib/rules")
 
 const compareWarnings = comparingChain(
     warn => (warn.line != null ? warn.line : -1),
@@ -27,7 +27,7 @@ module.exports = { ruleTester, fixturesTester }
  * @param {string} dir
  */
 function ruleTester(ruleName, dir) {
-    const rule = rules.find(r => r.ruleName === ruleName)
+    const rule = rules[ruleName]
     // const config = require(path.resolve(dir, "stylelint.config.js"))
 
     describe(ruleName, () => {
@@ -43,7 +43,7 @@ function ruleTester(ruleName, dir) {
                     "Unexpected ruleName"
                 )
             },
-            fixable: rule.rule.meta.fixable,
+            fixable: rule.meta.fixable,
             checkAutofixWarnings: true,
         })
     })
