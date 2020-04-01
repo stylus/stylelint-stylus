@@ -107,6 +107,48 @@ function runFixtures(
                         }
                     }))
 
+            const lang = fixture.input.endsWith(".styl")
+                ? "stylus"
+                : fixture.input.endsWith(".css")
+                ? "css"
+                : null
+            if (lang === "stylus" || lang === "css") {
+                it("lint with raw parser", () =>
+                    lintFixture(fixture, {
+                        customSyntax:
+                            lang === "stylus"
+                                ? require.resolve("postcss-styl")
+                                : require.resolve("postcss"),
+                    })
+                        .then(r => r.results[0])
+                        .then(result => {
+                            assertJsonFile(
+                                [...result.warnings].sort(compareWarnings),
+                                path.resolve(fixture.dir, "warnings.json"),
+                                "Error details do not match."
+                            )
+
+                            if (typeof options[fixture.name] === "function") {
+                                options[fixture.name]({
+                                    warnings: result.warnings,
+                                })
+                            }
+
+                            for (const warning of result.warnings) {
+                                options.assertWarning(warning)
+                                assert.strictEqual(
+                                    warning.severity,
+                                    "error",
+                                    "Unexpected severity"
+                                )
+                                assert.ok(
+                                    !/^Unknown rule/u.test(warning.text),
+                                    `Unexpected 'Unknown rule' error: Actual "${warning.text}"`
+                                )
+                            }
+                        }))
+            }
+
             if (!options.fixable) {
                 assertNonFile(fixture.output)
                 return
