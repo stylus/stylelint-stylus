@@ -1,8 +1,9 @@
 "use strict"
 
 const syntax = require("postcss-syntax")
-const postcssStyl = require("postcss-styl")
 
 module.exports = syntax({
-    stylus: postcssStyl,
+    stylus: require("postcss-styl"),
+    jsx: require("@stylelint/postcss-css-in-js"),
+    markdown: require("@stylelint/postcss-markdown"),
 })
