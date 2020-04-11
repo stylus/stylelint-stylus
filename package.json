@@ -44,7 +44,7 @@
   "bugs": {
     "url": "https://github.com/ota-meshi/stylelint-plugin-stylus/issues"
   },
-  "homepage": "https://github.com/ota-meshi/stylelint-plugin-stylus#readme",
+  "homepage": "https://ota-meshi.github.io/stylelint-plugin-stylus/",
   "peerDependencies": {
     "stylelint": "^13.2.1"
   },
