@@ -2,34 +2,11 @@
 
 const fs = require("fs")
 const path = require("path")
-const rules = require("./lib/rules")
-
-const categories = [
-    {
-        categoryId: "recommended",
-        title: "Possible Errors Rules",
-        configDescription:
-            "These rules relate to possible syntax or logic errors in Stylus.",
-    },
-    {
-        categoryId: "standard",
-        title: "Standard Rules",
-        configDescription: "These rules relate to style guidelines.",
-    },
-]
-
-for (const category of categories) {
-    category.rules = rules.filter(
-        rule =>
-            rule.meta.docs.category === category.categoryId &&
-            !rule.meta.deprecated
-    )
-}
-
-const uncategorizedRules = rules.filter(
-    rule => !rule.meta.docs.category && !rule.meta.deprecated
-)
-const deprecatedRules = rules.filter(rule => rule.meta.deprecated)
+const {
+    categories,
+    uncategorizedRules,
+    deprecatedRules,
+} = require("./lib/categories")
 
 function toRuleRow(rule) {
     const mark = `${rule.meta.fixable ? ":wrench:" : ""}${
@@ -103,4 +80,20 @@ fs.writeFileSync(
             /<!--RULES_TABLE_START-->[\s\S]*<!--RULES_TABLE_END-->/u,
             `<!--RULES_TABLE_START-->${insertText}<!--RULES_TABLE_END-->`
         )
+)
+
+const docsReadmeFilePath = path.resolve(__dirname, "../docs/README.md")
+fs.writeFileSync(
+    docsReadmeFilePath,
+    `---
+title: "Introduction"
+---
+
+${fs
+    .readFileSync(readmeFilePath, "utf8")
+    .replace(/\.\/docs\//gu, "./")
+    .replace(
+        /https:\/\/ota-meshi.github.io\/stylelint-plugin-stylus\//u,
+        "./"
+    )}`
 )

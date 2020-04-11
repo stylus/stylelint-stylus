@@ -22,6 +22,8 @@ This rule require or disallow whitespace after the double-slash of single-line c
 
 ### `"always"`
 
+<stylelint-code-block fix :rules="{ 'stylus/single-line-comment-double-slash-space-after': 'always' }">
+
 ```styl
 // ✓ GOOD
 // OK
@@ -31,16 +33,22 @@ This rule require or disallow whitespace after the double-slash of single-line c
 //NG
 ```
 
+</stylelint-code-block>
+
 ### `"never"`
 
+<stylelint-code-block fix :rules="{ 'stylus/single-line-comment-double-slash-space-after': 'never' }">
+
 ```styl
-// ✓ GOOD
+//✓ GOOD
 //OK
 
 // ✗ BAD
 // NG
 //  NG
 ```
+
+</stylelint-code-block>
 
 ## :couple: Related rules
 

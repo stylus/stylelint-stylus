@@ -22,6 +22,8 @@ This rule enforces pythonic or brace style.
 
 ### `"always"`
 
+<stylelint-code-block fix :rules="{ 'stylus/pythonic': 'always' }">
+
 ```styl
 // ✓ GOOD
 .foo
@@ -32,9 +34,13 @@ This rule enforces pythonic or brace style.
   color: red;
 }
 ```
+
+</stylelint-code-block>
 
 ### `"never"`
 
+<stylelint-code-block fix :rules="{ 'stylus/pythonic': 'never' }">
+
 ```styl
 // ✓ GOOD
 .foo {
@@ -45,6 +51,8 @@ This rule enforces pythonic or brace style.
 .foo
   color: red;
 ```
+
+</stylelint-code-block>
 
 ## :books: Further reading
 

@@ -10,6 +10,7 @@ module.exports = {
     rules: {
         'require-jsdoc': 'off',
         "no-warning-comments": "warn",
+        "@mysticatea/vue/comma-dangle": 'off',
         "@mysticatea/no-use-ignored-vars": ["error", "^_[a-zA-Z]+$"],
         "spaced-comment": ["error", "always", { "markers": ["/"] }]
     },

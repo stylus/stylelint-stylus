@@ -22,6 +22,8 @@ This rule require or disallow declaration colons.
 
 ### `"always"`
 
+<stylelint-code-block fix :rules="{ 'stylus/declaration-colon': 'always' }">
+
 ```styl
 a
   // ✓ GOOD
@@ -29,9 +31,13 @@ a
   // ✗ BAD
   color red
 ```
+
+</stylelint-code-block>
 
 ### `"never"`
 
+<stylelint-code-block fix :rules="{ 'stylus/declaration-colon': 'never' }">
+
 ```styl
 a
   // ✓ GOOD
@@ -39,6 +45,8 @@ a
   // ✗ BAD
   color: red
 ```
+
+</stylelint-code-block>
 
 ## :books: Further reading
 

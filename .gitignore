@@ -99,3 +99,11 @@ dist
 
 # TernJS port file
 .tern-port
+
+# gh-pages
+/assets
+/rules
+/playground
+/404.html
+/index.html
+

@@ -1,3 +1,7 @@
+---
+title: "Introduction"
+---
+
 <h1 align="center">stylelint-plugin-stylus</h1>
 
 <p align="center"><a href="https://stylelint.io/" alt="stylelint">stylelint</a> plugin for <a href="https://stylus-lang.com/" alt="Stylus">Stylus</a>.
@@ -31,7 +35,7 @@ This plugin allows us to check the [Stylus] with [stylelint].
 
 [stylelint editor integrations](https://stylelint.io/user-guide/integrations/editor) are useful to check your code in real-time.
 
-You can check on the [Online DEMO](https://ota-meshi.github.io/stylelint-plugin-stylus/playground/).
+You can check on the [Online DEMO](./playground/).
 
 ## :cd: Installation
 
@@ -129,10 +133,10 @@ These rules relate to possible syntax or logic errors in Stylus.
 
 |    | Rule ID | Description |
 |:---|:--------|:------------|
-|  | [stylus/at-rule-no-unknown](./docs/rules/at-rule-no-unknown.md) | disallow unknown at-rules. |
-|  | [stylus/property-no-unknown](./docs/rules/property-no-unknown.md) | disallow unknown properties. |
-|  | [stylus/selector-type-no-unknown](./docs/rules/selector-type-no-unknown.md) | disallow unknown type selectors. |
-|  | [stylus/single-line-comment-no-empty](./docs/rules/single-line-comment-no-empty.md) | disallow empty single-line comments. |
+|  | [stylus/at-rule-no-unknown](./rules/at-rule-no-unknown.md) | disallow unknown at-rules. |
+|  | [stylus/property-no-unknown](./rules/property-no-unknown.md) | disallow unknown properties. |
+|  | [stylus/selector-type-no-unknown](./rules/selector-type-no-unknown.md) | disallow unknown type selectors. |
+|  | [stylus/single-line-comment-no-empty](./rules/single-line-comment-no-empty.md) | disallow empty single-line comments. |
 
 ### Standard Rules
 
@@ -140,28 +144,28 @@ These rules relate to style guidelines.
 
 |    | Rule ID | Description |
 |:---|:--------|:------------|
-| :wrench: | [stylus/at-rule-empty-line-before](./docs/rules/at-rule-empty-line-before.md) | require or disallow an empty line before at-rules. |
-| :wrench: | [stylus/at-rule-name-space-after](./docs/rules/at-rule-name-space-after.md) | require a single space after at-rule names. |
-| :wrench: | [stylus/block-closing-brace-empty-line-before](./docs/rules/block-closing-brace-empty-line-before.md) | require or disallow an empty line before the closing brace of blocks. |
-| :wrench: | [stylus/block-closing-brace-newline-after](./docs/rules/block-closing-brace-newline-after.md) | require a newline or disallow whitespace after the closing brace of blocks. |
-| :wrench: | [stylus/block-closing-brace-newline-before](./docs/rules/block-closing-brace-newline-before.md) | require a newline or disallow whitespace before the closing brace of blocks. |
-| :wrench: | [stylus/block-closing-brace-space-before](./docs/rules/block-closing-brace-space-before.md) | require a single space or disallow whitespace before the closing brace of blocks. |
-| :wrench: | [stylus/block-opening-brace-newline-after](./docs/rules/block-opening-brace-newline-after.md) | require a newline after the opening brace of blocks. |
-| :wrench: | [stylus/block-opening-brace-space-after](./docs/rules/block-opening-brace-space-after.md) | require a single space or disallow whitespace after the opening brace of blocks. |
-| :wrench: | [stylus/block-opening-brace-space-before](./docs/rules/block-opening-brace-space-before.md) | require a single space or disallow whitespace before the opening brace of blocks. |
-| :wrench: | [stylus/color-hex-case](./docs/rules/color-hex-case.md) | enforce lowercase or uppercase for hex colors. |
-| :wrench: | [stylus/declaration-colon](./docs/rules/declaration-colon.md) | require or disallow declaration colons. |
-| :wrench: | [stylus/indentation](./docs/rules/indentation.md) | enforces indentation. |
-| :wrench: | [stylus/number-leading-zero](./docs/rules/number-leading-zero.md) | require or disallow a leading zero for fractional numbers less than 1. |
-| :wrench: | [stylus/number-no-trailing-zeros](./docs/rules/number-no-trailing-zeros.md) | disallow trailing zeros in numbers. |
-| :wrench: | [stylus/pythonic](./docs/rules/pythonic.md) | enforces pythonic or brace style. |
-| :wrench: | [stylus/selector-list-comma-newline-after](./docs/rules/selector-list-comma-newline-after.md) | require a newline whitespace after the commas of selector lists. |
-| :wrench: | [stylus/selector-list-comma-space-before](./docs/rules/selector-list-comma-space-before.md) | require a single space or disallow whitespace before the commas of selector lists. |
-| :wrench: | [stylus/selector-list-comma](./docs/rules/selector-list-comma.md) | require or disallow selector list comma. |
-| :wrench: | [stylus/selector-pseudo-class-case](./docs/rules/selector-pseudo-class-case.md) | enforce lowercase or uppercase for pseudo-class selectors. |
-| :wrench: | [stylus/semicolon](./docs/rules/semicolon.md) | require or disallow semicolon. |
-| :wrench: | [stylus/single-line-comment-double-slash-space-after](./docs/rules/single-line-comment-double-slash-space-after.md) | require or disallow whitespace after the double-slash of single-line comments. |
-| :wrench: | [stylus/single-line-comment](./docs/rules/single-line-comment.md) | enforces comment style where single-line comments are allowed. |
+| :wrench: | [stylus/at-rule-empty-line-before](./rules/at-rule-empty-line-before.md) | require or disallow an empty line before at-rules. |
+| :wrench: | [stylus/at-rule-name-space-after](./rules/at-rule-name-space-after.md) | require a single space after at-rule names. |
+| :wrench: | [stylus/block-closing-brace-empty-line-before](./rules/block-closing-brace-empty-line-before.md) | require or disallow an empty line before the closing brace of blocks. |
+| :wrench: | [stylus/block-closing-brace-newline-after](./rules/block-closing-brace-newline-after.md) | require a newline or disallow whitespace after the closing brace of blocks. |
+| :wrench: | [stylus/block-closing-brace-newline-before](./rules/block-closing-brace-newline-before.md) | require a newline or disallow whitespace before the closing brace of blocks. |
+| :wrench: | [stylus/block-closing-brace-space-before](./rules/block-closing-brace-space-before.md) | require a single space or disallow whitespace before the closing brace of blocks. |
+| :wrench: | [stylus/block-opening-brace-newline-after](./rules/block-opening-brace-newline-after.md) | require a newline after the opening brace of blocks. |
+| :wrench: | [stylus/block-opening-brace-space-after](./rules/block-opening-brace-space-after.md) | require a single space or disallow whitespace after the opening brace of blocks. |
+| :wrench: | [stylus/block-opening-brace-space-before](./rules/block-opening-brace-space-before.md) | require a single space or disallow whitespace before the opening brace of blocks. |
+| :wrench: | [stylus/color-hex-case](./rules/color-hex-case.md) | enforce lowercase or uppercase for hex colors. |
+| :wrench: | [stylus/declaration-colon](./rules/declaration-colon.md) | require or disallow declaration colons. |
+| :wrench: | [stylus/indentation](./rules/indentation.md) | enforces indentation. |
+| :wrench: | [stylus/number-leading-zero](./rules/number-leading-zero.md) | require or disallow a leading zero for fractional numbers less than 1. |
+| :wrench: | [stylus/number-no-trailing-zeros](./rules/number-no-trailing-zeros.md) | disallow trailing zeros in numbers. |
+| :wrench: | [stylus/pythonic](./rules/pythonic.md) | enforces pythonic or brace style. |
+| :wrench: | [stylus/selector-list-comma-newline-after](./rules/selector-list-comma-newline-after.md) | require a newline whitespace after the commas of selector lists. |
+| :wrench: | [stylus/selector-list-comma-space-before](./rules/selector-list-comma-space-before.md) | require a single space or disallow whitespace before the commas of selector lists. |
+| :wrench: | [stylus/selector-list-comma](./rules/selector-list-comma.md) | require or disallow selector list comma. |
+| :wrench: | [stylus/selector-pseudo-class-case](./rules/selector-pseudo-class-case.md) | enforce lowercase or uppercase for pseudo-class selectors. |
+| :wrench: | [stylus/semicolon](./rules/semicolon.md) | require or disallow semicolon. |
+| :wrench: | [stylus/single-line-comment-double-slash-space-after](./rules/single-line-comment-double-slash-space-after.md) | require or disallow whitespace after the double-slash of single-line comments. |
+| :wrench: | [stylus/single-line-comment](./rules/single-line-comment.md) | enforces comment style where single-line comments are allowed. |
 
 <!--RULES_TABLE_END-->
 

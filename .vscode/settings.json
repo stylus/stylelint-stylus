@@ -21,4 +21,8 @@
         "vue",
         "stylus"
     ],
+    "eslint.workingDirectories": [
+      {"directory": "./", "changeProcessCWD": true },
+      {"directory": "./docs/.vuepress", "changeProcessCWD": true }
+    ],
 }
