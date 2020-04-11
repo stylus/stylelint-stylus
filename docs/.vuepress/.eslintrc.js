@@ -3,7 +3,8 @@ module.exports = {
         sourceType: 'module'
     },
     globals:{
-        window: true
+        window: true,
+        require: true
     },
     rules: {
         "@mysticatea/node/no-unsupported-features/es-syntax": 'off'

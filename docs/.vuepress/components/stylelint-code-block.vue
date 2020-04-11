@@ -93,14 +93,14 @@ export default {
             const alias = await import("stylelint4b/alias")
 
             await alias.defineAliases({
-                "./node_modules/stylelint-plugin-stylus/recommended/index.js": import(
+                [require.resolve(
                     "stylelint-plugin-stylus/recommended"
-                ),
+                )]: import("stylelint-plugin-stylus/recommended"),
                 "stylelint-plugin-stylus/standard": import(
                     "stylelint-plugin-stylus/standard"
                 ),
                 "stylelint-plugin-stylus": import("stylelint-plugin-stylus"),
-                "./node_modules/stylelint-plugin-stylus/lib/index.js": import(
+                [require.resolve("stylelint-plugin-stylus")]: import(
                     "stylelint-plugin-stylus"
                 ),
                 "stylelint-plugin-stylus/custom-syntax": import(
