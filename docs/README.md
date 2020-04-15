@@ -57,14 +57,14 @@ Set [custom syntax](https://stylelint.io/user-guide/usage/options#customsyntax) 
 - via CLI
 
     ```bash
-    stylelint ... --custom-syntax stylelint-plugin-stylus/custom-syntax.js
+    stylelint ... --custom-syntax stylelint-plugin-stylus/custom-syntax
     ```
 
 - with [VSCode extension]
 
     ```js
     {
-    "stylelint.customSyntax": "stylelint-plugin-stylus/custom-syntax.js",
+    "stylelint.customSyntax": "stylelint-plugin-stylus/custom-syntax",
     "stylelint.validate": [
         ...,
         // ↓ Add "stylus" language.
