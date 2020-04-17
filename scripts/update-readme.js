@@ -12,17 +12,20 @@ function toRuleRow(rule) {
     const mark = `${rule.meta.fixable ? ":wrench:" : ""}${
         rule.meta.deprecated ? ":warning:" : ""
     }`
-    const link = `[${rule.ruleName}](./docs/rules/${rule.fileName}.md)`
+    const link = `[${rule.ruleName}](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/${rule.fileName}.html)`
     const description = rule.meta.docs.description || "(no description)"
 
     return `| ${mark} | ${link} | ${description} |`
 }
 
 function toDeprecatedRuleRow(rule) {
-    const link = `[${rule.ruleName}](./docs/rules/${rule.fileName}.md)`
+    const link = `[${rule.ruleName}](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/${rule.fileName}.html)`
     const replacedRules = rule.meta.docs.replacedBy || []
     const replacedBy = replacedRules
-        .map(name => `[stylus/${name}](./docs/rules/${name}.md)`)
+        .map(
+            name =>
+                `[stylus/${name}](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/${name}.html)`
+        )
         .join(", ")
 
     return `| ${link} | ${replacedBy || "(no replacement)"} |`
@@ -93,7 +96,7 @@ ${fs
     .readFileSync(readmeFilePath, "utf8")
     .replace(/\.\/docs\//gu, "./")
     .replace(
-        /https:\/\/ota-meshi.github.io\/stylelint-plugin-stylus\//u,
-        "./"
+        /\(https:\/\/ota-meshi.github.io\/stylelint-plugin-stylus\/(.*?)(\.html)?\)/gu,
+        (_$0, $1, $2) => `(./${$1}${($2 === ".html" ? ".md" : $2) || ""})`
     )}`
 )
