@@ -49,7 +49,6 @@ module.exports = {
                 // eslint-disable-next-line @mysticatea/node/no-extraneous-require
                 stylus: require.resolve("stylus/lib/stylus"),
                 glob: require.resolve("./shim/glob"),
-                "safer-buffer": require.resolve("./shim/safer-buffer"),
                 sax: require.resolve("./shim/sax"),
                 stylelint: resolve("../../node_modules/stylelint4b"),
                 "postcss-syntax": resolve(

@@ -1,0 +1,35 @@
+// playground
+.theme-container
+  .sidebar
+    transition transform 0.2s ease
+
+.theme-container.playground
+  .content__default:not(.custom)
+    max-width 900px
+    margin 0 auto
+    padding 2rem 2.5rem
+
+  .app
+    height calc(100vh - 70px)
+
+  .sidebar-button
+    display block
+
+  .navbar
+    padding-left 4rem
+
+  .sidebar
+    top 0
+    padding-top 3.6rem
+    transform translateX(-100%)
+    transition transform 0.2s ease
+
+  .page
+    padding-left 0
+
+  .header-anchor
+    display none
+
+.theme-container.playground.sidebar-open
+  .sidebar
+    transform translateX(0)
