@@ -33,3 +33,24 @@
 .theme-container.playground.sidebar-open
   .sidebar
     transform translateX(0)
+
+// playground layout
+.theme-container.playground
+  .theme-default-content
+    position relative
+
+    blockquote
+      position absolute
+      top 72px
+      right 48px
+      border-left 0
+
+      @media (max-width 600px)
+        font-size 0.8rem
+
+      @media (max-width 550px)
+        top 100px
+
+      @media (max-width 419px)
+        top 95px
+        font-size 0.7rem
