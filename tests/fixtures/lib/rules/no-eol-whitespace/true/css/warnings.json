@@ -1,0 +1,16 @@
+[
+  {
+    "line": 1,
+    "column": 5,
+    "rule": "stylus/no-eol-whitespace",
+    "severity": "error",
+    "text": "Unexpected whitespace at end of line (stylus/no-eol-whitespace)"
+  },
+  {
+    "line": 2,
+    "column": 15,
+    "rule": "stylus/no-eol-whitespace",
+    "severity": "error",
+    "text": "Unexpected whitespace at end of line (stylus/no-eol-whitespace)"
+  }
+]

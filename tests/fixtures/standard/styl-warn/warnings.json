@@ -77,6 +77,13 @@
     "text": "Expected newline after \",\" (stylus/selector-list-comma-newline-after)"
   },
   {
+    "line": 13,
+    "column": 12,
+    "rule": "stylus/no-eol-whitespace",
+    "severity": "error",
+    "text": "Unexpected whitespace at end of line (stylus/no-eol-whitespace)"
+  },
+  {
     "line": 16,
     "column": 1,
     "rule": "stylus/pythonic",

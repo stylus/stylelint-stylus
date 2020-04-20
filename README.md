@@ -152,6 +152,7 @@ These rules relate to style guidelines.
 | :wrench: | [stylus/color-hex-case](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/color-hex-case.html) | enforce lowercase or uppercase for hex colors. |
 | :wrench: | [stylus/declaration-colon](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/declaration-colon.html) | require or disallow declaration colons. |
 | :wrench: | [stylus/indentation](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/indentation.html) | enforces indentation. |
+| :wrench: | [stylus/no-eol-whitespace](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/no-eol-whitespace.html) | disallow end-of-line whitespace. |
 | :wrench: | [stylus/number-leading-zero](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/number-leading-zero.html) | require or disallow a leading zero for fractional numbers less than 1. |
 | :wrench: | [stylus/number-no-trailing-zeros](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/number-no-trailing-zeros.html) | disallow trailing zeros in numbers. |
 | :wrench: | [stylus/pythonic](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/pythonic.html) | enforces pythonic or brace style. |

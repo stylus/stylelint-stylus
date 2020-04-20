@@ -43,5 +43,11 @@ module.exports = {
         // - wrong autofix
         "stylus/color-hex-case": "lower",
         "stylus/selector-pseudo-class-case": "lower",
+
+        // - error remains with autofix
+        "stylus/no-eol-whitespace": true,
+        // The "no-eol-whitespace" rule is not turned off with "recommended", but is turned off with "standard".
+        // Because the problem with "no-eol-whitespace" rule is only location and autofix problem, and the effect of the problem is small.
+        "no-eol-whitespace": null,
     },
 }

@@ -54,6 +54,9 @@ module.exports = {
                 "postcss-syntax": resolve(
                     "../../node_modules/stylelint4b/packages/postcss-syntax"
                 ),
+                postcss: resolve(
+                    "../../node_modules/stylelint4b/packages/postcss"
+                ),
             },
         },
         plugins: [

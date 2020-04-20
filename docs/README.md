@@ -156,6 +156,7 @@ These rules relate to style guidelines.
 | :wrench: | [stylus/color-hex-case](./rules/color-hex-case.md) | enforce lowercase or uppercase for hex colors. |
 | :wrench: | [stylus/declaration-colon](./rules/declaration-colon.md) | require or disallow declaration colons. |
 | :wrench: | [stylus/indentation](./rules/indentation.md) | enforces indentation. |
+| :wrench: | [stylus/no-eol-whitespace](./rules/no-eol-whitespace.md) | disallow end-of-line whitespace. |
 | :wrench: | [stylus/number-leading-zero](./rules/number-leading-zero.md) | require or disallow a leading zero for fractional numbers less than 1. |
 | :wrench: | [stylus/number-no-trailing-zeros](./rules/number-no-trailing-zeros.md) | disallow trailing zeros in numbers. |
 | :wrench: | [stylus/pythonic](./rules/pythonic.md) | enforces pythonic or brace style. |
