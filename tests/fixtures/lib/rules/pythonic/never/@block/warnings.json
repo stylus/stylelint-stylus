@@ -1,0 +1,16 @@
+[
+  {
+    "line": 1,
+    "column": 1,
+    "rule": "stylus/pythonic",
+    "severity": "error",
+    "text": "Expected braces in block (stylus/pythonic)"
+  },
+  {
+    "line": 10,
+    "column": 1,
+    "rule": "stylus/pythonic",
+    "severity": "error",
+    "text": "Expected braces in block (stylus/pythonic)"
+  }
+]

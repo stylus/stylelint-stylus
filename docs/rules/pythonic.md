@@ -13,12 +13,16 @@ This rule enforces pythonic or brace style.
 
 ```json
 {
-  "stylus/pythonic": ["always" | "never"]
+  "stylus/pythonic": ["always" | "never", { "atblock": "always" | "never" }]
 }
 ```
 
-- `"always"` ... Requires pythonic style (i.e. indentation-based).
-- `"never"` ... Requires brace style.
+- Primary Option
+  - `"always"` ... Requires pythonic style (i.e. indentation-based).
+  - `"never"` ... Requires brace style.
+
+- Secondary Option (optional)
+  - `"atblock"` ... Define the style to apply with [@block].
 
 ### `"always"`
 
@@ -28,10 +32,17 @@ This rule enforces pythonic or brace style.
 // ✓ GOOD
 .foo
   color: red;
+bar =
+  width: 20px;
+  height: 20px;
 
 // ✗ BAD
 .foo {
   color: red;
+}
+bar = @block {
+  width: 20px;
+  height: 20px;
 }
 ```
 
@@ -46,10 +57,65 @@ This rule enforces pythonic or brace style.
 .foo {
   color: red;
 }
+bar = @block {
+  width: 20px;
+  height: 20px;
+}
 
 // ✗ BAD
 .foo
   color: red;
+bar =
+  width: 20px;
+  height: 20px;
+```
+
+</stylelint-code-block>
+
+### `[ "always", { "atblock": "never" } ]`
+
+<stylelint-code-block fix :rules="{ 'stylus/pythonic': ['always', { atblock: 'never' } ] }">
+
+```styl
+// ✓ GOOD
+.foo
+  color: red;
+bar = @block {
+  width: 20px;
+  height: 20px;
+}
+// ✗ BAD
+.foo {
+  color: red;
+}
+bar =
+  width: 20px;
+  height: 20px;
+
+```
+
+</stylelint-code-block>
+
+### `[ "never", { "atblock": "always" } ]`
+
+<stylelint-code-block fix :rules="{ 'stylus/pythonic': [ 'never', { atblock: 'always' } ] }">
+
+```styl
+// ✓ GOOD
+.foo {
+  color: red;
+}
+bar =
+  width: 20px;
+  height: 20px;
+
+// ✗ BAD
+.foo
+  color: red;
+bar = @block {
+  width: 20px;
+  height: 20px;
+}
 ```
 
 </stylelint-code-block>
@@ -58,9 +124,12 @@ This rule enforces pythonic or brace style.
 
 - [Stylus - SELECTORS - Indentation]
 - [Stylus - Features]
+- [Stylus - @BLOCK]
 
 [Stylus - Features]: https://stylus-lang.com/#features
 [Stylus - SELECTORS - Indentation]: https://stylus-lang.com/docs/selectors.html#indentation
+[Stylus - @BLOCK]: https://stylus-lang.com/docs/block.html
+[@block]: https://stylus-lang.com/docs/block.html
 
 ## :mag: Implementation
 
