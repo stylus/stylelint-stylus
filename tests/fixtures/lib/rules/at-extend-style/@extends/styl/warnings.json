@@ -1,0 +1,9 @@
+[
+  {
+    "line": 2,
+    "column": 3,
+    "rule": "stylus/at-extend-style",
+    "severity": "error",
+    "text": "Expected '@extends' instead of '@extend' (stylus/at-extend-style)"
+  }
+]

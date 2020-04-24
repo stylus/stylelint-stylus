@@ -140,6 +140,7 @@ These rules relate to style guidelines.
 
 |    | Rule ID | Description |
 |:---|:--------|:------------|
+| :wrench: | [stylus/at-extend-style](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/at-extend-style.html) | enforces `@extend` style. |
 | :wrench: | [stylus/at-rule-empty-line-before](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/at-rule-empty-line-before.html) | require or disallow an empty line before at-rules. |
 | :wrench: | [stylus/at-rule-name-space-after](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/at-rule-name-space-after.html) | require a single space after at-rule names. |
 | :wrench: | [stylus/block-closing-brace-empty-line-before](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/block-closing-brace-empty-line-before.html) | require or disallow an empty line before the closing brace of blocks. |

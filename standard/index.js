@@ -10,6 +10,7 @@ module.exports = {
         "stylus/selector-list-comma": "never",
         "stylus/semicolon": "never",
         "stylus/single-line-comment": "always",
+        "stylus/at-extend-style": "@extend",
 
         // wrapper core rules
         "stylus/indentation": 2,
