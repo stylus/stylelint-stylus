@@ -144,6 +144,7 @@ These rules relate to style guidelines.
 
 |    | Rule ID | Description |
 |:---|:--------|:------------|
+| :wrench: | [stylus/at-extend-style](./rules/at-extend-style.md) | enforces `@extend` style. |
 | :wrench: | [stylus/at-rule-empty-line-before](./rules/at-rule-empty-line-before.md) | require or disallow an empty line before at-rules. |
 | :wrench: | [stylus/at-rule-name-space-after](./rules/at-rule-name-space-after.md) | require a single space after at-rule names. |
 | :wrench: | [stylus/block-closing-brace-empty-line-before](./rules/block-closing-brace-empty-line-before.md) | require or disallow an empty line before the closing brace of blocks. |

@@ -302,188 +302,244 @@
   },
   {
     "line": 33,
+    "column": 1,
+    "rule": "no-duplicate-selectors",
+    "severity": "error",
+    "text": "Unexpected duplicate selector \".warning\", first used at line 28 (no-duplicate-selectors)"
+  },
+  {
+    "line": 33,
+    "column": 1,
+    "rule": "stylus/pythonic",
+    "severity": "error",
+    "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
+  },
+  {
+    "line": 34,
+    "column": 3,
+    "rule": "stylus/at-extend-style",
+    "severity": "error",
+    "text": "Expected '@extend' instead of '@extends' (stylus/at-extend-style)"
+  },
+  {
+    "line": 34,
+    "column": 20,
+    "rule": "stylus/semicolon",
+    "severity": "error",
+    "text": "Unexpected semicolon (stylus/semicolon)"
+  },
+  {
+    "line": 35,
+    "column": 3,
+    "rule": "declaration-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before declaration (declaration-empty-line-before)"
+  },
+  {
+    "line": 35,
+    "column": 8,
+    "rule": "stylus/declaration-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/declaration-colon)"
+  },
+  {
+    "line": 35,
+    "column": 10,
+    "rule": "stylus/color-hex-case",
+    "severity": "error",
+    "text": "Expected \"#E2E21E\" to be \"#e2e21e\" (stylus/color-hex-case)"
+  },
+  {
+    "line": 35,
+    "column": 17,
+    "rule": "stylus/semicolon",
+    "severity": "error",
+    "text": "Unexpected semicolon (stylus/semicolon)"
+  },
+  {
+    "line": 38,
     "column": 2,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":Hover\" to be \":hover\" (stylus/selector-pseudo-class-case)"
   },
   {
-    "line": 36,
+    "line": 41,
     "column": 1,
     "rule": "stylus/selector-type-no-unknown",
     "severity": "error",
     "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
   },
   {
-    "line": 39,
+    "line": 44,
     "column": 8,
     "rule": "stylus/selector-type-no-unknown",
     "severity": "error",
     "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
   },
   {
-    "line": 42,
+    "line": 47,
     "column": 1,
     "rule": "no-duplicate-selectors",
     "severity": "error",
     "text": "Unexpected duplicate selector \"body\", first used at line 1 (no-duplicate-selectors)"
   },
   {
-    "line": 43,
+    "line": 48,
     "column": 4,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 2 spaces (stylus/indentation)"
   },
   {
-    "line": 45,
+    "line": 50,
     "column": 4,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 2 spaces (stylus/indentation)"
   },
   {
-    "line": 45,
+    "line": 50,
     "column": 14,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 2 spaces (stylus/indentation)"
   },
   {
-    "line": 45,
+    "line": 50,
     "column": 31,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 2 spaces (stylus/indentation)"
   },
   {
-    "line": 45,
+    "line": 50,
     "column": 55,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 2 spaces (stylus/indentation)"
   },
   {
-    "line": 49,
+    "line": 54,
     "column": 7,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 4 spaces (stylus/indentation)"
   },
   {
-    "line": 51,
+    "line": 56,
     "column": 1,
     "rule": "no-duplicate-selectors",
     "severity": "error",
     "text": "Unexpected duplicate selector \"body\", first used at line 1 (no-duplicate-selectors)"
   },
   {
-    "line": 51,
+    "line": 56,
     "column": 1,
     "rule": "stylus/pythonic",
     "severity": "error",
     "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
   },
   {
-    "line": 52,
+    "line": 57,
     "column": 4,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 2 spaces (stylus/indentation)"
   },
   {
-    "line": 52,
+    "line": 57,
     "column": 8,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
   },
   {
-    "line": 52,
+    "line": 57,
     "column": 47,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Unexpected semicolon (stylus/semicolon)"
   },
   {
-    "line": 54,
+    "line": 59,
     "column": 1,
     "rule": "no-duplicate-selectors",
     "severity": "error",
-    "text": "Unexpected duplicate selector \"body button,\nbody button.button,\nbody input[type='button'],\nbody input[type='submit']\", first used at line 45 (no-duplicate-selectors)"
+    "text": "Unexpected duplicate selector \"body button,\nbody button.button,\nbody input[type='button'],\nbody input[type='submit']\", first used at line 50 (no-duplicate-selectors)"
   },
   {
-    "line": 54,
+    "line": 59,
     "column": 1,
     "rule": "rule-empty-line-before",
     "severity": "error",
     "text": "Expected empty line before rule (rule-empty-line-before)"
   },
   {
-    "line": 54,
+    "line": 59,
     "column": 1,
     "rule": "stylus/pythonic",
     "severity": "error",
     "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
   },
   {
-    "line": 54,
+    "line": 59,
     "column": 12,
     "rule": "stylus/selector-list-comma",
     "severity": "error",
     "text": "Unexpected comma (stylus/selector-list-comma)"
   },
   {
-    "line": 55,
+    "line": 60,
     "column": 19,
     "rule": "stylus/selector-list-comma",
     "severity": "error",
     "text": "Unexpected comma (stylus/selector-list-comma)"
   },
   {
-    "line": 56,
+    "line": 61,
     "column": 26,
     "rule": "stylus/selector-list-comma",
     "severity": "error",
     "text": "Unexpected comma (stylus/selector-list-comma)"
   },
   {
-    "line": 58,
+    "line": 63,
     "column": 4,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 2 spaces (stylus/indentation)"
   },
   {
-    "line": 58,
+    "line": 63,
     "column": 17,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
   },
   {
-    "line": 58,
+    "line": 63,
     "column": 22,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Unexpected semicolon (stylus/semicolon)"
   },
   {
-    "line": 61,
+    "line": 66,
     "column": 1,
     "rule": "no-duplicate-selectors",
     "severity": "error",
     "text": "Unexpected duplicate selector \".foo\", first used at line 16 (no-duplicate-selectors)"
   },
   {
-    "line": 62,
+    "line": 67,
     "column": 3,
     "rule": "stylus/property-no-unknown",
     "severity": "error",
     "text": "Unexpected unknown property \"unknown\" (stylus/property-no-unknown)"
   },
   {
-    "line": 62,
+    "line": 67,
     "column": 13,
     "rule": "no-missing-end-of-source-newline",
     "severity": "error",
