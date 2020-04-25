@@ -63,6 +63,13 @@
     "text": "Expected comma (stylus/hash-object-property-comma)"
   },
   {
+    "line": 28,
+    "column": 4,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Expected comma (stylus/hash-object-property-comma)"
+  },
+  {
     "line": 29,
     "column": 9,
     "rule": "stylus/hash-object-property-comma",
