@@ -1,6 +1,6 @@
 {
   "name": "stylelint-plugin-stylus",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "stylelint plugin for Stylus",
   "main": "lib/index.js",
   "files": [
