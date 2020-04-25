@@ -1,0 +1,44 @@
+[
+  {
+    "line": 4,
+    "column": 21,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 6,
+    "column": 9,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 10,
+    "column": 9,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 11,
+    "column": 9,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 18,
+    "column": 9,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 32,
+    "column": 17,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/hash-object-property-comma)"
+  }
+]

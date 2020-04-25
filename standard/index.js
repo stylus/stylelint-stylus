@@ -11,6 +11,7 @@ module.exports = {
         "stylus/semicolon": "never",
         "stylus/single-line-comment": "always",
         "stylus/at-extend-style": "@extend",
+        "stylus/hash-object-property-comma": ["always", { trailing: "never" }],
 
         // wrapper core rules
         "stylus/indentation": 2,

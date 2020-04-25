@@ -156,6 +156,7 @@ These rules relate to style guidelines.
 | :wrench: | [stylus/block-opening-brace-space-before](./rules/block-opening-brace-space-before.md) | require a single space or disallow whitespace before the opening brace of blocks. |
 | :wrench: | [stylus/color-hex-case](./rules/color-hex-case.md) | enforce lowercase or uppercase for hex colors. |
 | :wrench: | [stylus/declaration-colon](./rules/declaration-colon.md) | require or disallow declaration colons. |
+| :wrench: | [stylus/hash-object-property-comma](./rules/hash-object-property-comma.md) | require or disallow commas in hash object properties. |
 | :wrench: | [stylus/indentation](./rules/indentation.md) | enforces indentation. |
 | :wrench: | [stylus/no-eol-whitespace](./rules/no-eol-whitespace.md) | disallow end-of-line whitespace. |
 | :wrench: | [stylus/number-leading-zero](./rules/number-leading-zero.md) | require or disallow a leading zero for fractional numbers less than 1. |

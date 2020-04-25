@@ -1,0 +1,37 @@
+[
+  {
+    "line": 1,
+    "column": 6,
+    "rule": "block-no-empty",
+    "severity": "error",
+    "text": "Unexpected empty block (block-no-empty)"
+  },
+  {
+    "line": 9,
+    "column": 9,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Expected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 17,
+    "column": 3,
+    "rule": "declaration-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before declaration (declaration-empty-line-before)"
+  },
+  {
+    "line": 20,
+    "column": 9,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Expected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 24,
+    "column": 3,
+    "rule": "declaration-empty-line-before",
+    "severity": "error",
+    "text": "Expected empty line before declaration (declaration-empty-line-before)"
+  }
+]

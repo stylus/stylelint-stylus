@@ -13,7 +13,11 @@ This rule enforces pythonic or brace style.
 
 ```json
 {
-  "stylus/pythonic": ["always" | "never", { "atblock": "always" | "never" }]
+  "stylus/pythonic": ["always" | "never",
+    {
+      "atblock": "always" | "never"
+    }
+  ]
 }
 ```
 

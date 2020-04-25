@@ -1,0 +1,79 @@
+[
+  {
+    "line": 2,
+    "column": 13,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Expected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 3,
+    "column": 21,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Expected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 6,
+    "column": 9,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 7,
+    "column": 9,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Expected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 10,
+    "column": 9,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 15,
+    "column": 9,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Expected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 18,
+    "column": 9,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Unexpected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 20,
+    "column": 11,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Expected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 22,
+    "column": 9,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Expected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 27,
+    "column": 11,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Expected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 29,
+    "column": 9,
+    "rule": "stylus/hash-object-property-comma",
+    "severity": "error",
+    "text": "Expected comma (stylus/hash-object-property-comma)"
+  }
+]

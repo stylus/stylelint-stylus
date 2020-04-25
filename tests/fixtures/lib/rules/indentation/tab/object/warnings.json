@@ -1,0 +1,100 @@
+[
+  {
+    "line": 5,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 6,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 9,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 10,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 13,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 14,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 15,
+    "column": 5,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 tabs (stylus/indentation)"
+  },
+  {
+    "line": 16,
+    "column": 4,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 17,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 20,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 21,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 22,
+    "column": 5,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 tabs (stylus/indentation)"
+  },
+  {
+    "line": 23,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  },
+  {
+    "line": 24,
+    "column": 3,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 1 tab (stylus/indentation)"
+  }
+]

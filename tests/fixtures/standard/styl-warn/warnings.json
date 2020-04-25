@@ -399,22 +399,22 @@
     "text": "Expected indentation of 2 spaces (stylus/indentation)"
   },
   {
-    "line": 50,
-    "column": 14,
+    "line": 51,
+    "column": 4,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 2 spaces (stylus/indentation)"
   },
   {
-    "line": 50,
-    "column": 31,
+    "line": 52,
+    "column": 4,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 2 spaces (stylus/indentation)"
   },
   {
-    "line": 50,
-    "column": 55,
+    "line": 53,
+    "column": 4,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 2 spaces (stylus/indentation)"
@@ -539,10 +539,10 @@
     "text": "Unexpected unknown property \"unknown\" (stylus/property-no-unknown)"
   },
   {
-    "line": 67,
-    "column": 13,
-    "rule": "no-missing-end-of-source-newline",
+    "line": 70,
+    "column": 9,
+    "rule": "stylus/hash-object-property-comma",
     "severity": "error",
-    "text": "Unexpected missing end-of-source newline (no-missing-end-of-source-newline)"
+    "text": "Expected comma (stylus/hash-object-property-comma)"
   }
 ]
