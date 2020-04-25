@@ -28,6 +28,9 @@ This plugin allows us to check the [Stylus] with [stylelint].
 
 - Finds the many wrong use of selector, declaration, at-rule and more using the rules of [stylelint].
 - Finds the violations in coding style for [Stylus].
+- Use the [fix option] to automatically fixes the many stylistic violations.
+
+[fix option]: https://stylelint.io/user-guide/usage/options#fix
 
 [stylelint editor integrations](https://stylelint.io/user-guide/integrations/editor) are useful to check your code in real-time.
 
