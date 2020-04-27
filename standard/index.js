@@ -5,6 +5,7 @@ module.exports = {
     extends: [require.resolve("../recommended")],
     rules: {
         "stylus/declaration-colon": "never",
+        "stylus/media-feature-colon": "never",
         "stylus/single-line-comment-double-slash-space-after": "always",
         "stylus/pythonic": "always",
         "stylus/selector-list-comma": "never",

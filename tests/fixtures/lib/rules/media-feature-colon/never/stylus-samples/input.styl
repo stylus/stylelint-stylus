@@ -1,0 +1,61 @@
+@media print
+  #header
+  #footer
+    display none
+
+.widget
+  padding 10px
+  
+  @media screen and (min-width: 600px)
+    padding 20px
+
+@media (max-width: 500px)
+  .foo
+    color: #000
+
+  @media (min-width: 100px), (min-height: 200px)
+    .foo
+      color: #100
+
+foo = 'width'
+bar = 30em
+@media (max-{foo}: bar)
+  body
+    color #fff
+
+.foo
+  for i in 1..4
+    @media (min-width: 2**(i+7)px)
+      width: 100px*i
+
+// --
+
+@media print
+  #header
+  #footer
+    display none
+
+.widget
+  padding 10px
+  
+  @media screen and (min-width 600px)
+    padding 20px
+
+@media (max-width 500px)
+  .foo
+    color: #000
+
+  @media (min-width 100px), (min-height 200px)
+    .foo
+      color: #100
+
+foo = 'width'
+bar = 30em
+@media (max-{foo} bar)
+  body
+    color #fff
+
+.foo
+  for i in 1..4
+    @media (min-width 2**(i+7)px)
+      width: 100px*i

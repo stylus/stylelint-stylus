@@ -1,0 +1,9 @@
+[
+  {
+    "line": 1,
+    "column": 17,
+    "rule": "stylus/media-feature-colon",
+    "severity": "error",
+    "text": "Expected colon (stylus/media-feature-colon)"
+  }
+]

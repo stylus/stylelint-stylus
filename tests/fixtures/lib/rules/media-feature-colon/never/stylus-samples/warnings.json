@@ -1,0 +1,44 @@
+[
+  {
+    "line": 9,
+    "column": 30,
+    "rule": "stylus/media-feature-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/media-feature-colon)"
+  },
+  {
+    "line": 12,
+    "column": 17,
+    "rule": "stylus/media-feature-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/media-feature-colon)"
+  },
+  {
+    "line": 16,
+    "column": 19,
+    "rule": "stylus/media-feature-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/media-feature-colon)"
+  },
+  {
+    "line": 16,
+    "column": 40,
+    "rule": "stylus/media-feature-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/media-feature-colon)"
+  },
+  {
+    "line": 22,
+    "column": 17,
+    "rule": "stylus/media-feature-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/media-feature-colon)"
+  },
+  {
+    "line": 28,
+    "column": 21,
+    "rule": "stylus/media-feature-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/media-feature-colon)"
+  }
+]

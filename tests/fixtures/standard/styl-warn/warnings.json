@@ -544,5 +544,19 @@
     "rule": "stylus/hash-object-property-comma",
     "severity": "error",
     "text": "Expected comma (stylus/hash-object-property-comma)"
+  },
+  {
+    "line": 74,
+    "column": 17,
+    "rule": "stylus/media-feature-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/media-feature-colon)"
+  },
+  {
+    "line": 76,
+    "column": 10,
+    "rule": "stylus/declaration-colon",
+    "severity": "error",
+    "text": "Unexpected colon (stylus/declaration-colon)"
   }
 ]
