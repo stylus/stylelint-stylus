@@ -19,7 +19,7 @@ The `stylus/selector-list-comma-newline-after` rule understands that can omit co
 
 ```json
 {
-  "stylus/selector-list-comma-newline-after": ["always" | "always-multi-line"]
+  "stylus/selector-list-comma-newline-after": ["always" | "always-multi-line", "never-multi-line"]
 }
 ```
 
