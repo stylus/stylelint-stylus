@@ -158,6 +158,7 @@ These rules relate to style guidelines.
 | :wrench: | [stylus/hash-object-property-comma](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/hash-object-property-comma.html) | require or disallow commas in hash object properties. |
 | :wrench: | [stylus/indentation](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/indentation.html) | enforces indentation. |
 | :wrench: | [stylus/media-feature-colon](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/media-feature-colon.html) | require or disallow media feature colons. |
+| :wrench: | [stylus/no-at-require](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/no-at-require.html) | disallow `@require`, use `@import` instead. |
 | :wrench: | [stylus/no-eol-whitespace](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/no-eol-whitespace.html) | disallow end-of-line whitespace. |
 | :wrench: | [stylus/number-leading-zero](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/number-leading-zero.html) | require or disallow a leading zero for fractional numbers less than 1. |
 | :wrench: | [stylus/number-no-trailing-zeros](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/number-no-trailing-zeros.html) | disallow trailing zeros in numbers. |

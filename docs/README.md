@@ -162,6 +162,7 @@ These rules relate to style guidelines.
 | :wrench: | [stylus/hash-object-property-comma](./rules/hash-object-property-comma.md) | require or disallow commas in hash object properties. |
 | :wrench: | [stylus/indentation](./rules/indentation.md) | enforces indentation. |
 | :wrench: | [stylus/media-feature-colon](./rules/media-feature-colon.md) | require or disallow media feature colons. |
+| :wrench: | [stylus/no-at-require](./rules/no-at-require.md) | disallow `@require`, use `@import` instead. |
 | :wrench: | [stylus/no-eol-whitespace](./rules/no-eol-whitespace.md) | disallow end-of-line whitespace. |
 | :wrench: | [stylus/number-leading-zero](./rules/number-leading-zero.md) | require or disallow a leading zero for fractional numbers less than 1. |
 | :wrench: | [stylus/number-no-trailing-zeros](./rules/number-no-trailing-zeros.md) | disallow trailing zeros in numbers. |

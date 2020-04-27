@@ -558,5 +558,12 @@
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
+  },
+  {
+    "line": 78,
+    "column": 1,
+    "rule": "stylus/no-at-require",
+    "severity": "error",
+    "text": "Unexpected '@require', use '@import' instead. (stylus/no-at-require)"
   }
 ]

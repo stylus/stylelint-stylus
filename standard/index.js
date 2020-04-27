@@ -13,6 +13,7 @@ module.exports = {
         "stylus/single-line-comment": "always",
         "stylus/at-extend-style": "@extend",
         "stylus/hash-object-property-comma": ["always", { trailing: "never" }],
+        "stylus/no-at-require": true,
 
         // wrapper core rules
         "stylus/indentation": 2,
