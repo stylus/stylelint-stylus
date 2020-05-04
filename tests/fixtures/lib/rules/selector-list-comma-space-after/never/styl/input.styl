@@ -9,25 +9,18 @@
   background: red;
 }
 
-.foo ,
-.bar {
+.foo, .bar {
   color: red;
   background: red;
 }
 
-.foo ,.bar {
-  color: red;
-  background: red;
-}
-
-.foo
-,.bar {
+.foo,  .bar {
   color: red;
   background: red;
 }
 
 .foo
-,.bar {
+, .bar {
   color: red;
   background: red;
 }
@@ -36,7 +29,7 @@
 .bar
   color red
 
-:is(header, main, footer) p:hover {
+:is(header,main,footer) p:hover {
   color: red;
   cursor: pointer;
 }
@@ -60,25 +53,18 @@
     background: red;
   }
 
-  .foo ,
-  .bar {
+  .foo, .bar {
     color: red;
     background: red;
   }
 
-  .foo ,.bar {
-    color: red;
-    background: red;
-  }
-
-  .foo
-  ,.bar {
+  .foo,  .bar {
     color: red;
     background: red;
   }
 
   .foo
-  ,.bar {
+  , .bar {
     color: red;
     background: red;
   }
@@ -87,7 +73,7 @@
   .bar
     color red
 
-  :is(header, main, footer) p:hover {
+  :is(header,main,footer) p:hover {
     color: red;
     cursor: pointer;
   }
@@ -99,7 +85,15 @@
   .foo/* comment */,/* comment */.bar
     color red
 
+
 .foo,.bar,.baz {
+  color: red;
+  background: red;
+}
+
+
+.foo,.bar,  
+  .baz {
   color: red;
   background: red;
 }

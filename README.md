@@ -130,46 +130,47 @@ The `--fix` option on the [command line](https://stylelint.io/user-guide/usage/o
 
 These rules relate to possible syntax or logic errors in Stylus.
 
-|    | Rule ID | Description |
-|:---|:--------|:------------|
-|  | [stylus/at-rule-no-unknown](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/at-rule-no-unknown.html) | disallow unknown at-rules. |
-|  | [stylus/property-no-unknown](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/property-no-unknown.html) | disallow unknown properties. |
-|  | [stylus/selector-type-no-unknown](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/selector-type-no-unknown.html) | disallow unknown type selectors. |
-|  | [stylus/single-line-comment-no-empty](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/single-line-comment-no-empty.html) | disallow empty single-line comments. |
+|    | Rule ID | Description | RuleSet |
+|:---|:--------|:------------|:--------|
+|  | [stylus/at-rule-no-unknown](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/at-rule-no-unknown.html) | disallow unknown at-rules. | `/recommended` |
+|  | [stylus/property-no-unknown](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/property-no-unknown.html) | disallow unknown properties. | `/recommended` |
+|  | [stylus/selector-type-no-unknown](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/selector-type-no-unknown.html) | disallow unknown type selectors. | `/recommended` |
+|  | [stylus/single-line-comment-no-empty](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/single-line-comment-no-empty.html) | disallow empty single-line comments. | `/recommended` |
 
 ### Standard Rules
 
 These rules relate to style guidelines.
 
-|    | Rule ID | Description |
-|:---|:--------|:------------|
-| :wrench: | [stylus/at-extend-style](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/at-extend-style.html) | enforces `@extend` style. |
-| :wrench: | [stylus/at-rule-empty-line-before](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/at-rule-empty-line-before.html) | require or disallow an empty line before at-rules. |
-| :wrench: | [stylus/at-rule-name-space-after](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/at-rule-name-space-after.html) | require a single space after at-rule names. |
-| :wrench: | [stylus/block-closing-brace-empty-line-before](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/block-closing-brace-empty-line-before.html) | require or disallow an empty line before the closing brace of blocks. |
-| :wrench: | [stylus/block-closing-brace-newline-after](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/block-closing-brace-newline-after.html) | require a newline or disallow whitespace after the closing brace of blocks. |
-| :wrench: | [stylus/block-closing-brace-newline-before](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/block-closing-brace-newline-before.html) | require a newline or disallow whitespace before the closing brace of blocks. |
-| :wrench: | [stylus/block-closing-brace-space-before](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/block-closing-brace-space-before.html) | require a single space or disallow whitespace before the closing brace of blocks. |
-| :wrench: | [stylus/block-opening-brace-newline-after](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/block-opening-brace-newline-after.html) | require a newline after the opening brace of blocks. |
-| :wrench: | [stylus/block-opening-brace-space-after](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/block-opening-brace-space-after.html) | require a single space or disallow whitespace after the opening brace of blocks. |
-| :wrench: | [stylus/block-opening-brace-space-before](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/block-opening-brace-space-before.html) | require a single space or disallow whitespace before the opening brace of blocks. |
-| :wrench: | [stylus/color-hex-case](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/color-hex-case.html) | enforce lowercase or uppercase for hex colors. |
-| :wrench: | [stylus/declaration-colon](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/declaration-colon.html) | require or disallow declaration colons. |
-| :wrench: | [stylus/hash-object-property-comma](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/hash-object-property-comma.html) | require or disallow commas in hash object properties. |
-| :wrench: | [stylus/indentation](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/indentation.html) | enforces indentation. |
-| :wrench: | [stylus/media-feature-colon](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/media-feature-colon.html) | require or disallow media feature colons. |
-| :wrench: | [stylus/no-at-require](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/no-at-require.html) | disallow `@require`, use `@import` instead. |
-| :wrench: | [stylus/no-eol-whitespace](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/no-eol-whitespace.html) | disallow end-of-line whitespace. |
-| :wrench: | [stylus/number-leading-zero](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/number-leading-zero.html) | require or disallow a leading zero for fractional numbers less than 1. |
-| :wrench: | [stylus/number-no-trailing-zeros](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/number-no-trailing-zeros.html) | disallow trailing zeros in numbers. |
-| :wrench: | [stylus/pythonic](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/pythonic.html) | enforces pythonic or brace style. |
-| :wrench: | [stylus/selector-list-comma-newline-after](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/selector-list-comma-newline-after.html) | require a newline whitespace after the commas of selector lists. |
-| :wrench: | [stylus/selector-list-comma-space-before](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/selector-list-comma-space-before.html) | require a single space or disallow whitespace before the commas of selector lists. |
-| :wrench: | [stylus/selector-list-comma](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/selector-list-comma.html) | require or disallow selector list comma. |
-| :wrench: | [stylus/selector-pseudo-class-case](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/selector-pseudo-class-case.html) | enforce lowercase or uppercase for pseudo-class selectors. |
-| :wrench: | [stylus/semicolon](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/semicolon.html) | require or disallow semicolon. |
-| :wrench: | [stylus/single-line-comment-double-slash-space-after](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/single-line-comment-double-slash-space-after.html) | require or disallow whitespace after the double-slash of single-line comments. |
-| :wrench: | [stylus/single-line-comment](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/single-line-comment.html) | enforces comment style where single-line comments are allowed. |
+|    | Rule ID | Description | RuleSet |
+|:---|:--------|:------------|:--------|
+| :wrench: | [stylus/at-extend-style](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/at-extend-style.html) | enforces `@extend` style. | `/standard` |
+| :wrench: | [stylus/at-rule-empty-line-before](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/at-rule-empty-line-before.html) | require or disallow an empty line before at-rules. | `/standard` |
+| :wrench: | [stylus/at-rule-name-space-after](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/at-rule-name-space-after.html) | require a single space after at-rule names. | `/standard` |
+| :wrench: | [stylus/block-closing-brace-empty-line-before](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/block-closing-brace-empty-line-before.html) | require or disallow an empty line before the closing brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-closing-brace-newline-after](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/block-closing-brace-newline-after.html) | require a newline or disallow whitespace after the closing brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-closing-brace-newline-before](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/block-closing-brace-newline-before.html) | require a newline or disallow whitespace before the closing brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-closing-brace-space-before](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/block-closing-brace-space-before.html) | require a single space or disallow whitespace before the closing brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-opening-brace-newline-after](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/block-opening-brace-newline-after.html) | require a newline after the opening brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-opening-brace-space-after](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/block-opening-brace-space-after.html) | require a single space or disallow whitespace after the opening brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-opening-brace-space-before](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/block-opening-brace-space-before.html) | require a single space or disallow whitespace before the opening brace of blocks. | `/standard` |
+| :wrench: | [stylus/color-hex-case](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/color-hex-case.html) | enforce lowercase or uppercase for hex colors. | `/standard` |
+| :wrench: | [stylus/declaration-colon](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/declaration-colon.html) | require or disallow declaration colons. | `/standard` |
+| :wrench: | [stylus/hash-object-property-comma](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/hash-object-property-comma.html) | require or disallow commas in hash object properties. | `/standard` |
+| :wrench: | [stylus/indentation](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/indentation.html) | enforces indentation. | `/standard` |
+| :wrench: | [stylus/media-feature-colon](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/media-feature-colon.html) | require or disallow media feature colons. | `/standard` |
+| :wrench: | [stylus/no-at-require](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/no-at-require.html) | disallow `@require`, use `@import` instead. | `/standard` |
+| :wrench: | [stylus/no-eol-whitespace](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/no-eol-whitespace.html) | disallow end-of-line whitespace. | `/standard` |
+| :wrench: | [stylus/number-leading-zero](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/number-leading-zero.html) | require or disallow a leading zero for fractional numbers less than 1. | `/standard` |
+| :wrench: | [stylus/number-no-trailing-zeros](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/number-no-trailing-zeros.html) | disallow trailing zeros in numbers. | `/standard` |
+| :wrench: | [stylus/pythonic](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/pythonic.html) | enforces pythonic or brace style. | `/standard` |
+| :wrench: | [stylus/selector-list-comma-newline-after](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/selector-list-comma-newline-after.html) | require a newline or disallow whitespace after the commas of selector lists. | `/standard` |
+| :wrench: | [stylus/selector-list-comma-space-after](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/selector-list-comma-space-after.html) | require a single space or disallow whitespace after the commas of selector lists. |  |
+| :wrench: | [stylus/selector-list-comma-space-before](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/selector-list-comma-space-before.html) | require a single space or disallow whitespace before the commas of selector lists. | `/standard` |
+| :wrench: | [stylus/selector-list-comma](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/selector-list-comma.html) | require or disallow selector list comma. | `/standard` |
+| :wrench: | [stylus/selector-pseudo-class-case](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/selector-pseudo-class-case.html) | enforce lowercase or uppercase for pseudo-class selectors. | `/standard` |
+| :wrench: | [stylus/semicolon](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/semicolon.html) | require or disallow semicolon. | `/standard` |
+| :wrench: | [stylus/single-line-comment-double-slash-space-after](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/single-line-comment-double-slash-space-after.html) | require or disallow whitespace after the double-slash of single-line comments. | `/standard` |
+| :wrench: | [stylus/single-line-comment](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/single-line-comment.html) | enforces comment style where single-line comments are allowed. | `/standard` |
 
 <!--RULES_TABLE_END-->
 

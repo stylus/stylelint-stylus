@@ -1,0 +1,95 @@
+.foo, .bar {
+  color: red;
+  background: red;
+}
+
+.foo, .bar {
+  color: red;
+  background: red;
+}
+
+.foo, .bar {
+  color: red;
+  background: red;
+}
+
+.foo, .bar {
+  color: red;
+  background: red;
+}
+
+.foo
+, .bar {
+  color: red;
+  background: red;
+}
+
+.foo
+.bar {
+  color: red
+}
+
+:is(header,main,footer) p:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.foo /* comment */ , /* comment */ .bar {
+  color: red
+}
+
+
+.foo/* comment */, /* comment */.bar{
+  color: red
+}
+
+#app
+  .foo, .bar {
+    color: red;
+    background: red;
+  }
+
+  .foo, .bar {
+    color: red;
+    background: red;
+  }
+
+  .foo, .bar {
+    color: red;
+    background: red;
+  }
+
+  .foo, .bar {
+    color: red;
+    background: red;
+  }
+
+  .foo
+  , .bar {
+    color: red;
+    background: red;
+  }
+
+  .foo
+  .bar {
+    color: red
+  }
+
+  :is(header,main,footer) p:hover {
+    color: red;
+    cursor: pointer;
+  }
+
+  .foo /* comment */ , /* comment */ .bar {
+    color: red
+  }
+
+
+  .foo/* comment */, /* comment */.bar {
+    color: red
+  }
+
+.foo, .bar, .baz {
+  color: red;
+  background: red;
+}

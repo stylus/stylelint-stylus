@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "column": 5,
+    "rule": "stylus/selector-list-comma-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \",\" (stylus/selector-list-comma-space-after)"
+  },
+  {
+    "line": 12,
+    "column": 5,
+    "rule": "stylus/selector-list-comma-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \",\" (stylus/selector-list-comma-space-after)"
+  },
+  {
+    "line": 17,
+    "column": 5,
+    "rule": "stylus/selector-list-comma-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \",\" (stylus/selector-list-comma-space-after)"
+  },
+  {
+    "line": 23,
+    "column": 1,
+    "rule": "stylus/selector-list-comma-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \",\" (stylus/selector-list-comma-space-after)"
+  },
+  {
+    "line": 38,
+    "column": 20,
+    "rule": "stylus/selector-list-comma-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \",\" (stylus/selector-list-comma-space-after)"
+  },
+  {
+    "line": 48,
+    "column": 7,
+    "rule": "stylus/selector-list-comma-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \",\" (stylus/selector-list-comma-space-after)"
+  },
+  {
+    "line": 59,
+    "column": 7,
+    "rule": "stylus/selector-list-comma-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \",\" (stylus/selector-list-comma-space-after)"
+  },
+  {
+    "line": 64,
+    "column": 7,
+    "rule": "stylus/selector-list-comma-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \",\" (stylus/selector-list-comma-space-after)"
+  },
+  {
+    "line": 70,
+    "column": 3,
+    "rule": "stylus/selector-list-comma-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \",\" (stylus/selector-list-comma-space-after)"
+  },
+  {
+    "line": 85,
+    "column": 22,
+    "rule": "stylus/selector-list-comma-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \",\" (stylus/selector-list-comma-space-after)"
+  }
+]

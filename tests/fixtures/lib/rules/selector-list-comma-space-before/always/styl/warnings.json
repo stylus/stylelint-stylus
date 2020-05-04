@@ -68,5 +68,19 @@
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" (stylus/selector-list-comma-space-before)"
+  },
+  {
+    "line": 102,
+    "column": 5,
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Expected single space before \",\" (stylus/selector-list-comma-space-before)"
+  },
+  {
+    "line": 102,
+    "column": 10,
+    "rule": "stylus/selector-list-comma-space-before",
+    "severity": "error",
+    "text": "Expected single space before \",\" (stylus/selector-list-comma-space-before)"
   }
 ]

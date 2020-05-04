@@ -1,0 +1,44 @@
+[
+  {
+    "line": 12,
+    "column": 6,
+    "rule": "stylus/selector-list-comma-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \",\" in a single-line list (stylus/selector-list-comma-space-after)"
+  },
+  {
+    "line": 17,
+    "column": 6,
+    "rule": "stylus/selector-list-comma-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \",\" in a single-line list (stylus/selector-list-comma-space-after)"
+  },
+  {
+    "line": 37,
+    "column": 21,
+    "rule": "stylus/selector-list-comma-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \",\" in a single-line list (stylus/selector-list-comma-space-after)"
+  },
+  {
+    "line": 56,
+    "column": 8,
+    "rule": "stylus/selector-list-comma-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \",\" in a single-line list (stylus/selector-list-comma-space-after)"
+  },
+  {
+    "line": 61,
+    "column": 8,
+    "rule": "stylus/selector-list-comma-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \",\" in a single-line list (stylus/selector-list-comma-space-after)"
+  },
+  {
+    "line": 81,
+    "column": 23,
+    "rule": "stylus/selector-list-comma-space-after",
+    "severity": "error",
+    "text": "Unexpected whitespace after \",\" in a single-line list (stylus/selector-list-comma-space-after)"
+  }
+]

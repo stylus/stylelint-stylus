@@ -2,9 +2,8 @@
 
 const fs = require("fs")
 const path = require("path")
-const recommended = require("../recommended")
-const standard = require("../standard")
 const rules = require("./lib/rules")
+const ruleSets = require("./lib/rule-sets")
 
 const ROOT = path.resolve(__dirname, "../docs/rules")
 
@@ -80,16 +79,19 @@ class DocFile {
                 notes.push("- :warning: This rule was **deprecated**.")
             }
         } else {
-            const presets = []
-            let options = null
-            if ((options = recommended.rules[ruleName])) {
-                presets.push('`"stylelint-plugin-stylus/recommended"`')
-                presets.push('`"stylelint-plugin-stylus/standard"`')
-            } else if ((options = standard.rules[ruleName])) {
-                presets.push('`"stylelint-plugin-stylus/standard"`')
+            let presets = null
+            const { preset, options } = ruleSets.getRuleSets(ruleName) || {}
+
+            if (preset === "recommended") {
+                presets = [
+                    '`"stylelint-plugin-stylus/recommended"`',
+                    '`"stylelint-plugin-stylus/standard"`',
+                ]
+            } else if (preset === "standard") {
+                presets = ['`"stylelint-plugin-stylus/standard"`']
             }
 
-            if (presets.length) {
+            if (presets) {
                 notes.push(
                     `- :gear: This rule is included in ${formatItems(
                         presets

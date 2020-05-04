@@ -37,7 +37,7 @@ if (deprecatedRules.length > 0) {
 module.exports = {
     base: "/stylelint-plugin-stylus/",
     title: "stylelint-plugin-stylus",
-    description: "stylelint-plugin-stylus",
+    description: "stylelint plugin for Stylus",
     serviceWorker: true,
     head: [
         // ["link", { rel: "icon", type: "image/png", href: "/logo.png" }]

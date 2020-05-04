@@ -1,33 +1,25 @@
-.foo,
-.bar {
+.foo, .bar {
   color: red;
   background: red;
 }
 
-.foo,.bar {
+.foo, .bar {
   color: red;
   background: red;
 }
 
-.foo ,
-.bar {
+.foo, .bar {
   color: red;
   background: red;
 }
 
-.foo ,.bar {
-  color: red;
-  background: red;
-}
-
-.foo
-,.bar {
+.foo, .bar {
   color: red;
   background: red;
 }
 
 .foo
-,.bar {
+, .bar {
   color: red;
   background: red;
 }
@@ -36,7 +28,7 @@
 .bar
   color red
 
-:is(header, main, footer) p:hover {
+:is(header,main,footer) p:hover {
   color: red;
   cursor: pointer;
 }
@@ -45,40 +37,32 @@
   color red
 
 
-.foo/* comment */,/* comment */.bar
+.foo/* comment */, /* comment */.bar
   color red
 
 #app
-  .foo,
-  .bar {
+  .foo, .bar {
     color: red;
     background: red;
   }
 
-  .foo,.bar {
+  .foo, .bar {
     color: red;
     background: red;
   }
 
-  .foo ,
-  .bar {
+  .foo, .bar {
     color: red;
     background: red;
   }
 
-  .foo ,.bar {
-    color: red;
-    background: red;
-  }
-
-  .foo
-  ,.bar {
+  .foo, .bar {
     color: red;
     background: red;
   }
 
   .foo
-  ,.bar {
+  , .bar {
     color: red;
     background: red;
   }
@@ -87,7 +71,7 @@
   .bar
     color red
 
-  :is(header, main, footer) p:hover {
+  :is(header,main,footer) p:hover {
     color: red;
     cursor: pointer;
   }
@@ -96,10 +80,17 @@
     color red
 
 
-  .foo/* comment */,/* comment */.bar
+  .foo/* comment */, /* comment */.bar
     color red
 
-.foo,.bar,.baz {
+
+.foo, .bar, .baz {
+  color: red;
+  background: red;
+}
+
+
+.foo, .bar, .baz {
   color: red;
   background: red;
 }

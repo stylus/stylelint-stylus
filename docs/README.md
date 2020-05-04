@@ -134,46 +134,47 @@ The `--fix` option on the [command line](https://stylelint.io/user-guide/usage/o
 
 These rules relate to possible syntax or logic errors in Stylus.
 
-|    | Rule ID | Description |
-|:---|:--------|:------------|
-|  | [stylus/at-rule-no-unknown](./rules/at-rule-no-unknown.md) | disallow unknown at-rules. |
-|  | [stylus/property-no-unknown](./rules/property-no-unknown.md) | disallow unknown properties. |
-|  | [stylus/selector-type-no-unknown](./rules/selector-type-no-unknown.md) | disallow unknown type selectors. |
-|  | [stylus/single-line-comment-no-empty](./rules/single-line-comment-no-empty.md) | disallow empty single-line comments. |
+|    | Rule ID | Description | RuleSet |
+|:---|:--------|:------------|:--------|
+|  | [stylus/at-rule-no-unknown](./rules/at-rule-no-unknown.md) | disallow unknown at-rules. | `/recommended` |
+|  | [stylus/property-no-unknown](./rules/property-no-unknown.md) | disallow unknown properties. | `/recommended` |
+|  | [stylus/selector-type-no-unknown](./rules/selector-type-no-unknown.md) | disallow unknown type selectors. | `/recommended` |
+|  | [stylus/single-line-comment-no-empty](./rules/single-line-comment-no-empty.md) | disallow empty single-line comments. | `/recommended` |
 
 ### Standard Rules
 
 These rules relate to style guidelines.
 
-|    | Rule ID | Description |
-|:---|:--------|:------------|
-| :wrench: | [stylus/at-extend-style](./rules/at-extend-style.md) | enforces `@extend` style. |
-| :wrench: | [stylus/at-rule-empty-line-before](./rules/at-rule-empty-line-before.md) | require or disallow an empty line before at-rules. |
-| :wrench: | [stylus/at-rule-name-space-after](./rules/at-rule-name-space-after.md) | require a single space after at-rule names. |
-| :wrench: | [stylus/block-closing-brace-empty-line-before](./rules/block-closing-brace-empty-line-before.md) | require or disallow an empty line before the closing brace of blocks. |
-| :wrench: | [stylus/block-closing-brace-newline-after](./rules/block-closing-brace-newline-after.md) | require a newline or disallow whitespace after the closing brace of blocks. |
-| :wrench: | [stylus/block-closing-brace-newline-before](./rules/block-closing-brace-newline-before.md) | require a newline or disallow whitespace before the closing brace of blocks. |
-| :wrench: | [stylus/block-closing-brace-space-before](./rules/block-closing-brace-space-before.md) | require a single space or disallow whitespace before the closing brace of blocks. |
-| :wrench: | [stylus/block-opening-brace-newline-after](./rules/block-opening-brace-newline-after.md) | require a newline after the opening brace of blocks. |
-| :wrench: | [stylus/block-opening-brace-space-after](./rules/block-opening-brace-space-after.md) | require a single space or disallow whitespace after the opening brace of blocks. |
-| :wrench: | [stylus/block-opening-brace-space-before](./rules/block-opening-brace-space-before.md) | require a single space or disallow whitespace before the opening brace of blocks. |
-| :wrench: | [stylus/color-hex-case](./rules/color-hex-case.md) | enforce lowercase or uppercase for hex colors. |
-| :wrench: | [stylus/declaration-colon](./rules/declaration-colon.md) | require or disallow declaration colons. |
-| :wrench: | [stylus/hash-object-property-comma](./rules/hash-object-property-comma.md) | require or disallow commas in hash object properties. |
-| :wrench: | [stylus/indentation](./rules/indentation.md) | enforces indentation. |
-| :wrench: | [stylus/media-feature-colon](./rules/media-feature-colon.md) | require or disallow media feature colons. |
-| :wrench: | [stylus/no-at-require](./rules/no-at-require.md) | disallow `@require`, use `@import` instead. |
-| :wrench: | [stylus/no-eol-whitespace](./rules/no-eol-whitespace.md) | disallow end-of-line whitespace. |
-| :wrench: | [stylus/number-leading-zero](./rules/number-leading-zero.md) | require or disallow a leading zero for fractional numbers less than 1. |
-| :wrench: | [stylus/number-no-trailing-zeros](./rules/number-no-trailing-zeros.md) | disallow trailing zeros in numbers. |
-| :wrench: | [stylus/pythonic](./rules/pythonic.md) | enforces pythonic or brace style. |
-| :wrench: | [stylus/selector-list-comma-newline-after](./rules/selector-list-comma-newline-after.md) | require a newline whitespace after the commas of selector lists. |
-| :wrench: | [stylus/selector-list-comma-space-before](./rules/selector-list-comma-space-before.md) | require a single space or disallow whitespace before the commas of selector lists. |
-| :wrench: | [stylus/selector-list-comma](./rules/selector-list-comma.md) | require or disallow selector list comma. |
-| :wrench: | [stylus/selector-pseudo-class-case](./rules/selector-pseudo-class-case.md) | enforce lowercase or uppercase for pseudo-class selectors. |
-| :wrench: | [stylus/semicolon](./rules/semicolon.md) | require or disallow semicolon. |
-| :wrench: | [stylus/single-line-comment-double-slash-space-after](./rules/single-line-comment-double-slash-space-after.md) | require or disallow whitespace after the double-slash of single-line comments. |
-| :wrench: | [stylus/single-line-comment](./rules/single-line-comment.md) | enforces comment style where single-line comments are allowed. |
+|    | Rule ID | Description | RuleSet |
+|:---|:--------|:------------|:--------|
+| :wrench: | [stylus/at-extend-style](./rules/at-extend-style.md) | enforces `@extend` style. | `/standard` |
+| :wrench: | [stylus/at-rule-empty-line-before](./rules/at-rule-empty-line-before.md) | require or disallow an empty line before at-rules. | `/standard` |
+| :wrench: | [stylus/at-rule-name-space-after](./rules/at-rule-name-space-after.md) | require a single space after at-rule names. | `/standard` |
+| :wrench: | [stylus/block-closing-brace-empty-line-before](./rules/block-closing-brace-empty-line-before.md) | require or disallow an empty line before the closing brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-closing-brace-newline-after](./rules/block-closing-brace-newline-after.md) | require a newline or disallow whitespace after the closing brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-closing-brace-newline-before](./rules/block-closing-brace-newline-before.md) | require a newline or disallow whitespace before the closing brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-closing-brace-space-before](./rules/block-closing-brace-space-before.md) | require a single space or disallow whitespace before the closing brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-opening-brace-newline-after](./rules/block-opening-brace-newline-after.md) | require a newline after the opening brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-opening-brace-space-after](./rules/block-opening-brace-space-after.md) | require a single space or disallow whitespace after the opening brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-opening-brace-space-before](./rules/block-opening-brace-space-before.md) | require a single space or disallow whitespace before the opening brace of blocks. | `/standard` |
+| :wrench: | [stylus/color-hex-case](./rules/color-hex-case.md) | enforce lowercase or uppercase for hex colors. | `/standard` |
+| :wrench: | [stylus/declaration-colon](./rules/declaration-colon.md) | require or disallow declaration colons. | `/standard` |
+| :wrench: | [stylus/hash-object-property-comma](./rules/hash-object-property-comma.md) | require or disallow commas in hash object properties. | `/standard` |
+| :wrench: | [stylus/indentation](./rules/indentation.md) | enforces indentation. | `/standard` |
+| :wrench: | [stylus/media-feature-colon](./rules/media-feature-colon.md) | require or disallow media feature colons. | `/standard` |
+| :wrench: | [stylus/no-at-require](./rules/no-at-require.md) | disallow `@require`, use `@import` instead. | `/standard` |
+| :wrench: | [stylus/no-eol-whitespace](./rules/no-eol-whitespace.md) | disallow end-of-line whitespace. | `/standard` |
+| :wrench: | [stylus/number-leading-zero](./rules/number-leading-zero.md) | require or disallow a leading zero for fractional numbers less than 1. | `/standard` |
+| :wrench: | [stylus/number-no-trailing-zeros](./rules/number-no-trailing-zeros.md) | disallow trailing zeros in numbers. | `/standard` |
+| :wrench: | [stylus/pythonic](./rules/pythonic.md) | enforces pythonic or brace style. | `/standard` |
+| :wrench: | [stylus/selector-list-comma-newline-after](./rules/selector-list-comma-newline-after.md) | require a newline or disallow whitespace after the commas of selector lists. | `/standard` |
+| :wrench: | [stylus/selector-list-comma-space-after](./rules/selector-list-comma-space-after.md) | require a single space or disallow whitespace after the commas of selector lists. |  |
+| :wrench: | [stylus/selector-list-comma-space-before](./rules/selector-list-comma-space-before.md) | require a single space or disallow whitespace before the commas of selector lists. | `/standard` |
+| :wrench: | [stylus/selector-list-comma](./rules/selector-list-comma.md) | require or disallow selector list comma. | `/standard` |
+| :wrench: | [stylus/selector-pseudo-class-case](./rules/selector-pseudo-class-case.md) | enforce lowercase or uppercase for pseudo-class selectors. | `/standard` |
+| :wrench: | [stylus/semicolon](./rules/semicolon.md) | require or disallow semicolon. | `/standard` |
+| :wrench: | [stylus/single-line-comment-double-slash-space-after](./rules/single-line-comment-double-slash-space-after.md) | require or disallow whitespace after the double-slash of single-line comments. | `/standard` |
+| :wrench: | [stylus/single-line-comment](./rules/single-line-comment.md) | enforces comment style where single-line comments are allowed. | `/standard` |
 
 <!--RULES_TABLE_END-->
 

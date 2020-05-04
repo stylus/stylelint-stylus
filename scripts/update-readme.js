@@ -7,6 +7,7 @@ const {
     uncategorizedRules,
     deprecatedRules,
 } = require("./lib/categories")
+const ruleSets = require("./lib/rule-sets")
 
 function toRuleRow(rule) {
     const mark = `${rule.meta.fixable ? ":wrench:" : ""}${
@@ -14,8 +15,11 @@ function toRuleRow(rule) {
     }`
     const link = `[${rule.ruleName}](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/${rule.fileName}.html)`
     const description = rule.meta.docs.description || "(no description)"
+    const preset = ruleSets.getRuleSets(rule.ruleName)
 
-    return `| ${mark} | ${link} | ${description} |`
+    return `| ${mark} | ${link} | ${description} | ${
+        preset ? `\`/${preset.preset}\`` : ""
+    } |`
 }
 
 function toDeprecatedRuleRow(rule) {
@@ -40,8 +44,8 @@ ${category.configDescription}
 ${
     category.rules.length
         ? `
-|    | Rule ID | Description |
-|:---|:--------|:------------|
+|    | Rule ID | Description | RuleSet |
+|:---|:--------|:------------|:--------|
 ${category.rules.map(toRuleRow).join("\n")}
 `
         : ""
@@ -53,8 +57,8 @@ if (uncategorizedRules.length >= 1) {
     rulesTableContent += `
 ### Uncategorized
 
-|    | Rule ID | Description |
-|:---|:--------|:------------|
+|    | Rule ID | Description | RuleSet |
+|:---|:--------|:------------|:--------|
 ${uncategorizedRules.map(toRuleRow).join("\n")}
 `
 }
