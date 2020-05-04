@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "column": 5,
+    "rule": "stylus/selector-list-comma-newline-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
+  },
+  {
+    "line": 14,
+    "column": 10,
+    "rule": "stylus/selector-list-comma-newline-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
+  },
+  {
+    "line": 19,
+    "column": 5,
+    "rule": "stylus/selector-list-comma-newline-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
+  },
+  {
+    "line": 29,
+    "column": 10,
+    "rule": "stylus/selector-list-comma-newline-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
+  },
+  {
+    "line": 43,
+    "column": 7,
+    "rule": "stylus/selector-list-comma-newline-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
+  },
+  {
+    "line": 56,
+    "column": 12,
+    "rule": "stylus/selector-list-comma-newline-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
+  },
+  {
+    "line": 61,
+    "column": 7,
+    "rule": "stylus/selector-list-comma-newline-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
+  },
+  {
+    "line": 71,
+    "column": 12,
+    "rule": "stylus/selector-list-comma-newline-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
+  }
+]

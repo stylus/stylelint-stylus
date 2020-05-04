@@ -1,0 +1,9 @@
+[
+  {
+    "line": 14,
+    "column": 5,
+    "rule": "stylus/selector-list-comma-newline-before",
+    "severity": "error",
+    "text": "Expected newline before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
+  }
+]

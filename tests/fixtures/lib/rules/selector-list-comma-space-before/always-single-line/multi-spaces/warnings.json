@@ -4,6 +4,6 @@
     "column": 7,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
-    "text": "Expected single space before \",\" (stylus/selector-list-comma-space-before)"
+    "text": "Expected single space before \",\" in a single-line list (stylus/selector-list-comma-space-before)"
   }
 ]

@@ -4,27 +4,27 @@
     "column": 5,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
-    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
+    "text": "Unexpected whitespace before \",\" in a single-line list (stylus/selector-list-comma-space-before)"
   },
   {
     "line": 44,
     "column": 19,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
-    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
+    "text": "Unexpected whitespace before \",\" in a single-line list (stylus/selector-list-comma-space-before)"
   },
   {
     "line": 69,
     "column": 7,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
-    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
+    "text": "Unexpected whitespace before \",\" in a single-line list (stylus/selector-list-comma-space-before)"
   },
   {
     "line": 95,
     "column": 21,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
-    "text": "Unexpected whitespace before \",\" (stylus/selector-list-comma-space-before)"
+    "text": "Unexpected whitespace before \",\" in a single-line list (stylus/selector-list-comma-space-before)"
   }
 ]

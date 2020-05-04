@@ -168,6 +168,7 @@ These rules relate to style guidelines.
 | :wrench: | [stylus/number-no-trailing-zeros](./rules/number-no-trailing-zeros.md) | disallow trailing zeros in numbers. | `/standard` |
 | :wrench: | [stylus/pythonic](./rules/pythonic.md) | enforces pythonic or brace style. | `/standard` |
 | :wrench: | [stylus/selector-list-comma-newline-after](./rules/selector-list-comma-newline-after.md) | require a newline or disallow whitespace after the commas of selector lists. | `/standard` |
+| :wrench: | [stylus/selector-list-comma-newline-before](./rules/selector-list-comma-newline-before.md) | require a newline or disallow whitespace before the commas of selector lists. |  |
 | :wrench: | [stylus/selector-list-comma-space-after](./rules/selector-list-comma-space-after.md) | require a single space or disallow whitespace after the commas of selector lists. |  |
 | :wrench: | [stylus/selector-list-comma-space-before](./rules/selector-list-comma-space-before.md) | require a single space or disallow whitespace before the commas of selector lists. | `/standard` |
 | :wrench: | [stylus/selector-list-comma](./rules/selector-list-comma.md) | require or disallow selector list comma. | `/standard` |

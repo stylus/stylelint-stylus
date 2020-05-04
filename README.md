@@ -164,6 +164,7 @@ These rules relate to style guidelines.
 | :wrench: | [stylus/number-no-trailing-zeros](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/number-no-trailing-zeros.html) | disallow trailing zeros in numbers. | `/standard` |
 | :wrench: | [stylus/pythonic](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/pythonic.html) | enforces pythonic or brace style. | `/standard` |
 | :wrench: | [stylus/selector-list-comma-newline-after](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/selector-list-comma-newline-after.html) | require a newline or disallow whitespace after the commas of selector lists. | `/standard` |
+| :wrench: | [stylus/selector-list-comma-newline-before](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/selector-list-comma-newline-before.html) | require a newline or disallow whitespace before the commas of selector lists. |  |
 | :wrench: | [stylus/selector-list-comma-space-after](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/selector-list-comma-space-after.html) | require a single space or disallow whitespace after the commas of selector lists. |  |
 | :wrench: | [stylus/selector-list-comma-space-before](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/selector-list-comma-space-before.html) | require a single space or disallow whitespace before the commas of selector lists. | `/standard` |
 | :wrench: | [stylus/selector-list-comma](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/selector-list-comma.html) | require or disallow selector list comma. | `/standard` |

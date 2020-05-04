@@ -1,0 +1,18 @@
+.foo
+,.bar {
+  color: red;
+}
+
+.foo,.bar {
+  color: red;
+}
+
+.foo,.bar,.baz {
+  color: red;
+}
+
+.foo
+,.bar
+,.baz {
+  color: red;
+}
