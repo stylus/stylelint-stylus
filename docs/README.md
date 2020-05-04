@@ -153,6 +153,7 @@ These rules relate to style guidelines.
 | :wrench: | [stylus/block-closing-brace-empty-line-before](./rules/block-closing-brace-empty-line-before.md) | require or disallow an empty line before the closing brace of blocks. | `/standard` |
 | :wrench: | [stylus/block-closing-brace-newline-after](./rules/block-closing-brace-newline-after.md) | require a newline or disallow whitespace after the closing brace of blocks. | `/standard` |
 | :wrench: | [stylus/block-closing-brace-newline-before](./rules/block-closing-brace-newline-before.md) | require a newline or disallow whitespace before the closing brace of blocks. | `/standard` |
+|  | [stylus/block-closing-brace-space-after](./rules/block-closing-brace-space-after.md) | require a single space or disallow whitespace after the closing brace of blocks. |  |
 | :wrench: | [stylus/block-closing-brace-space-before](./rules/block-closing-brace-space-before.md) | require a single space or disallow whitespace before the closing brace of blocks. | `/standard` |
 | :wrench: | [stylus/block-opening-brace-newline-after](./rules/block-opening-brace-newline-after.md) | require a newline after the opening brace of blocks. | `/standard` |
 | :wrench: | [stylus/block-opening-brace-space-after](./rules/block-opening-brace-space-after.md) | require a single space or disallow whitespace after the opening brace of blocks. | `/standard` |

@@ -1,0 +1,37 @@
+[
+  {
+    "line": 8,
+    "column": 2,
+    "rule": "stylus/block-closing-brace-space-after",
+    "severity": "error",
+    "text": "Expected single space after \"}\" of a multi-line block (stylus/block-closing-brace-space-after)"
+  },
+  {
+    "line": 31,
+    "column": 2,
+    "rule": "stylus/block-closing-brace-space-after",
+    "severity": "error",
+    "text": "Expected single space after \"}\" of a multi-line block (stylus/block-closing-brace-space-after)"
+  },
+  {
+    "line": 41,
+    "column": 2,
+    "rule": "stylus/block-closing-brace-space-after",
+    "severity": "error",
+    "text": "Expected single space after \"}\" of a multi-line block (stylus/block-closing-brace-space-after)"
+  },
+  {
+    "line": 56,
+    "column": 2,
+    "rule": "stylus/block-closing-brace-space-after",
+    "severity": "error",
+    "text": "Expected single space after \"}\" of a multi-line block (stylus/block-closing-brace-space-after)"
+  },
+  {
+    "line": 74,
+    "column": 2,
+    "rule": "stylus/block-closing-brace-space-after",
+    "severity": "error",
+    "text": "Expected single space after \"}\" of a multi-line block (stylus/block-closing-brace-space-after)"
+  }
+]
