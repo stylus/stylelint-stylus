@@ -8,5 +8,5 @@ const { ruleTester } = require("../../../utils/tester")
 
 ruleTester(
     "stylus/no-eol-whitespace",
-    path.resolve(__dirname, "../../../fixtures/lib/rules/no-eol-whitespace")
+    path.resolve(__dirname, "../../../fixtures/lib/rules/no-eol-whitespace"),
 )

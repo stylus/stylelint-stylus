@@ -8,5 +8,5 @@ const { ruleTester } = require("../../../utils/tester")
 
 ruleTester(
     "stylus/at-extend-style",
-    path.resolve(__dirname, "../../../fixtures/lib/rules/at-extend-style")
+    path.resolve(__dirname, "../../../fixtures/lib/rules/at-extend-style"),
 )

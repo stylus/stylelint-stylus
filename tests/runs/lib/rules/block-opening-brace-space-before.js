@@ -10,6 +10,6 @@ ruleTester(
     "stylus/block-opening-brace-space-before",
     path.resolve(
         __dirname,
-        "../../../fixtures/lib/rules/block-opening-brace-space-before"
-    )
+        "../../../fixtures/lib/rules/block-opening-brace-space-before",
+    ),
 )

@@ -10,6 +10,6 @@ ruleTester(
     "stylus/block-opening-brace-newline-after",
     path.resolve(
         __dirname,
-        "../../../fixtures/lib/rules/block-opening-brace-newline-after"
-    )
+        "../../../fixtures/lib/rules/block-opening-brace-newline-after",
+    ),
 )

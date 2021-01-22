@@ -27,8 +27,8 @@ function toDeprecatedRuleRow(rule) {
     const replacedRules = rule.meta.docs.replacedBy || []
     const replacedBy = replacedRules
         .map(
-            name =>
-                `[stylus/${name}](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/${name}.html)`
+            (name) =>
+                `[stylus/${name}](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/${name}.html)`,
         )
         .join(", ")
 
@@ -37,7 +37,7 @@ function toDeprecatedRuleRow(rule) {
 
 let rulesTableContent = categories
     .map(
-        category => `
+        (category) => `
 ### ${category.title}
 
 ${category.configDescription}
@@ -49,7 +49,7 @@ ${
 ${category.rules.map(toRuleRow).join("\n")}
 `
         : ""
-}`
+}`,
     )
     .join("")
 
@@ -85,8 +85,8 @@ fs.writeFileSync(
         .readFileSync(readmeFilePath, "utf8")
         .replace(
             /<!--RULES_TABLE_START-->[\s\S]*<!--RULES_TABLE_END-->/u,
-            `<!--RULES_TABLE_START-->${insertText}<!--RULES_TABLE_END-->`
-        )
+            `<!--RULES_TABLE_START-->${insertText}<!--RULES_TABLE_END-->`,
+        ),
 )
 
 const docsReadmeFilePath = path.resolve(__dirname, "../docs/README.md")
@@ -101,6 +101,6 @@ ${fs
     .replace(/\.\/docs\//gu, "./")
     .replace(
         /\(https:\/\/ota-meshi.github.io\/stylelint-plugin-stylus\/(.*?)(\.html)?\)/gu,
-        (_$0, $1, $2) => `(./${$1}${($2 === ".html" ? ".md" : $2) || ""})`
-    )}`
+        (_$0, $1, $2) => `(./${$1}${($2 === ".html" ? ".md" : $2) || ""})`,
+    )}`,
 )

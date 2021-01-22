@@ -10,6 +10,6 @@ ruleTester(
     "stylus/selector-pseudo-class-case",
     path.resolve(
         __dirname,
-        "../../../fixtures/lib/rules/selector-pseudo-class-case"
-    )
+        "../../../fixtures/lib/rules/selector-pseudo-class-case",
+    ),
 )

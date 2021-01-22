@@ -10,6 +10,6 @@ ruleTester(
     "stylus/selector-list-comma-space-before",
     path.resolve(
         __dirname,
-        "../../../fixtures/lib/rules/selector-list-comma-space-before"
-    )
+        "../../../fixtures/lib/rules/selector-list-comma-space-before",
+    ),
 )

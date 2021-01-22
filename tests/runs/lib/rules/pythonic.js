@@ -8,5 +8,5 @@ const { ruleTester } = require("../../../utils/tester")
 
 ruleTester(
     "stylus/pythonic",
-    path.resolve(__dirname, "../../../fixtures/lib/rules/pythonic")
+    path.resolve(__dirname, "../../../fixtures/lib/rules/pythonic"),
 )

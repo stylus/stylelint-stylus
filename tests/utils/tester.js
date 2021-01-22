@@ -13,11 +13,11 @@ const {
 const rules = require("../../lib/rules")
 
 const compareWarnings = comparingChain(
-    warn => (warn.line != null ? warn.line : -1),
-    warn => (warn.column != null ? warn.column : -1),
-    warn => warn.rule || "",
-    warn => warn.severity || "",
-    warn => warn.text || ""
+    (warn) => (warn.line != null ? warn.line : -1),
+    (warn) => (warn.column != null ? warn.column : -1),
+    (warn) => warn.rule || "",
+    (warn) => warn.severity || "",
+    (warn) => warn.text || "",
 )
 
 module.exports = { ruleTester, fixturesTester }
@@ -35,12 +35,12 @@ function ruleTester(ruleName, dir) {
             assertWarning(warning) {
                 assert.ok(
                     warning.text.endsWith(`(${ruleName})`),
-                    `Unexpected message: Expected ends with "(${ruleName})", but "${warning.text}"`
+                    `Unexpected message: Expected ends with "(${ruleName})", but "${warning.text}"`,
                 )
                 assert.strictEqual(
                     warning.rule,
                     ruleName,
-                    "Unexpected ruleName"
+                    "Unexpected ruleName",
                 )
             },
             fixable: rule.meta.fixable,
@@ -75,18 +75,18 @@ function runFixtures(
         fixable: true,
         checkAutofixWarnings: true,
         autofixRepeat: 0,
-    }
+    },
 ) {
     for (const fixture of listupFixtures(dir)) {
         describe(`${fixture.name}`, () => {
             it("lint", () =>
                 lintFixture(fixture)
-                    .then(r => r.results[0])
-                    .then(result => {
+                    .then((r) => r.results[0])
+                    .then((result) => {
                         assertJsonFile(
                             [...result.warnings].sort(compareWarnings),
                             path.resolve(fixture.dir, "warnings.json"),
-                            "Error details do not match."
+                            "Error details do not match.",
                         )
 
                         if (typeof options[fixture.name] === "function") {
@@ -98,11 +98,11 @@ function runFixtures(
                             assert.strictEqual(
                                 warning.severity,
                                 "error",
-                                "Unexpected severity"
+                                "Unexpected severity",
                             )
                             assert.ok(
                                 !/^Unknown rule/u.test(warning.text),
-                                `Unexpected 'Unknown rule' error: Actual "${warning.text}"`
+                                `Unexpected 'Unknown rule' error: Actual "${warning.text}"`,
                             )
                         }
                     }))
@@ -120,12 +120,12 @@ function runFixtures(
                                 ? require.resolve("postcss-styl")
                                 : require.resolve("postcss"),
                     })
-                        .then(r => r.results[0])
-                        .then(result => {
+                        .then((r) => r.results[0])
+                        .then((result) => {
                             assertJsonFile(
                                 [...result.warnings].sort(compareWarnings),
                                 path.resolve(fixture.dir, "warnings.json"),
-                                "Error details do not match."
+                                "Error details do not match.",
                             )
 
                             if (typeof options[fixture.name] === "function") {
@@ -139,11 +139,11 @@ function runFixtures(
                                 assert.strictEqual(
                                     warning.severity,
                                     "error",
-                                    "Unexpected severity"
+                                    "Unexpected severity",
                                 )
                                 assert.ok(
                                     !/^Unknown rule/u.test(warning.text),
-                                    `Unexpected 'Unknown rule' error: Actual "${warning.text}"`
+                                    `Unexpected 'Unknown rule' error: Actual "${warning.text}"`,
                                 )
                             }
                         }))
@@ -161,26 +161,26 @@ function runFixtures(
                         assertTextFile(
                             output,
                             fixture.output,
-                            "Output is incorrect."
+                            "Output is incorrect.",
                         )
                         if (!options.checkAutofixWarnings) {
                             return undefined
                         }
                         return lintFixture(fixture, { code: output })
-                            .then(r => r.results[0])
-                            .then(resultAfter => {
+                            .then((r) => r.results[0])
+                            .then((resultAfter) => {
                                 assert.deepStrictEqual(
                                     result.warnings,
                                     resultAfter.warnings,
-                                    "Autofixed warnings is incorrect."
+                                    "Autofixed warnings is incorrect.",
                                 )
                             })
-                    }
+                    },
                 )
 
                 function autofix(code, repeat = 0) {
                     return lintCode(code, fixture.input, { fix: true })
-                        .then(r => ({
+                        .then((r) => ({
                             output: r.output,
                             result: r.results[0],
                         }))
@@ -214,7 +214,7 @@ function lintCode(code, codeFilename, options = {}) {
 }
 
 function comparingChain(...extractors) {
-    const compares = extractors.map(extractor => (a, b) => {
+    const compares = extractors.map((extractor) => (a, b) => {
         const ae = extractor(a)
         const be = extractor(b)
         if (ae < be) {

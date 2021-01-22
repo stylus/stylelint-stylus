@@ -8,5 +8,5 @@ const { ruleTester } = require("../../../utils/tester")
 
 ruleTester(
     "stylus/media-feature-colon",
-    path.resolve(__dirname, "../../../fixtures/lib/rules/media-feature-colon")
+    path.resolve(__dirname, "../../../fixtures/lib/rules/media-feature-colon"),
 )

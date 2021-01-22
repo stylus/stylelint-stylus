@@ -19,16 +19,16 @@ const categories = [
 
 for (const category of categories) {
     category.rules = rules.filter(
-        rule =>
+        (rule) =>
             rule.meta.docs.category === category.categoryId &&
-            !rule.meta.deprecated
+            !rule.meta.deprecated,
     )
 }
 
 const uncategorizedRules = rules.filter(
-    rule => !rule.meta.docs.category && !rule.meta.deprecated
+    (rule) => !rule.meta.docs.category && !rule.meta.deprecated,
 )
-const deprecatedRules = rules.filter(rule => rule.meta.deprecated)
+const deprecatedRules = rules.filter((rule) => rule.meta.deprecated)
 
 module.exports = {
     categories,

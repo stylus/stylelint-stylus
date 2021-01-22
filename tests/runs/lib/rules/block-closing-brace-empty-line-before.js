@@ -10,6 +10,6 @@ ruleTester(
     "stylus/block-closing-brace-empty-line-before",
     path.resolve(
         __dirname,
-        "../../../fixtures/lib/rules/block-closing-brace-empty-line-before"
-    )
+        "../../../fixtures/lib/rules/block-closing-brace-empty-line-before",
+    ),
 )

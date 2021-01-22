@@ -35,7 +35,7 @@ const utils = {
          * @type {FixtureData[]}
          */
         const result = []
-        // eslint-disable-next-line no-process-env
+        // eslint-disable-next-line no-process-env -- test
         if (process.env.UPDATE_FIXTURES && !utils.isExistFile(rootDir)) {
             fs.mkdirSync(rootDir)
         }
@@ -55,8 +55,8 @@ const utils = {
                 result.push(
                     ...utils.listupFixtures(
                         filepath,
-                        fixtureName ? `${fixtureName}/${name}` : name
-                    )
+                        fixtureName ? `${fixtureName}/${name}` : name,
+                    ),
                 )
             }
         }
@@ -66,7 +66,7 @@ const utils = {
         return fs.readFileSync(file).toString()
     },
     writeFixture(file, actual, error) {
-        // eslint-disable-next-line no-process-env
+        // eslint-disable-next-line no-process-env -- test
         if (process.env.UPDATE_FIXTURES) {
             fs.writeFileSync(file, actual)
         } else if (error) {
@@ -74,7 +74,7 @@ const utils = {
         }
     },
     deleteFixture(file, error) {
-        // eslint-disable-next-line no-process-env
+        // eslint-disable-next-line no-process-env -- test
         if (process.env.UPDATE_FIXTURES && utils.isExistFile(file)) {
             fs.unlinkSync(file)
         } else if (error) {

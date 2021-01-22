@@ -8,5 +8,5 @@ const { ruleTester } = require("../../../utils/tester")
 
 ruleTester(
     "stylus/property-no-unknown",
-    path.resolve(__dirname, "../../../fixtures/lib/rules/property-no-unknown")
+    path.resolve(__dirname, "../../../fixtures/lib/rules/property-no-unknown"),
 )

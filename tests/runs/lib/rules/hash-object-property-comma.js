@@ -10,6 +10,6 @@ ruleTester(
     "stylus/hash-object-property-comma",
     path.resolve(
         __dirname,
-        "../../../fixtures/lib/rules/hash-object-property-comma"
-    )
+        "../../../fixtures/lib/rules/hash-object-property-comma",
+    ),
 )

@@ -68,12 +68,12 @@ class DocFile {
         if (meta.deprecated) {
             if (meta.docs.replacedBy) {
                 const replacedRules = meta.docs.replacedBy.map(
-                    name => `[stylus/${name}](${name}.md) rule`
+                    (name) => `[stylus/${name}](${name}.md) rule`,
                 )
                 notes.push(
                     `- :warning: This rule was **deprecated** and replaced by ${formatItems(
-                        replacedRules
-                    )}.`
+                        replacedRules,
+                    )}.`,
                 )
             } else {
                 notes.push("- :warning: This rule was **deprecated**.")
@@ -94,14 +94,14 @@ class DocFile {
             if (presets) {
                 notes.push(
                     `- :gear: This rule is included in ${formatItems(
-                        presets
-                    )}. (options: \`${JSON.stringify(options)}\`)`
+                        presets,
+                    )}. (options: \`${JSON.stringify(options)}\`)`,
                 )
             }
         }
         if (meta.fixable) {
             notes.push(
-                "- :wrench: The [fix option](https://stylelint.io/user-guide/usage/options#fix) can automatically fix some of the problems reported by this rule."
+                "- :wrench: The [fix option](https://stylelint.io/user-guide/usage/options#fix) can automatically fix some of the problems reported by this rule.",
             )
         }
 
@@ -140,9 +140,5 @@ class DocFile {
 }
 
 for (const rule of rules) {
-    DocFile.read(rule)
-        .updateHeader()
-        .updateFooter()
-        .updateFileIntro()
-        .write()
+    DocFile.read(rule).updateHeader().updateFooter().updateFileIntro().write()
 }

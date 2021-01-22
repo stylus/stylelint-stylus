@@ -8,5 +8,5 @@ const { ruleTester } = require("../../../utils/tester")
 
 ruleTester(
     "stylus/semicolon",
-    path.resolve(__dirname, "../../../fixtures/lib/rules/semicolon")
+    path.resolve(__dirname, "../../../fixtures/lib/rules/semicolon"),
 )

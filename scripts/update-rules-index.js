@@ -20,7 +20,7 @@ const content = `/*
 
 module.exports = {
   ${rules
-      .map(rule => `'${rule.ruleName}': require('./${rule.fileName}')`)
+      .map((rule) => `'${rule.ruleName}': require('./${rule.fileName}')`)
       .join(",\n")}
 }
 `

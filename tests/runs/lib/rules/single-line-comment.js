@@ -8,5 +8,5 @@ const { ruleTester } = require("../../../utils/tester")
 
 ruleTester(
     "stylus/single-line-comment",
-    path.resolve(__dirname, "../../../fixtures/lib/rules/single-line-comment")
+    path.resolve(__dirname, "../../../fixtures/lib/rules/single-line-comment"),
 )

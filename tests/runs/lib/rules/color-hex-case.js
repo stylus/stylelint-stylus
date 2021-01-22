@@ -8,5 +8,5 @@ const { ruleTester } = require("../../../utils/tester")
 
 ruleTester(
     "stylus/color-hex-case",
-    path.resolve(__dirname, "../../../fixtures/lib/rules/color-hex-case")
+    path.resolve(__dirname, "../../../fixtures/lib/rules/color-hex-case"),
 )

@@ -10,6 +10,6 @@ ruleTester(
     "stylus/single-line-comment-double-slash-space-after",
     path.resolve(
         __dirname,
-        "../../../fixtures/lib/rules/single-line-comment-double-slash-space-after"
-    )
+        "../../../fixtures/lib/rules/single-line-comment-double-slash-space-after",
+    ),
 )

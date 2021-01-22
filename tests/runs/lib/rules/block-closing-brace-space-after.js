@@ -10,6 +10,6 @@ ruleTester(
     "stylus/block-closing-brace-space-after",
     path.resolve(
         __dirname,
-        "../../../fixtures/lib/rules/block-closing-brace-space-after"
-    )
+        "../../../fixtures/lib/rules/block-closing-brace-space-after",
+    ),
 )

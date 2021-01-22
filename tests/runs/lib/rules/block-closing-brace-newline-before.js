@@ -10,6 +10,6 @@ ruleTester(
     "stylus/block-closing-brace-newline-before",
     path.resolve(
         __dirname,
-        "../../../fixtures/lib/rules/block-closing-brace-newline-before"
-    )
+        "../../../fixtures/lib/rules/block-closing-brace-newline-before",
+    ),
 )

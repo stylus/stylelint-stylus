@@ -10,6 +10,6 @@ ruleTester(
     "stylus/number-no-trailing-zeros",
     path.resolve(
         __dirname,
-        "../../../fixtures/lib/rules/number-no-trailing-zeros"
-    )
+        "../../../fixtures/lib/rules/number-no-trailing-zeros",
+    ),
 )

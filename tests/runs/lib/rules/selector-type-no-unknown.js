@@ -10,6 +10,6 @@ ruleTester(
     "stylus/selector-type-no-unknown",
     path.resolve(
         __dirname,
-        "../../../fixtures/lib/rules/selector-type-no-unknown"
-    )
+        "../../../fixtures/lib/rules/selector-type-no-unknown",
+    ),
 )

@@ -10,6 +10,6 @@ ruleTester(
     "stylus/at-rule-empty-line-before",
     path.resolve(
         __dirname,
-        "../../../fixtures/lib/rules/at-rule-empty-line-before"
-    )
+        "../../../fixtures/lib/rules/at-rule-empty-line-before",
+    ),
 )

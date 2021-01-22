@@ -8,5 +8,5 @@ const { ruleTester } = require("../../../utils/tester")
 
 ruleTester(
     "stylus/number-leading-zero",
-    path.resolve(__dirname, "../../../fixtures/lib/rules/number-leading-zero")
+    path.resolve(__dirname, "../../../fixtures/lib/rules/number-leading-zero"),
 )

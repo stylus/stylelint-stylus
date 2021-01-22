@@ -10,6 +10,6 @@ ruleTester(
     "stylus/at-rule-name-space-after",
     path.resolve(
         __dirname,
-        "../../../fixtures/lib/rules/at-rule-name-space-after"
-    )
+        "../../../fixtures/lib/rules/at-rule-name-space-after",
+    ),
 )

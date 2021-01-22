@@ -1,82 +1,91 @@
 {
-  "name": "stylelint-plugin-stylus",
-  "version": "0.9.0",
-  "description": "stylelint plugin for Stylus",
-  "main": "lib/index.js",
-  "files": [
-    "lib",
-    "custom-syntax",
-    "standard",
-    "recommended"
-  ],
-  "scripts": {
-    "lint": "eslint .",
-    "test:base": "mocha \"tests/runs/**/*.js\" --reporter dot",
-    "test": "nyc npm run test:base -- --timeout 60000",
-    "debug": "mocha --inspect-brk \"tests/runs/**/*.js\" --reporter dot --timeout 60000",
-    "cover:report": "nyc report --reporter=html",
-    "test:cover": "npm run test && npm run cover:report",
-    "update-fixtures": "cross-env UPDATE_FIXTURES=true npm run test:base",
-    "preversion": "npm run update && npm run test",
-    "version": "npm run lint -- --fix && git add .",
-    "update": "node ./scripts/update.js",
-    "docs:watch": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "docs-deploysetup": "npm run docs:build && npm run docs-deploysetup:clean && npm run docs-deploysetup:copy",
-    "docs-deploysetup:clean": "rimraf assets",
-    "docs-deploysetup:copy": "npx cpx \"docs/\\.vuepress/dist/**\" . -u"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ota-meshi/stylelint-plugin-stylus.git"
-  },
-  "keywords": [
-    "stylelint-plugin",
-    "stylelint",
-    "stylus",
-    "lint",
-    "linter",
-    "pretty",
-    "beautify"
-  ],
-  "author": "Yosuke Ota",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ota-meshi/stylelint-plugin-stylus/issues"
-  },
-  "homepage": "https://ota-meshi.github.io/stylelint-plugin-stylus/",
-  "peerDependencies": {
-    "stylelint": "^13.2.1"
-  },
-  "devDependencies": {
-    "@mysticatea/eslint-plugin": "^13.0.0",
-    "@types/lodash": "^4.14.149",
-    "cross-env": "^7.0.2",
-    "eslint": "^6.8.0",
-    "mocha": "^7.1.1",
-    "nyc": "^15.0.1",
-    "postcss": "^7.0.27",
-    "stylelint": "^13.3.3",
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-plugin-stylus": "file:.",
-    "stylelint4b": "^13.3.3-4b.0",
-    "vue-stylelint-editor": "^0.5.0",
-    "vuepress": "^1.4.0"
-  },
-  "dependencies": {
-    "@stylelint/postcss-css-in-js": "^0.37.1",
-    "@stylelint/postcss-markdown": "^0.36.1",
-    "html-tags": "^3.1.0",
-    "lodash": "^4.17.15",
-    "mathml-tag-names": "^2.1.3",
-    "postcss-media-query-parser": "^0.2.3",
-    "postcss-selector-parser": "^6.0.2",
-    "postcss-styl": "^0.7.1",
-    "postcss-syntax": "^0.36.2",
-    "style-search": "^0.1.0",
-    "svg-tags": "^1.0.0"
-  },
-  "engines": {
-    "node": "^8.10.0 || ^10.13.0 || ^11.10.1 || >=12.13.0"
-  }
+    "name": "stylelint-plugin-stylus",
+    "version": "0.9.0",
+    "description": "stylelint plugin for Stylus",
+    "main": "lib/index.js",
+    "files": [
+        "lib",
+        "custom-syntax",
+        "standard",
+        "recommended"
+    ],
+    "scripts": {
+        "lint": "eslint .",
+        "test:base": "mocha \"tests/runs/**/*.js\" --reporter dot",
+        "test": "nyc npm run test:base -- --timeout 60000",
+        "debug": "mocha --inspect-brk \"tests/runs/**/*.js\" --reporter dot --timeout 60000",
+        "cover:report": "nyc report --reporter=html",
+        "test:cover": "npm run test && npm run cover:report",
+        "update-fixtures": "cross-env UPDATE_FIXTURES=true npm run test:base",
+        "preversion": "npm run update && npm run test",
+        "version": "npm run lint -- --fix && git add .",
+        "update": "node ./scripts/update.js",
+        "docs:watch": "vuepress dev docs",
+        "docs:build": "vuepress build docs",
+        "docs-deploysetup": "npm run docs:build && npm run docs-deploysetup:clean && npm run docs-deploysetup:copy",
+        "docs-deploysetup:clean": "rimraf assets",
+        "docs-deploysetup:copy": "npx cpx \"docs/\\.vuepress/dist/**\" . -u"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ota-meshi/stylelint-plugin-stylus.git"
+    },
+    "keywords": [
+        "stylelint-plugin",
+        "stylelint",
+        "stylus",
+        "lint",
+        "linter",
+        "pretty",
+        "beautify"
+    ],
+    "author": "Yosuke Ota",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ota-meshi/stylelint-plugin-stylus/issues"
+    },
+    "homepage": "https://ota-meshi.github.io/stylelint-plugin-stylus/",
+    "peerDependencies": {
+        "stylelint": "^13.2.1"
+    },
+    "devDependencies": {
+        "@ota-meshi/eslint-plugin": "^0.0.11",
+        "@types/lodash": "^4.14.149",
+        "cross-env": "^7.0.2",
+        "eslint": "^7.18.0",
+        "eslint-config-prettier": "^7.2.0",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-jsonc": "^0.8.2",
+        "eslint-plugin-markdown": "^2.0.0-0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^3.3.1",
+        "eslint-plugin-regexp": "^0.1.1",
+        "eslint-plugin-yml": "^0.6.2",
+        "mocha": "^7.1.1",
+        "nyc": "^15.0.1",
+        "postcss": "^7.0.27",
+        "prettier": "^2.2.1",
+        "stylelint": "^13.3.3",
+        "stylelint-config-standard": "^20.0.0",
+        "stylelint-plugin-stylus": "file:.",
+        "stylelint4b": "^13.3.3-4b.0",
+        "vue-stylelint-editor": "^0.5.0",
+        "vuepress": "^1.4.0"
+    },
+    "dependencies": {
+        "@stylelint/postcss-css-in-js": "^0.37.1",
+        "@stylelint/postcss-markdown": "^0.36.1",
+        "html-tags": "^3.1.0",
+        "lodash": "^4.17.15",
+        "mathml-tag-names": "^2.1.3",
+        "postcss-media-query-parser": "^0.2.3",
+        "postcss-selector-parser": "^6.0.2",
+        "postcss-styl": "^0.7.1",
+        "postcss-syntax": "^0.36.2",
+        "style-search": "^0.1.0",
+        "svg-tags": "^1.0.0"
+    },
+    "engines": {
+        "node": "^8.10.0 || ^10.13.0 || ^11.10.1 || >=12.13.0"
+    }
 }

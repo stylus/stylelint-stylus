@@ -10,6 +10,6 @@ ruleTester(
     "stylus/single-line-comment-no-empty",
     path.resolve(
         __dirname,
-        "../../../fixtures/lib/rules/single-line-comment-no-empty"
-    )
+        "../../../fixtures/lib/rules/single-line-comment-no-empty",
+    ),
 )

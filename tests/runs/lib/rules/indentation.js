@@ -8,5 +8,5 @@ const { ruleTester } = require("../../../utils/tester")
 
 ruleTester(
     "stylus/indentation",
-    path.resolve(__dirname, "../../../fixtures/lib/rules/indentation")
+    path.resolve(__dirname, "../../../fixtures/lib/rules/indentation"),
 )
