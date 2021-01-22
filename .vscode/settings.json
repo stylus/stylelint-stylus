@@ -21,6 +21,11 @@
         "vue",
         "stylus"
     ],
+    "eslint.validate": [
+        "javascript",
+        "json",
+        "jsonc"
+    ],
     "eslint.workingDirectories": [
       {"directory": "./", "changeProcessCWD": true },
       {"directory": "./docs/.vuepress", "changeProcessCWD": true }
