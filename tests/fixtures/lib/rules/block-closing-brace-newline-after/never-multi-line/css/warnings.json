@@ -7,13 +7,6 @@
     "text": "Unexpected whitespace after \"}\" of a multi-line block (stylus/block-closing-brace-newline-after)"
   },
   {
-    "line": 9,
-    "column": 5,
-    "rule": "stylus/block-closing-brace-newline-after",
-    "severity": "error",
-    "text": "Unexpected whitespace after \"}\" of a multi-line block (stylus/block-closing-brace-newline-after)"
-  },
-  {
     "line": 12,
     "column": 2,
     "rule": "stylus/block-closing-brace-newline-after",
