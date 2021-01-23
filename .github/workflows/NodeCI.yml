@@ -42,7 +42,7 @@ jobs:
       with:
         node-version: 8
     - name: Downgrade stylelint
-      run: npm install -D stylelint@13.6.1 ignore@5.1.8 globby@11.0.1  --save-exact
+      run: npm install -D stylelint@13.6.1 ignore@5.1.8 globby@11.0.1 mocha@7.2.0  --save-exact
     - name: Install Packages
       run: npm install
     - name: Test
