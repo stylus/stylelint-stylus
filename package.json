@@ -49,7 +49,7 @@
         "stylelint": "^13.2.1"
     },
     "devDependencies": {
-        "@ota-meshi/eslint-plugin": "^0.0.13",
+        "@ota-meshi/eslint-plugin": "^0.0.14",
         "@types/lodash": "^4.14.149",
         "cross-env": "^7.0.2",
         "eslint": "^7.18.0",
