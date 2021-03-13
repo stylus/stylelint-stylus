@@ -49,7 +49,7 @@
         "stylelint": "^13.2.1"
     },
     "devDependencies": {
-        "@ota-meshi/eslint-plugin": "^0.1.0",
+        "@ota-meshi/eslint-plugin": "^0.3.0",
         "@types/lodash": "^4.14.149",
         "cross-env": "^7.0.2",
         "eslint": "^7.18.0",
@@ -60,7 +60,7 @@
         "eslint-plugin-markdown": "^2.0.0-0",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-prettier": "^3.3.1",
-        "eslint-plugin-regexp": "^0.2.0",
+        "eslint-plugin-regexp": "^0.4.0",
         "eslint-plugin-yml": "^0.8.0",
         "mocha": "^8.0.0",
         "nyc": "^15.0.1",
