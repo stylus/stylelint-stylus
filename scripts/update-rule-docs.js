@@ -49,7 +49,7 @@ class DocFile {
         //     .join("\n")}\n---\n`
         const computed = ""
 
-        const fileIntroPattern = /^---\n(.*\n)+---\n*/gu
+        const fileIntroPattern = /^---\n(?:.*\n)+---\n*/gu
 
         if (fileIntroPattern.test(this.content)) {
             this.content = this.content.replace(fileIntroPattern, computed)
