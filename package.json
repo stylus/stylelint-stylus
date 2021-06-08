@@ -11,6 +11,7 @@
     ],
     "scripts": {
         "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
         "test:base": "mocha \"tests/runs/**/*.js\" --reporter dot",
         "test": "nyc npm run test:base -- --timeout 60000",
         "debug": "mocha --inspect-brk \"tests/runs/**/*.js\" --reporter dot --timeout 60000",
@@ -60,7 +61,7 @@
         "eslint-plugin-markdown": "^2.0.0-0",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-prettier": "^3.3.1",
-        "eslint-plugin-regexp": "^0.10.0",
+        "eslint-plugin-regexp": "^0.11.0",
         "eslint-plugin-yml": "^0.9.0",
         "mocha": "^8.0.0",
         "nyc": "^15.0.1",
