@@ -33,6 +33,7 @@ This plugin allows us to check the [Stylus] with [stylelint].
 - Finds the many wrong use of selector, declaration, at-rule and more using the rules of [stylelint].
 - Finds the violations in coding style for [Stylus].
 - Use the [fix option] to automatically fixes the many stylistic violations.
+- The Stylus-specific syntax can be disallowed and auto-fix. This will help you migrate to another CSS preprocessor.
 
 [fix option]: https://stylelint.io/user-guide/usage/options#fix
 
@@ -121,6 +122,7 @@ This plugin provides some rulesets. It can be used by specifying it in the [`ext
 
 - `"stylelint-plugin-stylus/recommended"` ... Turns Off rules that cannot be used with the Stylus within `stylelint` (WIP). And turns On rules that possible errors rules within `stylelint-plugin-stylus`.
 - `"stylelint-plugin-stylus/standard"` ... Above, plus rules to improve code readability.
+- `"stylelint-plugin-stylus/no-stylus"` ... A rule set that does not allow Stylus-specific syntax. This will help you migrate to another CSS preprocessor.
 
 ## :white_check_mark: Rules
 

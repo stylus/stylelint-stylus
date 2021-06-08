@@ -249,6 +249,9 @@ export default {
                 "stylelint-plugin-stylus/standard": import(
                     "stylelint-plugin-stylus/standard"
                 ),
+                "stylelint-plugin-stylus/no-stylus": import(
+                    "stylelint-plugin-stylus/no-stylus"
+                ),
                 "stylelint-plugin-stylus": import("stylelint-plugin-stylus"),
                 [require.resolve("stylelint-plugin-stylus")]: import(
                     "stylelint-plugin-stylus"
