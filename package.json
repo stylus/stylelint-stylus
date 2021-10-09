@@ -53,7 +53,7 @@
         "@ota-meshi/eslint-plugin": "^0.8.0",
         "@types/lodash": "^4.14.149",
         "cross-env": "^7.0.2",
-        "eslint": "^7.18.0",
+        "eslint": "^8.0.0",
         "eslint-config-prettier": "^8.0.0",
         "eslint-plugin-eslint-comments": "^3.2.0",
         "eslint-plugin-json-schema-validator": "^1.0.0",
