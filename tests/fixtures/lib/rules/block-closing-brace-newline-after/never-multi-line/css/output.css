@@ -2,13 +2,7 @@ a { color: pink; }
 a { color: red; }
 a {
   color: pink;
-} /* end-of-line comment */:root {
-  --toolbar-theme: {
-    background-color: hsl(120, 70%, 95%);
-  };
-/* ↑
- * This semicolon */
-}/* "always" *//* incorrect */
+} /* end-of-line comment *//* "always" *//* incorrect */
 a { color: pink; }b { color: red; }
 
 a { color: pink;

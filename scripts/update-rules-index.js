@@ -27,6 +27,7 @@ module.exports = {
 fs.writeFileSync(filePath, content)
 
 // Format files.
-const linter = new eslint.CLIEngine({ fix: true })
-const report = linter.executeOnFiles([filePath])
-eslint.CLIEngine.outputFixes(report)
+const linter = new eslint.ESLint({ fix: true })
+linter.lintFiles([filePath]).then((report) => {
+    eslint.ESLint.outputFixes(report)
+})

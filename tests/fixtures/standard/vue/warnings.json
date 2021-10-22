@@ -5,5 +5,12 @@
     "rule": "no-duplicate-selectors",
     "severity": "error",
     "text": "Unexpected duplicate selector \"body\", first used at line 2 (no-duplicate-selectors)"
+  },
+  {
+    "line": 8,
+    "column": 9,
+    "rule": "font-family-name-quotes",
+    "severity": "error",
+    "text": "Expected quotes around \"font-size Arial\" (font-family-name-quotes)"
   }
 ]

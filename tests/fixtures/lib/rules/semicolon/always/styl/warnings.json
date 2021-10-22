@@ -1,21 +1,21 @@
 [
   {
     "line": 4,
-    "column": 12,
+    "column": 13,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Expected semicolon (stylus/semicolon)"
   },
   {
     "line": 9,
-    "column": 12,
+    "column": 13,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Expected semicolon (stylus/semicolon)"
   },
   {
     "line": 13,
-    "column": 12,
+    "column": 13,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Expected semicolon (stylus/semicolon)"

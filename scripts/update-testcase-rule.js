@@ -32,6 +32,7 @@ ruleTester(
 }
 
 // Format files.
-const linter = new eslint.CLIEngine({ fix: true })
-const report = linter.executeOnFiles([ROOT])
-eslint.CLIEngine.outputFixes(report)
+const linter = new eslint.ESLint({ fix: true })
+linter.lintFiles([ROOT]).then((report) => {
+    eslint.ESLint.outputFixes(report)
+})

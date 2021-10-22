@@ -1,3 +1,4 @@
+/* eslint node/no-unsupported-features/es-syntax: 0 -- ignore */
 export default () =>
     // {
     //     Vue, // the version of Vue being used in the VuePress app

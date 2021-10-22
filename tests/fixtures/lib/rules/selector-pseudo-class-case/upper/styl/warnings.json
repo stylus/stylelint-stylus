@@ -57,14 +57,14 @@
   },
   {
     "line": 47,
-    "column": 5,
+    "column": 3,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":hover\" to be \":HOVER\" (stylus/selector-pseudo-class-case)"
   },
   {
     "line": 52,
-    "column": 5,
+    "column": 3,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":hover\" to be \":HOVER\" (stylus/selector-pseudo-class-case)"

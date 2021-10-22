@@ -147,8 +147,8 @@
     "text": "Unexpected unknown type selector \"foo\" (stylus/selector-type-no-unknown)"
   },
   {
-    "line": 86,
-    "column": 1,
+    "line": 85,
+    "column": 16,
     "rule": "stylus/selector-type-no-unknown",
     "severity": "error",
     "text": "Unexpected unknown type selector \"bar\" (stylus/selector-type-no-unknown)"
@@ -161,8 +161,8 @@
     "text": "Unexpected unknown type selector \"foo\" (stylus/selector-type-no-unknown)"
   },
   {
-    "line": 91,
-    "column": 1,
+    "line": 90,
+    "column": 17,
     "rule": "stylus/selector-type-no-unknown",
     "severity": "error",
     "text": "Unexpected unknown type selector \"bar\" (stylus/selector-type-no-unknown)"

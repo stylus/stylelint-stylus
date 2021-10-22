@@ -1,77 +1,84 @@
 [
   {
-    "line": 16,
+    "line": 9,
     "column": 19,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
+  },
+  {
+    "line": 12,
+    "column": 2,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
   },
   {
     "line": 19,
-    "column": 2,
+    "column": 19,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
   },
   {
-    "line": 26,
-    "column": 19,
+    "line": 22,
+    "column": 2,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
   },
   {
     "line": 29,
+    "column": 19,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
+  },
+  {
+    "line": 31,
+    "column": 19,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
+  },
+  {
+    "line": 34,
     "column": 2,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
   },
   {
-    "line": 36,
-    "column": 19,
-    "rule": "stylus/block-closing-brace-newline-after",
-    "severity": "error",
-    "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
-  },
-  {
-    "line": 38,
-    "column": 19,
+    "line": 39,
+    "column": 2,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
   },
   {
     "line": 41,
-    "column": 2,
-    "rule": "stylus/block-closing-brace-newline-after",
-    "severity": "error",
-    "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
-  },
-  {
-    "line": 46,
-    "column": 2,
-    "rule": "stylus/block-closing-brace-newline-after",
-    "severity": "error",
-    "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
-  },
-  {
-    "line": 48,
     "column": 19,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
   },
   {
-    "line": 57,
+    "line": 50,
     "column": 2,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
   },
   {
-    "line": 59,
+    "line": 52,
     "column": 19,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
+  },
+  {
+    "line": 55,
+    "column": 2,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
@@ -84,21 +91,14 @@
     "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
   },
   {
-    "line": 69,
+    "line": 64,
     "column": 2,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
   },
   {
-    "line": 71,
-    "column": 2,
-    "rule": "stylus/block-closing-brace-newline-after",
-    "severity": "error",
-    "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
-  },
-  {
-    "line": 75,
+    "line": 68,
     "column": 28,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",

@@ -15,14 +15,14 @@ jobs:
       with:
         node-version: 14
     - name: Install Packages
-      run: npm install
+      run: npm install --legacy-peer-deps
     - name: Lint
       run: npm run lint
   test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [10.13.x, 12.x, 14.x, 15.x]
+        node-version: [12.x, 14.x, 16.x]
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
@@ -31,19 +31,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Install Packages
       run: npm install --legacy-peer-deps
-    - name: Test
-      run: npm test
-  test-for-node8:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js 8
-      uses: actions/setup-node@v2
-      with:
-        node-version: 8
-    - name: Downgrade stylelint
-      run: npm install -D stylelint@13.6.1 ignore@5.1.8 globby@11.0.1 mocha@7.2.0  --save-exact
-    - name: Install Packages
-      run: npm install
     - name: Test
       run: npm test

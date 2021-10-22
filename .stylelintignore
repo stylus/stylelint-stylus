@@ -1,0 +1,5 @@
+!/docs/.vuepress
+/docs/.vuepress/dist
+/.nyc_output
+/coverage
+node_modules

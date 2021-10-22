@@ -1,7 +1,9 @@
 "use strict"
 
 module.exports = {
-    parserOptions: {},
+    parserOptions: {
+        ecmaVersion: 2020,
+    },
     extends: [
         "plugin:@ota-meshi/recommended",
         "plugin:@ota-meshi/+node",

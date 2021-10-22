@@ -1,7 +1,7 @@
 "use strict"
 
 module.exports = {
-    plugins: ["stylelint-plugin-stylus"],
+    extends: ["stylelint-plugin-stylus/base-config"],
     rules: {
         "stylus/selector-type-no-unknown": [true, {ignoreTypes: ["/^my-/", "custom-type"]}],
     },

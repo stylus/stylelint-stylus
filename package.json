@@ -1,20 +1,22 @@
 {
     "name": "stylelint-plugin-stylus",
     "version": "0.11.0",
-    "description": "stylelint plugin for Stylus",
+    "description": "Stylelint plugin for Stylus",
     "main": "lib/index.js",
     "files": [
         "lib",
         "custom-syntax",
         "standard",
-        "recommended"
+        "recommended",
+        "base-config",
+        "no-stylus"
     ],
     "scripts": {
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
-        "test:base": "mocha \"tests/runs/**/*.js\" --reporter dot",
+        "test:base": "mocha \"tests/runs/**/*.js\" --reporter dot --timeout 60000",
         "test": "nyc npm run test:base -- --timeout 60000",
-        "debug": "mocha --inspect-brk \"tests/runs/**/*.js\" --reporter dot --timeout 60000",
+        "debug": "mocha \"tests/runs/**/*.js\" --reporter dot --timeout 60000",
         "cover:report": "nyc report --reporter=html",
         "test:cover": "npm run test && npm run cover:report",
         "update-fixtures": "cross-env UPDATE_FIXTURES=true npm run test:base",
@@ -25,7 +27,8 @@
         "docs:build": "vuepress build docs",
         "docs-deploysetup": "npm run docs:build && npm run docs-deploysetup:clean && npm run docs-deploysetup:copy",
         "docs-deploysetup:clean": "rimraf assets",
-        "docs-deploysetup:copy": "npx cpx \"docs/\\.vuepress/dist/**\" . -u"
+        "docs-deploysetup:copy": "npx cpx \"docs/\\.vuepress/dist/**\" . -u",
+        "stylelint": "stylelint \"docs/.vuepress/**/*.css\" \"docs/.vuepress/**/*.vue\" \"docs/.vuepress/**/*.styl\""
     },
     "repository": {
         "type": "git",
@@ -47,7 +50,13 @@
     },
     "homepage": "https://ota-meshi.github.io/stylelint-plugin-stylus/",
     "peerDependencies": {
-        "stylelint": "^13.2.1"
+        "stylelint": "^13.2.1 || ^14.0.0",
+        "postcss-syntax": "^0.36.2"
+    },
+    "peerDependenciesMeta": {
+        "postcss-syntax": {
+            "optional": true
+        }
     },
     "devDependencies": {
         "@ota-meshi/eslint-plugin": "^0.10.0",
@@ -65,29 +74,30 @@
         "eslint-plugin-yml": "^0.10.0",
         "mocha": "^9.0.0",
         "nyc": "^15.0.1",
+        "pako": "^2.0.4",
         "postcss": "^8.0.0",
+        "postcss-scss": "^4.0.1",
+        "postcss-syntax": "^0.36.2",
         "prettier": "^2.2.1",
-        "stylelint": "^13.3.3",
-        "stylelint-config-standard": "^20.0.0",
+        "stylelint": "^14.0.0",
+        "stylelint-config-standard": "^23.0.0",
         "stylelint-plugin-stylus": "file:.",
-        "stylelint4b": "^13.3.3-4b.0",
+        "stylelint4b": "^14.0.0-4b.0",
         "vue-stylelint-editor": "^0.5.0",
         "vuepress": "^1.4.0"
     },
     "dependencies": {
-        "@stylelint/postcss-css-in-js": "^0.37.1",
-        "@stylelint/postcss-markdown": "^0.36.1",
         "html-tags": "^3.1.0",
         "lodash": "^4.17.15",
         "mathml-tag-names": "^2.1.3",
         "postcss-media-query-parser": "^0.2.3",
         "postcss-selector-parser": "^6.0.2",
         "postcss-styl": "^0.9.0",
-        "postcss-syntax": "^0.36.2",
         "style-search": "^0.1.0",
+        "stylelint-config-html": "^0.0.2 || ^1.0.0",
         "svg-tags": "^1.0.0"
     },
     "engines": {
-        "node": "^8.10.0 || ^10.13.0 || ^11.10.1 || >=12.13.0"
+        "node": "^12 || >=14"
     }
 }

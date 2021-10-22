@@ -15,7 +15,6 @@
         }
     },
     "css.validate": false,
-    "stylelint.customSyntax": "stylelint-plugin-stylus/custom-syntax",
     "stylelint.validate": [
         "css",
         "vue",

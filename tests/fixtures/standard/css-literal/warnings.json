@@ -21,6 +21,13 @@
     "text": "Expected \"DXImageTransform.Microsoft.Alpha\" to be \"dximagetransform.microsoft.alpha\" (function-name-case)"
   },
   {
+    "line": 4,
+    "column": 5,
+    "rule": "property-no-vendor-prefix",
+    "severity": "error",
+    "text": "Unexpected vendor-prefix \"-ms-filter\" (property-no-vendor-prefix)"
+  },
+  {
     "line": 6,
     "column": 1,
     "rule": "no-missing-end-of-source-newline",

@@ -182,6 +182,27 @@
     "text": "Unexpected colon (stylus/declaration-colon)"
   },
   {
+    "line": 67,
+    "column": 12,
+    "rule": "function-url-quotes",
+    "severity": "error",
+    "text": "Expected quotes around \"url\" function argument (function-url-quotes)"
+  },
+  {
+    "line": 71,
+    "column": 12,
+    "rule": "keyframes-name-pattern",
+    "severity": "error",
+    "text": "Expected keyframe name to be kebab-case"
+  },
+  {
+    "line": 74,
+    "column": 19,
+    "rule": "alpha-value-notation",
+    "severity": "error",
+    "text": "Expected \"10\" to be \"1000%\" (alpha-value-notation)"
+  },
+  {
     "line": 87,
     "column": 1,
     "rule": "stylus/pythonic",
@@ -210,11 +231,67 @@
     "text": "Expected \"#E2E21E\" to be \"#e2e21e\" (stylus/color-hex-case)"
   },
   {
+    "line": 102,
+    "column": 14,
+    "rule": "alpha-value-notation",
+    "severity": "error",
+    "text": "Expected \"0.5\" to be \"50%\" (alpha-value-notation)"
+  },
+  {
+    "line": 107,
+    "column": 3,
+    "rule": "property-no-vendor-prefix",
+    "severity": "error",
+    "text": "Unexpected vendor-prefix \"-webkit-border-radius\" (property-no-vendor-prefix)"
+  },
+  {
+    "line": 108,
+    "column": 3,
+    "rule": "property-no-vendor-prefix",
+    "severity": "error",
+    "text": "Unexpected vendor-prefix \"-moz-border-radius\" (property-no-vendor-prefix)"
+  },
+  {
+    "line": 111,
+    "column": 17,
+    "rule": "selector-attribute-quotes",
+    "severity": "error",
+    "text": "Expected quotes around \"button\" (selector-attribute-quotes)"
+  },
+  {
     "line": 122,
     "column": 1,
     "rule": "stylus/at-rule-no-unknown",
     "severity": "error",
     "text": "Unexpected unknown at-rule \"@foo\" (stylus/at-rule-no-unknown)"
+  },
+  {
+    "line": 127,
+    "column": 16,
+    "rule": "declaration-colon-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \":\" (declaration-colon-space-before)"
+  },
+  {
+    "line": 127,
+    "column": 23,
+    "rule": "declaration-block-semicolon-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \";\" in a multi-line declaration block (declaration-block-semicolon-newline-after)"
+  },
+  {
+    "line": 131,
+    "column": 7,
+    "rule": "declaration-colon-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \":\" (declaration-colon-space-before)"
+  },
+  {
+    "line": 131,
+    "column": 11,
+    "rule": "declaration-block-semicolon-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \";\" in a multi-line declaration block (declaration-block-semicolon-newline-after)"
   },
   {
     "line": 134,

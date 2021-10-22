@@ -72,7 +72,7 @@ $keyframe-name = pulse
 @keyframes {$keyframe-name}
   for i in 0..10
     {10% * i}
-      opacity (i/10)
+      opacity (i/1000%)
 
 @viewport
   color #00f
@@ -99,16 +99,16 @@ $keyframe-name = pulse
   .bar {
     color: red;
     background: red;
-    opacity: 0.5;
+    opacity: 50%;
   }
 }
 
 border-radius(n)
-  -webkit-border-radius n
-  -moz-border-radius n
+  border-radius n
+  border-radius n
   border-radius n
 
-form input[type=button]
+form input[type="button"]
   border-radius(5px)
 
 support-for-ie ?= true

@@ -4,7 +4,7 @@ title: "Introduction"
 
 <h1 align="center">stylelint-plugin-stylus</h1>
 
-<p align="center"><a href="https://stylelint.io/" alt="stylelint">stylelint</a> plugin for <a href="https://stylus-lang.com/" alt="Stylus">Stylus</a>.
+<p align="center"><a href="https://stylelint.io/" alt="Stylelint">Stylelint</a> plugin for <a href="https://stylus-lang.com/" alt="Stylus">Stylus</a>.
 
 <p align="center"><b><i>This plugin is still in an experimental state</i></b></p>
 
@@ -26,18 +26,18 @@ title: "Introduction"
 
 ## :name_badge: Introduction
 
-[stylelint] plugin for [Stylus].
+[Stylelint] plugin for [Stylus].
 
-This plugin allows us to check the [Stylus] with [stylelint].
+This plugin allows us to check the [Stylus] with [Stylelint].
 
-- Finds the many wrong use of selector, declaration, at-rule and more using the rules of [stylelint].
+- Finds the many wrong use of selector, declaration, at-rule and more using the rules of [Stylelint].
 - Finds the violations in coding style for [Stylus].
 - Use the [fix option] to automatically fixes the many stylistic violations.
 - The Stylus-specific syntax can be disallowed and auto-fix. [This will help you migrate to another CSS preprocessor](./playground/#eJxljUEKgCAURK8if6209yr9FpImgnwjFQrp7ilGEW3fvJkpMAdanAUJBYkxhNVn6ygiSDYixHR44x0l0bloINd04l03ezKkb72Sxt5SH68lRVptGoH/nc/wQOG5aOqEdMJ5AbVpOgo=).
 
 [fix option]: https://stylelint.io/user-guide/usage/options#fix
 
-[stylelint editor integrations](https://stylelint.io/user-guide/integrations/editor) are useful to check your code in real-time.
+[Stylelint editor integrations](https://stylelint.io/user-guide/integrations/editor) are useful to check your code in real-time.
 
 You can check on the [Online DEMO](./playground/).
 
@@ -51,31 +51,8 @@ npm install --save-dev stylelint stylelint-plugin-stylus
 
 ## :book: Usage
 
-`stylelint-plugin-stylus` is a plugin for [stylelint], so it is for use with [stylelint].  
-If you are not using [stylelint], start by using [stylelint].
-
-### Custom Syntax
-
-Set [custom syntax](https://stylelint.io/user-guide/usage/options#customsyntax) for parsing [Stylus]. With the following setting, `.styl` and `<style lang="stylus">` are parsed by [postcss-styl].
-
-- via CLI
-
-    ```bash
-    stylelint ... --custom-syntax stylelint-plugin-stylus/custom-syntax
-    ```
-
-- with [VSCode extension]
-
-    ```js
-    {
-    "stylelint.customSyntax": "stylelint-plugin-stylus/custom-syntax",
-    "stylelint.validate": [
-        ...,
-        // ↓ Add "stylus" language.
-        "stylus"
-    ]
-    }
-     ```
+`stylelint-plugin-stylus` is a plugin for [Stylelint], so it is for use with [Stylelint].  
+If you are not using [Stylelint], start by using [Stylelint].
 
 ### Configuration
 
@@ -88,13 +65,13 @@ module.exports = {
   extends: [
     // add more generic rulesets here, such as:
     // "stylelint-config-standard",
-    "stylelint-plugin-stylus/standard"
+    "stylelint-plugin-stylus/standard",
   ],
   rules: {
     // override/add rules settings here, such as:
     // "stylus/declaration-colon": "never"
-  }
-}
+  },
+};
 ```
 
 If you want to set all the rules yourself, set as follows.
@@ -103,7 +80,14 @@ If you want to set all the rules yourself, set as follows.
 module.exports = {
   plugins: [
     // add this plugin here:
-    "stylelint-plugin-stylus"
+    "stylelint-plugin-stylus",
+  ],
+  // makes the stylus files parseable.
+  overrides: [
+    {
+      files: ["*.stylus", "*.styl", "**/*.stylus", "**/*.styl"],
+      customSyntax: "postcss-styl",
+    },
   ],
   rules: {
     // add rules settings here, such as:
@@ -112,13 +96,57 @@ module.exports = {
     "stylus/selector-list-comma": "never",
     "stylus/semicolon": "never",
     "stylus/single-line-comment": "always",
-  }
-}
+  },
+};
 ```
+
+## :computer: Editor integrations
+
+### Visual Studio Code
+
+Use the [stylelint.vscode-stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) extension that [Stylelint] provides officially.
+
+You have to configure the `stylelint.validate` option of the extension to check `.stylus` files, because the extension does not check the `*.stylus` file by default.
+
+Example **.vscode/settings.json**:
+
+```jsonc
+{
+  "stylelint.validate": [
+      ...,
+      // ↓ Add "stylus" language.
+      "stylus"
+  ]
+```
+
+### Custom Syntax
+
+**If you are using stylelint v13, you need to do the following:**
+
+Set [custom syntax](https://stylelint.io/user-guide/usage/options#customsyntax) for parsing [Stylus]. With the following setting, `.styl` and `<style lang="stylus">` are parsed by [postcss-styl].
+
+- via CLI
+
+  ```bash
+  stylelint ... --custom-syntax stylelint-plugin-stylus/custom-syntax
+  ```
+
+- with [VSCode extension]
+
+  ```json
+  {
+    "stylelint.customSyntax": "stylelint-plugin-stylus/custom-syntax",
+    "stylelint.validate": [
+      ...,
+      // ↓ Add "stylus" language.
+      "stylus"
+    ]
+  }
+  ```
 
 ## :arrow_heading_up: RuleSets
 
-This plugin provides some rulesets. It can be used by specifying it in the [`extends` of the stylelint configuration](https://stylelint.io/user-guide/configure#extends).
+This plugin provides some rulesets. It can be used by specifying it in the [`extends` of the Stylelint configuration](https://stylelint.io/user-guide/configure#extends).
 
 - `"stylelint-plugin-stylus/recommended"` ... Turns Off rules that cannot be used with the Stylus within `stylelint` (WIP). And turns On rules that possible errors rules within `stylelint-plugin-stylus`.
 - `"stylelint-plugin-stylus/standard"` ... Above, plus rules to improve code readability.
@@ -126,7 +154,7 @@ This plugin provides some rulesets. It can be used by specifying it in the [`ext
 
 ## :white_check_mark: Rules
 
-You can use [the rules built into stylelint](https://stylelint.io/user-guide/rules/list) and the rules provided by this plugin.
+You can use [the rules built into Stylelint](https://stylelint.io/user-guide/rules/list) and the rules provided by this plugin.
 
 The `--fix` option on the [command line](https://stylelint.io/user-guide/usage/options#fix) automatically fixes problems reported by rules which have a wrench :wrench: below.
 
@@ -188,11 +216,11 @@ See the [LICENSE] file for license rights and limitations (MIT).
 
 [license]: ./LICENSE
 [stylelint]: https://stylelint.io/
-[Stylus]: https://stylus-lang.com/
-[VSCode extension]: https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
+[stylus]: https://stylus-lang.com/
+[vscode extension]: https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
 [postcss-styl]: https://github.com/ota-meshi/postcss-styl
 [npm]: https://www.npmjs.com/
 [npm license]: https://img.shields.io/npm/l/stylelint-plugin-stylus.svg
 [npm version]: https://img.shields.io/npm/v/stylelint-plugin-stylus.svg
 [npm downloads]: https://img.shields.io/npm/dw/stylelint-plugin-stylus.svg
-[Build Status]: https://github.com/ota-meshi/stylelint-plugin-stylus/workflows/CI/badge.svg?branch=master
+[build status]: https://github.com/ota-meshi/stylelint-plugin-stylus/workflows/CI/badge.svg?branch=master

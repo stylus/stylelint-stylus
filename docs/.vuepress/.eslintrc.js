@@ -1,12 +1,12 @@
 module.exports = {
     parserOptions: {
-        sourceType: 'module'
+        sourceType: "module",
     },
-    globals:{
+    globals: {
         window: true,
-        require: true
+        require: true,
     },
     rules: {
-        "@mysticatea/node/no-unsupported-features/es-syntax": 'off'
-    }
+        "@mysticatea/node/no-unsupported-features/es-syntax": "off",
+    },
 }

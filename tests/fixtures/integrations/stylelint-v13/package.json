@@ -1,0 +1,13 @@
+{
+    "name": "stylelint-plugin-stylus-test-stylelint-v13",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "devDependencies": {
+        "stylelint": "^13",
+        "stylelint-plugin-stylus": "file:../../../../"
+    },
+    "engines": {
+        "node": "^12 || >=14"
+    }
+}

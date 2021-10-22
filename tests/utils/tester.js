@@ -208,7 +208,6 @@ function lintCode(code, codeFilename, options = {}) {
     return stylelint.lint({
         code,
         codeFilename,
-        customSyntax: require.resolve("../../custom-syntax"),
         ...options,
     })
 }

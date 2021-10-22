@@ -50,7 +50,7 @@
   },
   {
     "line": 16,
-    "column": 4,
+    "column": 3,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"

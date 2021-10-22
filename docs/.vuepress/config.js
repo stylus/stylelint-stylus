@@ -5,7 +5,7 @@ const {
 } = require("../../scripts/lib/categories")
 
 const path = require("path")
-// eslint-disable-next-line @mysticatea/node/no-extraneous-require
+// eslint-disable-next-line node/no-extraneous-require -- ignore
 const webpack = require("webpack")
 
 function resolve(seg) {
@@ -46,16 +46,16 @@ module.exports = {
         resolve: {
             symlinks: false,
             alias: {
-                // eslint-disable-next-line @mysticatea/node/no-extraneous-require
+                // eslint-disable-next-line node/no-extraneous-require -- ignore
                 stylus: require.resolve("stylus/lib/stylus"),
                 glob: require.resolve("./shim/glob"),
                 sax: require.resolve("./shim/sax"),
                 stylelint: resolve("../../node_modules/stylelint4b"),
                 "postcss-syntax": resolve(
-                    "../../node_modules/stylelint4b/packages/postcss-syntax"
+                    "../../node_modules/stylelint4b/packages/postcss-syntax",
                 ),
                 postcss: resolve(
-                    "../../node_modules/stylelint4b/packages/postcss"
+                    "../../node_modules/stylelint4b/packages/postcss",
                 ),
             },
         },
@@ -95,7 +95,7 @@ module.exports = {
                             ruleName,
                         ]),
                     }))
-                    .filter(menu => Boolean(menu.children.length)),
+                    .filter((menu) => Boolean(menu.children.length)),
 
                 // Rules in no category.
                 ...extraCategories,

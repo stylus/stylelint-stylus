@@ -8,14 +8,14 @@
   },
   {
     "line": 2,
-    "column": 15,
+    "column": 14,
     "rule": "stylus/no-eol-whitespace",
     "severity": "error",
     "text": "Unexpected whitespace at end of line (stylus/no-eol-whitespace)"
   },
   {
-    "line": 3,
-    "column": 2,
+    "line": 2,
+    "column": 17,
     "rule": "stylus/no-eol-whitespace",
     "severity": "error",
     "text": "Unexpected whitespace at end of line (stylus/no-eol-whitespace)"

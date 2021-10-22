@@ -1,7 +1,7 @@
 "use strict"
 
 module.exports = {
-    plugins: ["stylelint-plugin-stylus"],
+    extends: ["stylelint-plugin-stylus/base-config"],
     rules: {
         "stylus/media-feature-colon": "never",
     },

@@ -7,11 +7,11 @@ body
   font font-size Arial, sans-serif
 
 border-radius(n)
-  -webkit-border-radius n
-  -moz-border-radius n
+  border-radius n
+  border-radius n
   border-radius n
 
-form input[type=button]
+form input[type="button"]
   border-radius(5px)
 
 // I'm a comment!
@@ -73,7 +73,7 @@ sum(nums)
   sum += n for n in nums
 
 join(delim, args)
-  buf = ''
+  buf = ""
   buf += i ? delim + arg : arg for arg, i in args
 
 @import "reset.css"
@@ -92,4 +92,4 @@ join(delim, args)
 @keyframes n
   for i in 0..10
     {10% * i}
-      opacity (i/10)
+      opacity (i/1000%)

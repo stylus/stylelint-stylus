@@ -57,6 +57,13 @@
   },
   {
     "line": 13,
+    "column": 3,
+    "rule": "stylus/no-eol-whitespace",
+    "severity": "error",
+    "text": "Unexpected whitespace at end of line (stylus/no-eol-whitespace)"
+  },
+  {
+    "line": 13,
     "column": 5,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
@@ -75,13 +82,6 @@
     "rule": "stylus/selector-list-comma-newline-after",
     "severity": "error",
     "text": "Expected newline after \",\" (stylus/selector-list-comma-newline-after)"
-  },
-  {
-    "line": 13,
-    "column": 12,
-    "rule": "stylus/no-eol-whitespace",
-    "severity": "error",
-    "text": "Unexpected whitespace at end of line (stylus/no-eol-whitespace)"
   },
   {
     "line": 16,
@@ -134,7 +134,7 @@
   },
   {
     "line": 20,
-    "column": 11,
+    "column": 12,
     "rule": "stylus/block-closing-brace-newline-before",
     "severity": "error",
     "text": "Expected newline before \"}\" of a multi-line block (stylus/block-closing-brace-newline-before)"
@@ -229,6 +229,13 @@
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Unexpected semicolon (stylus/semicolon)"
+  },
+  {
+    "line": 24,
+    "column": 1,
+    "rule": "no-invalid-position-at-import-rule",
+    "severity": "error",
+    "text": "Unexpected invalid position @import rule (no-invalid-position-at-import-rule)"
   },
   {
     "line": 24,
@@ -413,11 +420,25 @@
     "text": "Expected indentation of 2 spaces (stylus/indentation)"
   },
   {
+    "line": 52,
+    "column": 16,
+    "rule": "string-quotes",
+    "severity": "error",
+    "text": "Expected double quotes (string-quotes)"
+  },
+  {
     "line": 53,
     "column": 4,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 2 spaces (stylus/indentation)"
+  },
+  {
+    "line": 53,
+    "column": 16,
+    "rule": "string-quotes",
+    "severity": "error",
+    "text": "Expected double quotes (string-quotes)"
   },
   {
     "line": 54,
@@ -498,10 +519,24 @@
   },
   {
     "line": 61,
+    "column": 17,
+    "rule": "string-quotes",
+    "severity": "error",
+    "text": "Expected double quotes (string-quotes)"
+  },
+  {
+    "line": 61,
     "column": 26,
     "rule": "stylus/selector-list-comma",
     "severity": "error",
     "text": "Unexpected comma (stylus/selector-list-comma)"
+  },
+  {
+    "line": 62,
+    "column": 17,
+    "rule": "string-quotes",
+    "severity": "error",
+    "text": "Expected double quotes (string-quotes)"
   },
   {
     "line": 63,
@@ -565,5 +600,12 @@
     "rule": "stylus/no-at-require",
     "severity": "error",
     "text": "Unexpected '@require', use '@import' instead. (stylus/no-at-require)"
+  },
+  {
+    "line": 78,
+    "column": 10,
+    "rule": "string-quotes",
+    "severity": "error",
+    "text": "Expected double quotes (string-quotes)"
   }
 ]
