@@ -254,32 +254,28 @@ export default {
   },
 };
 </script>
-<style scoped>
-.playground {
-  width: 100%;
-  margin: 1em 0;
-}
+<style scoped lang="stylus">
+.playground
+  width 100%
+  margin 1em 0
 
-.playground__editor {
-  margin: 1em 0;
-  max-height: calc(100vh - 200px);
-}
+.playground__editor
+  margin 1em 0
+  max-height calc(100vh - 200px)
 
-.playground__tools {
-  display: flex;
-}
+.playground__tools
+  display flex
 
-.playground__json-editor {
-  width: 50%;
-  max-height: calc(100vh - 200px);
-}
+.playground__json-editor
+  width 50%
+  max-height calc(100vh - 200px)
 
-.playground__messages {
-  width: 50%;
-  padding: 0 1em 0 4em;
-  margin: 0;
-  font-size: 0.8rem;
-  max-height: calc(100vh - 200px);
-  overflow: auto;
-}
+.playground__messages
+  width 50%
+  padding 0 1em 0 4em
+  margin 0
+  font-size 0.8rem
+  max-height calc(100vh - 200px)
+  overflow auto
+
 </style>

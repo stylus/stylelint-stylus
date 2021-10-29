@@ -23,7 +23,7 @@ See [stylelint - at-rule-no-unknown - Options](https://stylelint.io/user-guide/r
 <stylelint-code-block :rules="{ 'stylus/at-rule-no-unknown': true }">
 
 ```styl
-// ✓ GOODs
+// ✓ GOOD
 @media (max-width: 960px) {}
 @media (max-width: 960px)
   .foo

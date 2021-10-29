@@ -200,121 +200,102 @@ export default {
 }
 </script>
 
-<style>
-.json-editor-root {
-    position: relative;
-}
+<style lang="stylus">
+.json-editor-root
+  position relative
 
-.json-editor-swap-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+.json-editor-swap-container
+  position absolute
+  top 0
+  left 0
+  width 100%
+  height 100%
 
-.json-editor-monaco {
-    width: 100%;
-    height: 100%;
-}
+.json-editor-monaco
+  width 100%
+  height 100%
 
-.json-editor-root .json-editor-placeholder-code {
-    display: block;
-    box-sizing: border-box;
-    height: 100%;
-    white-space: pre;
-    background-color: #fff;
-    color: #1e1e1e;
-}
+.json-editor-root .json-editor-placeholder-code
+  display block
+  box-sizing border-box
+  height 100%
+  white-space pre
+  background-color #fff
+  color #1e1e1e
 
-.json-editor-root.json-editor-dark .json-editor-placeholder-code {
-    background-color: #1e1e1e;
-    color: #d4d4d4;
-}
+.json-editor-root.json-editor-dark .json-editor-placeholder-code
+  background-color #1e1e1e
+  color #d4d4d4
 
-.json-editor-placeholder-loading,
-.json-editor-placeholder-error {
-    position: absolute;
-    right: 8px;
-    bottom: 8px;
-    pointer-events: none;
-}
+.json-editor-placeholder-loading
+.json-editor-placeholder-error
+  position absolute
+  right 8px
+  bottom 8px
+  pointer-events none
 
-.json-editor-placeholder-loading {
-    line-height: 1.5em;
-}
+.json-editor-placeholder-loading
+  line-height 1.5em
 
-.json-editor-placeholder-error {
-    color: #f44336;
-}
+.json-editor-placeholder-error
+  color #f44336
 
-.json-editor-placeholder-loading-icon {
-    display: inline-block;
-    position: relative;
-    width: 1.5em;
-    height: 1.5em;
-    margin-right: 4px;
-    vertical-align: middle;
-}
+.json-editor-placeholder-loading-icon
+  display inline-block
+  position relative
+  width 1.5em
+  height 1.5em
+  margin-right 4px
+  vertical-align middle
 
-.json-editor-placeholder-loading-icon > div {
-    position: absolute;
-    border-radius: 50%;
-    border-color: #3eaf7c;
-    border-width: 2px;
-    border-style: none solid none solid;
-    animation: VueStylelintEditorLoadingIcon 1s linear infinite;
-}
+.json-editor-placeholder-loading-icon > div
+  position absolute
+  border-radius 50%
+  border-color #3eaf7c
+  border-width 2px
+  border-style none solid
+  animation VueStylelintEditorLoadingIcon 1s linear infinite
 
-.json-editor-placeholder-loading-icon > div:nth-child(1) {
-    height: 100%;
-    width: 100%;
-    animation-duration: 1.3s;
-}
+.json-editor-placeholder-loading-icon > div:nth-child(1)
+  height 100%
+  width 100%
+  animation-duration 1.3s
 
-.json-editor-placeholder-loading-icon > div:nth-child(2) {
-    top: 1px;
-    left: 2px;
-    width: calc(100% - 4px);
-    height: calc(100% - 2px);
-    animation-duration: 0.7s;
-}
+.json-editor-placeholder-loading-icon > div:nth-child(2)
+  top 1px
+  left 2px
+  width calc(100% - 4px)
+  height calc(100% - 2px)
+  animation-duration 0.7s
 
-.json-editor-placeholder-loading-icon > div:nth-child(3) {
-    top: 2px;
-    left: 4px;
-    width: calc(100% - 8px);
-    height: calc(100% - 4px);
-    animation-duration: 1s;
-}
+.json-editor-placeholder-loading-icon > div:nth-child(3)
+  top 2px
+  left 4px
+  width calc(100% - 8px)
+  height calc(100% - 4px)
+  animation-duration 1s
 
-.json-editor-placeholder-loading-message {
-    display: inline-block;
-    color: gray;
-    vertical-align: middle;
-}
+.json-editor-placeholder-loading-message
+  display inline-block
+  color gray
+  vertical-align middle
 
-@keyframes VueStylelintEditorLoadingIcon {
-    0% {
-        transform: rotateY(0deg);
-    }
+@keyframes VueStylelintEditorLoadingIcon
+  0%
+    transform rotateY(0deg)
 
-    50% {
-        transform: rotateY(210deg);
-    }
+  50%
+    transform rotateY(210deg)
 
-    100% {
-        transform: rotateY(360deg);
-    }
-}
+  100%
+    transform rotateY(360deg)
 
-.json-editor-fade-enter-active,
-.json-editor-fade-leave-active {
-    transition: opacity 0.3s ease;
-}
+.json-editor-fade-enter-active
+.json-editor-fade-leave-active
+  transition opacity 0.3s ease
 
-.json-editor-fade-enter,
-.json-editor-fade-leave-to {
-    opacity: 0;
-}
+.json-editor-fade-enter
+.json-editor-fade-leave-to
+  opacity 0%
+
 </style>

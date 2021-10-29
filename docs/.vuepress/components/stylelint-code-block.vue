@@ -113,9 +113,9 @@ export default {
   },
 };
 </script>
-<style scoped>
-.stylelint-code-block {
-  width: 100%;
-  margin: 1em 0;
-}
+<style scoped lang="stylus">
+.stylelint-code-block
+  width 100%
+  margin 1em 0
+
 </style>
