@@ -29,7 +29,6 @@ This plugin allows us to check the [Stylus] with [Stylelint].
 - Finds the many wrong use of selector, declaration, at-rule and more using the rules of [Stylelint].
 - Finds the violations in coding style for [Stylus].
 - Use the [fix option] to automatically fixes the many stylistic violations.
-- The Stylus-specific syntax can be disallowed and auto-fix. [This will help you migrate to another CSS preprocessor](https://ota-meshi.github.io/stylelint-plugin-stylus/playground/#eJxljUEKgCAURK8if6209yr9FpImgnwjFQrp7ilGEW3fvJkpMAdanAUJBYkxhNVn6ygiSDYixHR44x0l0bloINd04l03ezKkb72Sxt5SH68lRVptGoH/nc/wQOG5aOqEdMJ5AbVpOgo=).
 
 [fix option]: https://stylelint.io/user-guide/usage/options#fix
 
@@ -146,7 +145,6 @@ This plugin provides some rulesets. It can be used by specifying it in the [`ext
 
 - `"stylelint-plugin-stylus/recommended"` ... Turns Off rules that cannot be used with the Stylus within `stylelint` (WIP). And turns On rules that possible errors rules within `stylelint-plugin-stylus`.
 - `"stylelint-plugin-stylus/standard"` ... Above, plus rules to improve code readability.
-- `"stylelint-plugin-stylus/no-stylus"` ... A rule set that does not allow Stylus-specific syntax. [This will help you migrate to another CSS preprocessor](https://ota-meshi.github.io/stylelint-plugin-stylus/playground/#eJxljUEKgCAURK8if6209yr9FpImgnwjFQrp7ilGEW3fvJkpMAdanAUJBYkxhNVn6ygiSDYixHR44x0l0bloINd04l03ezKkb72Sxt5SH68lRVptGoH/nc/wQOG5aOqEdMJ5AbVpOgo=).
 
 ## :white_check_mark: Rules
 
