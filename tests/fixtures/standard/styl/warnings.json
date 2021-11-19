@@ -194,12 +194,5 @@
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Unexpected semicolon (stylus/semicolon)"
-  },
-  {
-    "line": 97,
-    "column": 19,
-    "rule": "alpha-value-notation",
-    "severity": "error",
-    "text": "Expected \"10\" to be \"1000%\" (alpha-value-notation)"
   }
 ]

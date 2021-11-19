@@ -76,7 +76,7 @@
         "postcss-syntax": "^0.36.2",
         "prettier": "^2.2.1",
         "stylelint": "^14.0.1",
-        "stylelint-config-standard": "^23.0.0",
+        "stylelint-config-standard": "^24.0.0",
         "stylelint-plugin-stylus": "file:.",
         "stylelint4b": "^14.0.0-4b.0",
         "vue-stylelint-editor": "^0.5.0",

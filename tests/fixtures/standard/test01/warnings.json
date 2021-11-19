@@ -196,13 +196,6 @@
     "text": "Expected keyframe name to be kebab-case"
   },
   {
-    "line": 74,
-    "column": 19,
-    "rule": "alpha-value-notation",
-    "severity": "error",
-    "text": "Expected \"10\" to be \"1000%\" (alpha-value-notation)"
-  },
-  {
     "line": 87,
     "column": 1,
     "rule": "stylus/pythonic",
@@ -229,13 +222,6 @@
     "rule": "stylus/color-hex-case",
     "severity": "error",
     "text": "Expected \"#E2E21E\" to be \"#e2e21e\" (stylus/color-hex-case)"
-  },
-  {
-    "line": 102,
-    "column": 14,
-    "rule": "alpha-value-notation",
-    "severity": "error",
-    "text": "Expected \"0.5\" to be \"50%\" (alpha-value-notation)"
   },
   {
     "line": 107,
