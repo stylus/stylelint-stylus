@@ -77,6 +77,34 @@
     "text": "Unexpected unknown property \"foo\" (stylus/property-no-unknown)"
   },
   {
+    "line": 105,
+    "column": 3,
+    "rule": "stylus/property-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown property \"foo\" (stylus/property-no-unknown)"
+  },
+  {
+    "line": 106,
+    "column": 3,
+    "rule": "stylus/property-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown property \"foo\" (stylus/property-no-unknown)"
+  },
+  {
+    "line": 107,
+    "column": 3,
+    "rule": "stylus/property-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown property \"foo\" (stylus/property-no-unknown)"
+  },
+  {
+    "line": 108,
+    "column": 3,
+    "rule": "stylus/property-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown property \"foo\" (stylus/property-no-unknown)"
+  },
+  {
     "line": 109,
     "column": 3,
     "rule": "stylus/property-no-unknown",
