@@ -5,5 +5,5 @@ body
 font-size = 14px
 
 body
-  font font-size Arial, sans-serif
+  font "font-size Arial", sans-serif
 </style>
