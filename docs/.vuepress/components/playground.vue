@@ -59,10 +59,11 @@ body {
 // Flexible syntax
 body
   font 14px/1.5 Helvetica, arial, sans-serif
+
   button
   button.button
-  input[type='button']
-  input[type='submit']
+  input[type="button"]
+  input[type="submit"]
     border-radius 5px
 
 // Mixins

@@ -68,10 +68,10 @@ module.exports = {
         ],
     },
     themeConfig: {
-        repo: "ota-meshi/stylelint-plugin-stylus",
-        docsRepo: "ota-meshi/stylelint-plugin-stylus",
+        repo: "stylus/stylelint-stylus",
+        docsRepo: "stylus/stylelint-stylus",
         docsDir: "docs",
-        docsBranch: "master",
+        docsBranch: "main",
         editLinks: true,
         lastUpdated: true,
 

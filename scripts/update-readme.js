@@ -13,7 +13,7 @@ function toRuleRow(rule) {
     const mark = `${rule.meta.fixable ? ":wrench:" : ""}${
         rule.meta.deprecated ? ":warning:" : ""
     }`
-    const link = `[${rule.ruleName}](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/${rule.fileName}.html)`
+    const link = `[${rule.ruleName}](https://stylus.github.io/stylelint-stylus/rules/${rule.fileName}.html)`
     const description = rule.meta.docs.description || "(no description)"
     const preset = ruleSets.getRuleSets(rule.ruleName)
 
@@ -23,12 +23,12 @@ function toRuleRow(rule) {
 }
 
 function toDeprecatedRuleRow(rule) {
-    const link = `[${rule.ruleName}](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/${rule.fileName}.html)`
+    const link = `[${rule.ruleName}](https://stylus.github.io/stylelint-stylus/rules/${rule.fileName}.html)`
     const replacedRules = rule.meta.docs.replacedBy || []
     const replacedBy = replacedRules
         .map(
             (name) =>
-                `[stylus/${name}](https://ota-meshi.github.io/stylelint-plugin-stylus/rules/${name}.html)`,
+                `[stylus/${name}](https://stylus.github.io/stylelint-stylus/rules/${name}.html)`,
         )
         .join(", ")
 
@@ -100,7 +100,7 @@ ${fs
     .readFileSync(readmeFilePath, "utf8")
     .replace(/\.\/docs\//gu, "./")
     .replace(
-        /\(https:\/\/ota-meshi.github.io\/stylelint-plugin-stylus\/(.*?)(\.html)?\)/gu,
+        /\(https:\/\/stylus.github.io\/stylelint-stylus\/(.*?)(\.html)?\)/gu,
         (_$0, $1, $2) => `(./${$1}${($2 === ".html" ? ".md" : $2) || ""})`,
     )}`,
 )

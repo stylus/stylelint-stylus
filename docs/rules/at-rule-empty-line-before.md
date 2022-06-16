@@ -24,9 +24,9 @@ The `stylus/at-rule-empty-line-before` rule understands [postcss-styl] AST.
 - [at-rule-empty-line-before]
 
 [at-rule-empty-line-before]: https://stylelint.io/user-guide/rules/at-rule-empty-line-before
-[postcss-styl]: https://github.com/ota-meshi/postcss-styl
+[postcss-styl]: https://github.com/stylus/postcss-styl
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/ota-meshi/stylelint-plugin-stylus/blob/master/lib/rules/at-rule-empty-line-before.js)
-- [Test source](https://github.com/ota-meshi/stylelint-plugin-stylus/blob/master/tests/lib/rules/at-rule-empty-line-before.js)
+- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/at-rule-empty-line-before.js)
+- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/at-rule-empty-line-before.js)

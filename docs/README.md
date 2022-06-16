@@ -18,8 +18,8 @@ title: "Introduction"
   <a href="https://www.npmjs.com/package/stylelint-plugin-stylus">
     <img src="https://img.shields.io/npm/dw/stylelint-plugin-stylus.svg" alt="NPM downloads">
   </a>
-  <a href="https://github.com/ota-meshi/stylelint-plugin-stylus/actions?query=workflow%3ACI">
-    <img src="https://github.com/ota-meshi/stylelint-plugin-stylus/workflows/CI/badge.svg?branch=master" alt="Build Status">
+  <a href="https://github.com/stylus/stylelint-stylus/actions?query=workflow%3ACI">
+    <img src="https://github.com/stylus/stylelint-stylus/workflows/CI/badge.svg?branch=main" alt="Build Status">
   </a>
 </p>
 <br>
@@ -216,9 +216,9 @@ See the [LICENSE] file for license rights and limitations (MIT).
 [stylelint]: https://stylelint.io/
 [stylus]: https://stylus-lang.com/
 [vscode extension]: https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
-[postcss-styl]: https://github.com/ota-meshi/postcss-styl
+[postcss-styl]: https://github.com/stylus/postcss-styl
 [npm]: https://www.npmjs.com/
 [npm license]: https://img.shields.io/npm/l/stylelint-plugin-stylus.svg
 [npm version]: https://img.shields.io/npm/v/stylelint-plugin-stylus.svg
 [npm downloads]: https://img.shields.io/npm/dw/stylelint-plugin-stylus.svg
-[build status]: https://github.com/ota-meshi/stylelint-plugin-stylus/workflows/CI/badge.svg?branch=master
+[build status]: https://github.com/stylus/stylelint-stylus/workflows/CI/badge.svg?branch=main
