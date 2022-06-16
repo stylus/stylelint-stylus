@@ -45,7 +45,7 @@
     "bugs": {
         "url": "https://github.com/stylus/stylelint-stylus/issues"
     },
-    "homepage": "https://stylus.github.io/stylelint-stylu/",
+    "homepage": "https://stylus.github.io/stylelint-stylus/",
     "peerDependencies": {
         "stylelint": "^13.2.1 || ^14.0.0",
         "postcss-syntax": "^0.36.2"
