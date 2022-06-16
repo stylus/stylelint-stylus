@@ -90,7 +90,7 @@
         "postcss-html": "^1.0.1",
         "postcss-media-query-parser": "^0.2.3",
         "postcss-selector-parser": "^6.0.2",
-        "postcss-styl": "^0.9.0",
+        "postcss-styl": "^0.10.0",
         "style-search": "^0.1.0",
         "stylelint-config-html": "^1.0.0",
         "svg-tags": "^1.0.0"
