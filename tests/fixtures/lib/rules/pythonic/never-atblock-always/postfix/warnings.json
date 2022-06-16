@@ -2,6 +2,8 @@
   {
     "line": 1,
     "column": 1,
+    "endLine": 3,
+    "endColumn": 35,
     "rule": "stylus/pythonic",
     "severity": "error",
     "text": "Expected braces in block (stylus/pythonic)"

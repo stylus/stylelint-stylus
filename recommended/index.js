@@ -48,6 +48,7 @@ module.exports = {
 
         // - Don't understand the Stylus selectors.
         "selector-type-no-unknown": null,
+        "no-duplicate-selectors": null,
 
         // - Wrong autofix on the Stylus.
         "color-hex-case": null,

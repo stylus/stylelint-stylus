@@ -2,6 +2,8 @@
   {
     "line": 2,
     "column": 19,
+    "endLine": 2,
+    "endColumn": 20,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Expected semicolon (stylus/semicolon)"
@@ -9,6 +11,8 @@
   {
     "line": 4,
     "column": 19,
+    "endLine": 4,
+    "endColumn": 20,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Expected semicolon (stylus/semicolon)"

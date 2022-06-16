@@ -2,6 +2,8 @@
   {
     "line": 5,
     "column": 3,
+    "endLine": 5,
+    "endColumn": 16,
     "rule": "stylus/at-extend-style",
     "severity": "error",
     "text": "Expected '@extend' instead of '@extends' (stylus/at-extend-style)"

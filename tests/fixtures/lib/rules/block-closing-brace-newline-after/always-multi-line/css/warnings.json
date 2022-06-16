@@ -2,6 +2,8 @@
   {
     "line": 12,
     "column": 2,
+    "endLine": 12,
+    "endColumn": 3,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" of a multi-line block (stylus/block-closing-brace-newline-after)"
@@ -9,6 +11,8 @@
   {
     "line": 22,
     "column": 2,
+    "endLine": 22,
+    "endColumn": 3,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" of a multi-line block (stylus/block-closing-brace-newline-after)"
@@ -16,6 +20,8 @@
   {
     "line": 34,
     "column": 2,
+    "endLine": 34,
+    "endColumn": 3,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" of a multi-line block (stylus/block-closing-brace-newline-after)"
@@ -23,6 +29,8 @@
   {
     "line": 39,
     "column": 2,
+    "endLine": 39,
+    "endColumn": 3,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" of a multi-line block (stylus/block-closing-brace-newline-after)"
@@ -30,6 +38,8 @@
   {
     "line": 50,
     "column": 2,
+    "endLine": 50,
+    "endColumn": 3,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" of a multi-line block (stylus/block-closing-brace-newline-after)"
@@ -37,6 +47,8 @@
   {
     "line": 55,
     "column": 2,
+    "endLine": 55,
+    "endColumn": 3,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" of a multi-line block (stylus/block-closing-brace-newline-after)"
@@ -44,6 +56,8 @@
   {
     "line": 62,
     "column": 2,
+    "endLine": 62,
+    "endColumn": 3,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" of a multi-line block (stylus/block-closing-brace-newline-after)"
@@ -51,6 +65,8 @@
   {
     "line": 64,
     "column": 2,
+    "endLine": 64,
+    "endColumn": 3,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" of a multi-line block (stylus/block-closing-brace-newline-after)"

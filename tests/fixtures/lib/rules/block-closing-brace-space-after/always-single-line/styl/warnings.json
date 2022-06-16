@@ -2,6 +2,8 @@
   {
     "line": 5,
     "column": 37,
+    "endLine": 5,
+    "endColumn": 38,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Expected single space after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -9,6 +11,8 @@
   {
     "line": 6,
     "column": 19,
+    "endLine": 6,
+    "endColumn": 20,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Expected single space after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -16,6 +20,8 @@
   {
     "line": 6,
     "column": 36,
+    "endLine": 6,
+    "endColumn": 37,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Expected single space after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -23,6 +29,8 @@
   {
     "line": 8,
     "column": 21,
+    "endLine": 8,
+    "endColumn": 22,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Expected single space after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -30,6 +38,8 @@
   {
     "line": 10,
     "column": 22,
+    "endLine": 10,
+    "endColumn": 23,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Expected single space after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -37,6 +47,8 @@
   {
     "line": 12,
     "column": 27,
+    "endLine": 12,
+    "endColumn": 28,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Expected single space after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -44,6 +56,8 @@
   {
     "line": 12,
     "column": 54,
+    "endLine": 12,
+    "endColumn": 55,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Expected single space after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -51,6 +65,8 @@
   {
     "line": 13,
     "column": 55,
+    "endLine": 13,
+    "endColumn": 56,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Expected single space after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"

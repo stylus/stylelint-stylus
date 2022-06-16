@@ -2,6 +2,8 @@
   {
     "line": 2,
     "column": 19,
+    "endLine": 2,
+    "endColumn": 20,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -9,6 +11,8 @@
   {
     "line": 12,
     "column": 36,
+    "endLine": 12,
+    "endColumn": 37,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -16,6 +20,8 @@
   {
     "line": 14,
     "column": 19,
+    "endLine": 14,
+    "endColumn": 20,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -23,6 +29,8 @@
   {
     "line": 15,
     "column": 18,
+    "endLine": 15,
+    "endColumn": 19,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -30,6 +38,8 @@
   {
     "line": 18,
     "column": 19,
+    "endLine": 18,
+    "endColumn": 20,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -37,6 +47,8 @@
   {
     "line": 18,
     "column": 37,
+    "endLine": 18,
+    "endColumn": 38,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -44,6 +56,8 @@
   {
     "line": 22,
     "column": 19,
+    "endLine": 22,
+    "endColumn": 20,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -51,6 +65,8 @@
   {
     "line": 22,
     "column": 37,
+    "endLine": 22,
+    "endColumn": 38,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -58,6 +74,8 @@
   {
     "line": 24,
     "column": 19,
+    "endLine": 24,
+    "endColumn": 20,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -65,6 +83,8 @@
   {
     "line": 25,
     "column": 18,
+    "endLine": 25,
+    "endColumn": 19,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -72,6 +92,8 @@
   {
     "line": 28,
     "column": 36,
+    "endLine": 28,
+    "endColumn": 37,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -79,6 +101,8 @@
   {
     "line": 31,
     "column": 19,
+    "endLine": 31,
+    "endColumn": 20,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -86,6 +110,8 @@
   {
     "line": 35,
     "column": 36,
+    "endLine": 35,
+    "endColumn": 37,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -93,6 +119,8 @@
   {
     "line": 38,
     "column": 19,
+    "endLine": 38,
+    "endColumn": 20,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -100,6 +128,8 @@
   {
     "line": 38,
     "column": 37,
+    "endLine": 38,
+    "endColumn": 38,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -107,6 +137,8 @@
   {
     "line": 41,
     "column": 19,
+    "endLine": 41,
+    "endColumn": 20,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -114,6 +146,8 @@
   {
     "line": 45,
     "column": 19,
+    "endLine": 45,
+    "endColumn": 20,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -121,6 +155,8 @@
   {
     "line": 45,
     "column": 37,
+    "endLine": 45,
+    "endColumn": 38,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -128,6 +164,8 @@
   {
     "line": 48,
     "column": 36,
+    "endLine": 48,
+    "endColumn": 37,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -135,6 +173,8 @@
   {
     "line": 51,
     "column": 20,
+    "endLine": 51,
+    "endColumn": 21,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -142,6 +182,8 @@
   {
     "line": 56,
     "column": 19,
+    "endLine": 56,
+    "endColumn": 20,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -149,6 +191,8 @@
   {
     "line": 59,
     "column": 36,
+    "endLine": 59,
+    "endColumn": 37,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -156,6 +200,8 @@
   {
     "line": 62,
     "column": 20,
+    "endLine": 62,
+    "endColumn": 21,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -163,6 +209,8 @@
   {
     "line": 68,
     "column": 20,
+    "endLine": 68,
+    "endColumn": 21,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -170,6 +218,8 @@
   {
     "line": 71,
     "column": 19,
+    "endLine": 71,
+    "endColumn": 20,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"
@@ -177,6 +227,8 @@
   {
     "line": 71,
     "column": 37,
+    "endLine": 71,
+    "endColumn": 38,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a single-line block (stylus/block-closing-brace-space-after)"

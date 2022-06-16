@@ -2,6 +2,8 @@
   {
     "line": 1,
     "column": 13,
+    "endLine": 1,
+    "endColumn": 14,
     "rule": "stylus/number-no-trailing-zeros",
     "severity": "error",
     "text": "Unexpected trailing zero(s) (stylus/number-no-trailing-zeros)"
@@ -9,6 +11,8 @@
   {
     "line": 1,
     "column": 30,
+    "endLine": 1,
+    "endColumn": 31,
     "rule": "stylus/number-no-trailing-zeros",
     "severity": "error",
     "text": "Unexpected trailing zero(s) (stylus/number-no-trailing-zeros)"
@@ -16,6 +20,8 @@
   {
     "line": 4,
     "column": 12,
+    "endLine": 4,
+    "endColumn": 13,
     "rule": "stylus/number-no-trailing-zeros",
     "severity": "error",
     "text": "Unexpected trailing zero(s) (stylus/number-no-trailing-zeros)"
@@ -23,6 +29,8 @@
   {
     "line": 5,
     "column": 14,
+    "endLine": 5,
+    "endColumn": 15,
     "rule": "stylus/number-no-trailing-zeros",
     "severity": "error",
     "text": "Unexpected trailing zero(s) (stylus/number-no-trailing-zeros)"

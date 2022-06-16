@@ -2,6 +2,8 @@
   {
     "line": 2,
     "column": 17,
+    "endLine": 2,
+    "endColumn": 18,
     "rule": "stylus/media-feature-colon",
     "severity": "error",
     "text": "Expected colon (stylus/media-feature-colon)"

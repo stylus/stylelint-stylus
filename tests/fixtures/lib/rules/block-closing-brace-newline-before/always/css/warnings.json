@@ -2,6 +2,8 @@
   {
     "line": 6,
     "column": 16,
+    "endLine": 6,
+    "endColumn": 17,
     "rule": "stylus/block-closing-brace-newline-before",
     "severity": "error",
     "text": "Expected newline before \"}\" (stylus/block-closing-brace-newline-before)"
@@ -9,6 +11,8 @@
   {
     "line": 16,
     "column": 12,
+    "endLine": 16,
+    "endColumn": 13,
     "rule": "stylus/block-closing-brace-newline-before",
     "severity": "error",
     "text": "Expected newline before \"}\" (stylus/block-closing-brace-newline-before)"
@@ -16,6 +20,8 @@
   {
     "line": 18,
     "column": 17,
+    "endLine": 18,
+    "endColumn": 18,
     "rule": "stylus/block-closing-brace-newline-before",
     "severity": "error",
     "text": "Expected newline before \"}\" (stylus/block-closing-brace-newline-before)"
@@ -23,6 +29,8 @@
   {
     "line": 24,
     "column": 13,
+    "endLine": 24,
+    "endColumn": 14,
     "rule": "stylus/block-closing-brace-newline-before",
     "severity": "error",
     "text": "Expected newline before \"}\" (stylus/block-closing-brace-newline-before)"
@@ -30,6 +38,8 @@
   {
     "line": 26,
     "column": 17,
+    "endLine": 26,
+    "endColumn": 18,
     "rule": "stylus/block-closing-brace-newline-before",
     "severity": "error",
     "text": "Expected newline before \"}\" (stylus/block-closing-brace-newline-before)"
@@ -37,6 +47,8 @@
   {
     "line": 28,
     "column": 12,
+    "endLine": 28,
+    "endColumn": 13,
     "rule": "stylus/block-closing-brace-newline-before",
     "severity": "error",
     "text": "Expected newline before \"}\" (stylus/block-closing-brace-newline-before)"

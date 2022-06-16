@@ -2,6 +2,8 @@
   {
     "line": 1,
     "column": 18,
+    "endLine": 1,
+    "endColumn": 19,
     "rule": "stylus/number-leading-zero",
     "severity": "error",
     "text": "Unexpected leading zero (stylus/number-leading-zero)"
@@ -9,6 +11,8 @@
   {
     "line": 8,
     "column": 18,
+    "endLine": 8,
+    "endColumn": 19,
     "rule": "stylus/number-leading-zero",
     "severity": "error",
     "text": "Unexpected leading zero (stylus/number-leading-zero)"
@@ -16,6 +20,8 @@
   {
     "line": 9,
     "column": 31,
+    "endLine": 9,
+    "endColumn": 32,
     "rule": "stylus/number-leading-zero",
     "severity": "error",
     "text": "Unexpected leading zero (stylus/number-leading-zero)"
@@ -23,6 +29,8 @@
   {
     "line": 12,
     "column": 18,
+    "endLine": 12,
+    "endColumn": 19,
     "rule": "stylus/number-leading-zero",
     "severity": "error",
     "text": "Unexpected leading zero (stylus/number-leading-zero)"
@@ -30,6 +38,8 @@
   {
     "line": 13,
     "column": 31,
+    "endLine": 13,
+    "endColumn": 32,
     "rule": "stylus/number-leading-zero",
     "severity": "error",
     "text": "Unexpected leading zero (stylus/number-leading-zero)"

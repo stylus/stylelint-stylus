@@ -2,6 +2,8 @@
   {
     "line": 7,
     "column": 5,
+    "endLine": 7,
+    "endColumn": 6,
     "rule": "stylus/selector-list-comma-space-after",
     "severity": "error",
     "text": "Expected single space after \",\" in a single-line list (stylus/selector-list-comma-space-after)"
@@ -9,6 +11,8 @@
   {
     "line": 17,
     "column": 5,
+    "endLine": 17,
+    "endColumn": 6,
     "rule": "stylus/selector-list-comma-space-after",
     "severity": "error",
     "text": "Expected single space after \",\" in a single-line list (stylus/selector-list-comma-space-after)"
@@ -16,6 +20,8 @@
   {
     "line": 43,
     "column": 18,
+    "endLine": 43,
+    "endColumn": 19,
     "rule": "stylus/selector-list-comma-space-after",
     "severity": "error",
     "text": "Expected single space after \",\" in a single-line list (stylus/selector-list-comma-space-after)"
@@ -23,6 +29,8 @@
   {
     "line": 54,
     "column": 7,
+    "endLine": 54,
+    "endColumn": 8,
     "rule": "stylus/selector-list-comma-space-after",
     "severity": "error",
     "text": "Expected single space after \",\" in a single-line list (stylus/selector-list-comma-space-after)"
@@ -30,6 +38,8 @@
   {
     "line": 64,
     "column": 7,
+    "endLine": 64,
+    "endColumn": 8,
     "rule": "stylus/selector-list-comma-space-after",
     "severity": "error",
     "text": "Expected single space after \",\" in a single-line list (stylus/selector-list-comma-space-after)"
@@ -37,6 +47,8 @@
   {
     "line": 90,
     "column": 20,
+    "endLine": 90,
+    "endColumn": 21,
     "rule": "stylus/selector-list-comma-space-after",
     "severity": "error",
     "text": "Expected single space after \",\" in a single-line list (stylus/selector-list-comma-space-after)"
@@ -44,6 +56,8 @@
   {
     "line": 94,
     "column": 5,
+    "endLine": 94,
+    "endColumn": 6,
     "rule": "stylus/selector-list-comma-space-after",
     "severity": "error",
     "text": "Expected single space after \",\" in a single-line list (stylus/selector-list-comma-space-after)"
@@ -51,6 +65,8 @@
   {
     "line": 94,
     "column": 10,
+    "endLine": 94,
+    "endColumn": 11,
     "rule": "stylus/selector-list-comma-space-after",
     "severity": "error",
     "text": "Expected single space after \",\" in a single-line list (stylus/selector-list-comma-space-after)"

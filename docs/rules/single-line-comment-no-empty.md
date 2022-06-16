@@ -44,5 +44,5 @@ This rule reports empty single-line comments.
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/ota-meshi/stylelint-plugin-stylus/blob/master/lib/rules/single-line-comment-no-empty.js)
-- [Test source](https://github.com/ota-meshi/stylelint-plugin-stylus/blob/master/tests/lib/rules/single-line-comment-no-empty.js)
+- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/single-line-comment-no-empty.js)
+- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/single-line-comment-no-empty.js)

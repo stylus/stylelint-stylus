@@ -24,9 +24,9 @@ See [stylelint - color-hex-case - Options](https://stylelint.io/user-guide/rules
 - [color-hex-case]
 
 [color-hex-case]: https://stylelint.io/user-guide/rules/color-hex-case
-[postcss-styl]: https://github.com/ota-meshi/postcss-styl
+[postcss-styl]: https://github.com/stylus/postcss-styl
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/ota-meshi/stylelint-plugin-stylus/blob/master/lib/rules/color-hex-case.js)
-- [Test source](https://github.com/ota-meshi/stylelint-plugin-stylus/blob/master/tests/lib/rules/color-hex-case.js)
+- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/color-hex-case.js)
+- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/color-hex-case.js)

@@ -27,5 +27,5 @@ See [stylelint - block-closing-brace-newline-before - Options](https://stylelint
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/ota-meshi/stylelint-plugin-stylus/blob/master/lib/rules/block-closing-brace-newline-before.js)
-- [Test source](https://github.com/ota-meshi/stylelint-plugin-stylus/blob/master/tests/lib/rules/block-closing-brace-newline-before.js)
+- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/block-closing-brace-newline-before.js)
+- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/block-closing-brace-newline-before.js)

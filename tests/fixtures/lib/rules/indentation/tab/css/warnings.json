@@ -2,6 +2,8 @@
   {
     "line": 2,
     "column": 3,
+    "endLine": 5,
+    "endColumn": 3,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"
@@ -9,6 +11,8 @@
   {
     "line": 3,
     "column": 4,
+    "endLine": 4,
+    "endColumn": 15,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 2 tabs (stylus/indentation)"
@@ -16,6 +20,8 @@
   {
     "line": 4,
     "column": 5,
+    "endLine": 4,
+    "endColumn": 6,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 3 tabs (stylus/indentation)"
@@ -23,6 +29,8 @@
   {
     "line": 5,
     "column": 2,
+    "endLine": 5,
+    "endColumn": 3,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"

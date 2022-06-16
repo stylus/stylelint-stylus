@@ -2,6 +2,8 @@
   {
     "line": 3,
     "column": 8,
+    "endLine": 3,
+    "endColumn": 9,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -9,6 +11,8 @@
   {
     "line": 4,
     "column": 8,
+    "endLine": 4,
+    "endColumn": 9,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -16,6 +20,8 @@
   {
     "line": 7,
     "column": 8,
+    "endLine": 7,
+    "endColumn": 9,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -23,6 +29,8 @@
   {
     "line": 10,
     "column": 8,
+    "endLine": 10,
+    "endColumn": 9,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"

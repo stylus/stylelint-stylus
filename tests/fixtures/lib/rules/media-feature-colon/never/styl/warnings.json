@@ -2,6 +2,8 @@
   {
     "line": 5,
     "column": 17,
+    "endLine": 5,
+    "endColumn": 18,
     "rule": "stylus/media-feature-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/media-feature-colon)"

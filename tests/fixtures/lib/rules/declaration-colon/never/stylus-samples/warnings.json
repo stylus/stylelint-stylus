@@ -2,6 +2,8 @@
   {
     "line": 3,
     "column": 7,
+    "endLine": 3,
+    "endColumn": 8,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -9,6 +11,8 @@
   {
     "line": 5,
     "column": 18,
+    "endLine": 5,
+    "endColumn": 19,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -16,6 +20,8 @@
   {
     "line": 19,
     "column": 12,
+    "endLine": 19,
+    "endColumn": 13,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -23,6 +29,8 @@
   {
     "line": 20,
     "column": 10,
+    "endLine": 20,
+    "endColumn": 11,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -30,6 +38,8 @@
   {
     "line": 21,
     "column": 12,
+    "endLine": 21,
+    "endColumn": 13,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -37,6 +47,8 @@
   {
     "line": 23,
     "column": 14,
+    "endLine": 23,
+    "endColumn": 15,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -44,6 +56,8 @@
   {
     "line": 25,
     "column": 12,
+    "endLine": 25,
+    "endColumn": 13,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -51,6 +65,8 @@
   {
     "line": 28,
     "column": 24,
+    "endLine": 28,
+    "endColumn": 25,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -58,6 +74,8 @@
   {
     "line": 29,
     "column": 21,
+    "endLine": 29,
+    "endColumn": 22,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -65,6 +83,8 @@
   {
     "line": 30,
     "column": 16,
+    "endLine": 30,
+    "endColumn": 17,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -72,6 +92,8 @@
   {
     "line": 37,
     "column": 24,
+    "endLine": 37,
+    "endColumn": 25,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -79,6 +101,8 @@
   {
     "line": 38,
     "column": 21,
+    "endLine": 38,
+    "endColumn": 22,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -86,6 +110,8 @@
   {
     "line": 39,
     "column": 16,
+    "endLine": 39,
+    "endColumn": 17,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -93,6 +119,8 @@
   {
     "line": 42,
     "column": 16,
+    "endLine": 42,
+    "endColumn": 17,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -100,6 +128,8 @@
   {
     "line": 46,
     "column": 11,
+    "endLine": 46,
+    "endColumn": 12,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -107,6 +137,8 @@
   {
     "line": 47,
     "column": 6,
+    "endLine": 47,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -114,6 +146,8 @@
   {
     "line": 48,
     "column": 7,
+    "endLine": 48,
+    "endColumn": 8,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -121,6 +155,8 @@
   {
     "line": 49,
     "column": 8,
+    "endLine": 49,
+    "endColumn": 9,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -128,6 +164,8 @@
   {
     "line": 50,
     "column": 14,
+    "endLine": 50,
+    "endColumn": 15,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -135,6 +173,8 @@
   {
     "line": 53,
     "column": 11,
+    "endLine": 53,
+    "endColumn": 12,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -142,6 +182,8 @@
   {
     "line": 54,
     "column": 6,
+    "endLine": 54,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -149,6 +191,8 @@
   {
     "line": 55,
     "column": 7,
+    "endLine": 55,
+    "endColumn": 8,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -156,6 +200,8 @@
   {
     "line": 56,
     "column": 8,
+    "endLine": 56,
+    "endColumn": 9,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -163,6 +209,8 @@
   {
     "line": 57,
     "column": 14,
+    "endLine": 57,
+    "endColumn": 15,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -170,6 +218,8 @@
   {
     "line": 61,
     "column": 11,
+    "endLine": 61,
+    "endColumn": 12,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -177,6 +227,8 @@
   {
     "line": 62,
     "column": 12,
+    "endLine": 62,
+    "endColumn": 13,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -184,6 +236,8 @@
   {
     "line": 63,
     "column": 17,
+    "endLine": 63,
+    "endColumn": 18,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -191,6 +245,8 @@
   {
     "line": 72,
     "column": 11,
+    "endLine": 72,
+    "endColumn": 12,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -198,6 +254,8 @@
   {
     "line": 73,
     "column": 8,
+    "endLine": 73,
+    "endColumn": 9,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -205,6 +263,8 @@
   {
     "line": 74,
     "column": 14,
+    "endLine": 74,
+    "endColumn": 15,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -212,6 +272,8 @@
   {
     "line": 77,
     "column": 8,
+    "endLine": 77,
+    "endColumn": 9,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -219,6 +281,8 @@
   {
     "line": 82,
     "column": 13,
+    "endLine": 82,
+    "endColumn": 14,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -226,6 +290,8 @@
   {
     "line": 89,
     "column": 20,
+    "endLine": 89,
+    "endColumn": 21,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -233,6 +299,8 @@
   {
     "line": 91,
     "column": 30,
+    "endLine": 91,
+    "endColumn": 31,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -240,6 +308,8 @@
   {
     "line": 93,
     "column": 16,
+    "endLine": 93,
+    "endColumn": 17,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -247,6 +317,8 @@
   {
     "line": 96,
     "column": 6,
+    "endLine": 96,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -254,6 +326,8 @@
   {
     "line": 97,
     "column": 6,
+    "endLine": 97,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -261,6 +335,8 @@
   {
     "line": 98,
     "column": 6,
+    "endLine": 98,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -268,6 +344,8 @@
   {
     "line": 99,
     "column": 6,
+    "endLine": 99,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -275,6 +353,8 @@
   {
     "line": 100,
     "column": 6,
+    "endLine": 100,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -282,6 +362,8 @@
   {
     "line": 101,
     "column": 6,
+    "endLine": 101,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -289,6 +371,8 @@
   {
     "line": 102,
     "column": 6,
+    "endLine": 102,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -296,6 +380,8 @@
   {
     "line": 103,
     "column": 6,
+    "endLine": 103,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -303,6 +389,8 @@
   {
     "line": 104,
     "column": 6,
+    "endLine": 104,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -310,6 +398,8 @@
   {
     "line": 105,
     "column": 6,
+    "endLine": 105,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -317,6 +407,8 @@
   {
     "line": 106,
     "column": 6,
+    "endLine": 106,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -324,6 +416,8 @@
   {
     "line": 107,
     "column": 6,
+    "endLine": 107,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -331,6 +425,8 @@
   {
     "line": 108,
     "column": 6,
+    "endLine": 108,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -338,6 +434,8 @@
   {
     "line": 109,
     "column": 6,
+    "endLine": 109,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -345,6 +443,8 @@
   {
     "line": 110,
     "column": 6,
+    "endLine": 110,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -352,6 +452,8 @@
   {
     "line": 113,
     "column": 6,
+    "endLine": 113,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -359,6 +461,8 @@
   {
     "line": 114,
     "column": 6,
+    "endLine": 114,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -366,6 +470,8 @@
   {
     "line": 115,
     "column": 6,
+    "endLine": 115,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -373,6 +479,8 @@
   {
     "line": 116,
     "column": 6,
+    "endLine": 116,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -380,6 +488,8 @@
   {
     "line": 117,
     "column": 6,
+    "endLine": 117,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -387,6 +497,8 @@
   {
     "line": 118,
     "column": 6,
+    "endLine": 118,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -394,6 +506,8 @@
   {
     "line": 119,
     "column": 6,
+    "endLine": 119,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -401,6 +515,8 @@
   {
     "line": 122,
     "column": 6,
+    "endLine": 122,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -408,6 +524,8 @@
   {
     "line": 123,
     "column": 6,
+    "endLine": 123,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -415,6 +533,8 @@
   {
     "line": 124,
     "column": 6,
+    "endLine": 124,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -422,6 +542,8 @@
   {
     "line": 127,
     "column": 6,
+    "endLine": 127,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -429,6 +551,8 @@
   {
     "line": 128,
     "column": 6,
+    "endLine": 128,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -436,6 +560,8 @@
   {
     "line": 129,
     "column": 6,
+    "endLine": 129,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -443,6 +569,8 @@
   {
     "line": 130,
     "column": 6,
+    "endLine": 130,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -450,6 +578,8 @@
   {
     "line": 131,
     "column": 6,
+    "endLine": 131,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -457,6 +587,8 @@
   {
     "line": 138,
     "column": 6,
+    "endLine": 138,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -464,6 +596,8 @@
   {
     "line": 144,
     "column": 6,
+    "endLine": 144,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -471,6 +605,8 @@
   {
     "line": 145,
     "column": 6,
+    "endLine": 145,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -478,6 +614,8 @@
   {
     "line": 146,
     "column": 6,
+    "endLine": 146,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -485,6 +623,8 @@
   {
     "line": 147,
     "column": 6,
+    "endLine": 147,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -492,6 +632,8 @@
   {
     "line": 148,
     "column": 6,
+    "endLine": 148,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -499,6 +641,8 @@
   {
     "line": 149,
     "column": 6,
+    "endLine": 149,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -506,6 +650,8 @@
   {
     "line": 152,
     "column": 6,
+    "endLine": 152,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -513,6 +659,8 @@
   {
     "line": 153,
     "column": 6,
+    "endLine": 153,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -520,6 +668,8 @@
   {
     "line": 154,
     "column": 6,
+    "endLine": 154,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -527,6 +677,8 @@
   {
     "line": 155,
     "column": 6,
+    "endLine": 155,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -534,6 +686,8 @@
   {
     "line": 156,
     "column": 6,
+    "endLine": 156,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -541,6 +695,8 @@
   {
     "line": 159,
     "column": 6,
+    "endLine": 159,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -548,6 +704,8 @@
   {
     "line": 160,
     "column": 6,
+    "endLine": 160,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -555,6 +713,8 @@
   {
     "line": 161,
     "column": 6,
+    "endLine": 161,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -562,6 +722,8 @@
   {
     "line": 162,
     "column": 6,
+    "endLine": 162,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -569,6 +731,8 @@
   {
     "line": 163,
     "column": 6,
+    "endLine": 163,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -576,6 +740,8 @@
   {
     "line": 164,
     "column": 6,
+    "endLine": 164,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -583,6 +749,8 @@
   {
     "line": 165,
     "column": 6,
+    "endLine": 165,
+    "endColumn": 7,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"
@@ -590,6 +758,8 @@
   {
     "line": 168,
     "column": 9,
+    "endLine": 168,
+    "endColumn": 10,
     "rule": "stylus/declaration-colon",
     "severity": "error",
     "text": "Unexpected colon (stylus/declaration-colon)"

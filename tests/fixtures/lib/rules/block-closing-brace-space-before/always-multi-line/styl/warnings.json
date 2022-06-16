@@ -2,6 +2,8 @@
   {
     "line": 7,
     "column": 17,
+    "endLine": 8,
+    "endColumn": 1,
     "rule": "stylus/block-closing-brace-space-before",
     "severity": "error",
     "text": "Expected single space before \"}\" of a multi-line block (stylus/block-closing-brace-space-before)"
@@ -9,6 +11,8 @@
   {
     "line": 14,
     "column": 26,
+    "endLine": 15,
+    "endColumn": 1,
     "rule": "stylus/block-closing-brace-space-before",
     "severity": "error",
     "text": "Expected single space before \"}\" of a multi-line block (stylus/block-closing-brace-space-before)"

@@ -2,6 +2,8 @@
   {
     "line": 5,
     "column": 5,
+    "endLine": 5,
+    "endColumn": 6,
     "rule": "stylus/selector-list-comma",
     "severity": "error",
     "text": "Unexpected comma (stylus/selector-list-comma)"
@@ -9,6 +11,8 @@
   {
     "line": 9,
     "column": 5,
+    "endLine": 9,
+    "endColumn": 6,
     "rule": "stylus/selector-list-comma",
     "severity": "error",
     "text": "Unexpected comma (stylus/selector-list-comma)"
@@ -16,6 +20,8 @@
   {
     "line": 14,
     "column": 5,
+    "endLine": 14,
+    "endColumn": 6,
     "rule": "stylus/selector-list-comma",
     "severity": "error",
     "text": "Unexpected comma (stylus/selector-list-comma)"
@@ -23,6 +29,8 @@
   {
     "line": 17,
     "column": 5,
+    "endLine": 17,
+    "endColumn": 6,
     "rule": "stylus/selector-list-comma",
     "severity": "error",
     "text": "Unexpected comma (stylus/selector-list-comma)"
@@ -30,6 +38,8 @@
   {
     "line": 31,
     "column": 7,
+    "endLine": 31,
+    "endColumn": 8,
     "rule": "stylus/selector-list-comma",
     "severity": "error",
     "text": "Unexpected comma (stylus/selector-list-comma)"
@@ -37,6 +47,8 @@
   {
     "line": 36,
     "column": 7,
+    "endLine": 36,
+    "endColumn": 8,
     "rule": "stylus/selector-list-comma",
     "severity": "error",
     "text": "Unexpected comma (stylus/selector-list-comma)"
@@ -44,6 +56,8 @@
   {
     "line": 39,
     "column": 7,
+    "endLine": 39,
+    "endColumn": 8,
     "rule": "stylus/selector-list-comma",
     "severity": "error",
     "text": "Unexpected comma (stylus/selector-list-comma)"

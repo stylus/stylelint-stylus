@@ -2,6 +2,8 @@
   {
     "line": 7,
     "column": 13,
+    "endLine": 7,
+    "endColumn": 14,
     "rule": "stylus/block-closing-brace-newline-before",
     "severity": "error",
     "text": "Expected newline before \"}\" of a multi-line block (stylus/block-closing-brace-newline-before)"
@@ -9,6 +11,8 @@
   {
     "line": 9,
     "column": 12,
+    "endLine": 9,
+    "endColumn": 13,
     "rule": "stylus/block-closing-brace-newline-before",
     "severity": "error",
     "text": "Expected newline before \"}\" of a multi-line block (stylus/block-closing-brace-newline-before)"

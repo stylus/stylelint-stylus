@@ -2,6 +2,8 @@
   {
     "line": 17,
     "column": 2,
+    "endLine": 17,
+    "endColumn": 3,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"}\" of a multi-line block (stylus/block-closing-brace-newline-after)"

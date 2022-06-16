@@ -2,6 +2,8 @@
   {
     "line": 13,
     "column": 7,
+    "endLine": 13,
+    "endColumn": 8,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" in a single-line list (stylus/selector-list-comma-space-before)"

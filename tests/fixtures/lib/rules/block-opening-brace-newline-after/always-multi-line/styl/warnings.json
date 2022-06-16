@@ -2,6 +2,8 @@
   {
     "line": 11,
     "column": 4,
+    "endLine": 11,
+    "endColumn": 5,
     "rule": "stylus/block-opening-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"{\" of a multi-line block (stylus/block-opening-brace-newline-after)"
@@ -9,6 +11,8 @@
   {
     "line": 17,
     "column": 7,
+    "endLine": 17,
+    "endColumn": 8,
     "rule": "stylus/block-opening-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"{\" of a multi-line block (stylus/block-opening-brace-newline-after)"

@@ -126,8 +126,8 @@ class DocFile {
         const footerPattern = /## :mag: Implementation.+$/su
         const footer = `## :mag: Implementation
 
-- [Rule source](https://github.com/ota-meshi/stylelint-plugin-stylus/blob/master/lib/rules/${fileName}.js)
-- [Test source](https://github.com/ota-meshi/stylelint-plugin-stylus/blob/master/tests/lib/rules/${fileName}.js)
+- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/${fileName}.js)
+- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/${fileName}.js)
 `
         if (footerPattern.test(this.content)) {
             this.content = this.content.replace(footerPattern, footer)

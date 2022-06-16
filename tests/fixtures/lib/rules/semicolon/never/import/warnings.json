@@ -2,6 +2,8 @@
   {
     "line": 1,
     "column": 19,
+    "endLine": 1,
+    "endColumn": 20,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Unexpected semicolon (stylus/semicolon)"
@@ -9,6 +11,8 @@
   {
     "line": 3,
     "column": 19,
+    "endLine": 3,
+    "endColumn": 20,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Unexpected semicolon (stylus/semicolon)"
@@ -16,6 +20,8 @@
   {
     "line": 8,
     "column": 23,
+    "endLine": 8,
+    "endColumn": 24,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Unexpected semicolon (stylus/semicolon)"

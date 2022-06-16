@@ -2,6 +2,8 @@
   {
     "line": 14,
     "column": 5,
+    "endLine": 14,
+    "endColumn": 6,
     "rule": "stylus/selector-list-comma-newline-before",
     "severity": "error",
     "text": "Expected newline before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
@@ -9,6 +11,8 @@
   {
     "line": 29,
     "column": 5,
+    "endLine": 29,
+    "endColumn": 6,
     "rule": "stylus/selector-list-comma-newline-before",
     "severity": "error",
     "text": "Expected newline before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
@@ -16,6 +20,8 @@
   {
     "line": 56,
     "column": 7,
+    "endLine": 56,
+    "endColumn": 8,
     "rule": "stylus/selector-list-comma-newline-before",
     "severity": "error",
     "text": "Expected newline before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
@@ -23,6 +29,8 @@
   {
     "line": 71,
     "column": 7,
+    "endLine": 71,
+    "endColumn": 8,
     "rule": "stylus/selector-list-comma-newline-before",
     "severity": "error",
     "text": "Expected newline before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"

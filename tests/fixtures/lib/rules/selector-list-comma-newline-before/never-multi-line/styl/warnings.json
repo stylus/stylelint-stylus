@@ -2,6 +2,8 @@
   {
     "line": 1,
     "column": 5,
+    "endLine": 2,
+    "endColumn": 1,
     "rule": "stylus/selector-list-comma-newline-before",
     "severity": "error",
     "text": "Unexpected whitespace before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
@@ -9,6 +11,8 @@
   {
     "line": 14,
     "column": 10,
+    "endLine": 15,
+    "endColumn": 1,
     "rule": "stylus/selector-list-comma-newline-before",
     "severity": "error",
     "text": "Unexpected whitespace before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
@@ -16,6 +20,8 @@
   {
     "line": 19,
     "column": 5,
+    "endLine": 20,
+    "endColumn": 1,
     "rule": "stylus/selector-list-comma-newline-before",
     "severity": "error",
     "text": "Unexpected whitespace before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
@@ -23,6 +29,8 @@
   {
     "line": 29,
     "column": 10,
+    "endLine": 30,
+    "endColumn": 1,
     "rule": "stylus/selector-list-comma-newline-before",
     "severity": "error",
     "text": "Unexpected whitespace before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
@@ -30,6 +38,8 @@
   {
     "line": 43,
     "column": 7,
+    "endLine": 44,
+    "endColumn": 1,
     "rule": "stylus/selector-list-comma-newline-before",
     "severity": "error",
     "text": "Unexpected whitespace before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
@@ -37,6 +47,8 @@
   {
     "line": 56,
     "column": 12,
+    "endLine": 57,
+    "endColumn": 1,
     "rule": "stylus/selector-list-comma-newline-before",
     "severity": "error",
     "text": "Unexpected whitespace before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
@@ -44,6 +56,8 @@
   {
     "line": 61,
     "column": 7,
+    "endLine": 62,
+    "endColumn": 1,
     "rule": "stylus/selector-list-comma-newline-before",
     "severity": "error",
     "text": "Unexpected whitespace before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
@@ -51,6 +65,8 @@
   {
     "line": 71,
     "column": 12,
+    "endLine": 72,
+    "endColumn": 1,
     "rule": "stylus/selector-list-comma-newline-before",
     "severity": "error",
     "text": "Unexpected whitespace before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"

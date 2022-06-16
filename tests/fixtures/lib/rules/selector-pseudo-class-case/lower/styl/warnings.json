@@ -2,6 +2,8 @@
   {
     "line": 1,
     "column": 2,
+    "endLine": 1,
+    "endColumn": 3,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":Hover\" to be \":hover\" (stylus/selector-pseudo-class-case)"
@@ -9,6 +11,8 @@
   {
     "line": 11,
     "column": 9,
+    "endLine": 11,
+    "endColumn": 10,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":Hover\" to be \":hover\" (stylus/selector-pseudo-class-case)"
@@ -16,6 +20,8 @@
   {
     "line": 18,
     "column": 7,
+    "endLine": 18,
+    "endColumn": 8,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":Hover\" to be \":hover\" (stylus/selector-pseudo-class-case)"
@@ -23,6 +29,8 @@
   {
     "line": 28,
     "column": 13,
+    "endLine": 28,
+    "endColumn": 14,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":Hover\" to be \":hover\" (stylus/selector-pseudo-class-case)"
@@ -30,6 +38,8 @@
   {
     "line": 37,
     "column": 15,
+    "endLine": 37,
+    "endColumn": 16,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":Hover\" to be \":hover\" (stylus/selector-pseudo-class-case)"
@@ -37,6 +47,8 @@
   {
     "line": 42,
     "column": 33,
+    "endLine": 42,
+    "endColumn": 34,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":Hover\" to be \":hover\" (stylus/selector-pseudo-class-case)"
@@ -44,6 +56,8 @@
   {
     "line": 45,
     "column": 5,
+    "endLine": 45,
+    "endColumn": 6,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":Hover\" to be \":hover\" (stylus/selector-pseudo-class-case)"
@@ -51,6 +65,8 @@
   {
     "line": 50,
     "column": 5,
+    "endLine": 50,
+    "endColumn": 6,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":Hover\" to be \":hover\" (stylus/selector-pseudo-class-case)"
@@ -58,6 +74,8 @@
   {
     "line": 55,
     "column": 5,
+    "endLine": 55,
+    "endColumn": 6,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":Hover\" to be \":hover\" (stylus/selector-pseudo-class-case)"

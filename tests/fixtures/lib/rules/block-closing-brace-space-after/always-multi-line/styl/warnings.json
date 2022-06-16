@@ -2,6 +2,8 @@
   {
     "line": 8,
     "column": 2,
+    "endLine": 8,
+    "endColumn": 3,
     "rule": "stylus/block-closing-brace-space-after",
     "severity": "error",
     "text": "Expected single space after \"}\" of a multi-line block (stylus/block-closing-brace-space-after)"
