@@ -2,6 +2,8 @@
   {
     "line": 4,
     "column": 7,
+    "endLine": 5,
+    "endColumn": 1,
     "rule": "stylus/block-opening-brace-space-after",
     "severity": "error",
     "text": "Expected single space after \"{\" (stylus/block-opening-brace-space-after)"
@@ -9,6 +11,8 @@
   {
     "line": 8,
     "column": 7,
+    "endLine": 9,
+    "endColumn": 1,
     "rule": "stylus/block-opening-brace-space-after",
     "severity": "error",
     "text": "Expected single space after \"{\" (stylus/block-opening-brace-space-after)"
@@ -16,6 +20,8 @@
   {
     "line": 12,
     "column": 7,
+    "endLine": 13,
+    "endColumn": 1,
     "rule": "stylus/block-opening-brace-space-after",
     "severity": "error",
     "text": "Expected single space after \"{\" (stylus/block-opening-brace-space-after)"
@@ -23,6 +29,8 @@
   {
     "line": 14,
     "column": 10,
+    "endLine": 15,
+    "endColumn": 1,
     "rule": "stylus/block-opening-brace-space-after",
     "severity": "error",
     "text": "Expected single space after \"{\" (stylus/block-opening-brace-space-after)"
@@ -30,6 +38,8 @@
   {
     "line": 19,
     "column": 7,
+    "endLine": 20,
+    "endColumn": 1,
     "rule": "stylus/block-opening-brace-space-after",
     "severity": "error",
     "text": "Expected single space after \"{\" (stylus/block-opening-brace-space-after)"
@@ -37,6 +47,8 @@
   {
     "line": 21,
     "column": 10,
+    "endLine": 22,
+    "endColumn": 1,
     "rule": "stylus/block-opening-brace-space-after",
     "severity": "error",
     "text": "Expected single space after \"{\" (stylus/block-opening-brace-space-after)"

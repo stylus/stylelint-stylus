@@ -2,6 +2,8 @@
   {
     "line": 1,
     "column": 3,
+    "endLine": 1,
+    "endColumn": 4,
     "rule": "stylus/no-eol-whitespace",
     "severity": "error",
     "text": "Unexpected whitespace at end of line (stylus/no-eol-whitespace)"
@@ -9,6 +11,8 @@
   {
     "line": 2,
     "column": 14,
+    "endLine": 2,
+    "endColumn": 15,
     "rule": "stylus/no-eol-whitespace",
     "severity": "error",
     "text": "Unexpected whitespace at end of line (stylus/no-eol-whitespace)"
@@ -16,6 +20,8 @@
   {
     "line": 2,
     "column": 17,
+    "endLine": 3,
+    "endColumn": 1,
     "rule": "stylus/no-eol-whitespace",
     "severity": "error",
     "text": "Unexpected whitespace at end of line (stylus/no-eol-whitespace)"

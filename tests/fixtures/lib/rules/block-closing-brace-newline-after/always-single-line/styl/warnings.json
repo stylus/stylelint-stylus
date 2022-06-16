@@ -2,6 +2,8 @@
   {
     "line": 8,
     "column": 19,
+    "endLine": 8,
+    "endColumn": 20,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" of a single-line block (stylus/block-closing-brace-newline-after)"
@@ -9,6 +11,8 @@
   {
     "line": 10,
     "column": 19,
+    "endLine": 10,
+    "endColumn": 20,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" of a single-line block (stylus/block-closing-brace-newline-after)"
@@ -16,6 +20,8 @@
   {
     "line": 15,
     "column": 27,
+    "endLine": 15,
+    "endColumn": 28,
     "rule": "stylus/block-closing-brace-newline-after",
     "severity": "error",
     "text": "Expected newline after \"}\" of a single-line block (stylus/block-closing-brace-newline-after)"

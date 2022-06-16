@@ -2,6 +2,8 @@
   {
     "line": 5,
     "column": 16,
+    "endLine": 5,
+    "endColumn": 17,
     "rule": "stylus/block-closing-brace-space-before",
     "severity": "error",
     "text": "Expected single space before \"}\" of a single-line block (stylus/block-closing-brace-space-before)"
@@ -9,6 +11,8 @@
   {
     "line": 7,
     "column": 14,
+    "endLine": 7,
+    "endColumn": 15,
     "rule": "stylus/block-closing-brace-space-before",
     "severity": "error",
     "text": "Expected single space before \"}\" of a single-line block (stylus/block-closing-brace-space-before)"
@@ -16,6 +20,8 @@
   {
     "line": 19,
     "column": 15,
+    "endLine": 19,
+    "endColumn": 16,
     "rule": "stylus/block-closing-brace-space-before",
     "severity": "error",
     "text": "Expected single space before \"}\" of a single-line block (stylus/block-closing-brace-space-before)"
@@ -23,6 +29,8 @@
   {
     "line": 25,
     "column": 16,
+    "endLine": 25,
+    "endColumn": 17,
     "rule": "stylus/block-closing-brace-space-before",
     "severity": "error",
     "text": "Expected single space before \"}\" of a single-line block (stylus/block-closing-brace-space-before)"
@@ -30,6 +38,8 @@
   {
     "line": 35,
     "column": 16,
+    "endLine": 35,
+    "endColumn": 17,
     "rule": "stylus/block-closing-brace-space-before",
     "severity": "error",
     "text": "Expected single space before \"}\" of a single-line block (stylus/block-closing-brace-space-before)"
@@ -37,6 +47,8 @@
   {
     "line": 44,
     "column": 16,
+    "endLine": 44,
+    "endColumn": 17,
     "rule": "stylus/block-closing-brace-space-before",
     "severity": "error",
     "text": "Expected single space before \"}\" of a single-line block (stylus/block-closing-brace-space-before)"

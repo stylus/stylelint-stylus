@@ -2,6 +2,8 @@
   {
     "line": 1,
     "column": 5,
+    "endLine": 1,
+    "endColumn": 6,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" (stylus/selector-list-comma-space-before)"
@@ -9,6 +11,8 @@
   {
     "line": 7,
     "column": 5,
+    "endLine": 7,
+    "endColumn": 6,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" (stylus/selector-list-comma-space-before)"
@@ -16,6 +20,8 @@
   {
     "line": 24,
     "column": 1,
+    "endLine": 24,
+    "endColumn": 2,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" (stylus/selector-list-comma-space-before)"
@@ -23,6 +29,8 @@
   {
     "line": 30,
     "column": 1,
+    "endLine": 30,
+    "endColumn": 2,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" (stylus/selector-list-comma-space-before)"
@@ -30,6 +38,8 @@
   {
     "line": 48,
     "column": 5,
+    "endLine": 48,
+    "endColumn": 6,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" (stylus/selector-list-comma-space-before)"
@@ -37,6 +47,8 @@
   {
     "line": 52,
     "column": 7,
+    "endLine": 52,
+    "endColumn": 8,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" (stylus/selector-list-comma-space-before)"
@@ -44,6 +56,8 @@
   {
     "line": 58,
     "column": 7,
+    "endLine": 58,
+    "endColumn": 8,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" (stylus/selector-list-comma-space-before)"
@@ -51,6 +65,8 @@
   {
     "line": 75,
     "column": 3,
+    "endLine": 75,
+    "endColumn": 4,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" (stylus/selector-list-comma-space-before)"
@@ -58,6 +74,8 @@
   {
     "line": 81,
     "column": 3,
+    "endLine": 81,
+    "endColumn": 4,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" (stylus/selector-list-comma-space-before)"
@@ -65,6 +83,8 @@
   {
     "line": 99,
     "column": 7,
+    "endLine": 99,
+    "endColumn": 8,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" (stylus/selector-list-comma-space-before)"
@@ -72,6 +92,8 @@
   {
     "line": 102,
     "column": 5,
+    "endLine": 102,
+    "endColumn": 6,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" (stylus/selector-list-comma-space-before)"
@@ -79,6 +101,8 @@
   {
     "line": 102,
     "column": 10,
+    "endLine": 102,
+    "endColumn": 11,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" (stylus/selector-list-comma-space-before)"

@@ -2,6 +2,8 @@
   {
     "line": 12,
     "column": 4,
+    "endLine": 12,
+    "endColumn": 5,
     "rule": "stylus/block-opening-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"{\" of a multi-line block (stylus/block-opening-brace-space-after)"
@@ -9,6 +11,8 @@
   {
     "line": 14,
     "column": 4,
+    "endLine": 14,
+    "endColumn": 5,
     "rule": "stylus/block-opening-brace-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"{\" of a multi-line block (stylus/block-opening-brace-space-after)"

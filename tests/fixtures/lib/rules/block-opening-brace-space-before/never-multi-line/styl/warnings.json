@@ -2,6 +2,8 @@
   {
     "line": 5,
     "column": 2,
+    "endLine": 5,
+    "endColumn": 3,
     "rule": "stylus/block-opening-brace-space-before",
     "severity": "error",
     "text": "Unexpected whitespace before \"{\" of a multi-line block (stylus/block-opening-brace-space-before)"

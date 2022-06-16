@@ -2,6 +2,8 @@
   {
     "line": 1,
     "column": 2,
+    "endLine": 1,
+    "endColumn": 3,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":Hover\" to be \":hover\" (stylus/selector-pseudo-class-case)"
@@ -9,6 +11,8 @@
   {
     "line": 3,
     "column": 2,
+    "endLine": 3,
+    "endColumn": 3,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":HOVER\" to be \":hover\" (stylus/selector-pseudo-class-case)"

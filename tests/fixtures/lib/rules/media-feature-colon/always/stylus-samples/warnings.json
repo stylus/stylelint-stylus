@@ -2,6 +2,8 @@
   {
     "line": 41,
     "column": 30,
+    "endLine": 41,
+    "endColumn": 31,
     "rule": "stylus/media-feature-colon",
     "severity": "error",
     "text": "Expected colon (stylus/media-feature-colon)"
@@ -9,6 +11,8 @@
   {
     "line": 44,
     "column": 17,
+    "endLine": 44,
+    "endColumn": 18,
     "rule": "stylus/media-feature-colon",
     "severity": "error",
     "text": "Expected colon (stylus/media-feature-colon)"
@@ -16,6 +20,8 @@
   {
     "line": 48,
     "column": 19,
+    "endLine": 48,
+    "endColumn": 20,
     "rule": "stylus/media-feature-colon",
     "severity": "error",
     "text": "Expected colon (stylus/media-feature-colon)"
@@ -23,6 +29,8 @@
   {
     "line": 48,
     "column": 39,
+    "endLine": 48,
+    "endColumn": 40,
     "rule": "stylus/media-feature-colon",
     "severity": "error",
     "text": "Expected colon (stylus/media-feature-colon)"
@@ -30,6 +38,8 @@
   {
     "line": 54,
     "column": 17,
+    "endLine": 54,
+    "endColumn": 18,
     "rule": "stylus/media-feature-colon",
     "severity": "error",
     "text": "Expected colon (stylus/media-feature-colon)"
@@ -37,6 +47,8 @@
   {
     "line": 60,
     "column": 21,
+    "endLine": 60,
+    "endColumn": 22,
     "rule": "stylus/media-feature-colon",
     "severity": "error",
     "text": "Expected colon (stylus/media-feature-colon)"

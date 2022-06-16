@@ -2,6 +2,8 @@
   {
     "line": 89,
     "column": 7,
+    "endLine": 89,
+    "endColumn": 11,
     "rule": "stylus/property-no-unknown",
     "severity": "error",
     "text": "Unexpected unknown property \"root\" (stylus/property-no-unknown)"
@@ -9,6 +11,8 @@
   {
     "line": 91,
     "column": 5,
+    "endLine": 91,
+    "endColumn": 8,
     "rule": "stylus/property-no-unknown",
     "severity": "error",
     "text": "Unexpected unknown property \"got\" (stylus/property-no-unknown)"
@@ -16,6 +20,8 @@
   {
     "line": 99,
     "column": 3,
+    "endLine": 99,
+    "endColumn": 6,
     "rule": "stylus/property-no-unknown",
     "severity": "error",
     "text": "Unexpected unknown property \"foo\" (stylus/property-no-unknown)"

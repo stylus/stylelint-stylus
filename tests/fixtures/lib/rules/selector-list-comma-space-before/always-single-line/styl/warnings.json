@@ -2,6 +2,8 @@
   {
     "line": 7,
     "column": 5,
+    "endLine": 7,
+    "endColumn": 6,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" in a single-line list (stylus/selector-list-comma-space-before)"
@@ -9,6 +11,8 @@
   {
     "line": 48,
     "column": 5,
+    "endLine": 48,
+    "endColumn": 6,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" in a single-line list (stylus/selector-list-comma-space-before)"
@@ -16,6 +20,8 @@
   {
     "line": 58,
     "column": 7,
+    "endLine": 58,
+    "endColumn": 8,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" in a single-line list (stylus/selector-list-comma-space-before)"
@@ -23,6 +29,8 @@
   {
     "line": 99,
     "column": 7,
+    "endLine": 99,
+    "endColumn": 8,
     "rule": "stylus/selector-list-comma-space-before",
     "severity": "error",
     "text": "Expected single space before \",\" in a single-line list (stylus/selector-list-comma-space-before)"

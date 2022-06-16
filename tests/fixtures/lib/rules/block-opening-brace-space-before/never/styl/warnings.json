@@ -2,6 +2,8 @@
   {
     "line": 3,
     "column": 2,
+    "endLine": 3,
+    "endColumn": 3,
     "rule": "stylus/block-opening-brace-space-before",
     "severity": "error",
     "text": "Unexpected whitespace before \"{\" (stylus/block-opening-brace-space-before)"
@@ -9,6 +11,8 @@
   {
     "line": 5,
     "column": 2,
+    "endLine": 5,
+    "endColumn": 3,
     "rule": "stylus/block-opening-brace-space-before",
     "severity": "error",
     "text": "Unexpected whitespace before \"{\" (stylus/block-opening-brace-space-before)"
@@ -16,6 +20,8 @@
   {
     "line": 13,
     "column": 4,
+    "endLine": 13,
+    "endColumn": 5,
     "rule": "stylus/block-opening-brace-space-before",
     "severity": "error",
     "text": "Unexpected whitespace before \"{\" (stylus/block-opening-brace-space-before)"
@@ -23,6 +29,8 @@
   {
     "line": 14,
     "column": 5,
+    "endLine": 14,
+    "endColumn": 6,
     "rule": "stylus/block-opening-brace-space-before",
     "severity": "error",
     "text": "Unexpected whitespace before \"{\" (stylus/block-opening-brace-space-before)"
@@ -30,6 +38,8 @@
   {
     "line": 14,
     "column": 9,
+    "endLine": 14,
+    "endColumn": 10,
     "rule": "stylus/block-opening-brace-space-before",
     "severity": "error",
     "text": "Unexpected whitespace before \"{\" (stylus/block-opening-brace-space-before)"

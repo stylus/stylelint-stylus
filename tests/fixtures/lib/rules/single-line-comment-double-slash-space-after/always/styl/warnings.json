@@ -2,6 +2,8 @@
   {
     "line": 9,
     "column": 3,
+    "endLine": 9,
+    "endColumn": 4,
     "rule": "stylus/single-line-comment-double-slash-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"//\" (stylus/single-line-comment-double-slash-space-after)"
@@ -9,6 +11,8 @@
   {
     "line": 13,
     "column": 3,
+    "endLine": 13,
+    "endColumn": 4,
     "rule": "stylus/single-line-comment-double-slash-space-after",
     "severity": "error",
     "text": "Unexpected whitespace after \"//\" (stylus/single-line-comment-double-slash-space-after)"

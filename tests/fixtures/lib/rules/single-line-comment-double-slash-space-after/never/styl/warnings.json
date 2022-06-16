@@ -2,6 +2,8 @@
   {
     "line": 10,
     "column": 3,
+    "endLine": 10,
+    "endColumn": 4,
     "rule": "stylus/single-line-comment-double-slash-space-after",
     "severity": "error",
     "text": "Expected whitespace after \"//\" (stylus/single-line-comment-double-slash-space-after)"
@@ -9,6 +11,8 @@
   {
     "line": 11,
     "column": 3,
+    "endLine": 11,
+    "endColumn": 4,
     "rule": "stylus/single-line-comment-double-slash-space-after",
     "severity": "error",
     "text": "Expected whitespace after \"//\" (stylus/single-line-comment-double-slash-space-after)"
@@ -16,6 +20,8 @@
   {
     "line": 12,
     "column": 3,
+    "endLine": 12,
+    "endColumn": 4,
     "rule": "stylus/single-line-comment-double-slash-space-after",
     "severity": "error",
     "text": "Expected whitespace after \"//\" (stylus/single-line-comment-double-slash-space-after)"
@@ -23,6 +29,8 @@
   {
     "line": 14,
     "column": 3,
+    "endLine": 14,
+    "endColumn": 4,
     "rule": "stylus/single-line-comment-double-slash-space-after",
     "severity": "error",
     "text": "Expected whitespace after \"//\" (stylus/single-line-comment-double-slash-space-after)"

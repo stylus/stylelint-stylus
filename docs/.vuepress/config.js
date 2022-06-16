@@ -35,7 +35,7 @@ if (deprecatedRules.length > 0) {
 }
 
 module.exports = {
-    base: "/stylelint-plugin-stylus/",
+    base: "/stylelint-stylus/",
     title: "stylelint-plugin-stylus",
     description: "stylelint plugin for Stylus",
     serviceWorker: true,

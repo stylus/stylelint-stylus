@@ -2,6 +2,8 @@
   {
     "line": 5,
     "column": 3,
+    "endLine": 5,
+    "endColumn": 10,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"
@@ -9,6 +11,8 @@
   {
     "line": 6,
     "column": 3,
+    "endLine": 6,
+    "endColumn": 9,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"
@@ -16,6 +20,8 @@
   {
     "line": 9,
     "column": 3,
+    "endLine": 9,
+    "endColumn": 9,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"
@@ -23,6 +29,8 @@
   {
     "line": 10,
     "column": 3,
+    "endLine": 10,
+    "endColumn": 9,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"
@@ -30,6 +38,8 @@
   {
     "line": 13,
     "column": 3,
+    "endLine": 13,
+    "endColumn": 10,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"
@@ -37,6 +47,8 @@
   {
     "line": 14,
     "column": 3,
+    "endLine": 16,
+    "endColumn": 4,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"
@@ -44,6 +56,8 @@
   {
     "line": 15,
     "column": 5,
+    "endLine": 15,
+    "endColumn": 11,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 2 tabs (stylus/indentation)"
@@ -51,6 +65,8 @@
   {
     "line": 16,
     "column": 3,
+    "endLine": 16,
+    "endColumn": 4,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"
@@ -58,6 +74,8 @@
   {
     "line": 17,
     "column": 3,
+    "endLine": 17,
+    "endColumn": 9,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"
@@ -65,6 +83,8 @@
   {
     "line": 20,
     "column": 3,
+    "endLine": 20,
+    "endColumn": 9,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"
@@ -72,6 +92,8 @@
   {
     "line": 21,
     "column": 3,
+    "endLine": 23,
+    "endColumn": 4,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"
@@ -79,6 +101,8 @@
   {
     "line": 22,
     "column": 5,
+    "endLine": 22,
+    "endColumn": 11,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 2 tabs (stylus/indentation)"
@@ -86,6 +110,8 @@
   {
     "line": 23,
     "column": 3,
+    "endLine": 23,
+    "endColumn": 4,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"
@@ -93,6 +119,8 @@
   {
     "line": 24,
     "column": 3,
+    "endLine": 24,
+    "endColumn": 9,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"

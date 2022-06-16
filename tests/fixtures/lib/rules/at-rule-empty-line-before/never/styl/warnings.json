@@ -2,6 +2,8 @@
   {
     "line": 4,
     "column": 1,
+    "endLine": 6,
+    "endColumn": 14,
     "rule": "stylus/at-rule-empty-line-before",
     "severity": "error",
     "text": "Unexpected empty line before at-rule (stylus/at-rule-empty-line-before)"
@@ -9,6 +11,8 @@
   {
     "line": 22,
     "column": 1,
+    "endLine": 24,
+    "endColumn": 14,
     "rule": "stylus/at-rule-empty-line-before",
     "severity": "error",
     "text": "Unexpected empty line before at-rule (stylus/at-rule-empty-line-before)"
@@ -16,6 +20,8 @@
   {
     "line": 30,
     "column": 1,
+    "endLine": 32,
+    "endColumn": 14,
     "rule": "stylus/at-rule-empty-line-before",
     "severity": "error",
     "text": "Unexpected empty line before at-rule (stylus/at-rule-empty-line-before)"

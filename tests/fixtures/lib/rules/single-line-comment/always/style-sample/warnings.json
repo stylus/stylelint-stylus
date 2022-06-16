@@ -2,6 +2,8 @@
   {
     "line": 17,
     "column": 1,
+    "endLine": 17,
+    "endColumn": 12,
     "rule": "stylus/single-line-comment",
     "severity": "error",
     "text": "Expected single-line comment (stylus/single-line-comment)"
@@ -9,6 +11,8 @@
   {
     "line": 18,
     "column": 1,
+    "endLine": 18,
+    "endColumn": 45,
     "rule": "stylus/single-line-comment",
     "severity": "error",
     "text": "Expected single-line comment (stylus/single-line-comment)"
@@ -16,6 +20,8 @@
   {
     "line": 19,
     "column": 1,
+    "endLine": 21,
+    "endColumn": 3,
     "rule": "stylus/single-line-comment",
     "severity": "error",
     "text": "Expected single-line comment (stylus/single-line-comment)"
@@ -23,6 +29,8 @@
   {
     "line": 22,
     "column": 8,
+    "endLine": 22,
+    "endColumn": 52,
     "rule": "stylus/single-line-comment",
     "severity": "error",
     "text": "Expected single-line comment (stylus/single-line-comment)"
@@ -30,6 +38,8 @@
   {
     "line": 26,
     "column": 1,
+    "endLine": 26,
+    "endColumn": 14,
     "rule": "stylus/single-line-comment",
     "severity": "error",
     "text": "Expected single-line comment (stylus/single-line-comment)"
@@ -37,6 +47,8 @@
   {
     "line": 28,
     "column": 1,
+    "endLine": 28,
+    "endColumn": 13,
     "rule": "stylus/single-line-comment",
     "severity": "error",
     "text": "Expected single-line comment (stylus/single-line-comment)"
@@ -44,6 +56,8 @@
   {
     "line": 29,
     "column": 1,
+    "endLine": 29,
+    "endColumn": 25,
     "rule": "stylus/single-line-comment",
     "severity": "error",
     "text": "Expected single-line comment (stylus/single-line-comment)"
@@ -51,6 +65,8 @@
   {
     "line": 30,
     "column": 8,
+    "endLine": 30,
+    "endColumn": 32,
     "rule": "stylus/single-line-comment",
     "severity": "error",
     "text": "Expected single-line comment (stylus/single-line-comment)"

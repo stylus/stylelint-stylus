@@ -2,6 +2,8 @@
   {
     "line": 14,
     "column": 5,
+    "endLine": 14,
+    "endColumn": 6,
     "rule": "stylus/selector-list-comma-newline-before",
     "severity": "error",
     "text": "Expected newline before \",\" in a multi-line list (stylus/selector-list-comma-newline-before)"
