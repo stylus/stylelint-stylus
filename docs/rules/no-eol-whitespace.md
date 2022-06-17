@@ -27,5 +27,5 @@ See [stylelint - no-eol-whitespace - Options](https://stylelint.io/user-guide/ru
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/no-eol-whitespace.js)
-- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/no-eol-whitespace.js)
+- [Rule source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/lib/rules/no-eol-whitespace.js)
+- [Test source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/tests/lib/rules/no-eol-whitespace.js)

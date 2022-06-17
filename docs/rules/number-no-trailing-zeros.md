@@ -27,5 +27,5 @@ See [stylelint - number-no-trailing-zeros - Options](https://stylelint.io/user-g
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/number-no-trailing-zeros.js)
-- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/number-no-trailing-zeros.js)
+- [Rule source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/lib/rules/number-no-trailing-zeros.js)
+- [Test source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/tests/lib/rules/number-no-trailing-zeros.js)

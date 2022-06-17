@@ -41,5 +41,5 @@ This rule enforces [@extend] style.
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/no-at-require.js)
-- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/no-at-require.js)
+- [Rule source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/lib/rules/no-at-require.js)
+- [Test source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/tests/lib/rules/no-at-require.js)

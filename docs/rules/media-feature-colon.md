@@ -60,5 +60,5 @@ This rule require or disallow  media feature colons.
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/media-feature-colon.js)
-- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/media-feature-colon.js)
+- [Rule source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/lib/rules/media-feature-colon.js)
+- [Test source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/tests/lib/rules/media-feature-colon.js)

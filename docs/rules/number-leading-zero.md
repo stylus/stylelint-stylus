@@ -27,5 +27,5 @@ See [stylelint - number-leading-zero - Options](https://stylelint.io/user-guide/
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/number-leading-zero.js)
-- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/number-leading-zero.js)
+- [Rule source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/lib/rules/number-leading-zero.js)
+- [Test source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/tests/lib/rules/number-leading-zero.js)

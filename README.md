@@ -14,8 +14,8 @@
   <a href="https://www.npmjs.com/package/stylelint-plugin-stylus">
     <img src="https://img.shields.io/npm/dw/stylelint-plugin-stylus.svg" alt="NPM downloads">
   </a>
-  <a href="https://github.com/stylus/stylelint-stylus/actions?query=workflow%3ACI">
-    <img src="https://github.com/stylus/stylelint-stylus/workflows/CI/badge.svg?branch=main" alt="Build Status">
+  <a href="https://github.com/stylus/stylelint-plugin-stylus/actions?query=workflow%3ACI">
+    <img src="https://github.com/stylus/stylelint-plugin-stylus/workflows/CI/badge.svg?branch=main" alt="Build Status">
   </a>
 </p>
 <br>
@@ -34,7 +34,7 @@ This plugin allows us to check the [Stylus] with [Stylelint].
 
 [Stylelint editor integrations](https://stylelint.io/user-guide/integrations/editor) are useful to check your code in real-time.
 
-You can check on the [Online DEMO](https://stylus.github.io/stylelint-stylus/playground/).
+You can check on the [Online DEMO](https://stylus.github.io/stylelint-plugin-stylus/playground/).
 
 ## :cd: Installation
 
@@ -160,10 +160,10 @@ These rules relate to possible syntax or logic errors in Stylus.
 
 |    | Rule ID | Description | RuleSet |
 |:---|:--------|:------------|:--------|
-|  | [stylus/at-rule-no-unknown](https://stylus.github.io/stylelint-stylus/rules/at-rule-no-unknown.html) | disallow unknown at-rules. | `/recommended` |
-|  | [stylus/property-no-unknown](https://stylus.github.io/stylelint-stylus/rules/property-no-unknown.html) | disallow unknown properties. | `/recommended` |
-|  | [stylus/selector-type-no-unknown](https://stylus.github.io/stylelint-stylus/rules/selector-type-no-unknown.html) | disallow unknown type selectors. | `/recommended` |
-|  | [stylus/single-line-comment-no-empty](https://stylus.github.io/stylelint-stylus/rules/single-line-comment-no-empty.html) | disallow empty single-line comments. | `/recommended` |
+|  | [stylus/at-rule-no-unknown](https://stylus.github.io/stylelint-plugin-stylus/rules/at-rule-no-unknown.html) | disallow unknown at-rules. | `/recommended` |
+|  | [stylus/property-no-unknown](https://stylus.github.io/stylelint-plugin-stylus/rules/property-no-unknown.html) | disallow unknown properties. | `/recommended` |
+|  | [stylus/selector-type-no-unknown](https://stylus.github.io/stylelint-plugin-stylus/rules/selector-type-no-unknown.html) | disallow unknown type selectors. | `/recommended` |
+|  | [stylus/single-line-comment-no-empty](https://stylus.github.io/stylelint-plugin-stylus/rules/single-line-comment-no-empty.html) | disallow empty single-line comments. | `/recommended` |
 
 ### Standard Rules
 
@@ -171,36 +171,36 @@ These rules relate to style guidelines.
 
 |    | Rule ID | Description | RuleSet |
 |:---|:--------|:------------|:--------|
-| :wrench: | [stylus/at-extend-style](https://stylus.github.io/stylelint-stylus/rules/at-extend-style.html) | enforces `@extend` style. | `/standard` |
-| :wrench: | [stylus/at-rule-empty-line-before](https://stylus.github.io/stylelint-stylus/rules/at-rule-empty-line-before.html) | require or disallow an empty line before at-rules. | `/standard` |
-| :wrench: | [stylus/at-rule-name-space-after](https://stylus.github.io/stylelint-stylus/rules/at-rule-name-space-after.html) | require a single space after at-rule names. | `/standard` |
-| :wrench: | [stylus/block-closing-brace-empty-line-before](https://stylus.github.io/stylelint-stylus/rules/block-closing-brace-empty-line-before.html) | require or disallow an empty line before the closing brace of blocks. | `/standard` |
-| :wrench: | [stylus/block-closing-brace-newline-after](https://stylus.github.io/stylelint-stylus/rules/block-closing-brace-newline-after.html) | require a newline or disallow whitespace after the closing brace of blocks. | `/standard` |
-| :wrench: | [stylus/block-closing-brace-newline-before](https://stylus.github.io/stylelint-stylus/rules/block-closing-brace-newline-before.html) | require a newline or disallow whitespace before the closing brace of blocks. | `/standard` |
-|  | [stylus/block-closing-brace-space-after](https://stylus.github.io/stylelint-stylus/rules/block-closing-brace-space-after.html) | require a single space or disallow whitespace after the closing brace of blocks. |  |
-| :wrench: | [stylus/block-closing-brace-space-before](https://stylus.github.io/stylelint-stylus/rules/block-closing-brace-space-before.html) | require a single space or disallow whitespace before the closing brace of blocks. | `/standard` |
-| :wrench: | [stylus/block-opening-brace-newline-after](https://stylus.github.io/stylelint-stylus/rules/block-opening-brace-newline-after.html) | require a newline after the opening brace of blocks. | `/standard` |
-| :wrench: | [stylus/block-opening-brace-space-after](https://stylus.github.io/stylelint-stylus/rules/block-opening-brace-space-after.html) | require a single space or disallow whitespace after the opening brace of blocks. | `/standard` |
-| :wrench: | [stylus/block-opening-brace-space-before](https://stylus.github.io/stylelint-stylus/rules/block-opening-brace-space-before.html) | require a single space or disallow whitespace before the opening brace of blocks. | `/standard` |
-| :wrench: | [stylus/color-hex-case](https://stylus.github.io/stylelint-stylus/rules/color-hex-case.html) | enforce lowercase or uppercase for hex colors. | `/standard` |
-| :wrench: | [stylus/declaration-colon](https://stylus.github.io/stylelint-stylus/rules/declaration-colon.html) | require or disallow declaration colons. | `/standard` |
-| :wrench: | [stylus/hash-object-property-comma](https://stylus.github.io/stylelint-stylus/rules/hash-object-property-comma.html) | require or disallow commas in hash object properties. | `/standard` |
-| :wrench: | [stylus/indentation](https://stylus.github.io/stylelint-stylus/rules/indentation.html) | enforces indentation. | `/standard` |
-| :wrench: | [stylus/media-feature-colon](https://stylus.github.io/stylelint-stylus/rules/media-feature-colon.html) | require or disallow media feature colons. | `/standard` |
-| :wrench: | [stylus/no-at-require](https://stylus.github.io/stylelint-stylus/rules/no-at-require.html) | disallow `@require`, use `@import` instead. | `/standard` |
-| :wrench: | [stylus/no-eol-whitespace](https://stylus.github.io/stylelint-stylus/rules/no-eol-whitespace.html) | disallow end-of-line whitespace. | `/standard` |
-| :wrench: | [stylus/number-leading-zero](https://stylus.github.io/stylelint-stylus/rules/number-leading-zero.html) | require or disallow a leading zero for fractional numbers less than 1. | `/standard` |
-| :wrench: | [stylus/number-no-trailing-zeros](https://stylus.github.io/stylelint-stylus/rules/number-no-trailing-zeros.html) | disallow trailing zeros in numbers. | `/standard` |
-| :wrench: | [stylus/pythonic](https://stylus.github.io/stylelint-stylus/rules/pythonic.html) | enforces pythonic or brace style. | `/standard` |
-| :wrench: | [stylus/selector-list-comma-newline-after](https://stylus.github.io/stylelint-stylus/rules/selector-list-comma-newline-after.html) | require a newline or disallow whitespace after the commas of selector lists. | `/standard` |
-| :wrench: | [stylus/selector-list-comma-newline-before](https://stylus.github.io/stylelint-stylus/rules/selector-list-comma-newline-before.html) | require a newline or disallow whitespace before the commas of selector lists. |  |
-| :wrench: | [stylus/selector-list-comma-space-after](https://stylus.github.io/stylelint-stylus/rules/selector-list-comma-space-after.html) | require a single space or disallow whitespace after the commas of selector lists. |  |
-| :wrench: | [stylus/selector-list-comma-space-before](https://stylus.github.io/stylelint-stylus/rules/selector-list-comma-space-before.html) | require a single space or disallow whitespace before the commas of selector lists. | `/standard` |
-| :wrench: | [stylus/selector-list-comma](https://stylus.github.io/stylelint-stylus/rules/selector-list-comma.html) | require or disallow selector list comma. | `/standard` |
-| :wrench: | [stylus/selector-pseudo-class-case](https://stylus.github.io/stylelint-stylus/rules/selector-pseudo-class-case.html) | enforce lowercase or uppercase for pseudo-class selectors. | `/standard` |
-| :wrench: | [stylus/semicolon](https://stylus.github.io/stylelint-stylus/rules/semicolon.html) | require or disallow semicolon. | `/standard` |
-| :wrench: | [stylus/single-line-comment-double-slash-space-after](https://stylus.github.io/stylelint-stylus/rules/single-line-comment-double-slash-space-after.html) | require or disallow whitespace after the double-slash of single-line comments. | `/standard` |
-| :wrench: | [stylus/single-line-comment](https://stylus.github.io/stylelint-stylus/rules/single-line-comment.html) | enforces comment style where single-line comments are allowed. | `/standard` |
+| :wrench: | [stylus/at-extend-style](https://stylus.github.io/stylelint-plugin-stylus/rules/at-extend-style.html) | enforces `@extend` style. | `/standard` |
+| :wrench: | [stylus/at-rule-empty-line-before](https://stylus.github.io/stylelint-plugin-stylus/rules/at-rule-empty-line-before.html) | require or disallow an empty line before at-rules. | `/standard` |
+| :wrench: | [stylus/at-rule-name-space-after](https://stylus.github.io/stylelint-plugin-stylus/rules/at-rule-name-space-after.html) | require a single space after at-rule names. | `/standard` |
+| :wrench: | [stylus/block-closing-brace-empty-line-before](https://stylus.github.io/stylelint-plugin-stylus/rules/block-closing-brace-empty-line-before.html) | require or disallow an empty line before the closing brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-closing-brace-newline-after](https://stylus.github.io/stylelint-plugin-stylus/rules/block-closing-brace-newline-after.html) | require a newline or disallow whitespace after the closing brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-closing-brace-newline-before](https://stylus.github.io/stylelint-plugin-stylus/rules/block-closing-brace-newline-before.html) | require a newline or disallow whitespace before the closing brace of blocks. | `/standard` |
+|  | [stylus/block-closing-brace-space-after](https://stylus.github.io/stylelint-plugin-stylus/rules/block-closing-brace-space-after.html) | require a single space or disallow whitespace after the closing brace of blocks. |  |
+| :wrench: | [stylus/block-closing-brace-space-before](https://stylus.github.io/stylelint-plugin-stylus/rules/block-closing-brace-space-before.html) | require a single space or disallow whitespace before the closing brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-opening-brace-newline-after](https://stylus.github.io/stylelint-plugin-stylus/rules/block-opening-brace-newline-after.html) | require a newline after the opening brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-opening-brace-space-after](https://stylus.github.io/stylelint-plugin-stylus/rules/block-opening-brace-space-after.html) | require a single space or disallow whitespace after the opening brace of blocks. | `/standard` |
+| :wrench: | [stylus/block-opening-brace-space-before](https://stylus.github.io/stylelint-plugin-stylus/rules/block-opening-brace-space-before.html) | require a single space or disallow whitespace before the opening brace of blocks. | `/standard` |
+| :wrench: | [stylus/color-hex-case](https://stylus.github.io/stylelint-plugin-stylus/rules/color-hex-case.html) | enforce lowercase or uppercase for hex colors. | `/standard` |
+| :wrench: | [stylus/declaration-colon](https://stylus.github.io/stylelint-plugin-stylus/rules/declaration-colon.html) | require or disallow declaration colons. | `/standard` |
+| :wrench: | [stylus/hash-object-property-comma](https://stylus.github.io/stylelint-plugin-stylus/rules/hash-object-property-comma.html) | require or disallow commas in hash object properties. | `/standard` |
+| :wrench: | [stylus/indentation](https://stylus.github.io/stylelint-plugin-stylus/rules/indentation.html) | enforces indentation. | `/standard` |
+| :wrench: | [stylus/media-feature-colon](https://stylus.github.io/stylelint-plugin-stylus/rules/media-feature-colon.html) | require or disallow media feature colons. | `/standard` |
+| :wrench: | [stylus/no-at-require](https://stylus.github.io/stylelint-plugin-stylus/rules/no-at-require.html) | disallow `@require`, use `@import` instead. | `/standard` |
+| :wrench: | [stylus/no-eol-whitespace](https://stylus.github.io/stylelint-plugin-stylus/rules/no-eol-whitespace.html) | disallow end-of-line whitespace. | `/standard` |
+| :wrench: | [stylus/number-leading-zero](https://stylus.github.io/stylelint-plugin-stylus/rules/number-leading-zero.html) | require or disallow a leading zero for fractional numbers less than 1. | `/standard` |
+| :wrench: | [stylus/number-no-trailing-zeros](https://stylus.github.io/stylelint-plugin-stylus/rules/number-no-trailing-zeros.html) | disallow trailing zeros in numbers. | `/standard` |
+| :wrench: | [stylus/pythonic](https://stylus.github.io/stylelint-plugin-stylus/rules/pythonic.html) | enforces pythonic or brace style. | `/standard` |
+| :wrench: | [stylus/selector-list-comma-newline-after](https://stylus.github.io/stylelint-plugin-stylus/rules/selector-list-comma-newline-after.html) | require a newline or disallow whitespace after the commas of selector lists. | `/standard` |
+| :wrench: | [stylus/selector-list-comma-newline-before](https://stylus.github.io/stylelint-plugin-stylus/rules/selector-list-comma-newline-before.html) | require a newline or disallow whitespace before the commas of selector lists. |  |
+| :wrench: | [stylus/selector-list-comma-space-after](https://stylus.github.io/stylelint-plugin-stylus/rules/selector-list-comma-space-after.html) | require a single space or disallow whitespace after the commas of selector lists. |  |
+| :wrench: | [stylus/selector-list-comma-space-before](https://stylus.github.io/stylelint-plugin-stylus/rules/selector-list-comma-space-before.html) | require a single space or disallow whitespace before the commas of selector lists. | `/standard` |
+| :wrench: | [stylus/selector-list-comma](https://stylus.github.io/stylelint-plugin-stylus/rules/selector-list-comma.html) | require or disallow selector list comma. | `/standard` |
+| :wrench: | [stylus/selector-pseudo-class-case](https://stylus.github.io/stylelint-plugin-stylus/rules/selector-pseudo-class-case.html) | enforce lowercase or uppercase for pseudo-class selectors. | `/standard` |
+| :wrench: | [stylus/semicolon](https://stylus.github.io/stylelint-plugin-stylus/rules/semicolon.html) | require or disallow semicolon. | `/standard` |
+| :wrench: | [stylus/single-line-comment-double-slash-space-after](https://stylus.github.io/stylelint-plugin-stylus/rules/single-line-comment-double-slash-space-after.html) | require or disallow whitespace after the double-slash of single-line comments. | `/standard` |
+| :wrench: | [stylus/single-line-comment](https://stylus.github.io/stylelint-plugin-stylus/rules/single-line-comment.html) | enforces comment style where single-line comments are allowed. | `/standard` |
 
 <!--RULES_TABLE_END-->
 
@@ -217,4 +217,4 @@ See the [LICENSE] file for license rights and limitations (MIT).
 [npm license]: https://img.shields.io/npm/l/stylelint-plugin-stylus.svg
 [npm version]: https://img.shields.io/npm/v/stylelint-plugin-stylus.svg
 [npm downloads]: https://img.shields.io/npm/dw/stylelint-plugin-stylus.svg
-[build status]: https://github.com/stylus/stylelint-stylus/workflows/CI/badge.svg?branch=main
+[build status]: https://github.com/stylus/stylelint-plugin-stylus/workflows/CI/badge.svg?branch=main

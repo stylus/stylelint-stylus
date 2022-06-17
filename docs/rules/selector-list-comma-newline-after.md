@@ -31,5 +31,5 @@ The `stylus/selector-list-comma-newline-after` rule understands that can omit co
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/selector-list-comma-newline-after.js)
-- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/selector-list-comma-newline-after.js)
+- [Rule source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/lib/rules/selector-list-comma-newline-after.js)
+- [Test source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/tests/lib/rules/selector-list-comma-newline-after.js)
