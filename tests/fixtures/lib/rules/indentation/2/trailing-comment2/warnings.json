@@ -1,0 +1,29 @@
+[
+  {
+    "line": 2,
+    "column": 2,
+    "endLine": 3,
+    "endColumn": 7,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 spaces (stylus/indentation)"
+  },
+  {
+    "line": 3,
+    "column": 3,
+    "endLine": 3,
+    "endColumn": 7,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 4 spaces (stylus/indentation)"
+  },
+  {
+    "line": 4,
+    "column": 2,
+    "endLine": 4,
+    "endColumn": 6,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 spaces (stylus/indentation)"
+  }
+]
