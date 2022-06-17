@@ -24,5 +24,5 @@ See [stylelint - block-closing-brace-space-after - Options](https://stylelint.io
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/block-closing-brace-space-after.js)
-- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/block-closing-brace-space-after.js)
+- [Rule source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/lib/rules/block-closing-brace-space-after.js)
+- [Test source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/tests/lib/rules/block-closing-brace-space-after.js)

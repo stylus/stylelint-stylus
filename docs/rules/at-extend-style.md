@@ -63,5 +63,5 @@ a
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/at-extend-style.js)
-- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/at-extend-style.js)
+- [Rule source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/lib/rules/at-extend-style.js)
+- [Test source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/tests/lib/rules/at-extend-style.js)

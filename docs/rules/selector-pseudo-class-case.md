@@ -28,5 +28,5 @@ See [stylelint - selector-pseudo-class-case - Options](https://stylelint.io/user
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/selector-pseudo-class-case.js)
-- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/selector-pseudo-class-case.js)
+- [Rule source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/lib/rules/selector-pseudo-class-case.js)
+- [Test source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/tests/lib/rules/selector-pseudo-class-case.js)
