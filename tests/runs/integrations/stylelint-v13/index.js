@@ -27,20 +27,20 @@ describe("Integration with stylelint v13", () => {
 
     it("should lint without errors with styl", () => {
         cp.execSync(
-            `${STYLELINT} src/valid.styl --custom-syntax stylelint-plugin-stylus/custom-syntax`,
+            `${STYLELINT} src/valid.styl --custom-syntax stylelint-stylus/custom-syntax`,
             { stdio: "inherit" },
         )
     })
     it("should lint without errors with stylus", () => {
         cp.execSync(
-            `${STYLELINT} src/valid.stylus --custom-syntax stylelint-plugin-stylus/custom-syntax`,
+            `${STYLELINT} src/valid.stylus --custom-syntax stylelint-stylus/custom-syntax`,
             { stdio: "inherit" },
         )
     })
     it("should lint with errors with styl", () => {
         try {
             cp.execSync(
-                `${STYLELINT} src/invalid.styl --custom-syntax stylelint-plugin-stylus/custom-syntax`,
+                `${STYLELINT} src/invalid.styl --custom-syntax stylelint-stylus/custom-syntax`,
                 { stdio: "inherit" },
             )
             fail("Expect an error, but without errors")
@@ -51,7 +51,7 @@ describe("Integration with stylelint v13", () => {
     it("should lint with errors with stylus", () => {
         try {
             cp.execSync(
-                `${STYLELINT} src/invalid.stylus --custom-syntax stylelint-plugin-stylus/custom-syntax`,
+                `${STYLELINT} src/invalid.stylus --custom-syntax stylelint-stylus/custom-syntax`,
                 { stdio: "inherit" },
             )
             fail("Expect an error, but without errors")

@@ -2,7 +2,7 @@
 
 > require a newline or disallow whitespace after the closing brace of blocks.
 
-- :gear: This rule is included in `"stylelint-plugin-stylus/standard"`. (options: `"always"`)
+- :gear: This rule is included in `"stylelint-stylus/standard"`. (options: `"always"`)
 - :wrench: The [fix option](https://stylelint.io/user-guide/usage/options#fix) can automatically fix some of the problems reported by this rule.
 
 ## :book: Rule Details
@@ -27,5 +27,5 @@ See [stylelint - block-closing-brace-newline-after - Options](https://stylelint.
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/lib/rules/block-closing-brace-newline-after.js)
-- [Test source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/tests/lib/rules/block-closing-brace-newline-after.js)
+- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/block-closing-brace-newline-after.js)
+- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/block-closing-brace-newline-after.js)

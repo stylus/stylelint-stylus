@@ -2,7 +2,7 @@
 
 > enforces indentation.
 
-- :gear: This rule is included in `"stylelint-plugin-stylus/standard"`. (options: `2`)
+- :gear: This rule is included in `"stylelint-stylus/standard"`. (options: `2`)
 - :wrench: The [fix option](https://stylelint.io/user-guide/usage/options#fix) can automatically fix some of the problems reported by this rule.
 
 ## :book: Rule Details
@@ -27,5 +27,5 @@ See [stylelint - indentation - Options](https://stylelint.io/user-guide/rules/in
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/lib/rules/indentation.js)
-- [Test source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/tests/lib/rules/indentation.js)
+- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/indentation.js)
+- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/indentation.js)

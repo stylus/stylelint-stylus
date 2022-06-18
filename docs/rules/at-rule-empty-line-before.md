@@ -2,7 +2,7 @@
 
 > require or disallow an empty line before at-rules.
 
-- :gear: This rule is included in `"stylelint-plugin-stylus/standard"`. (options: `["always",{"except":["blockless-after-same-name-blockless","first-nested"],"ignore":["after-comment"]}]`)
+- :gear: This rule is included in `"stylelint-stylus/standard"`. (options: `["always",{"except":["blockless-after-same-name-blockless","first-nested"],"ignore":["after-comment"]}]`)
 - :wrench: The [fix option](https://stylelint.io/user-guide/usage/options#fix) can automatically fix some of the problems reported by this rule.
 
 ## :book: Rule Details
@@ -28,5 +28,5 @@ The `stylus/at-rule-empty-line-before` rule understands [postcss-styl] AST.
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/lib/rules/at-rule-empty-line-before.js)
-- [Test source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/tests/lib/rules/at-rule-empty-line-before.js)
+- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/at-rule-empty-line-before.js)
+- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/at-rule-empty-line-before.js)

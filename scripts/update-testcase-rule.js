@@ -1,9 +1,8 @@
 "use strict"
 
-const fs = require("fs")
 const path = require("path")
-const eslint = require("eslint")
 const rules = require("./lib/rules")
+const { formatAndSave } = require("./lib/utils")
 
 const ROOT = path.resolve(__dirname, "../tests/runs/lib/rules")
 
@@ -28,11 +27,5 @@ ruleTester(
     )
 )
 `
-    fs.writeFileSync(filePath, content)
+    formatAndSave(filePath, content)
 }
-
-// Format files.
-const linter = new eslint.ESLint({ fix: true })
-linter.lintFiles([ROOT]).then((report) => {
-    eslint.ESLint.outputFixes(report)
-})

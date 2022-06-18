@@ -35,8 +35,8 @@ if (deprecatedRules.length > 0) {
 }
 
 module.exports = {
-    base: "/stylelint-plugin-stylus/",
-    title: "stylelint-plugin-stylus",
+    base: "/stylelint-stylus/",
+    title: "stylelint-stylus",
     description: "stylelint plugin for Stylus",
     serviceWorker: true,
     head: [
@@ -68,8 +68,8 @@ module.exports = {
         ],
     },
     themeConfig: {
-        repo: "stylus/stylelint-plugin-stylus",
-        docsRepo: "stylus/stylelint-plugin-stylus",
+        repo: "stylus/stylelint-stylus",
+        docsRepo: "stylus/stylelint-stylus",
         docsDir: "docs",
         docsBranch: "main",
         editLinks: true,

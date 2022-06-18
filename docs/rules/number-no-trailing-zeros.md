@@ -2,7 +2,7 @@
 
 > disallow trailing zeros in numbers.
 
-- :gear: This rule is included in `"stylelint-plugin-stylus/standard"`. (options: `true`)
+- :gear: This rule is included in `"stylelint-stylus/standard"`. (options: `true`)
 - :wrench: The [fix option](https://stylelint.io/user-guide/usage/options#fix) can automatically fix some of the problems reported by this rule.
 
 ## :book: Rule Details
@@ -27,5 +27,5 @@ See [stylelint - number-no-trailing-zeros - Options](https://stylelint.io/user-g
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/lib/rules/number-no-trailing-zeros.js)
-- [Test source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/tests/lib/rules/number-no-trailing-zeros.js)
+- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/number-no-trailing-zeros.js)
+- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/number-no-trailing-zeros.js)

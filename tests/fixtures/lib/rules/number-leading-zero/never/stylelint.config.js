@@ -1,7 +1,7 @@
 "use strict"
 
 module.exports = {
-    extends: ["stylelint-plugin-stylus/base-config"],
+    extends: ["stylelint-stylus/base-config"],
     rules: {
         "stylus/number-leading-zero": "never",
     },
