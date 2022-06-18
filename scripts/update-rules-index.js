@@ -4,10 +4,9 @@
 // This script updates `lib/rules/index.js` file from rule's meta data.
 //
 
-const fs = require("fs")
 const path = require("path")
-const eslint = require("eslint")
 const rules = require("./lib/rules")
+const { formatAndSave } = require("./lib/utils")
 
 // Update files.
 const filePath = path.resolve(__dirname, "../lib/rules/index.js")
@@ -24,10 +23,5 @@ module.exports = {
       .join(",\n")}
 }
 `
-fs.writeFileSync(filePath, content)
 
-// Format files.
-const linter = new eslint.ESLint({ fix: true })
-linter.lintFiles([filePath]).then((report) => {
-    eslint.ESLint.outputFixes(report)
-})
+formatAndSave(filePath, content)

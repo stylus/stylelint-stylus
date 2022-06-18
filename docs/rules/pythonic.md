@@ -2,7 +2,7 @@
 
 > enforces pythonic or brace style.
 
-- :gear: This rule is included in `"stylelint-plugin-stylus/standard"`. (options: `"always"`)
+- :gear: This rule is included in `"stylelint-stylus/standard"`. (options: `"always"`)
 - :wrench: The [fix option](https://stylelint.io/user-guide/usage/options#fix) can automatically fix some of the problems reported by this rule.
 
 ## :book: Rule Details
@@ -137,5 +137,5 @@ bar = @block {
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/lib/rules/pythonic.js)
-- [Test source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/tests/lib/rules/pythonic.js)
+- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/pythonic.js)
+- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/pythonic.js)

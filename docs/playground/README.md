@@ -8,6 +8,6 @@ pageClass: "playground"
 
 <playground>
 
-The playground is [here](https://stylus.github.io/stylelint-plugin-stylus/playground/)!!
+The playground is [here](https://stylus.github.io/stylelint-stylus/playground/)!!
 
 </playground>

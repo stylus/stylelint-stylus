@@ -25,26 +25,26 @@ export async function loadStylelint4b() {
             "stylelint-config-html/xml"
         ).then((o) => ({ ...o })),
         //
-        [require.resolve("stylelint-plugin-stylus/base-config")]: import(
-            "stylelint-plugin-stylus/base-config"
+        [require.resolve("stylelint-stylus/base-config")]: import(
+            "stylelint-stylus/base-config"
         ).then((o) => ({ ...o })),
-        ["stylelint-plugin-stylus/base-config"]: import(
-            "stylelint-plugin-stylus/base-config"
+        ["stylelint-stylus/base-config"]: import(
+            "stylelint-stylus/base-config"
         ).then((o) => ({ ...o })),
-        [require.resolve("stylelint-plugin-stylus/recommended")]: import(
-            "stylelint-plugin-stylus/recommended"
+        [require.resolve("stylelint-stylus/recommended")]: import(
+            "stylelint-stylus/recommended"
         ).then((o) => ({ ...o })),
-        ["stylelint-plugin-stylus/recommended"]: import(
-            "stylelint-plugin-stylus/recommended"
+        ["stylelint-stylus/recommended"]: import(
+            "stylelint-stylus/recommended"
         ).then((o) => ({ ...o })),
-        "stylelint-plugin-stylus/standard": import(
-            "stylelint-plugin-stylus/standard"
-        ).then((o) => ({ ...o })),
+        "stylelint-stylus/standard": import("stylelint-stylus/standard").then(
+            (o) => ({ ...o }),
+        ),
         // plugins
-        "stylelint-plugin-stylus": import("stylelint-plugin-stylus"),
-        [require.resolve("stylelint-plugin-stylus")]: import(
-            "stylelint-plugin-stylus"
-        ).then((o) => ({ ...o })),
+        "stylelint-stylus": import("stylelint-stylus"),
+        [require.resolve("stylelint-stylus")]: import("stylelint-stylus").then(
+            (o) => ({ ...o }),
+        ),
         // syntax
         "postcss-styl": import("postcss-styl").then((o) => ({ ...o })),
     })

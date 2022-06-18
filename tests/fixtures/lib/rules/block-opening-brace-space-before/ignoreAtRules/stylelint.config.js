@@ -1,7 +1,7 @@
 "use strict"
 
 module.exports = {
-    extends: ["stylelint-plugin-stylus/base-config"],
+    extends: ["stylelint-stylus/base-config"],
     rules: {
         "stylus/block-opening-brace-space-before": ["always", {ignoreAtRules: ["/fo/"]}],
     },

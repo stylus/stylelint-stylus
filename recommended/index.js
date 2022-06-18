@@ -3,7 +3,7 @@
 module.exports = {
     extends: [require.resolve("../base-config")],
     rules: {
-        // List of possible errors rules within `stylelint-plugin-stylus`
+        // List of possible errors rules within `stylelint-stylus`
         "stylus/single-line-comment-no-empty": true,
         // wrapper core rules
         "stylus/at-rule-no-unknown": true,

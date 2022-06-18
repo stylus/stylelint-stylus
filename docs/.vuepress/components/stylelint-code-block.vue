@@ -76,8 +76,8 @@ export default {
       }
 
       return {
-        plugins: ["stylelint-plugin-stylus"],
-        extends: ["stylelint-plugin-stylus/base-config", ...this.extends],
+        plugins: ["stylelint-stylus"],
+        extends: ["stylelint-stylus/base-config", ...this.extends],
         rules: this.rules,
       };
     },

@@ -2,7 +2,7 @@
 
 > disallow unknown type selectors.
 
-- :gear: This rule is included in `"stylelint-plugin-stylus/recommended"` and `"stylelint-plugin-stylus/standard"`. (options: `true`)
+- :gear: This rule is included in `"stylelint-stylus/recommended"` and `"stylelint-stylus/standard"`. (options: `true`)
 
 ## :book: Rule Details
 
@@ -27,5 +27,5 @@ See [stylelint - selector-type-no-unknown - Options](https://stylelint.io/user-g
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/lib/rules/selector-type-no-unknown.js)
-- [Test source](https://github.com/stylus/stylelint-plugin-stylus/blob/main/tests/lib/rules/selector-type-no-unknown.js)
+- [Rule source](https://github.com/stylus/stylelint-stylus/blob/main/lib/rules/selector-type-no-unknown.js)
+- [Test source](https://github.com/stylus/stylelint-stylus/blob/main/tests/lib/rules/selector-type-no-unknown.js)

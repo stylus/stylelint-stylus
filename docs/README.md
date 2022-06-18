@@ -2,24 +2,24 @@
 title: "Introduction"
 ---
 
-<h1 align="center">stylelint-plugin-stylus</h1>
+<h1 align="center">stylelint-stylus</h1>
 
 <p align="center"><a href="https://stylelint.io/" alt="Stylelint">Stylelint</a> plugin for <a href="https://stylus-lang.com/" alt="Stylus">Stylus</a>.
 
 <p align="center"><b><i>This plugin is still in an experimental state</i></b></p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/stylelint-plugin-stylus">
-    <img src="https://img.shields.io/npm/l/stylelint-plugin-stylus.svg" alt="NPM license">
+  <a href="https://www.npmjs.com/package/stylelint-stylus">
+    <img src="https://img.shields.io/npm/l/stylelint-stylus.svg" alt="NPM license">
   </a>
-  <a href="https://www.npmjs.com/package/stylelint-plugin-stylus">
-    <img src="https://img.shields.io/npm/v/stylelint-plugin-stylus.svg" alt="NPM version">
+  <a href="https://www.npmjs.com/package/stylelint-stylus">
+    <img src="https://img.shields.io/npm/v/stylelint-stylus.svg" alt="NPM version">
   </a>
-  <a href="https://www.npmjs.com/package/stylelint-plugin-stylus">
-    <img src="https://img.shields.io/npm/dw/stylelint-plugin-stylus.svg" alt="NPM downloads">
+  <a href="https://www.npmjs.com/package/stylelint-stylus">
+    <img src="https://img.shields.io/npm/dw/stylelint-stylus.svg" alt="NPM downloads">
   </a>
-  <a href="https://github.com/stylus/stylelint-plugin-stylus/actions?query=workflow%3ACI">
-    <img src="https://github.com/stylus/stylelint-plugin-stylus/workflows/CI/badge.svg?branch=main" alt="Build Status">
+  <a href="https://github.com/stylus/stylelint-stylus/actions?query=workflow%3ACI">
+    <img src="https://github.com/stylus/stylelint-stylus/workflows/CI/badge.svg?branch=main" alt="Build Status">
   </a>
 </p>
 <br>
@@ -45,12 +45,12 @@ You can check on the [Online DEMO](./playground/).
 Via [npm]:
 
 ```bash
-npm install --save-dev stylelint stylelint-plugin-stylus
+npm install --save-dev stylelint stylelint-stylus
 ```
 
 ## :book: Usage
 
-`stylelint-plugin-stylus` is a plugin for [Stylelint], so it is for use with [Stylelint].  
+`stylelint-stylus` is a plugin for [Stylelint], so it is for use with [Stylelint].  
 If you are not using [Stylelint], start by using [Stylelint].
 
 ### Configuration
@@ -64,7 +64,7 @@ module.exports = {
   extends: [
     // add more generic rulesets here, such as:
     // "stylelint-config-standard",
-    "stylelint-plugin-stylus/standard",
+    "stylelint-stylus/standard",
   ],
   rules: {
     // override/add rules settings here, such as:
@@ -79,7 +79,7 @@ If you want to set all the rules yourself, set as follows.
 module.exports = {
   plugins: [
     // add this plugin here:
-    "stylelint-plugin-stylus",
+    "stylelint-stylus",
   ],
   // makes the stylus files parseable.
   overrides: [
@@ -116,6 +116,7 @@ Example **.vscode/settings.json**:
       // ↓ Add "stylus" language.
       "stylus"
   ]
+}
 ```
 
 ### Custom Syntax
@@ -127,14 +128,14 @@ Set [custom syntax](https://stylelint.io/user-guide/usage/options#customsyntax) 
 - via CLI
 
   ```bash
-  stylelint ... --custom-syntax stylelint-plugin-stylus/custom-syntax
+  stylelint ... --custom-syntax stylelint-stylus/custom-syntax
   ```
 
 - with [VSCode extension]
 
   ```json
   {
-    "stylelint.customSyntax": "stylelint-plugin-stylus/custom-syntax",
+    "stylelint.customSyntax": "stylelint-stylus/custom-syntax",
     "stylelint.validate": [
       ...,
       // ↓ Add "stylus" language.
@@ -147,8 +148,8 @@ Set [custom syntax](https://stylelint.io/user-guide/usage/options#customsyntax) 
 
 This plugin provides some rulesets. It can be used by specifying it in the [`extends` of the Stylelint configuration](https://stylelint.io/user-guide/configure#extends).
 
-- `"stylelint-plugin-stylus/recommended"` ... Turns Off rules that cannot be used with the Stylus within `stylelint` (WIP). And turns On rules that possible errors rules within `stylelint-plugin-stylus`.
-- `"stylelint-plugin-stylus/standard"` ... Above, plus rules to improve code readability.
+- `"stylelint-stylus/recommended"` ... Turns Off rules that cannot be used with the Stylus within `stylelint` (WIP). And turns On rules that possible errors rules within `stylelint-stylus`.
+- `"stylelint-stylus/standard"` ... Above, plus rules to improve code readability.
 
 ## :white_check_mark: Rules
 
@@ -218,7 +219,7 @@ See the [LICENSE] file for license rights and limitations (MIT).
 [vscode extension]: https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
 [postcss-styl]: https://github.com/stylus/postcss-styl
 [npm]: https://www.npmjs.com/
-[npm license]: https://img.shields.io/npm/l/stylelint-plugin-stylus.svg
-[npm version]: https://img.shields.io/npm/v/stylelint-plugin-stylus.svg
-[npm downloads]: https://img.shields.io/npm/dw/stylelint-plugin-stylus.svg
-[build status]: https://github.com/stylus/stylelint-plugin-stylus/workflows/CI/badge.svg?branch=main
+[npm license]: https://img.shields.io/npm/l/stylelint-stylus.svg
+[npm version]: https://img.shields.io/npm/v/stylelint-stylus.svg
+[npm downloads]: https://img.shields.io/npm/dw/stylelint-stylus.svg
+[build status]: https://github.com/stylus/stylelint-stylus/workflows/CI/badge.svg?branch=main

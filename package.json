@@ -1,5 +1,5 @@
 {
-    "name": "stylelint-plugin-stylus",
+    "name": "stylelint-stylus",
     "version": "0.15.0",
     "description": "Stylelint plugin for Stylus",
     "main": "lib/index.js",
@@ -24,11 +24,12 @@
         "update": "node ./scripts/update.js",
         "docs:watch": "vuepress dev docs",
         "docs:build": "vuepress build docs",
-        "stylelint": "stylelint \"docs/.vuepress/**/*.css\" \"docs/.vuepress/**/*.vue\" \"docs/.vuepress/**/*.styl\""
+        "stylelint": "stylelint \"docs/.vuepress/**/*.css\" \"docs/.vuepress/**/*.vue\" \"docs/.vuepress/**/*.styl\"",
+        "make-alias-package": "node ./scripts/make-alias-package.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/stylus/stylelint-plugin-stylus.git"
+        "url": "git+https://github.com/stylus/stylelint-stylus.git"
     },
     "keywords": [
         "stylelint-plugin",
@@ -43,9 +44,9 @@
     "funding": "https://github.com/sponsors/ota-meshi",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/stylus/stylelint-plugin-stylus/issues"
+        "url": "https://github.com/stylus/stylelint-stylus/issues"
     },
-    "homepage": "https://stylus.github.io/stylelint-plugin-stylus/",
+    "homepage": "https://stylus.github.io/stylelint-stylus/",
     "peerDependencies": {
         "stylelint": "^13.2.1 || ^14.0.0",
         "postcss-syntax": "^0.36.2"
@@ -78,7 +79,7 @@
         "prettier": "^2.2.1",
         "stylelint": "^14.0.1",
         "stylelint-config-standard": "^24.0.0",
-        "stylelint-plugin-stylus": "file:.",
+        "stylelint-stylus": "file:.",
         "stylelint4b": "^14.0.0-4b.0",
         "vue-stylelint-editor": "^0.5.0",
         "vuepress": "^1.4.0"

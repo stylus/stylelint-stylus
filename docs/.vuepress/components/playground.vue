@@ -77,10 +77,10 @@ button {
 }
 `;
 const CONFIG_DEFAULT = `{
-  "plugins": ["stylelint-plugin-stylus"],
+  "plugins": ["stylelint-stylus"],
   "extends": [
     "stylelint-config-standard",
-    "stylelint-plugin-stylus/standard"
+    "stylelint-stylus/standard"
   ]
 }`;
 const FILENAME_DEFAULT = "test.styl";
