@@ -52,7 +52,7 @@ for (const target of ["./README.md", "./LICENSE"]) {
         new RegExp(`\\/stylus\\/${ALIAS}`),
         `\\.github\\.io\\/${ALIAS}`,
         `www\\.npmjs\\.com\\/package\\/${ALIAS}`,
-        `img\\.shields\\.io\\/npm\\/.+\\/${ALIAS}.svg`,
+        `img\\.shields\\.io\\/npm\\/dw\\/${ALIAS}.svg`,
     ]) {
         content = content.replace(new RegExp(revertRe, "gu"), (match) =>
             match.replace(new RegExp(ALIAS, "gu"), srcName),
@@ -60,7 +60,12 @@ for (const target of ["./README.md", "./LICENSE"]) {
     }
 
     if (target === "./README.md") {
-        content = `<h1 align="center">This package is an alias for <a href="https://www.npmjs.com/package/${srcName}">${srcName}</a>. We recommend using <a href="https://www.npmjs.com/package/${srcName}">${srcName}</a> directly. This package will be DEPRECATED in the future.</h1>
+        content = `<h1 align="center">⚠This package will be DEPRECATED⚠</h1>
+<p align="center">⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠</p>
+<p align="center">${ALIAS} has been renamed to <a href="https://www.npmjs.com/package/${srcName}">${srcName}</a>.<br>
+${ALIAS} is an alias for <a href="https://www.npmjs.com/package/${srcName}">${srcName}</a>.<br>
+We recommend using <a href="https://www.npmjs.com/package/${srcName}">${srcName}</a> directly.</p>
+<p align="center">⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠</p>
 
 ${content}`
     }

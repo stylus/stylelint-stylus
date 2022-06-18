@@ -24,7 +24,7 @@ jobs:
       run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-    - name: sync alias
+    - name: make alias package
       run: npm run make-alias-package
     - name: check can npm-publish alias
       run: >
