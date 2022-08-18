@@ -126,6 +126,16 @@ function runFixtures(
                                 [...result.warnings].sort(compareWarnings),
                                 path.resolve(fixture.dir, "warnings.json"),
                                 "Error details do not match.",
+                                (json) =>
+                                    // Since the end position changes depending on the version of stylelint,
+                                    // narrow down the properties to be checked.
+                                    // eslint-disable-next-line max-nested-callbacks -- test
+                                    json.map((w) => ({
+                                        line: w.line,
+                                        column: w.column,
+                                        rule: w.rule,
+                                        text: w.text,
+                                    })),
                             )
 
                             if (typeof options[fixture.name] === "function") {

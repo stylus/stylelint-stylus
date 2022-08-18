@@ -30,7 +30,7 @@
     "line": 4,
     "column": 5,
     "endLine": 4,
-    "endColumn": 71,
+    "endColumn": 15,
     "rule": "property-no-vendor-prefix",
     "severity": "error",
     "text": "Unexpected vendor-prefix \"-ms-filter\" (property-no-vendor-prefix)"

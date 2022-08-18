@@ -33,3 +33,25 @@ jobs:
       run: npm install --legacy-peer-deps
     - name: Test
       run: npm test
+  test-for-other-version:
+    name: "Test for Stylelint ${{ matrix.stylelint }} on Node.js ${{ matrix.node-version }}"
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
+        stylelint: ['14.9']
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Install Target Packages
+      run: |+
+        npm i -D stylelint@${{ matrix.stylelint }} --legacy-peer-deps
+        npx rimraf node_modules
+        npm install
+    - name: Install Packages
+      run: npm install --legacy-peer-deps
+    - name: Test
+      run: npm test
