@@ -81,10 +81,10 @@ const utils = {
             throw error
         }
     },
-    assertJsonFile(actual, file, message) {
+    assertJsonFile(actual, file, message, adjust = (json) => json) {
         try {
-            const expected = require(file)
-            assert.deepStrictEqual(actual, expected, message)
+            const expected = adjust(require(file))
+            assert.deepStrictEqual(adjust(actual), expected, message)
         } catch (error) {
             utils.writeFixture(file, JSON.stringify(actual, null, 2), error)
         }

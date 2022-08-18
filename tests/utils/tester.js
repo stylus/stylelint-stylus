@@ -87,6 +87,7 @@ function runFixtures(
                             [...result.warnings].sort(compareWarnings),
                             path.resolve(fixture.dir, "warnings.json"),
                             "Error details do not match.",
+                            adjustWarnings,
                         )
 
                         if (typeof options[fixture.name] === "function") {
@@ -126,6 +127,7 @@ function runFixtures(
                                 [...result.warnings].sort(compareWarnings),
                                 path.resolve(fixture.dir, "warnings.json"),
                                 "Error details do not match.",
+                                adjustWarnings,
                             )
 
                             if (typeof options[fixture.name] === "function") {
@@ -233,4 +235,15 @@ function comparingChain(...extractors) {
         }
         return 0
     }
+}
+
+function adjustWarnings(json) {
+    // Since the end position changes depending on the version of stylelint,
+    // narrow down the properties to be checked.
+    return json.map((w) => ({
+        line: w.line,
+        column: w.column,
+        rule: w.rule,
+        text: w.text,
+    }))
 }

@@ -12,7 +12,7 @@
     "line": 10,
     "column": 3,
     "endLine": 10,
-    "endColumn": 26,
+    "endColumn": 24,
     "rule": "property-no-vendor-prefix",
     "severity": "error",
     "text": "Unexpected vendor-prefix \"-webkit-border-radius\" (property-no-vendor-prefix)"
@@ -21,7 +21,7 @@
     "line": 11,
     "column": 3,
     "endLine": 11,
-    "endColumn": 23,
+    "endColumn": 21,
     "rule": "property-no-vendor-prefix",
     "severity": "error",
     "text": "Unexpected vendor-prefix \"-moz-border-radius\" (property-no-vendor-prefix)"
@@ -30,7 +30,7 @@
     "line": 14,
     "column": 17,
     "endLine": 14,
-    "endColumn": 18,
+    "endColumn": 23,
     "rule": "selector-attribute-quotes",
     "severity": "error",
     "text": "Expected quotes around \"button\" (selector-attribute-quotes)"
