@@ -50,6 +50,8 @@ module.exports = {
                 stylus: require.resolve("stylus/lib/stylus"),
                 glob: require.resolve("./shim/glob"),
                 sax: require.resolve("./shim/sax"),
+                "stylelint/lib/reference/keywordSets":
+                    require.resolve("./shim/empty"),
                 stylelint: resolve("../../node_modules/stylelint4b"),
                 "postcss-syntax": resolve(
                     "../../node_modules/stylelint4b/packages/postcss-syntax",

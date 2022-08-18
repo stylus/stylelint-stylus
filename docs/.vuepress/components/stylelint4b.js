@@ -21,6 +21,9 @@ export async function loadStylelint4b() {
         [require.resolve("stylelint-config-html/svelte")]: import(
             "stylelint-config-html/svelte"
         ).then((o) => ({ ...o })),
+        [require.resolve("stylelint-config-html/astro")]: import(
+            "stylelint-config-html/astro"
+        ).then((o) => ({ ...o })),
         [require.resolve("stylelint-config-html/xml")]: import(
             "stylelint-config-html/xml"
         ).then((o) => ({ ...o })),
