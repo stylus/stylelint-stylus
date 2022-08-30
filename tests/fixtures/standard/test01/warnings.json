@@ -207,15 +207,6 @@
     "text": "Expected quotes around \"url\" function argument (function-url-quotes)"
   },
   {
-    "line": 71,
-    "column": 12,
-    "endLine": 71,
-    "endColumn": 28,
-    "rule": "keyframes-name-pattern",
-    "severity": "error",
-    "text": "Expected keyframe name to be kebab-case"
-  },
-  {
     "line": 87,
     "column": 1,
     "endLine": 90,
