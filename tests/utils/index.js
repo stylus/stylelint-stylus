@@ -3,6 +3,7 @@
 const fs = require("fs")
 const path = require("path")
 const assert = require("assert")
+const semver = require("semver")
 
 /**
  * @typedef { {
@@ -42,6 +43,27 @@ const utils = {
         for (const name of fs.readdirSync(rootDir)) {
             const filepath = path.join(rootDir, name)
             if (name.startsWith("input.")) {
+                const requirementsFileName = path.join(
+                    rootDir,
+                    "requirements.json",
+                )
+                if (fs.existsSync(requirementsFileName)) {
+                    const requirements = require(requirementsFileName)
+
+                    if (
+                        Object.entries(requirements).some(
+                            ([pkgName, pkgVersion]) => {
+                                const pkg = require(`${pkgName}/package.json`)
+                                return !semver.satisfies(
+                                    pkg.version,
+                                    pkgVersion,
+                                )
+                            },
+                        )
+                    ) {
+                        continue
+                    }
+                }
                 const ext = path.extname(filepath)
                 result.push({
                     dir: rootDir,

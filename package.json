@@ -48,8 +48,8 @@
     },
     "homepage": "https://stylus.github.io/stylelint-stylus/",
     "peerDependencies": {
-        "stylelint": "^13.2.1 || ^14.0.0",
-        "postcss-syntax": "^0.36.2"
+        "postcss-syntax": "^0.36.2",
+        "stylelint": "^13.2.1 || ^14.0.0"
     },
     "peerDependenciesMeta": {
         "postcss-syntax": {
@@ -77,6 +77,7 @@
         "postcss-scss": "^4.0.1",
         "postcss-syntax": "^0.36.2",
         "prettier": "^2.2.1",
+        "semver": "^7.3.7",
         "stylelint": "^14.0.1",
         "stylelint-config-standard": "^24.0.0",
         "stylelint-stylus": "file:.",
