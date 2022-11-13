@@ -69,16 +69,6 @@ module.exports = {
             }),
         ],
     },
-    chainWebpack(config) {
-        const js = config.module.rule("js")
-        const baseExclude = js.exclude.values()
-        js.exclude.clear().add((file) => {
-            if (file.includes("stylelint4b")) {
-                return false
-            }
-            return baseExclude.some((fn) => fn(file))
-        })
-    },
     themeConfig: {
         repo: "stylus/stylelint-stylus",
         docsRepo: "stylus/stylelint-stylus",
