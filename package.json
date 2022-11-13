@@ -81,8 +81,8 @@
         "stylelint": "^14.0.1",
         "stylelint-config-standard": "^24.0.0",
         "stylelint-stylus": "file:.",
-        "stylelint4b": "^14.0.0-4b.0",
-        "vue-stylelint-editor": "^0.5.0",
+        "stylelint4b": "^14.15.0",
+        "vue-stylelint-editor": "^0.6.0",
         "vuepress": "^1.4.0"
     },
     "dependencies": {
