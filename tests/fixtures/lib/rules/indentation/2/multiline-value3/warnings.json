@@ -1,0 +1,47 @@
+[
+  {
+    "line": 3,
+    "column": 14,
+    "endLine": 3,
+    "endColumn": 15,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 4 spaces (stylus/indentation)"
+  },
+  {
+    "line": 4,
+    "column": 14,
+    "endLine": 4,
+    "endColumn": 15,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 4 spaces (stylus/indentation)"
+  },
+  {
+    "line": 8,
+    "column": 3,
+    "endLine": 8,
+    "endColumn": 4,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 4 spaces (stylus/indentation)"
+  },
+  {
+    "line": 9,
+    "column": 3,
+    "endLine": 9,
+    "endColumn": 4,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 4 spaces (stylus/indentation)"
+  },
+  {
+    "line": 10,
+    "column": 3,
+    "endLine": 10,
+    "endColumn": 4,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 4 spaces (stylus/indentation)"
+  }
+]

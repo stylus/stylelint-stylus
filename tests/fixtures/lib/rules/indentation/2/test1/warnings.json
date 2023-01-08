@@ -1,0 +1,20 @@
+[
+  {
+    "line": 2,
+    "column": 5,
+    "endLine": 2,
+    "endColumn": 30,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 spaces (stylus/indentation)"
+  },
+  {
+    "line": 4,
+    "column": 5,
+    "endLine": 4,
+    "endColumn": 14,
+    "rule": "stylus/indentation",
+    "severity": "error",
+    "text": "Expected indentation of 2 spaces (stylus/indentation)"
+  }
+]
