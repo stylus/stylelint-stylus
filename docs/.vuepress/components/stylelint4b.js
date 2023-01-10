@@ -7,41 +7,41 @@ export async function loadStylelint4b() {
         // configs
         [require.resolve("stylelint-config-html")]: import(
             "stylelint-config-html"
-        ).then((o) => ({ ...o })),
+        ).then((o) => adjustConfig(o)),
         "stylelint-config-html": import("stylelint-config-html"),
         [require.resolve("stylelint-config-html/html")]: import(
             "stylelint-config-html/html"
-        ).then((o) => ({ ...o })),
+        ).then((o) => adjustConfig(o)),
         [require.resolve("stylelint-config-html/vue")]: import(
             "stylelint-config-html/vue"
-        ).then((o) => ({ ...o })),
+        ).then((o) => adjustConfig(o)),
         [require.resolve("stylelint-config-html/php")]: import(
             "stylelint-config-html/php"
-        ).then((o) => ({ ...o })),
+        ).then((o) => adjustConfig(o)),
         [require.resolve("stylelint-config-html/svelte")]: import(
             "stylelint-config-html/svelte"
-        ).then((o) => ({ ...o })),
+        ).then((o) => adjustConfig(o)),
         [require.resolve("stylelint-config-html/astro")]: import(
             "stylelint-config-html/astro"
-        ).then((o) => ({ ...o })),
+        ).then((o) => adjustConfig(o)),
         [require.resolve("stylelint-config-html/xml")]: import(
             "stylelint-config-html/xml"
-        ).then((o) => ({ ...o })),
+        ).then((o) => adjustConfig(o)),
         //
         [require.resolve("stylelint-stylus/base-config")]: import(
             "stylelint-stylus/base-config"
-        ).then((o) => ({ ...o })),
+        ).then((o) => adjustConfig(o)),
         ["stylelint-stylus/base-config"]: import(
             "stylelint-stylus/base-config"
-        ).then((o) => ({ ...o })),
+        ).then((o) => adjustConfig(o)),
         [require.resolve("stylelint-stylus/recommended")]: import(
             "stylelint-stylus/recommended"
-        ).then((o) => ({ ...o })),
+        ).then((o) => adjustConfig(o)),
         ["stylelint-stylus/recommended"]: import(
             "stylelint-stylus/recommended"
-        ).then((o) => ({ ...o })),
+        ).then((o) => adjustConfig(o)),
         "stylelint-stylus/standard": import("stylelint-stylus/standard").then(
-            (o) => ({ ...o }),
+            (o) => adjustConfig(o),
         ),
         // plugins
         "stylelint-stylus": import("stylelint-stylus"),
@@ -55,5 +55,24 @@ export async function loadStylelint4b() {
     return {
         stylelint4b: await stylelint4b,
         alias,
+    }
+
+    function adjustConfig({ ...config }) {
+        if (config.extends) {
+            config.extends = [config.extends]
+                .flat()
+                .map((e) => (typeof e === "number" ? String(e) : e))
+        }
+        if (config.plugins) {
+            config.plugins = [config.plugins]
+                .flat()
+                .map((e) => (typeof e === "number" ? String(e) : e))
+        }
+        if (config.overrides) {
+            config.overrides = [config.overrides]
+                .flat()
+                .map((o) => adjustConfig(o))
+        }
+        return config
     }
 }
