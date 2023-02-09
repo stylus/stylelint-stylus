@@ -1,5 +1,14 @@
 [
   {
+    "line": 4,
+    "column": 11,
+    "endLine": 4,
+    "endColumn": 12,
+    "rule": "declaration-colon-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \":\" (declaration-colon-space-before)"
+  },
+  {
     "line": 7,
     "column": 9,
     "endLine": 7,
@@ -43,6 +52,42 @@
     "rule": "stylus/single-line-comment",
     "severity": "error",
     "text": "Expected single-line comment (stylus/single-line-comment)"
+  },
+  {
+    "line": 35,
+    "column": 18,
+    "endLine": 35,
+    "endColumn": 19,
+    "rule": "declaration-colon-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \":\" (declaration-colon-space-before)"
+  },
+  {
+    "line": 44,
+    "column": 26,
+    "endLine": 44,
+    "endColumn": 27,
+    "rule": "declaration-colon-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \":\" (declaration-colon-space-before)"
+  },
+  {
+    "line": 51,
+    "column": 12,
+    "endLine": 51,
+    "endColumn": 16,
+    "rule": "function-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown function \"unit\" (function-no-unknown)"
+  },
+  {
+    "line": 52,
+    "column": 11,
+    "endLine": 52,
+    "endColumn": 15,
+    "rule": "function-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown function \"unit\" (function-no-unknown)"
   },
   {
     "line": 61,
@@ -133,6 +178,15 @@
     "rule": "no-invalid-position-at-import-rule",
     "severity": "error",
     "text": "Unexpected invalid position @import rule (no-invalid-position-at-import-rule)"
+  },
+  {
+    "line": 81,
+    "column": 9,
+    "endLine": 81,
+    "endColumn": 20,
+    "rule": "import-notation",
+    "severity": "error",
+    "text": "Expected \"\"reset.css\"\" to be \"url(\"reset.css\")\" (import-notation)"
   },
   {
     "line": 83,

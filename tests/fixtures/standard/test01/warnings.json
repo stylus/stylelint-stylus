@@ -1,5 +1,14 @@
 [
   {
+    "line": 1,
+    "column": 9,
+    "endLine": 1,
+    "endColumn": 20,
+    "rule": "import-notation",
+    "severity": "error",
+    "text": "Expected \"\"reset.css\"\" to be \"url(\"reset.css\")\" (import-notation)"
+  },
+  {
     "line": 3,
     "column": 1,
     "endLine": 7,
@@ -198,6 +207,15 @@
     "text": "Unexpected colon (stylus/declaration-colon)"
   },
   {
+    "line": 57,
+    "column": 5,
+    "endLine": 57,
+    "endColumn": 6,
+    "rule": "declaration-colon-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \":\" (declaration-colon-space-before)"
+  },
+  {
     "line": 67,
     "column": 12,
     "endLine": 67,
@@ -268,6 +286,15 @@
     "rule": "selector-attribute-quotes",
     "severity": "error",
     "text": "Expected quotes around \"button\" (selector-attribute-quotes)"
+  },
+  {
+    "line": 114,
+    "column": 16,
+    "endLine": 114,
+    "endColumn": 17,
+    "rule": "declaration-colon-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \":\" (declaration-colon-space-before)"
   },
   {
     "line": 122,

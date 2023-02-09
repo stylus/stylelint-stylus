@@ -74,12 +74,13 @@ join(delim, args)
   buf = ""
   buf += i ? delim + arg : arg for arg, i in args
 
-@import "reset.css"
+@import url("reset.css")
 
 .warning
   @extend .message
 
   color #e2e21e
+
 
 @css {
   .foo {
