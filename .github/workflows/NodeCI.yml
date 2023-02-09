@@ -39,7 +39,7 @@ jobs:
     strategy:
       matrix:
         node-version: [16.x]
-        stylelint: ['14.9', '14']
+        stylelint: ['14']
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
