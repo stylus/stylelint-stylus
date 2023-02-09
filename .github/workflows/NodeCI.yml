@@ -50,7 +50,6 @@ jobs:
       run: |+
         npm i -D stylelint@${{ matrix.stylelint }} --legacy-peer-deps
         npx rimraf node_modules
-        npm install
     - name: Install Packages
       run: npm install --legacy-peer-deps
     - name: Test
