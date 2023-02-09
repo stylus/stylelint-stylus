@@ -217,15 +217,6 @@
   },
   {
     "line": 21,
-    "column": 12,
-    "endLine": 21,
-    "endColumn": 13,
-    "rule": "declaration-colon-space-after",
-    "severity": "error",
-    "text": "Expected single space after \":\" with a single-line declaration (declaration-colon-space-after)"
-  },
-  {
-    "line": 21,
     "column": 14,
     "endLine": 21,
     "endColumn": 15,
@@ -280,15 +271,6 @@
   },
   {
     "line": 22,
-    "column": 12,
-    "endLine": 22,
-    "endColumn": 13,
-    "rule": "declaration-colon-space-after",
-    "severity": "error",
-    "text": "Expected single space after \":\" with a single-line declaration (declaration-colon-space-after)"
-  },
-  {
-    "line": 22,
     "column": 15,
     "endLine": 22,
     "endColumn": 16,
@@ -322,6 +304,15 @@
     "rule": "stylus/at-rule-name-space-after",
     "severity": "error",
     "text": "Expected single space after at-rule name \"@import\" (stylus/at-rule-name-space-after)"
+  },
+  {
+    "line": 24,
+    "column": 8,
+    "endLine": 24,
+    "endColumn": 18,
+    "rule": "import-notation",
+    "severity": "error",
+    "text": "Expected \"\"foo.styl\"\" to be \"url(\"foo.styl\")\" (import-notation)"
   },
   {
     "line": 26,
@@ -522,15 +513,6 @@
     "text": "Expected indentation of 2 spaces (stylus/indentation)"
   },
   {
-    "line": 52,
-    "column": 16,
-    "endLine": 52,
-    "endColumn": 17,
-    "rule": "string-quotes",
-    "severity": "error",
-    "text": "Expected double quotes (string-quotes)"
-  },
-  {
     "line": 53,
     "column": 4,
     "endLine": 53,
@@ -538,15 +520,6 @@
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 2 spaces (stylus/indentation)"
-  },
-  {
-    "line": 53,
-    "column": 16,
-    "endLine": 53,
-    "endColumn": 17,
-    "rule": "string-quotes",
-    "severity": "error",
-    "text": "Expected double quotes (string-quotes)"
   },
   {
     "line": 54,
@@ -631,30 +604,12 @@
   },
   {
     "line": 61,
-    "column": 17,
-    "endLine": 61,
-    "endColumn": 18,
-    "rule": "string-quotes",
-    "severity": "error",
-    "text": "Expected double quotes (string-quotes)"
-  },
-  {
-    "line": 61,
     "column": 26,
     "endLine": 61,
     "endColumn": 27,
     "rule": "stylus/selector-list-comma",
     "severity": "error",
     "text": "Unexpected comma (stylus/selector-list-comma)"
-  },
-  {
-    "line": 62,
-    "column": 17,
-    "endLine": 62,
-    "endColumn": 18,
-    "rule": "string-quotes",
-    "severity": "error",
-    "text": "Expected double quotes (string-quotes)"
   },
   {
     "line": 63,
@@ -727,14 +682,5 @@
     "rule": "stylus/no-at-require",
     "severity": "error",
     "text": "Unexpected '@require', use '@import' instead. (stylus/no-at-require)"
-  },
-  {
-    "line": 78,
-    "column": 10,
-    "endLine": 78,
-    "endColumn": 11,
-    "rule": "string-quotes",
-    "severity": "error",
-    "text": "Expected double quotes (string-quotes)"
   }
 ]
