@@ -1,9 +1,10 @@
-@import "reset.css"
+@import url("reset.css")
 
 .foo
 .bar
   color red
   background red
+
 
 .baz
 .qux
@@ -65,7 +66,7 @@ var = 123
 @font-face
   font-family Geo
   font-style normal
-  src url(fonts/geo_sans_light/GensansLight.ttf)
+  src url("fonts/geo_sans_light/GensansLight.ttf")
 
 $keyframe-name = pulse
 
@@ -89,10 +90,12 @@ $keyframe-name = pulse
   padding 10px
   border 1px solid #eee
 
+
 .warning
   @extend .message
 
   color #e2e21e
+
 
 @css {
   .foo,

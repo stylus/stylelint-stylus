@@ -49,7 +49,7 @@
     "homepage": "https://stylus.github.io/stylelint-stylus/",
     "peerDependencies": {
         "postcss-syntax": "^0.36.2",
-        "stylelint": "^13.2.1 || ^14.0.0"
+        "stylelint": "^13.2.1 || ^14 || ^15"
     },
     "peerDependenciesMeta": {
         "postcss-syntax": {
@@ -78,8 +78,8 @@
         "postcss-syntax": "^0.36.2",
         "prettier": "^2.2.1",
         "semver": "^7.3.7",
-        "stylelint": "^14.0.1",
-        "stylelint-config-standard": "^24.0.0",
+        "stylelint": "^15.0.0",
+        "stylelint-config-standard": "^30.0.1",
         "stylelint-stylus": "file:.",
         "stylelint4b": "^14.15.1-0",
         "vue-stylelint-editor": "^0.6.0",

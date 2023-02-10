@@ -1,5 +1,14 @@
 [
   {
+    "line": 5,
+    "column": 11,
+    "endLine": 5,
+    "endColumn": 12,
+    "rule": "declaration-colon-space-before",
+    "severity": "error",
+    "text": "Unexpected whitespace before \":\" (declaration-colon-space-before)"
+  },
+  {
     "line": 8,
     "column": 9,
     "endLine": 8,

@@ -324,6 +324,15 @@
     "text": "Expected single space after at-rule name \"@import\" (stylus/at-rule-name-space-after)"
   },
   {
+    "line": 24,
+    "column": 8,
+    "endLine": 24,
+    "endColumn": 18,
+    "rule": "import-notation",
+    "severity": "error",
+    "text": "Expected \"\"foo.styl\"\" to be \"url(\"foo.styl\")\" (import-notation)"
+  },
+  {
     "line": 26,
     "column": 5,
     "endLine": 26,

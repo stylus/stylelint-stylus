@@ -27,6 +27,15 @@
     "text": "Expected \"DXImageTransform.Microsoft.Alpha\" to be \"dximagetransform.microsoft.alpha\" (function-name-case)"
   },
   {
+    "line": 3,
+    "column": 20,
+    "endLine": 3,
+    "endColumn": 52,
+    "rule": "function-no-unknown",
+    "severity": "error",
+    "text": "Unexpected unknown function \"DXImageTransform.Microsoft.Alpha\" (function-no-unknown)"
+  },
+  {
     "line": 4,
     "column": 5,
     "endLine": 4,
