@@ -182,7 +182,7 @@ function runFixtures(
                 function autofix(code, repeat = 0) {
                     return lintCode(code, fixture.input, { fix: true })
                         .then((r) => ({
-                            output: r.code ?? r.output,
+                            output: r.code || r.output,
                             result: r.results[0],
                         }))
                         .then(({ output, result }) => {
