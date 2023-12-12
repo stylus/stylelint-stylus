@@ -16,6 +16,8 @@ module.exports = {
     rules: {
         "require-jsdoc": "off",
         "no-warning-comments": "warn",
+        "func-style": "off",
+        complexity: "off",
         "spaced-comment": ["error", "always", { markers: ["/"] }],
     },
     globals: {

@@ -1,17 +1,17 @@
 {
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
-        "source.fixAll.stylelint": false,
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll.stylelint": "never"
     },
     "[stylus]": {
         "editor.codeActionsOnSave": {
-            "source.fixAll.stylelint": false,
+            "source.fixAll.stylelint": "never"
         }
     },
     "[vue]": {
         "editor.codeActionsOnSave": {
-            "source.fixAll.stylelint": false,
-            "source.fixAll.eslint": false,
+            "source.fixAll.stylelint": "never",
+            "source.fixAll.eslint": "never"
         }
     },
     "css.validate": false,

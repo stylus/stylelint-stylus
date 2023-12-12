@@ -2,7 +2,6 @@
 
 const path = require("path")
 const assert = require("assert")
-const stylelint = require("stylelint")
 const {
     listupFixtures,
     assertNonFile,
@@ -183,7 +182,7 @@ function runFixtures(
                 function autofix(code, repeat = 0) {
                     return lintCode(code, fixture.input, { fix: true })
                         .then((r) => ({
-                            output: r.output,
+                            output: r.code ?? r.output,
                             result: r.results[0],
                         }))
                         .then(({ output, result }) => {
@@ -206,8 +205,10 @@ function lintFixture(fixture, options = {}) {
     return lintCode(code, fixture.input, options)
 }
 
-function lintCode(code, codeFilename, options = {}) {
-    return stylelint.lint({
+async function lintCode(code, codeFilename, options = {}) {
+    // eslint-disable-next-line node/no-unsupported-features/es-syntax -- ignore
+    const stylelint = await import("stylelint")
+    return (stylelint.default || stylelint).lint({
         code,
         codeFilename,
         ...options,

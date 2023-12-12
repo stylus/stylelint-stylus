@@ -18,15 +18,6 @@
     "text": "Expected comma (stylus/hash-object-property-comma)"
   },
   {
-    "line": 17,
-    "column": 3,
-    "endLine": 17,
-    "endColumn": 9,
-    "rule": "declaration-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before declaration (declaration-empty-line-before)"
-  },
-  {
     "line": 20,
     "column": 9,
     "endLine": 20,
@@ -43,14 +34,5 @@
     "rule": "stylus/hash-object-property-comma",
     "severity": "error",
     "text": "Expected comma (stylus/hash-object-property-comma)"
-  },
-  {
-    "line": 24,
-    "column": 3,
-    "endLine": 24,
-    "endColumn": 9,
-    "rule": "declaration-empty-line-before",
-    "severity": "error",
-    "text": "Expected empty line before declaration (declaration-empty-line-before)"
   }
 ]
