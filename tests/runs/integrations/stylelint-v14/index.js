@@ -4,8 +4,6 @@ const { fail } = require("assert")
 const cp = require("child_process")
 const path = require("path")
 
-const STYLELINT = `.${path.sep}node_modules${path.sep}.bin${path.sep}stylelint`
-
 describe("Integration with stylelint v14", () => {
     let originalCwd
 
@@ -26,14 +24,14 @@ describe("Integration with stylelint v14", () => {
     })
 
     it("should lint without errors with styl", () => {
-        cp.execSync(`${STYLELINT} src/valid.styl`, { stdio: "inherit" })
+        cp.execSync(`npx stylelint src/valid.styl`, { stdio: "inherit" })
     })
     it("should lint without errors with stylus", () => {
-        cp.execSync(`${STYLELINT} src/valid.stylus`, { stdio: "inherit" })
+        cp.execSync(`npx stylelint src/valid.stylus`, { stdio: "inherit" })
     })
     it("should lint with errors with styl", () => {
         try {
-            cp.execSync(`${STYLELINT} src/invalid.styl`, { stdio: "inherit" })
+            cp.execSync(`npx stylelint src/invalid.styl`, { stdio: "inherit" })
             fail("Expect an error, but without errors")
         } catch {
             // Expected!s
@@ -41,7 +39,9 @@ describe("Integration with stylelint v14", () => {
     })
     it("should lint with errors with stylus", () => {
         try {
-            cp.execSync(`${STYLELINT} src/invalid.stylus`, { stdio: "inherit" })
+            cp.execSync(`npx stylelint src/invalid.stylus`, {
+                stdio: "inherit",
+            })
             fail("Expect an error, but without errors")
         } catch {
             // Expected!s

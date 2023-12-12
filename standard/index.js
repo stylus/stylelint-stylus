@@ -1,5 +1,8 @@
 "use strict"
 
+const { version: stylelintVersion } = require("stylelint/package.json")
+const semver = require("semver")
+
 module.exports = {
     extends: [require.resolve("../recommended")],
     rules: {
@@ -16,9 +19,13 @@ module.exports = {
 
         // wrapper core rules
         "stylus/indentation": 2,
-        // The "indentation" rule is not turned off with "recommended", but is turned off with "standard".
-        // Because the problem with "indentation" rule is only `postfix` problem, and the effect of the problem is small.
-        indentation: null,
+        ...(semver.gte(stylelintVersion, "16.0.0")
+            ? {}
+            : {
+                  // The "indentation" rule is not turned off with "recommended", but is turned off with "standard".
+                  // Because the problem with "indentation" rule is only `postfix` problem, and the effect of the problem is small.
+                  indentation: null,
+              }),
         // - brace
         "stylus/block-closing-brace-empty-line-before": "never",
         "stylus/block-closing-brace-newline-after": "always",
@@ -49,8 +56,12 @@ module.exports = {
 
         // - error remains with autofix
         "stylus/no-eol-whitespace": true,
-        // The "no-eol-whitespace" rule is not turned off with "recommended", but is turned off with "standard".
-        // Because the problem with "no-eol-whitespace" rule is only location and autofix problem, and the effect of the problem is small.
-        "no-eol-whitespace": null,
+        ...(semver.gte(stylelintVersion, "16.0.0")
+            ? {}
+            : {
+                  // The "no-eol-whitespace" rule is not turned off with "recommended", but is turned off with "standard".
+                  // Because the problem with "no-eol-whitespace" rule is only location and autofix problem, and the effect of the problem is small.
+                  "no-eol-whitespace": null,
+              }),
     },
 }

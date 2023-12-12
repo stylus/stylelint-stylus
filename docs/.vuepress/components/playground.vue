@@ -79,7 +79,7 @@ button {
 const CONFIG_DEFAULT = `{
   "plugins": ["stylelint-stylus"],
   "extends": [
-    "stylelint-config-standard",
+    "stylelint-config-recommended",
     "stylelint-stylus/standard"
   ]
 }`;

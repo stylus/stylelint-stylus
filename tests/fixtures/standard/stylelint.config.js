@@ -1,12 +1,12 @@
 "use strict";
 
 module.exports = {
-  extends: ["stylelint-config-standard", "stylelint-stylus/standard"],
+  extends: ["stylelint-config-recommended", "stylelint-stylus/standard"],
   rules: {
-    "no-missing-end-of-source-newline": true,
-    "string-quotes": "double",
-    "declaration-colon-space-after": "always-single-line",
-    "declaration-colon-space-before": "never",
-    "declaration-block-semicolon-newline-after": "always-multi-line",
+    // "no-missing-end-of-source-newline": true,
+    // "string-quotes": "double",
+    // "declaration-colon-space-after": "always-single-line",
+    // "declaration-colon-space-before": "never",
+    // "declaration-block-semicolon-newline-after": "always-multi-line",
   },
 };
