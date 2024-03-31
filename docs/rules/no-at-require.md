@@ -21,17 +21,14 @@ This rule enforces [@extend] style.
 
 ### `true`
 
-<stylelint-code-block fix :rules="{ 'stylus/no-at-require': true }">
-
 ```styl
+/* stylelint rules config: {"stylus/no-at-require": true} */
 // ✓ GOOD
 @import './foo.styl'
 
 // ✗ BAD
 @require './foo.styl'
 ```
-
-</stylelint-code-block>
 
 ## :books: Further reading
 

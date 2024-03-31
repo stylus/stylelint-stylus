@@ -30,9 +30,8 @@ This rule require or disallow commas in [hash object] properties.
 
 ### `"always"`
 
-<stylelint-code-block fix :rules="{ 'stylus/hash-object-property-comma': 'always' }">
-
 ```styl
+/* stylelint rules config: {"stylus/hash-object-property-comma": "always"} */
 // ✓ GOOD
 foo = {
   bar: baz,
@@ -47,14 +46,11 @@ foo = {
 }
 foo = { bar: baz, baz: raz }
 ```
-
-</stylelint-code-block>
 
 ### `"never"`
 
-<stylelint-code-block fix :rules="{ 'stylus/hash-object-property-comma': 'never' }">
-
 ```styl
+/* stylelint rules config: {"stylus/hash-object-property-comma": "never"} */
 // ✓ GOOD
 foo = {
   bar: baz
@@ -70,13 +66,10 @@ foo = {
 foo = { bar: baz, baz: raz, }
 ```
 
-</stylelint-code-block>
-
 ### `[ "always", { "trailing": "never" } ]`
 
-<stylelint-code-block fix :rules="{ 'stylus/hash-object-property-comma': [ 'always', { trailing: 'never' } ] }">
-
 ```styl
+/* stylelint rules config: {"stylus/hash-object-property-comma": ["always", { "trailing": "never" }]} */
 // ✓ GOOD
 foo = {
   bar: baz,
@@ -95,8 +88,6 @@ foo = {
 }
 foo = { bar: baz, baz: raz, }
 ```
-
-</stylelint-code-block>
 
 ## :books: Further reading
 

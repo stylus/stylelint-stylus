@@ -1,0 +1,13 @@
+a > img {
+  display: inline-block;
+}
+
+a.title {
+  white-space: pre-wrap;
+}
+
+.twoslash-error-hover > * {
+  min-width: 4px;
+  min-height: 16px;
+  display: inline-block;
+}

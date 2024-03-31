@@ -22,9 +22,8 @@ This rule enforces [@extend] style.
 
 ### `""@extend"`
 
-<stylelint-code-block fix :rules="{ 'stylus/at-extend-style': '@extend' }">
-
 ```styl
+/* stylelint rules config: {"stylus/at-extend-style": "@extend"} */
 a
   // ✓ GOOD
   @extend .foo;
@@ -34,14 +33,11 @@ a
   // ✗ BAD
   @extends .foo;
 ```
-
-</stylelint-code-block>
 
 ### `"@extends"`
 
-<stylelint-code-block fix :rules="{ 'stylus/at-extend-style': '@extends' }">
-
 ```styl
+/* stylelint rules config: {"stylus/at-extend-style": "@extends"} */
 a
   // ✓ GOOD
   @extends .foo;
@@ -51,8 +47,6 @@ a
   // ✗ BAD
   @extend .foo;
 ```
-
-</stylelint-code-block>
 
 ## :books: Further reading
 

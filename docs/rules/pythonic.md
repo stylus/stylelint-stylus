@@ -30,9 +30,8 @@ This rule enforces pythonic or brace style.
 
 ### `"always"`
 
-<stylelint-code-block fix :rules="{ 'stylus/pythonic': 'always' }">
-
 ```styl
+/* stylelint rules config: {"stylus/pythonic": "always"} */
 // ✓ GOOD
 .foo
   color: red;
@@ -49,14 +48,11 @@ bar = @block {
   height: 20px;
 }
 ```
-
-</stylelint-code-block>
 
 ### `"never"`
 
-<stylelint-code-block fix :rules="{ 'stylus/pythonic': 'never' }">
-
 ```styl
+/* stylelint rules config: {"stylus/pythonic": "never"} */
 // ✓ GOOD
 .foo {
   color: red;
@@ -73,14 +69,11 @@ bar =
   width: 20px;
   height: 20px;
 ```
-
-</stylelint-code-block>
 
 ### `[ "always", { "atblock": "never" } ]`
 
-<stylelint-code-block fix :rules="{ 'stylus/pythonic': ['always', { atblock: 'never' } ] }">
-
 ```styl
+/* stylelint rules config: {"stylus/pythonic": ["always", {"atblock": "never"}]} */
 // ✓ GOOD
 .foo
   color: red;
@@ -97,14 +90,11 @@ bar =
   height: 20px;
 
 ```
-
-</stylelint-code-block>
 
 ### `[ "never", { "atblock": "always" } ]`
 
-<stylelint-code-block fix :rules="{ 'stylus/pythonic': [ 'never', { atblock: 'always' } ] }">
-
 ```styl
+/* stylelint rules config: {"stylus/pythonic": ["never", {"atblock": "always"}]} */
 // ✓ GOOD
 .foo {
   color: red;
@@ -121,8 +111,6 @@ bar = @block {
   height: 20px;
 }
 ```
-
-</stylelint-code-block>
 
 ## :books: Further reading
 

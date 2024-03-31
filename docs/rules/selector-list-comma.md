@@ -22,9 +22,8 @@ This rule require or disallow selector list comma.
 
 ### `"always"`
 
-<stylelint-code-block fix :rules="{ 'stylus/selector-list-comma': 'always' }">
-
 ```styl
+/* stylelint rules config: {"stylus/selector-list-comma": "always"} */
 // ✓ GOOD
 .foo,
 .bar
@@ -35,14 +34,11 @@ This rule require or disallow selector list comma.
 .bar
   color red
 ```
-
-</stylelint-code-block>
 
 ### `"never"`
 
-<stylelint-code-block fix :rules="{ 'stylus/selector-list-comma': 'never' }">
-
 ```styl
+/* stylelint rules config: {"stylus/selector-list-comma": "never"} */
 // ✓ GOOD
 .foo
 .bar
@@ -53,8 +49,6 @@ This rule require or disallow selector list comma.
 .bar
   color red
 ```
-
-</stylelint-code-block>
 
 ## :books: Further reading
 

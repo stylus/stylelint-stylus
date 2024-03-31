@@ -20,9 +20,8 @@ See [stylelint - at-rule-no-unknown - Options](https://stylelint.io/user-guide/r
 
 ### `true`
 
-<stylelint-code-block :rules="{ 'stylus/at-rule-no-unknown': true }">
-
 ```styl
+/* stylelint rules config: {"stylus/at-rule-no-unknown": true} */
 // ✓ GOOD
 @media (max-width: 960px) {}
 @media (max-width: 960px)
@@ -42,8 +41,6 @@ See [stylelint - at-rule-no-unknown - Options](https://stylelint.io/user-guide/r
   .foo
     color red
 ```
-
-</stylelint-code-block>
 
 ## :couple: Related rules
 
