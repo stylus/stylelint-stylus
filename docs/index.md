@@ -4,7 +4,7 @@ title: "Introduction"
 
 <h1 align="center">stylelint-stylus</h1>
 
-<p align="center"><a href="https://stylelint.io/" alt="Stylelint">Stylelint</a> plugin for <a href="https://stylus-lang.com/" alt="Stylus">Stylus</a>.
+<p align="center"><a href="https://stylelint.io/" alt="Stylelint">Stylelint</a> plugin for <a href="https://stylus-lang.com/" alt="Stylus">Stylus</a>.</p>
 
 <p align="center"><b><i>This plugin is still in an experimental state</i></b></p>
 
@@ -38,7 +38,7 @@ This plugin allows us to check the [Stylus] with [Stylelint].
 
 [Stylelint editor integrations](https://stylelint.io/user-guide/integrations/editor) are useful to check your code in real-time.
 
-You can check on the [Online DEMO](./playground/).
+You can check on the [Online DEMO](https://stylelint.io/demo/#N4Igxg9gJgpiBcID0SAEAVATgT1QZQBdsAbAVwGcBCAHQDsAjaXYO1VAMwloPlQEYALAAcAHkj4A6AKyoAEjGIA3GAQCWYAIYAaVBsyqNxHeQ21yAWnIx97ANytUAYmIQA5hFQtabNo0yxMc0wNKFUKXilRe29UAF86eNo6FFQAMWIYEVV6DNRybG4NETpGKGwHTm5+YTFJGXklFXVtXX1DY1MLKxs6B3pSAgIuPoGh2gl+weGY1VohAYBtIiEYAF5qEEmxjYBdB1n5giXsFfWQclJ6AFtVAl2HXwh-ayCQsPJUSOKk2hSAWVUWTMJSeAVeoQoAApFIYAJQOcwAdxg9AA1rdzH4wcEIeReDDiAirhAAF6Y0EvHHvfGGPoUwJU8KoAkOEqjLieOnPBlvKFfWHRRIgLQgdiqDIAOQ0VzgiEy0qEGQk5CIxGF4C4YtcCBAXjYG0yBBgtCg5A2vAWD1QGxVJAUswIllVFCQKtMUD0UA2Dj2tFi6sgtC1qSeVw0BB1ACtyFx1bAhOQdXrredVfbuOaU8RwzAVRstKzU3biA6nSQKJmNtmjXmQAkQLEgA).
 
 ## :cd: Installation
 
@@ -211,9 +211,8 @@ These rules relate to style guidelines.
 
 ## License
 
-See the [LICENSE] file for license rights and limitations (MIT).
+See the [LICENSE](https://github.com/stylus/stylelint-stylus/blob/main/LICENSE) file for license rights and limitations (MIT).
 
-[license]: ./LICENSE
 [stylelint]: https://stylelint.io/
 [stylus]: https://stylus-lang.com/
 [vscode extension]: https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint

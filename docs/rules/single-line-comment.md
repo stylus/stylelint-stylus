@@ -22,9 +22,8 @@ This rule enforces comment style where single-line comments are allowed.
 
 ### `"always"`
 
-<stylelint-code-block fix :rules="{ 'stylus/single-line-comment': 'always' }">
-
 ```styl
+/* stylelint rules config: {"stylus/single-line-comment": "always"} */
 // ✓ GOOD
 // single line comment
 .foo { // single line comment
@@ -47,13 +46,10 @@ This rule enforces comment style where single-line comments are allowed.
 }
 ```
 
-</stylelint-code-block>
-
 ### `"never"`
 
-<stylelint-code-block fix :rules="{ 'stylus/single-line-comment': 'never' }">
-
 ```styl
+/* stylelint rules config: {"stylus/single-line-comment": "never"} */
 /* ✓ GOOD */
 /* multi line comment */
 .foo { /* multi line comment */
@@ -64,8 +60,6 @@ This rule enforces comment style where single-line comments are allowed.
 .foo { // single line comment
 }
 ```
-
-</stylelint-code-block>
 
 ## :books: Further reading
 

@@ -3,5 +3,6 @@
 node_modules
 /test-file
 /tests/fixtures
-!/docs/.vuepress
-/docs/.vuepress/dist
+!/docs/.vitepress
+/docs/.vitepress/dist
+/docs/.vitepress/cache

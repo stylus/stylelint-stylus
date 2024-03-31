@@ -89,7 +89,7 @@ fs.writeFileSync(
         ),
 )
 
-const docsReadmeFilePath = path.resolve(__dirname, "../docs/README.md")
+const docsReadmeFilePath = path.resolve(__dirname, "../docs/index.md")
 fs.writeFileSync(
     docsReadmeFilePath,
     `---
@@ -102,5 +102,9 @@ ${fs
     .replace(
         /\(https:\/\/stylus.github.io\/stylelint-stylus\/(.*?)(\.html)?\)/gu,
         (_$0, $1, $2) => `(./${$1}${($2 === ".html" ? ".md" : $2) || ""})`,
+    )
+    .replace(
+        "[LICENSE](./LICENSE)",
+        "[LICENSE](https://github.com/stylus/stylelint-stylus/blob/main/LICENSE)",
     )}`,
 )

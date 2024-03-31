@@ -22,9 +22,8 @@ This rule require or disallow  media feature colons.
 
 ### `"always"`
 
-<stylelint-code-block fix :rules="{ 'stylus/media-feature-colon': 'always' }">
-
 ```styl
+/* stylelint rules config: {"stylus/media-feature-colon": "always"} */
 // ✓ GOOD
 @media (min-width: 600px)
   padding 20px
@@ -33,14 +32,11 @@ This rule require or disallow  media feature colons.
 @media (min-width 600px)
   padding 20px
 ```
-
-</stylelint-code-block>
 
 ### `"never"`
 
-<stylelint-code-block fix :rules="{ 'stylus/media-feature-colon': 'never' }">
-
 ```styl
+/* stylelint rules config: {"stylus/media-feature-colon": "never"} */
 // ✓ GOOD
 @media (min-width 600px)
   padding 20px
@@ -49,8 +45,6 @@ This rule require or disallow  media feature colons.
 @media (min-width: 600px)
   padding 20px
 ```
-
-</stylelint-code-block>
 
 ## :books: Further reading
 

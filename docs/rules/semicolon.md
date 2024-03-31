@@ -22,31 +22,25 @@ This rule require or disallow semicolons.
 
 ### `"always"`
 
-<stylelint-code-block fix :rules="{ 'stylus/semicolon': 'always' }">
-
 ```styl
+/* stylelint rules config: {"stylus/semicolon": "always"} */
 a
   // ✓ GOOD
   color red;
   // ✗ BAD
   color red
 ```
-
-</stylelint-code-block>
 
 ### `"never"`
 
-<stylelint-code-block fix :rules="{ 'stylus/semicolon': 'never' }">
-
 ```styl
+/* stylelint rules config: {"stylus/semicolon": "never"} */
 a
   // ✓ GOOD
   color red
   // ✗ BAD
   color red;
 ```
-
-</stylelint-code-block>
 
 ## :couple: Related rules
 

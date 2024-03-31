@@ -18,9 +18,8 @@ This rule reports empty single-line comments.
 
 ### `true`
 
-<stylelint-code-block :rules="{ 'stylus/single-line-comment-no-empty': true }">
-
 ```styl
+/* stylelint rules config: {"stylus/single-line-comment-no-empty": true} */
 // ✓ GOOD
 // single line comment
 
@@ -28,8 +27,6 @@ This rule reports empty single-line comments.
 //
 //  
 ```
-
-</stylelint-code-block>
 
 ## :couple: Related rules
 
