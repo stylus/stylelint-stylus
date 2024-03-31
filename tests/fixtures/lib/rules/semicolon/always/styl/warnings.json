@@ -1,27 +1,27 @@
 [
   {
     "line": 4,
-    "column": 13,
+    "column": 12,
     "endLine": 4,
-    "endColumn": 14,
+    "endColumn": 13,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Expected semicolon (stylus/semicolon)"
   },
   {
     "line": 9,
-    "column": 13,
+    "column": 12,
     "endLine": 9,
-    "endColumn": 14,
+    "endColumn": 13,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Expected semicolon (stylus/semicolon)"
   },
   {
     "line": 13,
-    "column": 13,
+    "column": 12,
     "endLine": 13,
-    "endColumn": 14,
+    "endColumn": 13,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Expected semicolon (stylus/semicolon)"

@@ -1,18 +1,18 @@
 [
   {
     "line": 2,
-    "column": 13,
+    "column": 12,
     "endLine": 2,
-    "endColumn": 14,
+    "endColumn": 13,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Unexpected semicolon (stylus/semicolon)"
   },
   {
     "line": 3,
-    "column": 13,
+    "column": 17,
     "endLine": 3,
-    "endColumn": 14,
+    "endColumn": 18,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Unexpected semicolon (stylus/semicolon)"
@@ -28,18 +28,18 @@
   },
   {
     "line": 8,
-    "column": 13,
+    "column": 12,
     "endLine": 8,
-    "endColumn": 14,
+    "endColumn": 13,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Unexpected semicolon (stylus/semicolon)"
   },
   {
     "line": 14,
-    "column": 13,
+    "column": 12,
     "endLine": 14,
-    "endColumn": 14,
+    "endColumn": 13,
     "rule": "stylus/semicolon",
     "severity": "error",
     "text": "Unexpected semicolon (stylus/semicolon)"
