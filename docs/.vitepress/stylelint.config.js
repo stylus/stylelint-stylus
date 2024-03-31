@@ -1,3 +1,5 @@
+"use strict"
+
 module.exports = {
     extends: ["stylelint-config-standard-vue"],
     rules: {
@@ -8,4 +10,4 @@ module.exports = {
         // Conflict with Prettier
         // indentation: null,
     },
-};
+}
